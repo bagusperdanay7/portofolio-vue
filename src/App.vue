@@ -1,10 +1,24 @@
 <script>
 import { RouterLink, RouterView } from "vue-router";
-import HelloWorld from "./components/HelloWorld.vue";
+import IconMoon from "./components/IconMoon.vue";
+import IconSun from "./components/IconSun.vue";
 
 export default {
+    components: {
+        RouterLink,
+        RouterView,
+        IconMoon,
+        IconSun,
+    },
     data() {
         return {
+            isMenuOpened: false,
+            isDark:
+                localStorage.theme === "dark" ||
+                (!("theme" in localStorage) &&
+                    window.matchMedia("(prefers-color-scheme: dark)").matches)
+                    ? true
+                    : false,
             menus: [
                 {
                     name: "Home",
@@ -42,14 +56,27 @@ export default {
             // TODO: Ubah disini
             alert("Aku Diklik bos");
         },
+        themeToggle() {
+            if (this.isDark) {
+                this.isDark = false;
+                document.documentElement.classList.remove("dark");
+                localStorage.theme = "light";
+            } else {
+                this.isDark = true;
+                document.documentElement.classList.add("dark");
+                localStorage.theme = "dark";
+            }
+        },
     },
 };
 </script>
 
 <template>
-    <header class="flex justify-between py-6">
-        <div class="logo text-light-100 text-base font-black">
-            Bagus Perdana Yusuf
+    <header class="flex justify-between py-6 items-center">
+        <div
+            class="logo text-light-100 text-base font-black dark:text-dark-100"
+        >
+            <RouterLink to="/">Bagus Perdana Yusuf</RouterLink>
         </div>
         <nav class="hidden lg:block">
             <ul>
@@ -58,89 +85,36 @@ export default {
                     v-bind:key="index"
                     class="inline"
                 >
-                    <a
-                        :href="menu.link"
-                        class="ml-6 text-base font-bold hover:text-primary-600"
-                        >{{ menu.name }}</a
+                    <RouterLink
+                        :to="menu.link"
+                        class="ml-6 text-base font-bold hover:text-primary-600 dark:text-dark-90 dark:hover:text-primary-400"
+                        >{{ menu.name }}</RouterLink
                     >
+                </li>
+                <li class="inline align-middle">
+                    <button
+                        class="ml-6 text-base font-bold text-light-100 hover:text-primary-600 dark:text-dark-100"
+                        @click="themeToggle"
+                    >
+                        <IconSun v-if="isDark" />
+                        <IconMoon v-else />
+                    </button>
                 </li>
             </ul>
         </nav>
 
         <div
-            class="block lg:hidden mobile-menu-toggle cursor-pointer"
-            v-on:click="toggleClick"
+            class="block lg:hidden mobile-menu-toggle cursor-pointer align-middle"
+            @click="toggleClick"
         >
-            <box-icon
-                name="menu-alt-left"
-                class="hover:text-primary-600"
-            ></box-icon>
+            <i
+                class="bx bx-menu-alt-left text-2xl text-light-100 dark:text-dark-100"
+            ></i>
         </div>
+        <!-- TODO: Edit Menu Disini -->
+        <p v-show="isMenuOpened">Aku Tampil</p>
     </header>
-
     <RouterView />
 </template>
 
-<style scoped>
-/* header {
-    line-height: 1.5;
-    max-height: 100vh;
-}
-
-.logo {
-    display: block;
-    margin: 0 auto 2rem;
-}
-
-nav {
-    width: 100%;
-    font-size: 12px;
-    text-align: center;
-    margin-top: 2rem;
-}
-
-nav a.router-link-exact-active {
-    color: var(--color-text);
-}
-
-nav a.router-link-exact-active:hover {
-    background-color: transparent;
-}
-
-nav a {
-    display: inline-block;
-    padding: 0 1rem;
-    border-left: 1px solid var(--color-border);
-}
-
-nav a:first-of-type {
-    border: 0;
-}
-
-@media (min-width: 1024px) {
-    header {
-        display: flex;
-        place-items: center;
-        padding-right: calc(var(--section-gap) / 2);
-    }
-
-    .logo {
-        margin: 0 2rem 0 0;
-    }
-
-    header .wrapper {
-        display: flex;
-        place-items: flex-start;
-        flex-wrap: wrap;
-    }
-
-    nav {
-        text-align: left;
-        margin-left: -1rem;
-        font-size: 1rem;
-
-        padding: 1rem 0;
-        margin-top: 1rem;
-    }
-} */
-</style>
+<style scoped></style>
