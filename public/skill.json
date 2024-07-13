@@ -1,0 +1,170 @@
+[
+  {
+    "id": 1,
+    "name": "HTML",
+    "description": "Hypertext Markup Language",
+    "icon": "bx-icon",
+    "color": "orange"
+  },
+  {
+    "id": 2,
+    "name": "CSS",
+    "description": "Cascading Stylesheet",
+    "icon": "bx-icon",
+    "color": "blue"
+  },
+  {
+    "id": 3,
+    "name": "JavaScript",
+    "description": "JavaScript",
+    "icon": "bx-icon",
+    "color": "yellow"
+  },
+  {
+    "id": 4,
+    "name": "SASS",
+    "description": "Syntactically Awesome Style Sheets",
+    "icon": "bx-icon",
+    "color": "pink"
+  },
+  {
+    "id": 5,
+    "name": "PHP",
+    "description": "Hypertext Preprocessor",
+    "icon": "bx-icon",
+    "color": "lilac"
+  },
+  {
+    "id": 6,
+    "name": "Python",
+    "description": "Hypertext Markup Language",
+    "icon": "bx-icon",
+    "color": "yellow"
+  },
+  {
+    "id": 7,
+    "name": "Boostrap",
+    "description": "Bootstrap CSS Framework",
+    "icon": "bx-icon",
+    "color": "white"
+  },
+  {
+    "id": 8,
+    "name": "TailwindCSS",
+    "description": "TailwindCSS Framework",
+    "icon": "bx-icon",
+    "color": "white"
+  },
+  {
+    "id": 9,
+    "name": "MySQL",
+    "description": "MySQL",
+    "icon": "bx-icon",
+    "color": "white"
+  },
+  {
+    "id": 10,
+    "name": "MongoDB",
+    "description": "Hypertext Markup Language",
+    "icon": "bx-icon",
+    "color": "white"
+  },
+  {
+    "id": 11,
+    "name": "PostgreSQL",
+    "description": "Hypertext Markup Language",
+    "icon": "bx-icon",
+    "color": "white"
+  },
+  {
+    "id": 12,
+    "name": "Alpine.js",
+    "description": "Hypertext Markup Language",
+    "icon": "bx-icon",
+    "color": "white"
+  },
+  {
+    "id": 13,
+    "name": "Vue.js",
+    "description": "Hypertext Markup Language",
+    "icon": "bx-icon",
+    "color": "white"
+  },
+  {
+    "id": 14,
+    "name": "Laravel",
+    "description": "Hypertext Markup Language",
+    "icon": "bx-icon",
+    "color": "white"
+  },
+  {
+    "id": 15,
+    "name": "Figma",
+    "description": "Hypertext Markup Language",
+    "icon": "bx-icon",
+    "color": "white"
+  },
+  {
+    "id": 16,
+    "name": "UI & UX Design",
+    "description": "Hypertext Markup Language",
+    "icon": "bx-icon",
+    "color": "white"
+  },
+  {
+    "id": 17,
+    "name": "Machine Learning",
+    "description": "Hypertext Markup Language",
+    "icon": "bx-icon",
+    "color": "white"
+  },
+  {
+    "id": 18,
+    "name": "Tensorflow",
+    "description": "Hypertext Markup Language",
+    "icon": "bx-icon",
+    "color": "white"
+  },
+  {
+    "id": 19,
+    "name": "Git",
+    "description": "Hypertext Markup Language",
+    "icon": "bx-icon",
+    "color": "white"
+  },
+  {
+    "id": 20,
+    "name": "GitHub",
+    "description": "Hypertext Markup Language",
+    "icon": "bx-icon",
+    "color": "white"
+  },
+  {
+    "id": 21,
+    "name": "Node.js",
+    "description": "Hypertext Markup Language",
+    "icon": "bx-icon",
+    "color": "white"
+  },
+  {
+    "id": 22,
+    "name": "Express.js",
+    "description": "Hypertext Markup Language",
+    "icon": "bx-icon",
+    "color": "white"
+  },
+  {
+    "id": 23,
+    "name": "React",
+    "description": "Hypertext Markup Language",
+    "icon": "bx-icon",
+    "color": "white"
+  },
+  {
+    "id": 24,
+    "name": "Dart",
+    "description": "Hypertext Markup Language",
+    "icon": "bx-icon",
+    "color": "white"
+  }
+]

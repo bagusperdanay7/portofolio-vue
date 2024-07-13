@@ -1,0 +1,26 @@
+[
+  {
+    "name": "Dashboard Sistem Informasi Wholesale",
+    "category": "Full-Stack Development",
+    "description": "Website ini dibangun dalam rangka memenuhi tugas kerja praktek di PT Telkom Indonesia, dibangun menggunakan bahasa Pemrograman PHP dan Laravel. Special Attribute to: PT Telkom yang telah dikembangkan oleh",
+    "technology": ["HTML", "CSS", "Bootstrap", "JavaScript", "PHP", "Laravel"],
+    "createdBy": [
+      "Bagus Perdana Yusuf",
+      "Robi Nurhidayat",
+      "Raden Fachrul Ramzy Muhammad"
+    ],
+    "code": "https://github.com",
+    "url": "",
+    "snapshot": ""
+  },
+  {
+    "name": "Portofolio UI & UX Design",
+    "category": "UI & UX Design",
+    "description": "Website ini dibangun dalam rangka memenuhi tugas kerja praktek di PT Telkom Indonesia, dibangun menggunakan bahasa Pemrograman PHP dan Laravel. Special Attribute to: PT Telkom yang telah dikembangkan oleh",
+    "technology": ["User Interface", "User Experience"],
+    "createdBy": ["Bagus Perdana Yusuf"],
+    "code": "",
+    "url": "https://dribble",
+    "snapshot": ""
+  }
+]
