@@ -22,5 +22,123 @@
     "code": "",
     "url": "https://dribble",
     "snapshot": ""
+  },
+  {
+    "name": "Portofolio With Vue",
+    "category": "Front-end Development",
+    "description": "Membangun portofolio website pribadi dengan Vue.js",
+    "technology": ["Vue JS", "TailwindCSS"],
+    "createdBy": ["Bagus Perdana Yusuf"],
+    "code": "https://github.com",
+    "url": "",
+    "snapshot": ""
+  },
+  {
+    "name": "Kpop Soulmate Website",
+    "category": "Fullstack Development",
+    "description": "Website ini",
+    "technology": [
+      "Laravel",
+      "Blade",
+      "Alpine JS",
+      "Bootstrap CSS",
+      "SASS",
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "PHP"
+    ],
+    "createdBy": ["Bagus Perdana Yusuf"],
+    "code": "",
+    "url": "",
+    "snapshot": ""
+  },
+  {
+    "name": "Final Project Dicoding - Klasifikasi Gambar",
+    "category": "Machine Learning",
+    "description": "Website ini",
+    "technology": ["Tensorflow", "Machine Learning", "Python"],
+    "createdBy": ["Bagus Perdana Yusuf"],
+    "code": "",
+    "url": "",
+    "snapshot": ""
+  },
+  {
+    "name": "Final Project Undergraduate Thesis - ABSA with BiLSTM",
+    "category": "Deep Learning",
+    "description": "Website ini",
+    "technology": [
+      "Tensorflow",
+      "Machine Learning",
+      "Deep Learning",
+      "Artificial Intelligent",
+      "Keras",
+      "Pandas",
+      "Python"
+    ],
+    "createdBy": ["Bagus Perdana Yusuf"],
+    "code": "",
+    "url": "",
+    "snapshot": ""
+  },
+  {
+    "name": "IT Course UI & UX - Software Management Project Course (College)",
+    "category": "UI & UX Design",
+    "description": "Website ini",
+    "technology": ["Figma", "User Interface", "User Experience"],
+    "createdBy": ["Bagus Perdana Yusuf"],
+    "code": "https://github.com/Robi-Nurhidayat/project-baru",
+    "url": "",
+    "snapshot": ""
+  },
+  {
+    "name": "Survey Form - Responsive Web Design Project (freecodecamp)",
+    "category": "Front-End Developer",
+    "description": "Website ini",
+    "technology": ["HTML", "CSS", "Responsive Web"],
+    "createdBy": ["Bagus Perdana Yusuf"],
+    "code": "https://github.com/Robi-Nurhidayat/project-baru",
+    "url": "",
+    "snapshot": ""
+  },
+  {
+    "name": "Tribute Page - Responsive Web Design Project (freecodecamp)",
+    "category": "Front-End Developer",
+    "description": "Website ini",
+    "technology": ["HTML", "CSS", "Responsive Web"],
+    "createdBy": ["Bagus Perdana Yusuf"],
+    "code": "https://github.com/Robi-Nurhidayat/project-baru",
+    "url": "",
+    "snapshot": ""
+  },
+  {
+    "name": "Technical Documentation Page - Responsive Web Design Project (freecodecamp)",
+    "category": "Front-End Developer",
+    "description": "Website ini",
+    "technology": ["HTML", "CSS", "Responsive Web"],
+    "createdBy": ["Bagus Perdana Yusuf"],
+    "code": "https://github.com/Robi-Nurhidayat/project-baru",
+    "url": "",
+    "snapshot": ""
+  },
+  {
+    "name": "Product Landing Page - Responsive Web Design Project (freecodecamp)",
+    "category": "Front-End Developer",
+    "description": "Website ini",
+    "technology": ["HTML", "CSS", "Responsive Web"],
+    "createdBy": ["Bagus Perdana Yusuf"],
+    "code": "https://github.com/Robi-Nurhidayat/project-baru",
+    "url": "",
+    "snapshot": ""
+  },
+  {
+    "name": "Personal Portofolio Webpage - Responsive Web Design Project (freecodecamp)",
+    "category": "Front-End Developer",
+    "description": "Website ini",
+    "technology": ["HTML", "CSS", "Responsive Web"],
+    "createdBy": ["Bagus Perdana Yusuf"],
+    "code": "https://github.com/Robi-Nurhidayat/project-baru",
+    "url": "",
+    "snapshot": ""
   }
 ]
