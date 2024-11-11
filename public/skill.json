@@ -50,7 +50,7 @@
   },
   {
     "id": 8,
-    "name": "TailwindCSS",
+    "name": "Tailwind CSS",
     "description": "TailwindCSS Framework",
     "icon": "bx-icon",
     "color": "white"

@@ -4,18 +4,18 @@ import SummarySection from "@/components/SummarySection.vue";
 import EducationSection from "@/components/EducationSection.vue";
 
 export default {
-    components: {
-        HeroSection,
-        SummarySection,
-        EducationSection,
-    },
+  components: {
+    HeroSection,
+    SummarySection,
+    EducationSection,
+  },
 };
 </script>
 
 <template>
-    <main>
-        <HeroSection />
-        <SummarySection />
-        <EducationSection />
-    </main>
+  <main>
+    <HeroSection />
+    <SummarySection />
+    <EducationSection />
+  </main>
 </template>

@@ -2,41 +2,53 @@
   {
     "name": "Dashboard Sistem Informasi Wholesale",
     "category": "Full-Stack Development",
-    "description": "Website ini dibangun dalam rangka memenuhi tugas kerja praktek di PT Telkom Indonesia, dibangun menggunakan bahasa Pemrograman PHP dan Laravel. Special Attribute to: PT Telkom yang telah dikembangkan oleh",
+    "description": {
+      "indonesia": "Sistem Informasi Pengelolaan Pelanggan Data Teknis Pelanggan Wholesale Berbasis Web ini dibangun dalam rangka memenuhi tugas kerja praktek di PT Telkom Indonesia Graha Merah Putih Bandung, dibangun menggunakan bahasa Pemrograman PHP dengan framework Laravel.",
+      "english": "A Web-Based Wholesale Customer Technical Data Management Information System built in order to fulfill internship assignments at PT Telkom Indonesia Graha Merah Putih Bandung, built using the PHP Programming language with the Laravel framework."
+    },
     "technology": ["HTML", "CSS", "Bootstrap", "JavaScript", "PHP", "Laravel"],
     "createdBy": [
       "Bagus Perdana Yusuf",
       "Robi Nurhidayat",
       "Raden Fachrul Ramzy Muhammad"
     ],
-    "code": "https://github.com",
+    "code": "https://github.com/bagusperdanay7/kerja-praktek",
     "url": "",
-    "snapshot": ""
+    "snapshot": [""],
+    "miniProject": false
   },
   {
     "name": "Portofolio UI & UX Design",
     "category": "UI & UX Design",
-    "description": "Website ini dibangun dalam rangka memenuhi tugas kerja praktek di PT Telkom Indonesia, dibangun menggunakan bahasa Pemrograman PHP dan Laravel. Special Attribute to: PT Telkom yang telah dikembangkan oleh",
-    "technology": ["User Interface", "User Experience"],
+    "description": {
+      "indonesia": "Merancang User Interface dan User Experience portofolio saya menggunakan aplikasi Figma",
+      "english": "Design my portfolio's User Interface and User Experience using Figma software"
+    },
+    "technology": ["User Interface", "User Experience", "Figma"],
     "createdBy": ["Bagus Perdana Yusuf"],
     "code": "",
     "url": "https://dribble",
-    "snapshot": ""
+    "snapshot": [""],
+    "miniProject": false
   },
   {
     "name": "Portofolio With Vue",
     "category": "Front-end Development",
-    "description": "Membangun portofolio website pribadi dengan Vue.js",
-    "technology": ["Vue JS", "TailwindCSS"],
+    "description": {
+      "indonesia": "Mengimplementasikan design figma ke dalam bentuk kode (slicing) portofolio website pribadi menggunakan framework Vue.js",
+      "english": "Use the Vue.js framework to implement the figma design into code (slicing) for my own website portfolio."
+    },
+    "technology": ["Vue.js", "Tailwind CSS", "Vite"],
     "createdBy": ["Bagus Perdana Yusuf"],
-    "code": "https://github.com",
+    "code": "https://github.com/bagusperdanay7/portofolio-vue",
     "url": "",
-    "snapshot": ""
+    "snapshot": [""],
+    "miniProject": false
   },
   {
-    "name": "Kpop Soulmate Website",
-    "category": "Fullstack Development",
-    "description": "Website ini",
+    "name": "Kpop Soulmate Website Application",
+    "category": "Full-stack Development",
+    "description": { "indonesia": "Website ini", "english": "" },
     "technology": [
       "Laravel",
       "Blade",
@@ -46,99 +58,190 @@
       "HTML",
       "CSS",
       "JavaScript",
-      "PHP"
+      "PHP",
+      "MySQL"
     ],
     "createdBy": ["Bagus Perdana Yusuf"],
-    "code": "",
+    "code": "https://github.com/bagusperdanay7/ks_web",
     "url": "",
-    "snapshot": ""
+    "snapshot": [""],
+    "miniProject": false
   },
   {
-    "name": "Final Project Dicoding - Klasifikasi Gambar",
+    "name": "Final Project Dicoding - Image Classification",
     "category": "Machine Learning",
-    "description": "Website ini",
+    "description": {
+      "indonesia": "Project akhir dari Kursus Dicoding, yaitu Machine Learning Pemula. Saya ditugaskan untuk membuat Klasifikasi Gambar dengan Python & Tensorflow.",
+      "english": "The final project of the Dicoding course, Machine Learning Beginner, I was assigned to make Image Classification with Python & Tensorflow."
+    },
     "technology": ["Tensorflow", "Machine Learning", "Python"],
     "createdBy": ["Bagus Perdana Yusuf"],
-    "code": "",
+    "code": "https://github.com/bagusperdanay7/final-project-dicoding",
     "url": "",
-    "snapshot": ""
+    "snapshot": [""],
+    "miniProject": false
   },
   {
     "name": "Final Project Undergraduate Thesis - ABSA with BiLSTM",
-    "category": "Deep Learning",
-    "description": "Website ini",
+    "category": "Machine Learning",
+    "description": {
+      "indonesia": "Kode program dari skripsi berjudul Analisis Sentimen Berbasis Aspek Terhadap Ulasan Aplikasi Market Place Menggunakan Bidirectional Long Short-Term Memory, mengimplementasikan hasil penelitian skripsi saya dengan bahasa pemrograman Python dan bantuan library Keras dan Tensorflow dalam pembuatan model AI dengan 3000 dataset ulasan salah satu market place Indonesia diambil dari platform Google Play Store.",
+      "english": "My undergraduate thesis, Aspect-Based Sentiment Analysis Towards Market Place Application Reviews Using Bidirectional Long Short-Term Memory, uses the Python programming language and the Keras and Tensorflow libraries to create AI models using 3000 review datasets of one Indonesian marketplace that were collected from Google Play Store platform."
+    },
     "technology": [
       "Tensorflow",
       "Machine Learning",
       "Deep Learning",
-      "Artificial Intelligent",
+      "Artificial Intelligence",
       "Keras",
       "Pandas",
       "Python"
     ],
     "createdBy": ["Bagus Perdana Yusuf"],
-    "code": "",
+    "code": "https://github.com/bagusperdanay7/SKRIPSI-Program",
     "url": "",
-    "snapshot": ""
+    "snapshot": [""],
+    "miniProject": false
   },
   {
     "name": "IT Course UI & UX - Software Management Project Course (College)",
     "category": "UI & UX Design",
-    "description": "Website ini",
+    "description": {
+      "indonesia": "Design User Interface & User Experience dari tugas besar akhir mata kuliah Manajemen Proyek Perangkat Lunak dengan dosen pengampu Bapak Irfan Maliki, S.T, M.T., CIPTM.",
+      "english": "The User Interface & User Experience Design of the final big project of the Software Project Management course with the lecturer Mr. Irfan Maliki, S.T, M.T., CIPTM."
+    },
     "technology": ["Figma", "User Interface", "User Experience"],
-    "createdBy": ["Bagus Perdana Yusuf"],
+    "createdBy": [
+      "Akbar Saleh Alfian",
+      "Bagus Perdana Yusuf",
+      "Raden Fachrul Ramzy Muhammad",
+      "Robi Nurhidayat"
+    ],
+    "code": "https://www.figma.com/design/UHWZmtqrQPkLTo1km7YPZn/Design?node-id=221-2&node-type=canvas",
+    "url": "",
+    "snapshot": [""],
+    "miniProject": false
+  },
+  {
+    "name": "IT Course Website - Software Management Project Course (College)",
+    "category": "Full-stack Development",
+    "description": {
+      "indonesia": "Projek ini ditujukan untuk Tugas Besar Mata Kuliah Manajemen Proyek Perangkat Lunak dengan dosen pengampu Bapak Irfan Maliki, S.T, M.T., CIPTM.",
+      "english": "This project is aimed for the Big Final Project Assignment of the Software Project Management course with the lecturer Mr. Irfan Maliki, S.T, M.T., CIPTM."
+    },
+    "technology": [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "PHP",
+      "Laravel",
+      "Bootstrap CSS",
+      "MySQL"
+    ],
+    "createdBy": [
+      "Akbar Saleh Alfian",
+      "Bagus Perdana Yusuf",
+      "Raden Fachrul Ramzy Muhammad",
+      "Robi Nurhidayat"
+    ],
     "code": "https://github.com/Robi-Nurhidayat/project-baru",
     "url": "",
-    "snapshot": ""
+    "snapshot": [""],
+    "miniProject": false
   },
   {
     "name": "Survey Form - Responsive Web Design Project (freecodecamp)",
-    "category": "Front-End Developer",
-    "description": "Website ini",
+    "category": "Front-end Development",
+    "description": {
+      "indonesia": "Proyek ini merupakan salah satu dari lima proyek kursus Responsive Web Design yang diadakan oleh freeCodeCamp, yaitu membuat Survey Form secara responsif hanya dengan HTML dan CSS. ",
+      "english": "Making a responsive survey form with just HTML and CSS is one of the five projects for the freeCodeCamp course on responsive web design. "
+    },
     "technology": ["HTML", "CSS", "Responsive Web"],
     "createdBy": ["Bagus Perdana Yusuf"],
-    "code": "https://github.com/Robi-Nurhidayat/project-baru",
-    "url": "",
-    "snapshot": ""
+    "code": "https://codepen.io/baguspy/pen/zYzoMyJ",
+    "url": "https://codepen.io/baguspy/full/zYzoMyJ",
+    "snapshot": [""],
+    "miniProject": true
   },
   {
     "name": "Tribute Page - Responsive Web Design Project (freecodecamp)",
-    "category": "Front-End Developer",
-    "description": "Website ini",
+    "category": "Front-end Development",
+    "description": {
+      "indonesia": "Membuat Tribute page tentang salah satu tokoh penting Indonesia, yaitu Bapak Pluralisme Indonesia, Abdurrahman Wahid. Proyek ini merupakan salah satu dari lima proyek kursus Responsive Web Design yang diadakan oleh freeCodeCamp, membuat Tribute Page secara responsif hanya dengan HTML dan CSS.",
+      "english": "Create a Tribute page about one of Indonesia's important figures, the Father of Indonesian Pluralism, Abdurrahman Wahid. This project is one of the five projects of the Responsive Web Design course held by freeCodeCamp, creating a responsive Tribute Page with HTML and CSS only."
+    },
     "technology": ["HTML", "CSS", "Responsive Web"],
     "createdBy": ["Bagus Perdana Yusuf"],
-    "code": "https://github.com/Robi-Nurhidayat/project-baru",
-    "url": "",
-    "snapshot": ""
+    "code": "https://codepen.io/baguspy/pen/dyROKBj",
+    "url": "https://codepen.io/baguspy/full/dyROKBj",
+    "snapshot": [""],
+    "miniProject": true
   },
   {
     "name": "Technical Documentation Page - Responsive Web Design Project (freecodecamp)",
-    "category": "Front-End Developer",
-    "description": "Website ini",
+    "category": "Front-end Development",
+    "description": {
+      "indonesia": "Proyek ini merupakan salah satu dari lima proyek kursus Responsive Web Design yang diadakan oleh freeCodeCamp, membangun Halaman Dokumentasi Teknis bahasa pemrograman PHP Dasar dengan HTML dan CSS.",
+      "english": "This project is one of the five projects of the Responsive Web Design course by freeCodeCamp, building a PHP Basic Technical Documentation Page with HTML and CSS."
+    },
     "technology": ["HTML", "CSS", "Responsive Web"],
     "createdBy": ["Bagus Perdana Yusuf"],
-    "code": "https://github.com/Robi-Nurhidayat/project-baru",
-    "url": "",
-    "snapshot": ""
+    "code": "https://codepen.io/baguspy/pen/rNXoVOj",
+    "url": "https://codepen.io/baguspy/full/rNXoVOj",
+    "snapshot": [""],
+    "miniProject": true
   },
   {
     "name": "Product Landing Page - Responsive Web Design Project (freecodecamp)",
-    "category": "Front-End Developer",
-    "description": "Website ini",
+    "category": "Front-end Development",
+    "description": {
+      "indonesia": "Proyek ini merupakan salah satu dari lima proyek kursus Responsive Web Design yang diadakan oleh freeCodeCamp, membangun Halaman Utama Produk Headset Fantech ALTO 7.1 HG26 dengan HTML dan CSS.",
+      "english": "This project is one of the five projects of the Responsive Web Design course by freeCodeCamp, building the Fantech ALTO 7.1 HG26 Headset Product Landing Page with HTML and CSS."
+    },
     "technology": ["HTML", "CSS", "Responsive Web"],
     "createdBy": ["Bagus Perdana Yusuf"],
-    "code": "https://github.com/Robi-Nurhidayat/project-baru",
-    "url": "",
-    "snapshot": ""
+    "code": "https://codepen.io/baguspy/pen/BaXZJJN",
+    "url": "https://codepen.io/baguspy/full/BaXZJJN",
+    "snapshot": [""],
+    "miniProject": true
   },
   {
     "name": "Personal Portofolio Webpage - Responsive Web Design Project (freecodecamp)",
-    "category": "Front-End Developer",
-    "description": "Website ini",
+    "category": "Front-end Development",
+    "description": {
+      "indonesia": "Proyek terakhir dari lima proyek kursus Responsive Web Design yang diadakan oleh freeCodeCamp untuk lulus dan mendapatkan sertifikat, membangun Halaman Portofolio Pribadi dengan HTML dan CSS.",
+      "english": "The last project of the five projects of the Responsive Web Design course held by freeCodeCamp to pass and get a certificate, build a Personal Portfolio Page with HTML and CSS."
+    },
     "technology": ["HTML", "CSS", "Responsive Web"],
     "createdBy": ["Bagus Perdana Yusuf"],
     "code": "https://github.com/Robi-Nurhidayat/project-baru",
     "url": "",
-    "snapshot": ""
+    "snapshot": [""],
+    "miniProject": true
+  },
+  {
+    "name": "Kpop Soulmate UI & UX Design",
+    "category": "UI & UX Design",
+    "description": { "indonesia": "Website ini", "english": "" },
+    "technology": ["User Interface", "User Experience", "Figma"],
+    "createdBy": ["Bagus Perdana Yusuf"],
+    "code": "",
+    "url": "",
+    "snapshot": [""],
+    "miniProject": false
+  },
+  {
+    "name": "Mean Variance Standard Deviation Calculator - Data Analysis With Python (freeCodeCamp)",
+    "category": "Data Analysis",
+    "description": {
+      "indonesia": "Agar dapat menyelesaikan kursus Data Analysis With Python oleh freecodecamp.org, saya harus membuat projek Mean Variance Standard Deviation Calculator sebagai bentuk implementasi data analysis di Python dan menunjukkan cara saya memanfaatkan pengetahuan-pengetahuan dasar yang telah saya dapatkan di kursus ini.",
+      "english": "In order to complete the Data Analysis With Python course by freecodecamp.org, I had to create a Mean Variance Standard Deviation Calculator project as a way to demonstrate how I can utilize the fundamental knowledge that I have obtained in this course"
+    },
+    "technology": ["Python", "Numpy"],
+    "createdBy": ["Bagus Perdana Yusuf"],
+    "code": "https://github.com/bagusperdanay7/fcc-DA-Mean-Variance-Standard-Deviation-Calculator",
+    "url": "https://replit.com/@baguspyus/Mean-Variance-Standard-Deviation-Calculator",
+    "snapshot": [""],
+    "miniProject": true
   }
 ]
