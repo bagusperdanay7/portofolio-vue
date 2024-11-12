@@ -1,6 +1,7 @@
 // import "./assets/main.css";
 import "./style.css"; // Import Style Tailwind
-
+import "boxicons";
+import "boxicons/css/boxicons.min.css";
 import { createApp } from "vue";
 import App from "./App.vue";
 import router from "./router";
@@ -8,13 +9,13 @@ import router from "./router";
 const app = createApp(App);
 
 if (
-    localStorage.theme === "dark" ||
-    (!("theme" in localStorage) &&
-        window.matchMedia("(prefers-color-scheme: dark)").matches)
+  localStorage.theme === "dark" ||
+  (!("theme" in localStorage) &&
+    window.matchMedia("(prefers-color-scheme: dark)").matches)
 ) {
-    document.documentElement.classList.add("dark");
+  document.documentElement.classList.add("dark");
 } else {
-    document.documentElement.classList.remove("dark");
+  document.documentElement.classList.remove("dark");
 }
 
 app.use(router);
