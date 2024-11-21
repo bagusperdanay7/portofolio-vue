@@ -18,12 +18,14 @@ export default {
     >
       <SkillCard skill="HTML">
         <template v-slot:icon>
-          <box-icon name="html5" type="logo" color="#ff8a14"></box-icon>
+          <!-- <box-icon name="html5" type="logo" color="#ff8a14"></box-icon> -->
+          <i class="bx bxl-html5 text-2xl" style="color: #ff8a14"></i>
         </template>
       </SkillCard>
       <SkillCard skill="CSS">
         <template v-slot:icon>
-          <box-icon name="css3" type="logo" color="#2d53e5"></box-icon>
+          <!-- <box-icon name="css3" type="logo" color="#2d53e5"></box-icon> -->
+          <i class="bx bxl-css3 text-2xl" style="color: #2d53e5"></i>
         </template>
       </SkillCard>
       <SkillCard skill="JavaScript">

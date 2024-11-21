@@ -4,6 +4,9 @@ import SummarySection from "@/components/SummarySection.vue";
 import EducationSection from "@/components/EducationSection.vue";
 import SkillsSection from "@/components/SkillsSection.vue";
 import ProjectsSection from "@/components/ProjectsSection.vue";
+import CertificationsSection from "@/components/CertificationsSection.vue";
+import PublicationsSection from "@/components/PublicationsSection.vue";
+import ContactSection from "@/components/ContactSection.vue";
 
 export default {
   components: {
@@ -12,6 +15,9 @@ export default {
     EducationSection,
     SkillsSection,
     ProjectsSection,
+    CertificationsSection,
+    PublicationsSection,
+    ContactSection,
   },
 };
 </script>
@@ -24,5 +30,8 @@ export default {
     <EducationSection />
     <SkillsSection />
     <ProjectsSection />
+    <CertificationsSection />
+    <PublicationsSection />
+    <ContactSection />
   </main>
 </template>
