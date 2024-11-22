@@ -7,6 +7,7 @@ import ProjectsSection from "@/components/ProjectsSection.vue";
 import CertificationsSection from "@/components/CertificationsSection.vue";
 import PublicationsSection from "@/components/PublicationsSection.vue";
 import ContactSection from "@/components/ContactSection.vue";
+import SpecialSection from "@/components/SpecialSection.vue";
 
 export default {
   components: {
@@ -18,6 +19,7 @@ export default {
     CertificationsSection,
     PublicationsSection,
     ContactSection,
+    SpecialSection,
   },
 };
 </script>
@@ -33,5 +35,6 @@ export default {
     <CertificationsSection />
     <PublicationsSection />
     <ContactSection />
+    <SpecialSection />
   </main>
 </template>

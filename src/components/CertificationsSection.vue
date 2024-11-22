@@ -1,15 +1,14 @@
 <script>
 import Certificate from "./ui/Certificate.vue";
-import { Transition } from "vue";
 
 export default {
-  components: { Certificate, Transition },
+  components: { Certificate },
   data() {
     return {};
   },
   methods: {
     def() {
-      console.log("diklik");
+      alert("diklik");
     },
   },
 };

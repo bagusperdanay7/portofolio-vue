@@ -40,9 +40,18 @@ export default {
         "light-bg-2": "#FDFCFC",
         "dark-bg": "#181925",
         "dark-bg-2": "#292A36",
+        wpu: "#BC66FF",
+        "kelas-terbuka": "#FF9D65",
+        pzn: "#5196FF",
       },
       screens: {
         xs: "425px",
+      },
+      dropShadow: {
+        "custom-primary": "0 0 5px #859FF4",
+        "custom-wpu": "0 0 5px #BC66FF",
+        "custom-kelas-terbuka": "0 0 5px #FF9D65",
+        "custom-pzn": "0 0 5px #5196FF",
       },
     },
   },
