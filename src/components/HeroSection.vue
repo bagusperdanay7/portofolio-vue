@@ -11,6 +11,7 @@ export default {
 </script>
 
 <template>
+  <!-- TODO: Junior Web Developer pakai animasi: https://vuejs.org/guide/built-ins/transition#transition-between-elements, dan kalau bisa gradient di belakang ada animasinya sedikit seperti gerak -->
   <section class="mt-[50px]">
     <div class="grid grid-cols-1 lg:grid-cols-2 gap-5 items-center">
       <div class="z-0">
@@ -43,7 +44,7 @@ export default {
         </div>
         <img
           src="../assets/profile.png"
-          alt=""
+          alt="Bagus Perdana Yusuf"
           class="relative left-auto top-auto right-auto bottom-auto xl:left-16 z-10 w-64 mx-auto"
         />
       </div>
