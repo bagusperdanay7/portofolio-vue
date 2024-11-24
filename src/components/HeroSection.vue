@@ -16,7 +16,7 @@ export default {
     <div class="grid grid-cols-1 lg:grid-cols-2 gap-5 items-center">
       <div class="z-0">
         <h1
-          class="font-black text-[40px] mb-0 order-last lg:order-first text-light-100 dark:text-dark-100"
+          class="font-black text-4xl/tight md:text-[40px] mb-0 order-last lg:order-first text-light-100 dark:text-dark-100"
         >
           Hello!, My name is
           <span class="text-primary-600 dark:text-primary-400"

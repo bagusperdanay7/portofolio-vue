@@ -17,11 +17,14 @@ export default {
 <template>
   <section class="mt-12">
     <h1
-      class="font-bold text-center text-light-100 text-[32px] mb-4 dark:text-dark-100"
+      class="font-bold text-center text-light-100 text-[28px] md:text-[32px] mb-4 dark:text-dark-100"
     >
       Certifications
     </h1>
-    <div class="grid xl:grid-cols-4 gap-5" id="certificationsCards">
+    <div
+      class="grid min-[500px]:grid-cols-2 min-[900px]:grid-cols-3 xl:grid-cols-4 gap-5"
+      id="certificationsCards"
+    >
       <Certificate name="Introduction to CSS - Sololearn" />
       <Certificate
         name="Sertifikasi Web Developer"

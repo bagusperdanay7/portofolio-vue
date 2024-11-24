@@ -1,5 +1,7 @@
 <template>
-  <div class="project-card p-[15px] bg-light-bg-2 rounded-[15px]">
+  <div
+    class="project-card p-[15px] bg-light-bg-2 rounded-[15px] transition-all duration-300 ease-in-out hover:drop-shadow-custom-primary"
+  >
     <div class="project-image">
       <img :src="snapshot" :alt="name" class="w-full" />
     </div>

@@ -37,9 +37,9 @@ export default {
 </script>
 
 <template>
-  <section class="mt-12">
+  <section class="mt-12" id="contacts">
     <h1
-      class="font-bold text-center text-light-100 text-[32px] mb-2 dark:text-dark-100"
+      class="font-bold text-center text-light-100 text-[28px] md:text-[32px] mb-2 dark:text-dark-100"
     >
       Contact Me
     </h1>

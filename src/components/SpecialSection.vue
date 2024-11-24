@@ -5,7 +5,7 @@
         class="flex-1 rounded-[20px] py-[30px] px-[25px] bg-light-bg-2 dark:bg-dark-bg-2"
       >
         <h1
-          class="font-bold text-light-100 text-[32px] mb-4 dark:text-dark-100 text-center"
+          class="font-bold text-light-100 text-[28px] md:text-[32px] mb-4 dark:text-dark-100 text-center"
         >
           Special Thanks
         </h1>

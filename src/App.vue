@@ -1,7 +1,7 @@
 <script>
 import { RouterLink, RouterView } from "vue-router";
-import IconMoon from "./components/ui/IconMoon.vue";
-import IconSun from "./components/ui/IconSun.vue";
+import IconMoon from "./components/ui/Icons/IconMoon.vue";
+import IconSun from "./components/ui/Icons/IconSun.vue";
 
 export default {
   components: {
@@ -124,11 +124,13 @@ export default {
   <div class="content container max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 xl:px-0">
     <RouterView />
   </div>
-  <footer class="mt-12 bg-dark-bg py-12 px-[100px]">
-    <div class="flex justify-between">
+  <footer class="mt-12 px-4 sm:px-6 lg:px-8 xl:px-[100px] py-12 bg-dark-bg">
+    <div class="flex flex-col md:flex-row justify-between">
       <div>
-        <h1 class="text-dark-100 text-[32px] font-bold mb-7">{{ creator }}</h1>
-        <ul class="flex flex-row gap-x-6">
+        <h1 class="text-dark-100 text-[28px] md:text-[32px] font-bold mb-7">
+          {{ creator }}
+        </h1>
+        <ul class="flex flex-row flex-wrap gap-y-3 gap-x-6">
           <li
             v-for="(menu, index) in footerMenu"
             v-bind:key="index"
@@ -142,24 +144,31 @@ export default {
           </li>
         </ul>
       </div>
-      <div>
+      <div class="mt-7 md:mt-0">
         <h2 class="font-bold text-dark-100 text-2xl mb-2">Get in Touch</h2>
         <p class="font-normal text-dark-100 text-sm mb-6">
           Mempererat Hubungan dengan saya, dengan menghubungi saya
         </p>
         <!--  TODO: Pakai 2.5 kalau 10, dan juga untuk main pakai ini => https://tailwindcss.com/docs/max-width -->
-        <button
-          type="button"
-          class="py-2.5 px-5 bg-primary-50 rounded-[10px] font-bold text-base text-primary-950"
+        <a
+          href="#contacts"
+          class="py-2.5 px-5 bg-primary-50 rounded-[10px] font-bold text-base text-primary-950 transition-all duration-300 ease-in-out hover:bg-primary-200"
         >
           Contact Me
-        </button>
+        </a>
       </div>
     </div>
     <hr class="mt-12 mb-6" />
     <div class="social-media-footer flex gap-x-4 justify-center mb-4">
-      <i class="bx bxl-github text-dark-100 text-2xl"></i>
-      <i class="bx bxl-linkedin text-dark-100 text-2xl"></i>
+      <a href="https://github.com/bagusperdanay7" target="_blank">
+        <i class="bx bxl-github text-dark-100 text-2xl"></i>
+      </a>
+      <a
+        href="https://www.linkedin.com/in/bagus-perdana-yusuf/"
+        target="_blank"
+      >
+        <i class="bx bxl-linkedin text-dark-100 text-2xl"></i>
+      </a>
     </div>
     <p class="font-normal text-sm text-dark-100 align-middle text-center">
       <i class="bx bxs-heart text-primary-400 text-base"></i> Made with Love by

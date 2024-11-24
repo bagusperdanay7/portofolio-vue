@@ -8,12 +8,14 @@ import CertificationsSection from "@/components/CertificationsSection.vue";
 import PublicationsSection from "@/components/PublicationsSection.vue";
 import ContactSection from "@/components/ContactSection.vue";
 import SpecialSection from "@/components/SpecialSection.vue";
+import ExperienceSection from "@/components/ExperienceSection.vue";
 
 export default {
   components: {
     HeroSection,
     SummarySection,
     EducationSection,
+    ExperienceSection,
     SkillsSection,
     ProjectsSection,
     CertificationsSection,
@@ -30,6 +32,7 @@ export default {
     <HeroSection />
     <SummarySection />
     <EducationSection />
+    <ExperienceSection />
     <SkillsSection />
     <ProjectsSection />
     <CertificationsSection />

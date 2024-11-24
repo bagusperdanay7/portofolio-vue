@@ -1,11 +1,14 @@
 <template>
   <section class="mt-12" id="publications">
     <h1
-      class="font-bold text-center text-light-100 text-[32px] mb-4 dark:text-dark-100"
+      class="font-bold text-center text-light-100 text-[28px] md:text-[32px] mb-4 dark:text-dark-100"
     >
       Publications
     </h1>
-    <div class="grid xl:grid-cols-4 gap-5" id="publicationsCards">
+    <div
+      class="grid sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-5"
+      id="publicationsCards"
+    >
       <Publication
         title="Enhancing Aspect Detection Using BLSTM and Random Oversampling in
         Marketplace Application Review"

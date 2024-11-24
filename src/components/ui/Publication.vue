@@ -3,7 +3,7 @@
     <img
       :src="image"
       :alt="title"
-      class="rounded-t-[15px] min-h-[294px] max-h-80 transition-all duration-500 ease-in-out opacity-85 object-cover group-hover:opacity-100"
+      class="rounded-t-[15px] w-full min-h-[294px] xl:max-h-80 transition-all duration-500 ease-in-out opacity-85 object-cover group-hover:opacity-100"
     />
     <div
       class="publication-content p-4 bg-light-bg-2 rounded-b-[15px] transition-all duration-500 ease-in-out group-hover:bg-primary-950"
