@@ -43,6 +43,13 @@ export default {
         wpu: "#BC66FF",
         "kelas-terbuka": "#FF9D65",
         pzn: "#5196FF",
+        html: "#f06529",
+        "html-subtle-light": "#fde9d7",
+        "html-subtle-dark": "#400f0a",
+        "python-1": "#ffde57",
+        "python-2": "#4584b6",
+        "python-1-subtle-dark": "#431e05",
+        "python-2-subtle-light": "#e7eff7",
       },
       screens: {
         xs: "425px",
@@ -52,6 +59,17 @@ export default {
         "custom-wpu": "0 0 5px #BC66FF",
         "custom-kelas-terbuka": "0 0 5px #FF9D65",
         "custom-pzn": "0 0 5px #5196FF",
+      },
+      keyframes: {
+        "smooth-motion": {
+          "0%": { transform: "translateX(0px)", opacity: "100%" },
+          "33.3%": { transform: "translateX(15px)", opacity: "75%" },
+          "66.6%": { transform: "translateX(-30px)", opacity: "75%" },
+          "100%": { transform: "translateX(0px)", opacity: "100%" },
+        },
+      },
+      animation: {
+        "smooth-motion": "smooth-motion 6s ease-in-out infinite alternate",
       },
     },
   },

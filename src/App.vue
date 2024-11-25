@@ -82,9 +82,9 @@ export default {
 </script>
 
 <template>
-  <!-- TODO: Responsive, Alter Data & Dark Mode -->
+  <!-- TODO: Alter Data & Dark Mode -->
   <header
-    class="flex justify-between py-6 items-center mx-auto px-4 sm:px-6 lg:px-8"
+    class="flex justify-between py-6 items-center mx-auto px-4 sm:px-6 lg:px-8 2xl:px-24"
   >
     <div class="logo text-light-100 text-base font-black dark:text-dark-100">
       <RouterLink to="/">Bagus Perdana Yusuf</RouterLink>
@@ -121,59 +121,65 @@ export default {
     <!-- TODO: Edit Menu Disini -->
     <p v-show="isMenuOpened">Aku Tampil</p>
   </header>
-  <div class="content container max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 xl:px-0">
+  <div
+    class="content container max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 min-[1440px]:px-0"
+  >
     <RouterView />
   </div>
-  <footer class="mt-12 px-4 sm:px-6 lg:px-8 xl:px-[100px] py-12 bg-dark-bg">
-    <div class="flex flex-col md:flex-row justify-between">
-      <div>
-        <h1 class="text-dark-100 text-[28px] md:text-[32px] font-bold mb-7">
-          {{ creator }}
-        </h1>
-        <ul class="flex flex-row flex-wrap gap-y-3 gap-x-6">
-          <li
-            v-for="(menu, index) in footerMenu"
-            v-bind:key="index"
-            class="inline"
-          >
-            <RouterLink
-              :to="`#${menu}`"
-              class="text-base font-bold text-dark-100 hover:text-primary-300"
-              >{{ menu }}</RouterLink
+  <footer
+    class="mt-12 px-4 sm:px-6 lg:px-8 min-[1440px]:px-0 py-12 bg-dark-bg dark:bg-dark-bg-2"
+  >
+    <div class="max-w-7xl mx-auto" id="footerContainer">
+      <div class="flex flex-col md:flex-row justify-between">
+        <div>
+          <h1 class="text-dark-100 text-[28px] md:text-[32px] font-bold mb-7">
+            {{ creator }}
+          </h1>
+          <ul class="flex flex-row flex-wrap gap-y-3 gap-x-6">
+            <li
+              v-for="(menu, index) in footerMenu"
+              v-bind:key="index"
+              class="inline"
             >
-          </li>
-        </ul>
+              <RouterLink
+                :to="`#${menu}`"
+                class="text-base font-bold text-dark-100 hover:text-primary-300"
+                >{{ menu }}</RouterLink
+              >
+            </li>
+          </ul>
+        </div>
+        <div class="mt-7 md:mt-0">
+          <h2 class="font-bold text-dark-100 text-2xl mb-2">Get in Touch</h2>
+          <p class="font-normal text-dark-100 text-sm mb-6">
+            Mempererat Hubungan dengan saya, dengan menghubungi saya
+          </p>
+          <a
+            href="#contacts"
+            class="py-2.5 px-5 bg-primary-50 rounded-[10px] font-bold text-base text-primary-950 transition-all duration-300 ease-in-out hover:bg-primary-200"
+          >
+            Contact Me
+          </a>
+        </div>
       </div>
-      <div class="mt-7 md:mt-0">
-        <h2 class="font-bold text-dark-100 text-2xl mb-2">Get in Touch</h2>
-        <p class="font-normal text-dark-100 text-sm mb-6">
-          Mempererat Hubungan dengan saya, dengan menghubungi saya
-        </p>
-        <!--  TODO: Pakai 2.5 kalau 10, dan juga untuk main pakai ini => https://tailwindcss.com/docs/max-width -->
+      <hr class="mt-12 mb-6" />
+      <div class="social-media-footer flex gap-x-4 justify-center mb-4">
+        <a href="https://github.com/bagusperdanay7" target="_blank">
+          <i class="bx bxl-github text-dark-100 text-2xl"></i>
+        </a>
         <a
-          href="#contacts"
-          class="py-2.5 px-5 bg-primary-50 rounded-[10px] font-bold text-base text-primary-950 transition-all duration-300 ease-in-out hover:bg-primary-200"
+          href="https://www.linkedin.com/in/bagus-perdana-yusuf/"
+          target="_blank"
         >
-          Contact Me
+          <i class="bx bxl-linkedin text-dark-100 text-2xl"></i>
         </a>
       </div>
+      <p class="font-normal text-sm text-dark-100 align-middle text-center">
+        <i class="bx bxs-heart text-primary-400 text-base"></i> Made with Love
+        by
+        {{ creator }}
+      </p>
     </div>
-    <hr class="mt-12 mb-6" />
-    <div class="social-media-footer flex gap-x-4 justify-center mb-4">
-      <a href="https://github.com/bagusperdanay7" target="_blank">
-        <i class="bx bxl-github text-dark-100 text-2xl"></i>
-      </a>
-      <a
-        href="https://www.linkedin.com/in/bagus-perdana-yusuf/"
-        target="_blank"
-      >
-        <i class="bx bxl-linkedin text-dark-100 text-2xl"></i>
-      </a>
-    </div>
-    <p class="font-normal text-sm text-dark-100 align-middle text-center">
-      <i class="bx bxs-heart text-primary-400 text-base"></i> Made with Love by
-      {{ creator }}
-    </p>
   </footer>
 </template>
 

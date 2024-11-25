@@ -43,19 +43,21 @@ export default {
     >
       Contact Me
     </h1>
-    <p class="text-base font-semibold text-light-80 text-center mb-7">
+    <p
+      class="text-base font-semibold text-light-80 text-center mb-7 dark:text-dark-90"
+    >
       If you are interested in collaborating or making an offer, kindly complete
       the following form.
     </p>
     <div class="grid lg:grid-cols-2" id="contactBox">
       <div
-        class="bg-blue-950 p-6 rounded-t-xl lg:rounded-l-xl"
+        class="bg-primary-950 p-6 rounded-t-xl lg:rounded-l-xl lg:rounded-tr-none dark:bg-primary-50"
         id="contactInformation"
       >
-        <h2 class="text-dark-100 font-bold text-xl mb-2">
+        <h2 class="text-dark-100 font-bold text-xl mb-2 dark:text-light-100">
           Contact Information
         </h2>
-        <p class="text-dark-90 font-normal text-sm">
+        <p class="text-dark-90 font-normal text-sm dark:text-light-80">
           You may also contact me via one of these platforms
         </p>
         <div class="flex flex-col gap-y-6 mt-6" id="contacts">
@@ -82,7 +84,7 @@ export default {
         </div>
       </div>
       <div
-        class="bg-light-bg-2 p-6 rounded-b-xl lg:rounded-r-xl"
+        class="bg-light-bg-2 p-6 rounded-b-xl lg:rounded-r-xl lg:rounded-bl-none dark:bg-dark-bg-2"
         id="formContainer"
       >
         <form action="#" method="post" @submit.prevent="handleContactForm">

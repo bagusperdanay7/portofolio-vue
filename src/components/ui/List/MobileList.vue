@@ -1,26 +1,30 @@
 <template>
   <div class="col-auto justify-items-center">
     <div
-      class="p-1.5 size-9 bg-primary-200 rounded-full text-center align-middle transition duration-300 ease-in-out group-hover:bg-primary-600"
+      class="p-1.5 size-9 bg-primary-200 rounded-full text-center align-middle transition duration-300 ease-in-out group-hover:bg-primary-600 dark:bg-primary-900"
     >
       <i
-        class="text-2xl text-primary-600 transition duration-300 ease-in-out group-hover:text-primary-100"
+        class="text-2xl text-primary-600 transition duration-300 ease-in-out group-hover:text-primary-100 dark:text-primary-100"
         :class="iconClass"
       ></i>
     </div>
-    <hr class="w-0.5 h-full bg-primary-950" />
+    <hr class="w-0.5 h-full bg-primary-950 dark:bg-primary-100" />
   </div>
   <div class="col-span-8">
-    <time class="font-semibold text-base text-primary-700 mb-2">{{
-      status
-    }}</time>
-    <h2 class="text-lg font-bold text-light-100">
+    <time
+      class="font-semibold text-base text-primary-700 mb-2 dark:text-primary-400"
+      >{{ status }}</time
+    >
+    <h2 class="text-lg font-bold text-light-100 dark:text-dark-100">
       {{ institution }}
     </h2>
-    <h3 v-if="$slots.span" class="mt-2 text-light-80 text-[15px] font-medium">
+    <h3
+      v-if="$slots.span"
+      class="mt-2 text-light-80 text-[15px] font-medium dark:text-dark-90"
+    >
       <slot name="span" />
     </h3>
-    <p class="text-sm text-light-80 font-normal mt-2">
+    <p class="text-sm text-light-80 font-normal mt-2 dark:text-dark-90">
       {{ details }}
     </p>
   </div>

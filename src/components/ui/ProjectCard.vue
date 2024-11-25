@@ -1,19 +1,23 @@
 <template>
   <div
-    class="project-card p-[15px] bg-light-bg-2 rounded-[15px] transition-all duration-300 ease-in-out hover:drop-shadow-custom-primary"
+    class="project-card p-[15px] bg-light-bg-2 rounded-[15px] transition-all duration-300 ease-in-out hover:drop-shadow-custom-primary dark:bg-dark-bg-2"
   >
     <div class="project-image">
-      <img :src="snapshot" :alt="name" class="w-full" />
+      <img :src="snapshot" :alt="name" class="w-full rounded-[10px]" />
     </div>
     <div class="project-content mt-4">
-      <span class="font-bold text-sm text-primary-900">{{ category }}</span>
-      <h2 class="font-black text-light-100 text-base mb-2">
+      <span class="font-bold text-sm text-primary-900 dark:text-primary-300">{{
+        category
+      }}</span>
+      <h2 class="font-black text-light-100 text-base mb-2 dark:text-dark-100">
         {{ name }}
       </h2>
-      <p class="font-normal text-xs text-light-80 mb-2 line-clamp-3">
+      <p
+        class="font-normal text-xs text-light-80 mb-2 line-clamp-3 dark:text-dark-90"
+      >
         {{ description }}
       </p>
-      <p class="text-xs text-light-100">
+      <p class="text-xs text-light-100 dark:text-dark-100">
         Created by
         <strong>
           <span v-for="team in createdBy" :key="team">{{

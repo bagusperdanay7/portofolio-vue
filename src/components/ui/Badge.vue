@@ -10,8 +10,7 @@
 export default {
   data() {
     return {
-      defaultClass: "font-bold text-xs px-2 py-1 rounded-full cursor-pointer",
-      addOnClass: "bg-slate-200 text-slate-900",
+      addOnClass: "",
     };
   },
   props: {
@@ -21,7 +20,8 @@ export default {
     badgeClass() {
       switch (this.text) {
         case "HTML":
-          this.addOnClass = "bg-[#FFE7CA] text-[#FF8A14]";
+          this.addOnClass =
+            "text-html bg-html-subtle-light dark:bg-html-subtle-dark";
           break;
         case "CSS":
           this.addOnClass = "bg-[#D6E7FF] text-[#227AFF]";
@@ -38,6 +38,10 @@ export default {
         case "Laravel":
           this.addOnClass = "bg-[#FFE3E3] text-[#FF0B0B]";
           break;
+        case "Python":
+          this.addOnClass =
+            "text-python-2 bg-python-2-subtle-light dark:text-python-1 dark:bg-python-1-subtle-dark";
+          break;
         case "UI Design":
           this.addOnClass = "bg-[#FFE8F6] text-[#FF14A1]";
           break;
@@ -48,7 +52,8 @@ export default {
           this.addOnClass = "bg-[#FFE6DF] text-[#FF3D00]";
           break;
         default:
-          this.addOnClass = "bg-slate-200 text-slate-900";
+          this.addOnClass =
+            "bg-light-10 text-light-100 dark:text-dark-90 dark:bg-zinc-700";
           break;
       }
 

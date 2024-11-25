@@ -10,7 +10,7 @@
         class="rounded-xl object-cover w-full lg:max-h-60 transition duration-300 ease-in group-hover:brightness-50"
       />
     </div>
-    <h2 class="font-bold text-sm text-light-100 mt-2">
+    <h2 class="font-bold text-sm text-light-100 mt-2 dark:text-dark-100">
       {{ name }}
     </h2>
   </div>

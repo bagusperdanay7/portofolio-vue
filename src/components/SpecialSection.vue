@@ -12,10 +12,7 @@
         <p
           class="font-medium text-base text-light-80 mb-6 text-center dark:text-dark-90"
         >
-          Saya ingin mengucapkan Terima kasih yang besar, kepada tokoh tokoh di
-          bawah ini yang telah banyak mengajari saya dalam bidang Ilmu Komputer
-          atau Teknik Informatika, yang membantu saya hingga bisa menjadi
-          sekarang. Dan juga nama-nama yang tidak disebutkan
+          {{ description.indonesia }}
         </p>
         <div
           class="flex flex-col sm:flex-row lg:justify-center gap-5 sm:flex-wrap lg:flex-nowrap md:justify-between"
@@ -46,6 +43,14 @@
 import HonorableCard from "./ui/HonorableCard.vue";
 
 export default {
+  data() {
+    return {
+      description: {
+        indonesia:
+          "Saya ingin mengucapkan Terima kasih yang besar, kepada tokoh tokoh di bawah ini yang telah banyak mengajari saya dalam bidang Ilmu Komputer atau Teknik Informatika, yang membantu saya hingga bisa menjadi sekarang. Dan juga nama-nama yang tidak disebutkan",
+      },
+    };
+  },
   components: { HonorableCard },
 };
 </script>
