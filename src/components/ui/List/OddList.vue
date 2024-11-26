@@ -26,7 +26,7 @@
         :class="iconClass"
       ></i>
     </div>
-    <hr class="w-0.5 h-full bg-primary-950 dark:bg-primary-300" />
+    <hr class="w-0.5 h-full bg-primary-950 dark:bg-primary-100" />
   </div>
   <div class="col-span-4"></div>
 </template>

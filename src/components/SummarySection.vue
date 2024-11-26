@@ -6,7 +6,7 @@
       Summary
     </h1>
     <div
-      class="summary-box p-[25px] bg-light-bg-2 rounded-[20px] dark:bg-dark-bg-2"
+      class="summary-box p-[25px] bg-light-bg-2 rounded-[20px] transition duration-300 ease-in-out dark:bg-dark-bg-2"
     >
       <p class="font-normal text-light-100 dark:text-dark-100">
         “Hello Everyone, My full name is Bagus Perdana Yusuf, and my nickname is

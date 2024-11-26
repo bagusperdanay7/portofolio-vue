@@ -58,7 +58,7 @@
     <div class="mt-4 text-center">
       <RouterLink
         :to="{ name: 'projects' }"
-        class="text-sm rounded-full bg-primary-100 font-bold text-primary-500 px-3 py-1.5 hover:bg-primary-200 dark:bg-primary-950 dark:text-primary-400 dark:hover:bg-primary-900"
+        class="text-sm rounded-[15px] font-bold border text-primary-500 border-primary-500 px-3 py-1.5 transition duration-300 ease-in-out hover:bg-primary-100 dark:text-primary-400 dark:border-primary-400 dark:hover:bg-primary-950"
         >Show All</RouterLink
       >
     </div>

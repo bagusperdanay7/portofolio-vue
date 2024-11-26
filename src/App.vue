@@ -13,7 +13,7 @@ export default {
   data() {
     return {
       creator: "Bagus Perdana Yusuf",
-      isMenuOpened: false,
+      isMobileMenuOpened: false,
       isDark:
         localStorage.theme === "dark" ||
         (!("theme" in localStorage) &&
@@ -62,9 +62,21 @@ export default {
     };
   },
   methods: {
-    toggleClick() {
-      // TODO: Ubah disini
-      alert("Aku Diklik bos");
+    toggleClickMobileMenu() {
+      this.isMobileMenuOpened = !this.isMobileMenuOpened;
+      if (this.isMobileMenuOpened) {
+        document.body.classList.add("overflow-hidden");
+        this.$refs.mobilenav.classList.remove("invisible");
+        setTimeout(() => {
+          this.$refs.mobilenav.classList.remove("translate-x-full");
+        }, 100);
+      } else {
+        document.body.classList.remove("overflow-hidden");
+        this.$refs.mobilenav.classList.add("translate-x-full");
+        setTimeout(() => {
+          this.$refs.mobilenav.classList.add("invisible");
+        }, 800);
+      }
     },
     themeToggle() {
       if (this.isDark) {
@@ -78,11 +90,121 @@ export default {
       }
     },
   },
+  // TODO: Coba onMounted dll di console.log aja, ketika diclick begimana pakai v-show
+  mounted() {
+    console.log("mounted");
+  },
 };
 </script>
 
 <template>
-  <!-- TODO: Alter Data & Dark Mode -->
+  <!-- TODO: Alter Data -->
+  <div
+    class="w-full h-dvh flex lg:hidden bg-light-bg dark:bg-dark-bg opacity-100 fixed top-0 bottom-0 right-0 left-0 z-50 transition duration-700 ease-in-out translate-x-full invisible"
+    id="mobileNavigation"
+    ref="mobilenav"
+  >
+    <div class="py-6 px-4 sm:px-6 w-full">
+      <div class="flex flex-row justify-between items-center">
+        <h1 class="text-light-100 text-base font-black dark:text-dark-100">
+          {{ creator }}
+        </h1>
+
+        <div class="flex gap-x-2" id="buttonsToggle">
+          <button
+            class="text-base font-bold text-light-100 hover:text-primary-600 dark:text-dark-100"
+            @click="themeToggle"
+          >
+            <IconSun v-if="isDark" />
+            <IconMoon v-else />
+          </button>
+          <button
+            class="lg:hidden mobile-menu-toggle cursor-pointer"
+            @click="toggleClickMobileMenu"
+          >
+            <i
+              class="bx bx-x text-2xl text-light-100 dark:text-dark-100 align-middle"
+            ></i>
+          </button>
+        </div>
+      </div>
+      <hr class="h-0.5 bg-light-50 my-4" />
+      <ul class="flex flex-col gap-y-4 my-auto text-center">
+        <li>
+          <h2 class="font-bold text-lg text-light-100 dark:text-dark-100">
+            Summary
+          </h2>
+          <p class="font-medium text-xs text-light-80 dark:text-dark-90">
+            Ini adalah summary
+          </p>
+        </li>
+        <li>
+          <h2 class="font-bold text-lg text-light-100 dark:text-dark-100">
+            Education
+          </h2>
+          <p class="font-medium text-xs text-light-80 dark:text-dark-90">
+            Ini adalah summary
+          </p>
+        </li>
+        <li>
+          <h2 class="font-bold text-lg text-light-100 dark:text-dark-100">
+            Experience
+          </h2>
+          <p class="font-medium text-xs text-light-80 dark:text-dark-90">
+            Ini adalah summary
+          </p>
+        </li>
+        <li>
+          <h2 class="font-bold text-lg text-light-100 dark:text-dark-100">
+            Skills
+          </h2>
+          <p class="font-medium text-xs text-light-80 dark:text-dark-90">
+            Ini adalah summary
+          </p>
+        </li>
+        <li>
+          <h2 class="font-bold text-lg text-light-100 dark:text-dark-100">
+            Projects
+          </h2>
+          <p class="font-medium text-xs text-light-80 dark:text-dark-90">
+            Ini adalah summary
+          </p>
+        </li>
+        <li>
+          <h2 class="font-bold text-lg text-light-100 dark:text-dark-100">
+            Certifications
+          </h2>
+          <p class="font-medium text-xs text-light-80 dark:text-dark-90">
+            Ini adalah summary
+          </p>
+        </li>
+        <li>
+          <h2 class="font-bold text-lg text-light-100 dark:text-dark-100">
+            Publications
+          </h2>
+          <p class="font-medium text-xs text-light-80 dark:text-dark-90">
+            Ini adalah summary
+          </p>
+        </li>
+        <li>
+          <h2 class="font-bold text-lg text-light-100 dark:text-dark-100">
+            Contact Me
+          </h2>
+          <p class="font-medium text-xs text-light-80 dark:text-dark-90">
+            Ini adalah summary
+          </p>
+        </li>
+        <li>
+          <h2 class="font-bold text-lg text-light-100 dark:text-dark-100">
+            Special Thanks
+          </h2>
+          <p class="font-medium text-xs text-light-80 dark:text-dark-90">
+            Ini adalah summary
+          </p>
+        </li>
+      </ul>
+    </div>
+  </div>
   <header
     class="flex justify-between py-6 items-center mx-auto px-4 sm:px-6 lg:px-8 2xl:px-24"
   >
@@ -112,14 +234,12 @@ export default {
 
     <div
       class="block lg:hidden mobile-menu-toggle cursor-pointer align-middle"
-      @click="toggleClick"
+      @click="toggleClickMobileMenu"
     >
       <i
         class="bx bx-menu-alt-left text-2xl text-light-100 dark:text-dark-100"
       ></i>
     </div>
-    <!-- TODO: Edit Menu Disini -->
-    <p v-show="isMenuOpened">Aku Tampil</p>
   </header>
   <div
     class="content container max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 min-[1440px]:px-0"
@@ -182,5 +302,3 @@ export default {
     </div>
   </footer>
 </template>
-
-<style scoped></style>
