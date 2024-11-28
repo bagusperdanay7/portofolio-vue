@@ -42,7 +42,7 @@ export default {
         this.certificateName = name;
         this.cerficateImage = image;
         this.certificateProvider = provider;
-      }, 500);
+      }, 800);
     },
   },
 };
