@@ -8,7 +8,7 @@ export default {
 
 <template>
   <!-- TODO: Kalau bisa pakai marquee aja -->
-  <section class="mt-12">
+  <section class="mt-12" id="skills">
     <h1
       class="font-bold text-center text-light-100 text-[28px] md:text-[32px] mb-4 dark:text-dark-100"
     >

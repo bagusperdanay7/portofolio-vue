@@ -14,43 +14,49 @@ export default {
     return {
       creator: "Bagus Perdana Yusuf",
       isMobileMenuOpened: false,
-      isDark:
+      isDark: !!(
         localStorage.theme === "dark" ||
         (!("theme" in localStorage) &&
           window.matchMedia("(prefers-color-scheme: dark)").matches)
-          ? true
-          : false,
-      menus: [
+      ),
+      homeMenus: [
         {
-          name: "Home",
-          link: "#",
+          name: "Summary",
+          link: "#summary",
+          description: "A brief summary about me",
         },
         {
           name: "Education",
           link: "#education",
+          description: "The educational journey I have undertaken",
         },
         {
           name: "Experience",
           link: "#experience",
+          description: "My career journey so far",
         },
         {
           name: "Skills",
           link: "#skills",
+          description: "Skills that I am capable of",
         },
         {
           name: "Projects",
           link: "#projects",
+          description: "Projects I've conducted",
         },
         {
           name: "Certifications",
           link: "#certifications",
+          description: "Certifications that I've obtained",
         },
         {
-          name: "Publication",
-          link: "#publication",
+          name: "Publications",
+          link: "#publications",
+          description: "Scientific papers and blogs",
         },
       ],
-      footerMenu: [
+      otherPagesMenu: [
         "Summary",
         "Education",
         "Experience",
@@ -78,7 +84,7 @@ export default {
         }, 800);
       }
     },
-    themeToggle() {
+    switchTheme() {
       if (this.isDark) {
         this.isDark = false;
         document.documentElement.classList.remove("dark");
@@ -88,6 +94,16 @@ export default {
         document.documentElement.classList.add("dark");
         localStorage.theme = "dark";
       }
+    },
+    navigateToSection(section) {
+      const sectionId = document.querySelector(section);
+      sectionId.scrollIntoView({ behavior: "smooth" });
+    },
+    navigateToSectionMobile(section) {
+      this.toggleClickMobileMenu();
+      setTimeout(() => {
+        this.navigateToSection(section);
+      }, 500);
     },
   },
   // TODO: Coba onMounted dll di console.log aja, ketika diclick begimana pakai v-show
@@ -104,103 +120,55 @@ export default {
     id="mobileNavigation"
     ref="mobilenav"
   >
-    <div class="py-6 px-4 sm:px-6 w-full">
+    <div class="py-6 px-4 sm:px-6 w-full overflow-y-auto">
       <div class="flex flex-row justify-between items-center">
         <h1 class="text-light-100 text-base font-black dark:text-dark-100">
-          {{ creator }}
+          <RouterLink :to="{ name: 'home' }" @click="toggleClickMobileMenu">
+            {{ creator }}
+          </RouterLink>
         </h1>
-
         <div class="flex gap-x-2" id="buttonsToggle">
           <button
             class="text-base font-bold text-light-100 hover:text-primary-600 dark:text-dark-100"
-            @click="themeToggle"
+            type="button"
+            @click="switchTheme"
           >
             <IconSun v-if="isDark" />
             <IconMoon v-else />
           </button>
           <button
-            class="lg:hidden mobile-menu-toggle cursor-pointer"
+            class="lg:hidden mobile-menu-toggle cursor-pointer group"
+            type="button"
             @click="toggleClickMobileMenu"
           >
             <i
-              class="bx bx-x text-2xl text-light-100 dark:text-dark-100 align-middle"
+              class="bx bx-x text-2xl text-light-100 dark:text-dark-100 align-middle group-hover:text-primary-600 dark:group-hover:text-primary-400"
             ></i>
           </button>
         </div>
       </div>
       <hr class="h-0.5 bg-light-50 my-4" />
-      <ul class="flex flex-col gap-y-4 my-auto text-center">
-        <li>
-          <h2 class="font-bold text-lg text-light-100 dark:text-dark-100">
-            Summary
-          </h2>
-          <p class="font-medium text-xs text-light-80 dark:text-dark-90">
-            Ini adalah summary
-          </p>
-        </li>
-        <li>
-          <h2 class="font-bold text-lg text-light-100 dark:text-dark-100">
-            Education
-          </h2>
-          <p class="font-medium text-xs text-light-80 dark:text-dark-90">
-            Ini adalah summary
-          </p>
-        </li>
-        <li>
-          <h2 class="font-bold text-lg text-light-100 dark:text-dark-100">
-            Experience
-          </h2>
-          <p class="font-medium text-xs text-light-80 dark:text-dark-90">
-            Ini adalah summary
-          </p>
-        </li>
-        <li>
-          <h2 class="font-bold text-lg text-light-100 dark:text-dark-100">
-            Skills
-          </h2>
-          <p class="font-medium text-xs text-light-80 dark:text-dark-90">
-            Ini adalah summary
-          </p>
-        </li>
-        <li>
-          <h2 class="font-bold text-lg text-light-100 dark:text-dark-100">
-            Projects
-          </h2>
-          <p class="font-medium text-xs text-light-80 dark:text-dark-90">
-            Ini adalah summary
-          </p>
-        </li>
-        <li>
-          <h2 class="font-bold text-lg text-light-100 dark:text-dark-100">
-            Certifications
-          </h2>
-          <p class="font-medium text-xs text-light-80 dark:text-dark-90">
-            Ini adalah summary
-          </p>
-        </li>
-        <li>
-          <h2 class="font-bold text-lg text-light-100 dark:text-dark-100">
-            Publications
-          </h2>
-          <p class="font-medium text-xs text-light-80 dark:text-dark-90">
-            Ini adalah summary
-          </p>
-        </li>
-        <li>
-          <h2 class="font-bold text-lg text-light-100 dark:text-dark-100">
-            Contact Me
-          </h2>
-          <p class="font-medium text-xs text-light-80 dark:text-dark-90">
-            Ini adalah summary
-          </p>
-        </li>
-        <li>
-          <h2 class="font-bold text-lg text-light-100 dark:text-dark-100">
-            Special Thanks
-          </h2>
-          <p class="font-medium text-xs text-light-80 dark:text-dark-90">
-            Ini adalah summary
-          </p>
+      <ul class="flex flex-col gap-y-4 my-auto">
+        <li v-for="(menu, index) in homeMenus" :key="index">
+          <a
+            href="#"
+            class="flex flex-row justify-between items-center gap-x-2 group"
+            @click="navigateToSectionMobile(menu.link)"
+          >
+            <div class="menu-details">
+              <h2
+                class="font-bold text-base text-light-100 dark:text-dark-100 group-hover:text-primary-600 dark:group-hover:text-primary-400"
+              >
+                {{ menu.name }}
+              </h2>
+              <p class="font-medium text-xs text-light-80 dark:text-dark-90">
+                {{ menu.description }}
+              </p>
+            </div>
+            <i
+              class="bx bx-chevron-right text-2xl text-light-100 dark:text-dark-100 transition duration-300 ease-in-out group-hover:text-primary-600 dark:group-hover:text-primary-400 group-hover:translate-x-1"
+            ></i>
+          </a>
         </li>
       </ul>
     </div>
@@ -209,21 +177,23 @@ export default {
     class="flex justify-between py-6 items-center mx-auto px-4 sm:px-6 lg:px-8 2xl:px-24"
   >
     <div class="logo text-light-100 text-base font-black dark:text-dark-100">
-      <RouterLink to="/">Bagus Perdana Yusuf</RouterLink>
+      <RouterLink to="/">{{ creator }}</RouterLink>
     </div>
     <nav class="hidden lg:block">
       <ul>
-        <li v-for="(menu, index) in menus" v-bind:key="index" class="inline">
-          <RouterLink
-            :to="menu.link"
+        <li v-for="(menu, index) in homeMenus" :key="index" class="inline">
+          <a
+            href="#"
+            @click="navigateToSection(menu.link)"
             class="ml-6 text-base font-bold hover:text-primary-600 dark:text-dark-90 dark:hover:text-primary-400"
-            >{{ menu.name }}</RouterLink
-          >
+            >{{ menu.name }}
+          </a>
         </li>
         <li class="inline align-middle">
           <button
-            class="ml-6 text-base font-bold text-light-100 hover:text-primary-600 dark:text-dark-100"
-            @click="themeToggle"
+            type="button"
+            class="ml-6 text-base font-bold"
+            @click="switchTheme"
           >
             <IconSun v-if="isDark" />
             <IconMoon v-else />
@@ -232,14 +202,14 @@ export default {
       </ul>
     </nav>
 
-    <div
-      class="block lg:hidden mobile-menu-toggle cursor-pointer align-middle"
+    <button
+      class="block lg:hidden mobile-menu-toggle cursor-pointer group"
       @click="toggleClickMobileMenu"
     >
       <i
-        class="bx bx-menu-alt-left text-2xl text-light-100 dark:text-dark-100"
+        class="bx bx-menu-alt-left text-2xl text-light-100 align-middle group-hover:text-primary-600 dark:text-dark-100 dark:group-hover:text-primary-400"
       ></i>
-    </div>
+    </button>
   </header>
   <div
     class="content container max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 min-[1440px]:px-0"
@@ -256,27 +226,25 @@ export default {
             {{ creator }}
           </h1>
           <ul class="flex flex-row flex-wrap gap-y-3 gap-x-6">
-            <li
-              v-for="(menu, index) in footerMenu"
-              v-bind:key="index"
-              class="inline"
-            >
-              <RouterLink
-                :to="`#${menu}`"
+            <li v-for="(menu, index) in homeMenus" :key="index" class="inline">
+              <a
+                href="#"
+                @click.prevent="navigateToSection(menu.link)"
                 class="text-base font-bold text-dark-100 hover:text-primary-300"
-                >{{ menu }}</RouterLink
-              >
+                >{{ menu.name }}
+              </a>
             </li>
           </ul>
         </div>
         <div class="mt-7 md:mt-0">
           <h2 class="font-bold text-dark-100 text-2xl mb-2">Get in Touch</h2>
           <p class="font-normal text-dark-100 text-sm mb-6">
-            Mempererat Hubungan dengan saya, dengan menghubungi saya
+            Deepen the connection with me, by getting in touch with me
           </p>
           <a
             href="#contacts"
             class="py-2.5 px-5 bg-primary-50 rounded-[10px] font-bold text-base text-primary-950 transition-all duration-300 ease-in-out hover:bg-primary-200"
+            @click.prevent="navigateToSection('#contacts')"
           >
             Contact Me
           </a>

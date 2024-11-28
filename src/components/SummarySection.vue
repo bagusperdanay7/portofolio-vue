@@ -1,5 +1,5 @@
 <template>
-  <section class="mt-[50px]">
+  <section class="mt-[50px]" id="summary">
     <h1
       class="font-bold text-center text-light-100 text-[28px] md:text-[32px] mb-4 dark:text-dark-100"
     >

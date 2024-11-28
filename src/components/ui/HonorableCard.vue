@@ -4,7 +4,7 @@
   >
     <img
       :src="image"
-      alt=""
+      :alt="name"
       class="size-9 rounded-full aspect-square object-cover"
     />
     <div class="inspiration-details">

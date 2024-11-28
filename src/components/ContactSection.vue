@@ -12,6 +12,29 @@ export default {
       email: "",
       buttonText: "Submit",
       buttonDisabled: false,
+      informationContact: [
+        {
+          socialMedia: "WhatsApp",
+          value: "+6288214709338",
+          icon: "bxl-whatsapp",
+        },
+        {
+          socialMedia: "Telegram",
+          value: "+6288214709338",
+          icon: "bxl-telegram",
+        },
+        {
+          socialMedia: "Email",
+          value: "baguspyus@gmail.com",
+          icon: "bxl-gmail",
+        },
+        {
+          socialMedia: "Address",
+          value:
+            "Jl. Mutiara Raya Blok C2/5 Sukaharja, Telukjambe Timur, Karawang. 41361",
+          icon: "bxs-map",
+        },
+      ],
     };
   },
   methods: {
@@ -62,24 +85,11 @@ export default {
         </p>
         <div class="flex flex-col gap-y-6 mt-6" id="contacts">
           <Contact
-            brand="WhatsApp"
-            value="+6288214709338"
-            iconClass="bxl-whatsapp"
-          />
-          <Contact
-            brand="Telegram"
-            value="6288214709338"
-            iconClass="bxl-telegram"
-          />
-          <Contact
-            brand="Email"
-            value="baguspyus@gmail.com"
-            iconClass="bxl-gmail"
-          />
-          <Contact
-            brand="Address"
-            value="Jl. Mutiara Raya Blok C2/5 Sukaharja, Telukjambe Timur, Karawang. 41361"
-            iconClass="bxs-map"
+            v-for="(contact, index) in informationContact"
+            :key="index"
+            :brand="contact.socialMedia"
+            :value="contact.value"
+            :iconClass="contact.icon"
           />
         </div>
       </div>

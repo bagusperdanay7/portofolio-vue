@@ -35,7 +35,7 @@
 export default {
   props: {
     status: {
-      type: String,
+      type: [String, Number],
       default: "",
     },
     institution: {

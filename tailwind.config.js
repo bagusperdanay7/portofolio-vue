@@ -67,9 +67,31 @@ export default {
           "66.6%": { transform: "translateX(-30px)", opacity: "75%" },
           "100%": { transform: "translateX(0px)", opacity: "100%" },
         },
+        startrise: {
+          from: {
+            opacity: "0%",
+            transform: "translateY(16px)",
+          },
+          to: {
+            opacity: "100%",
+            transform: "translateY(0)",
+          },
+        },
+        modalshow: {
+          from: {
+            opacity: "0%",
+            transform: "scale(0)",
+          },
+          to: {
+            opacity: "100%",
+            transform: "scale(1)",
+          },
+        },
       },
       animation: {
         "smooth-motion": "smooth-motion 6s ease-in-out infinite alternate",
+        startrise: "startrise 1300ms ease-in",
+        modalshow: "modalshow 500ms ease-in",
       },
     },
   },

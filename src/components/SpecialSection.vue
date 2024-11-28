@@ -2,37 +2,35 @@
   <section class="mt-12" id="specialThanks">
     <div class="flex">
       <div
-        class="flex-1 rounded-[20px] py-[30px] px-[25px] bg-light-bg-2 dark:bg-dark-bg-2"
+        class="bg-light-bg-2 dark:bg-dark-bg-2 flex-1 rounded-[20px] px-[25px] py-[30px]"
       >
         <h1
-          class="font-bold text-light-100 text-[28px] md:text-[32px] mb-4 dark:text-dark-100 text-center"
+          class="text-light-100 dark:text-dark-100 mb-4 text-center text-[28px] font-bold md:text-[32px]"
         >
           Special Thanks
         </h1>
         <p
-          class="font-medium text-base text-light-80 mb-6 text-center dark:text-dark-90"
+          class="text-light-80 dark:text-dark-90 mb-6 text-center text-base font-medium"
         >
-          {{ description.indonesia }}
+          {{ description.english }}
         </p>
         <div
-          class="flex flex-col sm:flex-row lg:justify-center gap-5 sm:flex-wrap lg:flex-nowrap md:justify-between"
+          class="flex flex-col gap-5 sm:flex-row sm:flex-wrap md:justify-between lg:flex-nowrap lg:justify-center"
           id="honorableMention"
         >
-          <HonorableCard
-            name="Pak Sandhika Galih"
-            channel="Web Programming UNPAS"
-            class="border-wpu hover:drop-shadow-custom-wpu"
-          />
-          <HonorableCard
-            name="Kang Faqihza Mukhlish"
-            channel="Kelas Terbuka"
-            class="border-kelas-terbuka hover:drop-shadow-custom-kelas-terbuka"
-          />
-          <HonorableCard
-            name="Pak Eko Kurniawan Khannedy"
-            channel="Programmer Zaman Now"
-            class="border-pzn hover:drop-shadow-custom-primary"
-          />
+          <a
+            :href="figure.youtube"
+            target="_blank"
+            v-for="(figure, index) in inspiringFigures"
+            :key="index"
+          >
+            <HonorableCard
+              :name="figure.name"
+              :channel="figure.channel"
+              :class="figure.classes"
+              :image="figure.image"
+            />
+          </a>
         </div>
       </div>
     </div>
@@ -40,6 +38,7 @@
 </template>
 
 <script>
+import { RouterLink } from "vue-router";
 import HonorableCard from "./ui/HonorableCard.vue";
 
 export default {
@@ -48,9 +47,41 @@ export default {
       description: {
         indonesia:
           "Saya ingin mengucapkan Terima kasih yang besar, kepada tokoh tokoh di bawah ini yang telah banyak mengajari saya dalam bidang Ilmu Komputer atau Teknik Informatika, yang membantu saya hingga bisa menjadi sekarang. Dan juga nama-nama yang tidak disebutkan",
+        english:
+          "I would like to express my great gratitude to these following figures who have greatly taught me in the field of computer science or informatics engineering, which helped me to be able to become the person I am today. I can't list all the names individually.",
       },
+      inspiringFigures: [
+        {
+          name: "Pak Sandhika Galih",
+          channel: "Web Programming UNPAS",
+          classes: "border-wpu hover:drop-shadow-custom-wpu",
+          image:
+            "https://yt3.googleusercontent.com/ytc/AIdro_lE1Ypy63AS3WoLMoylyoDgMPl5VyeN2DwbeIo41_ewjds=s160-c-k-c0x00ffffff-no-rj",
+          youtube: "https://www.youtube.com/@sandhikagalihWPU",
+        },
+        {
+          name: "Kang Faqihza Mukhlish",
+          channel: "Kelas Terbuka",
+          classes:
+            "border-kelas-terbuka hover:drop-shadow-custom-kelas-terbuka",
+          image:
+            "https://www.fti.itb.ac.id/wp-content/uploads/sites/9/2022/07/FQ-scaled.jpg",
+          youtube: "https://www.youtube.com/@KelasTerbuka",
+        },
+        {
+          name: "Pak Eko Kurniawan Khannedy",
+          channel: "Programmer Zaman Now",
+          classes: "border-pzn hover:drop-shadow-custom-primary",
+          image:
+            "https://media.licdn.com/dms/image/v2/D5603AQHRnLI-gGS7dQ/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1693238977494?e=1738195200&v=beta&t=8DH8dPV4aRskfuesHMzEZmm0hXsVy9SNwuc3ZBg9pwk",
+          youtube: "https://www.youtube.com/@ProgrammerZamanNow",
+        },
+      ],
     };
   },
-  components: { HonorableCard },
+  components: {
+    HonorableCard,
+    RouterLink,
+  },
 };
 </script>

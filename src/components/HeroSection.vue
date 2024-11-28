@@ -16,7 +16,7 @@ export default {
     <div class="grid grid-cols-1 lg:grid-cols-2 gap-5 items-center">
       <div class="z-0">
         <h1
-          class="font-black text-4xl/tight md:text-[40px] mb-0 order-last lg:order-first text-light-100 dark:text-dark-100"
+          class="font-black text-4xl/tight md:text-[40px] mb-0 order-last lg:order-first text-light-100 dark:text-dark-100 animate-startrise"
         >
           Hello!, My name is
           <span class="text-primary-600 dark:text-primary-300"
@@ -27,7 +27,7 @@ export default {
             >Junior Web Developer</strong
           >
         </h1>
-        <p class="mt-4 text-light-80 mb-6 dark:text-dark-90">
+        <p class="mt-4 text-light-80 mb-6 dark:text-dark-90 animate-startrise">
           Building websites on the front-end and back-end is my primary focus.
           Additionally, I have a strong passion for machine learning and UI/UX
           design.
