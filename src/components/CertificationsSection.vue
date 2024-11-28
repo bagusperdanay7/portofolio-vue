@@ -117,7 +117,12 @@ export default {
         >
           <i class="bx bx-loader bx-spin text-5xl"></i>
         </div>
-        <img v-else :src="cerficateImage" alt="" class="w-full max-w-[800px]" />
+        <img
+          v-else
+          :src="cerficateImage"
+          :alt="certificateName"
+          class="w-full max-w-[800px]"
+        />
       </div>
     </div>
   </div>
