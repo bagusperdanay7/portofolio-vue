@@ -77,7 +77,7 @@ export default {
             transform: "translateY(0)",
           },
         },
-        modalshow: {
+        zoomin: {
           from: {
             opacity: "0%",
             transform: "scale(0)",
@@ -87,11 +87,22 @@ export default {
             transform: "scale(1)",
           },
         },
+        zoomout: {
+          from: {
+            opacity: "100%",
+            transform: "scale(1)",
+          },
+          to: {
+            opacity: "0%",
+            transform: "scale(0)",
+          },
+        },
       },
       animation: {
         "smooth-motion": "smooth-motion 6s ease-in-out infinite alternate",
         startrise: "startrise 1300ms ease-in",
-        modalshow: "modalshow 500ms ease-in",
+        "zoom-in": "zoomin 500ms ease-in",
+        "zoom-out": "zoomout 500ms ease-out",
       },
     },
   },

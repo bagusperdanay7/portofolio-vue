@@ -115,6 +115,7 @@ export default {
 
 <template>
   <!-- TODO: Alter Data -->
+  <!-- TODO: MobileNavigation use transition component instead -->
   <div
     class="w-full h-dvh flex lg:hidden bg-light-bg dark:bg-dark-bg opacity-100 fixed top-0 bottom-0 right-0 left-0 z-50 transition duration-700 ease-in-out translate-x-full invisible"
     id="mobileNavigation"
