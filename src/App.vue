@@ -13,6 +13,7 @@ export default {
   data() {
     return {
       creator: "Bagus Perdana Yusuf",
+      logo: "Bagus.py",
       isMobileMenuOpened: false,
       isDark: !!(
         localStorage.theme === "dark" ||
@@ -177,8 +178,8 @@ export default {
   <header
     class="flex justify-between py-6 items-center mx-auto px-4 sm:px-6 lg:px-8 2xl:px-24"
   >
-    <div class="logo text-light-100 text-base font-black dark:text-dark-100">
-      <RouterLink to="/">{{ creator }}</RouterLink>
+    <div class="logo text-light-100 text-lg font-bold dark:text-dark-100">
+      <RouterLink to="/">{{ logo }}</RouterLink>
     </div>
     <nav class="hidden lg:block">
       <ul>
