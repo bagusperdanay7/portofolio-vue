@@ -50,97 +50,56 @@
   {
     "id": 9,
     "name": "MySQL",
-    "description": "MySQL",
+    "description": "MySQL: Relational Database Management System",
     "logo": "/logo/mysql.svg"
   },
   {
     "id": 10,
-    "name": "MongoDB",
-    "description": "Hypertext Markup Language",
-    "logo": "/logo/mongodb.svg"
+    "name": "jQuery",
+    "description": "jQuery: A JavaScript library",
+    "logo": "/logo/jquery.svg"
   },
   {
     "id": 11,
     "name": "PostgreSQL",
-    "description": "Hypertext Markup Language",
+    "description": "PostgreSQL: Relational Database Management System",
     "logo": "/logo/postgresql.svg"
   },
   {
     "id": 12,
-    "name": "Alpine.js",
-    "description": "Hypertext Markup Language",
-    "logo": "/logo/alpinejs.svg"
-  },
-  {
-    "id": 13,
     "name": "Vue.js",
-    "description": "Hypertext Markup Language",
+    "description": "Vue.js: Progressive JavaScript Framework",
     "logo": "/logo/vue.svg"
   },
   {
-    "id": 14,
+    "id": 13,
     "name": "Laravel",
-    "description": "Hypertext Markup Language",
+    "description": "Laravel: PHP Framework",
     "logo": "/logo/laravel.svg"
   },
   {
-    "id": 15,
+    "id": 14,
     "name": "Figma",
-    "description": "Hypertext Markup Language",
+    "description": "Figma: Inteface Design Tool",
     "logo": "/logo/figma.svg"
+  },
+
+  {
+    "id": 15,
+    "name": "TensorFlow",
+    "description": "TensorFlow: Machine Learning framework",
+    "logo": "/logo/tensorflow.svg"
   },
   {
     "id": 16,
-    "name": "UI & UX Design",
-    "description": "Hypertext Markup Language",
-    "logo": ""
-  },
-  {
-    "id": 17,
-    "name": "Machine Learning",
-    "description": "Hypertext Markup Language",
-    "logo": "/logo/tensorflow.svg"
-  },
-  {
-    "id": 18,
-    "name": "Tensorflow",
-    "description": "Hypertext Markup Language",
-    "logo": "/logo/tensorflow.svg"
-  },
-  {
-    "id": 19,
     "name": "Git",
-    "description": "Hypertext Markup Language",
+    "description": "Git: Version Control System",
     "logo": "/logo/git.svg"
   },
   {
-    "id": 20,
+    "id": 17,
     "name": "GitHub",
-    "description": "Hypertext Markup Language",
+    "description": "GitHub: Public Code repository",
     "logo": "/logo/github.svg"
-  },
-  {
-    "id": 21,
-    "name": "Node.js",
-    "description": "Hypertext Markup Language",
-    "logo": "/logo/nodejs.svg"
-  },
-  {
-    "id": 22,
-    "name": "Express.js",
-    "description": "Hypertext Markup Language",
-    "logo": "/logo/express.svg"
-  },
-  {
-    "id": 23,
-    "name": "React",
-    "description": "Hypertext Markup Language",
-    "logo": "/logo/react.svg"
-  },
-  {
-    "id": 24,
-    "name": "Dart",
-    "description": "Hypertext Markup Language",
-    "logo": "/logo/dart.svg"
   }
 ]

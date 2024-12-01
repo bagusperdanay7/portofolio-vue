@@ -22,7 +22,7 @@ export default {
       Skills
     </h1>
     <div
-      class="skill-cards flex flex-col xs:flex-row gap-y-5 lg:gap-x-5 xs:flex-wrap xs:justify-between lg:justify-normal xl:justify-between"
+      class="skill-cards grid grid-cols-1 xs:grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 xl:grid-cols-6 gap-5"
     >
       <SkillCard
         v-for="skill in skills"

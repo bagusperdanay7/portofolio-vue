@@ -166,5 +166,149 @@
     "description": "Hypertext Markup Language",
     "logo": "",
     "color": "white"
+  },
+  {
+    "id": 17,
+    "name": "jQuery",
+    "description": "jQuery: A JavaScript library",
+    "logo": "/logo/jquery.svg"
+  },
+  {
+    "id": 1,
+    "name": "HTML",
+    "description": "Hypertext Markup Language",
+    "logo": "/logo/html.svg"
+  },
+  {
+    "id": 2,
+    "name": "CSS",
+    "description": "Cascading Stylesheet",
+    "logo": "/logo/css.svg"
+  },
+  {
+    "id": 3,
+    "name": "JavaScript",
+    "description": "JavaScript Programming Language",
+    "logo": "/logo/javascript.svg"
+  },
+  {
+    "id": 4,
+    "name": "SASS",
+    "description": "Syntactically Awesome Style Sheets",
+    "logo": "/logo/sass.svg"
+  },
+  {
+    "id": 5,
+    "name": "PHP",
+    "description": "Hypertext Preprocessor Programming Language",
+    "logo": "/logo/php.svg"
+  },
+  {
+    "id": 6,
+    "name": "Python",
+    "description": "Python Programming Language",
+    "logo": "/logo/python.svg"
+  },
+  {
+    "id": 7,
+    "name": "Boostrap",
+    "description": "Bootstrap CSS Framework",
+    "logo": "/logo/bootstrap.svg"
+  },
+  {
+    "id": 8,
+    "name": "Tailwind CSS",
+    "description": "Tailwind CSS Framework",
+    "logo": "/logo/tailwindcss.svg"
+  },
+  {
+    "id": 9,
+    "name": "MySQL",
+    "description": "MySQL",
+    "logo": "/logo/mysql.svg"
+  },
+  {
+    "id": 10,
+    "name": "MongoDB",
+    "description": "Hypertext Markup Language",
+    "logo": "/logo/mongodb.svg"
+  },
+  {
+    "id": 11,
+    "name": "PostgreSQL",
+    "description": "Hypertext Markup Language",
+    "logo": "/logo/postgresql.svg"
+  },
+  {
+    "id": 12,
+    "name": "Alpine.js",
+    "description": "Hypertext Markup Language",
+    "logo": "/logo/alpinejs.svg"
+  },
+  {
+    "id": 13,
+    "name": "Vue.js",
+    "description": "Hypertext Markup Language",
+    "logo": "/logo/vue.svg"
+  },
+  {
+    "id": 14,
+    "name": "Laravel",
+    "description": "Hypertext Markup Language",
+    "logo": "/logo/laravel.svg"
+  },
+  {
+    "id": 15,
+    "name": "Figma",
+    "description": "Hypertext Markup Language",
+    "logo": "/logo/figma.svg"
+  },
+  {
+    "id": 17,
+    "name": "jQuery",
+    "description": "jQuery: A JavaScript library",
+    "logo": "/logo/jquery.svg"
+  },
+  {
+    "id": 18,
+    "name": "TensorFlow",
+    "description": "Hypertext Markup Language",
+    "logo": "/logo/tensorflow.svg"
+  },
+  {
+    "id": 19,
+    "name": "Git",
+    "description": "Hypertext Markup Language",
+    "logo": "/logo/git.svg"
+  },
+  {
+    "id": 20,
+    "name": "GitHub",
+    "description": "Hypertext Markup Language",
+    "logo": "/logo/github.svg"
+  },
+  {
+    "id": 21,
+    "name": "Node.js",
+    "description": "Hypertext Markup Language",
+    "logo": "/logo/nodejs.svg"
+  },
+  {
+    "id": 22,
+    "name": "Express.js",
+    "description": "Hypertext Markup Language",
+    "logo": "/logo/express.svg"
+  },
+  {
+    "id": 23,
+    "name": "React",
+    "description": "Hypertext Markup Language",
+    "logo": "/logo/react.svg"
+  },
+  {
+    "id": 24,
+    "name": "Dart",
+    "description": "Hypertext Markup Language",
+    "logo": "/logo/dart.svg"
   }
 ]
