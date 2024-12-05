@@ -1,6 +1,7 @@
 <script>
 import { Transition } from "vue";
 import Certificate from "./ui/Certificate.vue";
+import certifications from "@/data/certifications.json";
 
 export default {
   components: { Certificate, Transition },
@@ -11,40 +12,20 @@ export default {
       certificateImage: null,
       certificateName: null,
       certificateProvider: null,
-      certificates: [
-        {
-          name: "Introduction to CSS",
-          provider: "Sololearn",
-          image:
-            "https://api2.sololearn.com/v2/certificates/CC-YQBE6YIR/image/png?t=638378154210245190",
-        },
-        {
-          name: "Sertifikasi Web Developer",
-          provider: "BNSP",
-          image: "https://picsum.photos/seed/picsum/536/354",
-        },
-        {
-          name: "Machine Learning Pemula",
-          provider: "Dicoding",
-          image: "https://picsum.photos/id/10/400/500",
-        },
-        {
-          name: "UI / UX for Beginners",
-          provider: "Great Learning",
-          image: "https://picsum.photos/id/30/1000/600",
-        },
-      ],
+      certificateCredential: null,
+      certificates: certifications,
     };
   },
   methods: {
-    toggleModalCertificate(name, image, provider) {
+    toggleModalCertificate(certificate) {
       if (!this.isModalShow) {
         this.isModalShow = true;
         this.isLoading = true;
         setTimeout(() => {
-          this.certificateName = name;
-          this.certificateImage = image;
-          this.certificateProvider = provider;
+          this.certificateName = certificate.name;
+          this.certificateImage = certificate.image;
+          this.certificateProvider = certificate.provider;
+          this.certificateCredential = certificate.credential;
           this.isLoading = false;
         }, 800);
       } else {
@@ -53,16 +34,15 @@ export default {
         this.certificateName = null;
         this.certificateImage = null;
         this.certificateProvider = null;
+        this.certificateCredential = null;
       }
-    },
-    closeModal() {
-      alert("aku diklik");
     },
   },
 };
 </script>
 
 <template>
+  <!-- TODO: Kondisi, ketika credential null, link tidak ada -->
   <section class="mt-12" id="certifications">
     <h1
       class="font-bold text-center text-light-100 text-[28px] md:text-[32px] mb-4 dark:text-dark-100"
@@ -74,18 +54,12 @@ export default {
       id="certificationsCards"
     >
       <Certificate
-        v-for="(certificate, index) in certificates"
-        :key="index"
+        v-for="certificate in certificates"
+        :key="certificate.id"
         :name="certificate.name"
         :image="certificate.image"
         :provider="certificate.provider"
-        @click="
-          toggleModalCertificate(
-            certificate.name,
-            certificate.image,
-            certificate.provider
-          )
-        "
+        @click="toggleModalCertificate(certificate)"
       />
     </div>
   </section>
@@ -105,6 +79,7 @@ export default {
       id="certificationPreview"
       v-show="isModalShow"
       tabindex="-1"
+      @click.self="toggleModalCertificate"
     >
       <div
         class="flex flex-col gap-y-4 bg-light-bg-2 dark:bg-dark-bg-2 aspect-video 2xl:w-[55%] px-4 py-6 md:p-6 rounded-[10px] m-auto"
@@ -128,7 +103,8 @@ export default {
               >
               <a
                 v-if="!isLoading"
-                href=""
+                :href="certificateCredential"
+                target="_blank"
                 class="text-xs ml-1 font-semibold text-light-50 hover:text-primary-600 dark:text-dark-70 dark:hover:text-primary-300"
                 >Show Credential <i class="bx bx-link-external text-xs"></i
               ></a>
@@ -155,7 +131,7 @@ export default {
             v-else
             :src="certificateImage"
             :alt="certificateName"
-            class="w-full max-w-[800px] aspect-[16/10]"
+            class="w-full h-auto max-w-[800px] object-contain aspect-[16/11]"
           />
         </div>
       </div>
