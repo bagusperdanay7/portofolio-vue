@@ -2,6 +2,7 @@
 import { RouterLink, RouterView } from "vue-router";
 import IconMoon from "./components/ui/Icons/IconMoon.vue";
 import IconSun from "./components/ui/Icons/IconSun.vue";
+import { Transition } from "vue";
 
 export default {
   components: {
@@ -9,6 +10,7 @@ export default {
     RouterView,
     IconMoon,
     IconSun,
+    Transition,
   },
   data() {
     return {
@@ -73,16 +75,8 @@ export default {
       this.isMobileMenuOpened = !this.isMobileMenuOpened;
       if (this.isMobileMenuOpened) {
         document.body.classList.add("overflow-hidden");
-        this.$refs.mobilenav.classList.remove("invisible");
-        setTimeout(() => {
-          this.$refs.mobilenav.classList.remove("translate-x-full");
-        }, 100);
       } else {
         document.body.classList.remove("overflow-hidden");
-        this.$refs.mobilenav.classList.add("translate-x-full");
-        setTimeout(() => {
-          this.$refs.mobilenav.classList.add("invisible");
-        }, 800);
       }
     },
     switchTheme() {
@@ -116,65 +110,71 @@ export default {
 
 <template>
   <!-- TODO: Alter Data -->
-  <!-- TODO: MobileNavigation use transition component instead -->
-  <div
-    class="w-full h-dvh flex lg:hidden bg-light-bg dark:bg-dark-bg opacity-100 fixed top-0 bottom-0 right-0 left-0 z-50 transition duration-700 ease-in-out translate-x-full invisible"
-    id="mobileNavigation"
-    ref="mobilenav"
+  <Transition
+    name="nav-mobile"
+    enter-active-class="animate-nav-mobile-show"
+    leave-active-class="animate-nav-mobile-hide"
   >
-    <div class="py-6 px-4 sm:px-6 w-full overflow-y-auto">
-      <div class="flex flex-row justify-between items-center">
-        <h1 class="text-light-100 text-base font-black dark:text-dark-100">
-          <RouterLink :to="{ name: 'home' }" @click="toggleClickMobileMenu">
-            {{ creator }}
-          </RouterLink>
-        </h1>
-        <div class="flex gap-x-2" id="buttonsToggle">
-          <button
-            class="text-base font-bold text-light-100 hover:text-primary-600 dark:text-dark-100"
-            type="button"
-            @click="switchTheme"
-          >
-            <IconSun v-if="isDark" />
-            <IconMoon v-else />
-          </button>
-          <button
-            class="lg:hidden mobile-menu-toggle cursor-pointer group"
-            type="button"
-            @click="toggleClickMobileMenu"
-          >
-            <i
-              class="bx bx-x text-2xl text-light-100 dark:text-dark-100 align-middle group-hover:text-primary-600 dark:group-hover:text-primary-400"
-            ></i>
-          </button>
+    <div
+      class="w-full h-dvh flex lg:hidden bg-light-bg dark:bg-dark-bg opacity-100 fixed top-0 bottom-0 right-0 left-0 z-50"
+      v-show="isMobileMenuOpened"
+      id="mobileNavigation"
+      ref="mobilenav"
+    >
+      <div class="py-6 px-4 sm:px-6 w-full overflow-y-auto">
+        <div class="flex flex-row justify-between items-center">
+          <h1 class="text-light-100 text-base font-black dark:text-dark-100">
+            <RouterLink :to="{ name: 'home' }" @click="toggleClickMobileMenu">
+              {{ creator }}
+            </RouterLink>
+          </h1>
+          <div class="flex gap-x-2" id="buttonsToggle">
+            <button
+              class="text-base font-bold text-light-100 hover:text-primary-600 dark:text-dark-100"
+              type="button"
+              @click="switchTheme"
+            >
+              <IconSun v-if="isDark" />
+              <IconMoon v-else />
+            </button>
+            <button
+              class="lg:hidden mobile-menu-toggle cursor-pointer group"
+              type="button"
+              @click="toggleClickMobileMenu"
+            >
+              <i
+                class="bx bx-x text-2xl text-light-100 dark:text-dark-100 align-middle group-hover:text-primary-600 dark:group-hover:text-primary-400"
+              ></i>
+            </button>
+          </div>
         </div>
+        <hr class="h-0.5 bg-light-50 my-4" />
+        <ul class="flex flex-col gap-y-4 my-auto">
+          <li v-for="(menu, index) in homeMenus" :key="index">
+            <a
+              href="#"
+              class="flex flex-row justify-between items-center gap-x-2 group"
+              @click="navigateToSectionMobile(menu.link)"
+            >
+              <div class="menu-details">
+                <h2
+                  class="font-bold text-base text-light-100 dark:text-dark-100 group-hover:text-primary-600 dark:group-hover:text-primary-400"
+                >
+                  {{ menu.name }}
+                </h2>
+                <p class="font-medium text-xs text-light-80 dark:text-dark-90">
+                  {{ menu.description }}
+                </p>
+              </div>
+              <i
+                class="bx bx-chevron-right text-2xl text-light-100 dark:text-dark-100 transition duration-300 ease-in-out group-hover:text-primary-600 dark:group-hover:text-primary-400 group-hover:translate-x-1"
+              ></i>
+            </a>
+          </li>
+        </ul>
       </div>
-      <hr class="h-0.5 bg-light-50 my-4" />
-      <ul class="flex flex-col gap-y-4 my-auto">
-        <li v-for="(menu, index) in homeMenus" :key="index">
-          <a
-            href="#"
-            class="flex flex-row justify-between items-center gap-x-2 group"
-            @click="navigateToSectionMobile(menu.link)"
-          >
-            <div class="menu-details">
-              <h2
-                class="font-bold text-base text-light-100 dark:text-dark-100 group-hover:text-primary-600 dark:group-hover:text-primary-400"
-              >
-                {{ menu.name }}
-              </h2>
-              <p class="font-medium text-xs text-light-80 dark:text-dark-90">
-                {{ menu.description }}
-              </p>
-            </div>
-            <i
-              class="bx bx-chevron-right text-2xl text-light-100 dark:text-dark-100 transition duration-300 ease-in-out group-hover:text-primary-600 dark:group-hover:text-primary-400 group-hover:translate-x-1"
-            ></i>
-          </a>
-        </li>
-      </ul>
     </div>
-  </div>
+  </Transition>
   <header
     class="flex justify-between py-6 items-center mx-auto px-4 sm:px-6 lg:px-8 2xl:px-24"
   >

@@ -1,16 +1,16 @@
 [
   {
     "id": 1,
-    "name": "Analisis Sentimen Berbasis Aspek Terhadap Ulasan Aplikasi Market Place Menggunakan Bidirectional Long Short-Term Memory",
+    "title": "Analisis Sentimen Berbasis Aspek Terhadap Ulasan Aplikasi Market Place Menggunakan Bidirectional Long Short-Term Memory",
     "category": "Undergraduate Thesis",
-    "preview": "",
+    "snapshot": "publications/undgraduate-thesis.svg",
     "link": "https://elibrary.unikom.ac.id/id/eprint/8478/"
   },
   {
     "id": 2,
-    "name": "Enhancing Aspect Detection Using BLSTM and Random Oversampling in Marketplace Application Review",
+    "title": "Enhancing Aspect Detection Using BLSTM and Random Oversampling in Marketplace Application Review",
     "category": "Paper",
-    "preview": "",
+    "snapshot": "publications/ieee-paper.svg",
     "link": "https://ieeexplore.ieee.org/abstract/document/10396931"
   }
 ]

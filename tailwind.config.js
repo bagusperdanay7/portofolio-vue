@@ -97,12 +97,56 @@ export default {
             transform: "scale(0)",
           },
         },
+        navMobileShow: {
+          from: {
+            visibility: "hidden",
+            transform: "translateX(100%)",
+          },
+          to: {
+            visibility: "visible",
+            transform: "translateX(0)",
+          },
+        },
+        navMobileHide: {
+          from: {
+            visibility: "visible",
+            transform: "translateX(0)",
+          },
+          to: {
+            visibility: "hidden",
+            transform: "translateX(100%)",
+          },
+        },
+        slideUpIn: {
+          from: {
+            opacity: "0",
+            transform: "translateY(30px)",
+          },
+          to: {
+            opacity: "1",
+            transform: "translateY(0)",
+          },
+        },
+        slideUpOut: {
+          from: {
+            opacity: "1",
+            transform: "translateY(0)",
+          },
+          to: {
+            opacity: "0",
+            transform: "translateY(-30px)",
+          },
+        },
       },
       animation: {
         "smooth-motion": "smooth-motion 6s ease-in-out infinite alternate",
         startrise: "startrise 1300ms ease-in",
         "zoom-in": "zoomin 500ms ease-in",
         "zoom-out": "zoomout 500ms ease-out",
+        "nav-mobile-show": "navMobileShow 700ms ease-in-out",
+        "nav-mobile-hide": "navMobileHide 700ms ease-in-out",
+        "slide-up-in": "slideUpIn 500ms ease-in",
+        "slide-up-out": "slideUpOut 500ms ease-out",
       },
     },
   },

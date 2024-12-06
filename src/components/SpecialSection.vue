@@ -15,22 +15,18 @@
           {{ description.english }}
         </p>
         <div
-          class="flex flex-col gap-5 sm:flex-row sm:flex-wrap md:justify-between lg:flex-nowrap lg:justify-center"
           id="honorableMention"
+          class="flex flex-col gap-5 sm:flex-row sm:flex-wrap sm:justify-between lg:flex-nowrap lg:justify-center"
         >
-          <a
-            :href="figure.youtube"
-            target="_blank"
+          <HonorableCard
             v-for="(figure, index) in inspiringFigures"
             :key="index"
-          >
-            <HonorableCard
-              :name="figure.name"
-              :channel="figure.channel"
-              :class="figure.classes"
-              :image="figure.image"
-            />
-          </a>
+            :name="figure.name"
+            :channel="figure.channel"
+            :class="figure.classes"
+            :image="figure.image"
+            :youtube="figure.youtube"
+          />
         </div>
       </div>
     </div>

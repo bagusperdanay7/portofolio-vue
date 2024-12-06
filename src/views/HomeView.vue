@@ -23,11 +23,12 @@ export default {
     ContactSection,
     SpecialSection,
   },
+  methods: {},
 };
 </script>
 
 <template>
-  <!-- TODO: Add Animation, Hover, Active et cetera, Transition when it's done dengan <Transition /> built-in component vue -->
+  <!-- TODO: Add Animation, Transition when it's done dengan <Transition /> built-in component vue -->
   <main>
     <HeroSection />
     <SummarySection />

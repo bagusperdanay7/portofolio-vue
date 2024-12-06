@@ -1,11 +1,32 @@
 <script>
 import HeroButtons from "@/components/ui/HeroButtons.vue";
 import SocialMediaIcons from "./SocialMediaIcons.vue";
+import { Transition } from "vue";
 
 export default {
   components: {
     HeroButtons,
     SocialMediaIcons,
+    Transition,
+  },
+  data() {
+    return {
+      occupation: "Junior Web Developer",
+    };
+  },
+  computed: {
+    autoChangeJobValue() {
+      if (this.occupation === "Junior Web Developer") {
+        setTimeout(() => {
+          this.occupation = "Freelancer";
+        }, 5000);
+      } else {
+        setTimeout(() => {
+          this.occupation = "Junior Web Developer";
+        }, 5000);
+      }
+      return this.occupation;
+    },
   },
 };
 </script>
@@ -16,18 +37,33 @@ export default {
     <div class="grid grid-cols-1 lg:grid-cols-2 gap-5 items-center">
       <div class="z-0">
         <h1
-          class="font-black text-4xl/tight md:text-[40px] mb-0 order-last lg:order-first text-light-100 dark:text-dark-100 animate-startrise"
+          class="font-black text-4xl/tight md:text-[40px] order-last lg:order-first text-light-100 mb-0 dark:text-dark-100 animate-startrise"
         >
           Hello!, My name is
           <span class="text-primary-600 dark:text-primary-300"
             >Bagus Perdana Yusuf</span
-          >. I am
-          <strong
-            class="bg-gradient-to-r from-secondary-600 to-primary-500 text-transparent bg-clip-text dark:from-secondary-300 dark:to-primary-300"
-            >Junior Web Developer</strong
+          >. I am&nbsp;
+          <Transition
+            name="slide-up"
+            enter-active-class="animate-slide-up-in"
+            leave-active-class="animate-slide-up-out"
           >
+            <strong
+              class="bg-gradient-to-r from-secondary-600 to-primary-500 text-transparent bg-clip-text block min-[584px]:inline-block min-[871px]:block min-[1440px]:inline-block absolute dark:from-secondary-300 dark:to-primary-300"
+              v-if="occupation === 'Junior Web Developer'"
+            >
+              {{ autoChangeJobValue }}
+            </strong>
+            <strong
+              class="bg-gradient-to-r from-secondary-600 to-primary-500 text-transparent bg-clip-text block min-[584px]:inline-block min-[871px]:block min-[1440px]:inline-block absolute dark:from-secondary-300 dark:to-primary-300"
+              v-else-if="occupation === 'Freelancer'"
+              >{{ autoChangeJobValue }}
+            </strong>
+          </Transition>
         </h1>
-        <p class="mt-4 text-light-80 mb-6 dark:text-dark-90 animate-startrise">
+        <p
+          class="text-light-80 mb-6 mt-24 min-[385px]:mt-12 min-[584px]:mt-4 min-[871px]:mt-14 min-[1440px]:mt-4 dark:text-dark-90 animate-startrise"
+        >
           Building websites on the front-end and back-end is my primary focus.
           Additionally, I have a strong passion for machine learning and UI/UX
           design.

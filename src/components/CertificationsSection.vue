@@ -42,7 +42,6 @@ export default {
 </script>
 
 <template>
-  <!-- TODO: Kondisi, ketika credential null, link tidak ada -->
   <section class="mt-12" id="certifications">
     <h1
       class="font-bold text-center text-light-100 text-[28px] md:text-[32px] mb-4 dark:text-dark-100"
@@ -97,12 +96,12 @@ export default {
             >
               {{ certificateProvider }}
               <span
-                v-if="!isLoading"
+                v-if="!isLoading && certificateCredential"
                 class="ml-0.5 text-light-100 dark:text-dark-100"
                 >·</span
               >
               <a
-                v-if="!isLoading"
+                v-if="!isLoading && certificateCredential"
                 :href="certificateCredential"
                 target="_blank"
                 class="text-xs ml-1 font-semibold text-light-50 hover:text-primary-600 dark:text-dark-70 dark:hover:text-primary-300"
@@ -138,3 +137,14 @@ export default {
     </div>
   </Transition>
 </template>
+
+<style>
+.fade-enter-active,
+.fade-leave-active {
+  transition: opacity 0.3s ease;
+}
+.fade-enter-from,
+.fade-leave-to {
+  opacity: 0;
+}
+</style>

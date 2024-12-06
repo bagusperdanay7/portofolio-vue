@@ -1,4 +1,3 @@
-// import "./assets/main.css";
 import "./style.css"; // Import Style Tailwind
 import "boxicons";
 import "boxicons/css/boxicons.min.css";
