@@ -1,17 +1,18 @@
 <script>
-import SkillCard from "@/components/ui/SkillCard.vue";
+import SkillCard from "@/components/ui/card/SkillCard.vue";
 import skillJson from "@/data/skills.json";
 
 export default {
+  components: { SkillCard },
   data() {
     return {
       skills: skillJson,
     };
   },
-  components: { SkillCard },
   watch: {},
+  inject: ["dark"],
 };
-// TODO: Di jsonnya, tambahkan dark image dan light, dan edit logo (alpine, tensorflow, laravel, figma)
+// TODO: Di jsonnya, tambahkan dark image dan light
 </script>
 
 <template>

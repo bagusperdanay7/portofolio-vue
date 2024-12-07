@@ -1,43 +1,12 @@
-<template>
-  <section class="mt-12" id="specialThanks">
-    <div class="flex">
-      <div
-        class="bg-light-bg-2 dark:bg-dark-bg-2 flex-1 rounded-[20px] px-[25px] py-[30px]"
-      >
-        <h1
-          class="text-light-100 dark:text-dark-100 mb-4 text-center text-[28px] font-bold md:text-[32px]"
-        >
-          Special Thanks
-        </h1>
-        <p
-          class="text-light-80 dark:text-dark-90 mb-6 text-center text-base font-medium"
-        >
-          {{ description.english }}
-        </p>
-        <div
-          id="honorableMention"
-          class="flex flex-col gap-5 sm:flex-row sm:flex-wrap sm:justify-between lg:flex-nowrap lg:justify-center"
-        >
-          <HonorableCard
-            v-for="(figure, index) in inspiringFigures"
-            :key="index"
-            :name="figure.name"
-            :channel="figure.channel"
-            :class="figure.classes"
-            :image="figure.image"
-            :youtube="figure.youtube"
-          />
-        </div>
-      </div>
-    </div>
-  </section>
-</template>
-
 <script>
 import { RouterLink } from "vue-router";
-import HonorableCard from "./ui/HonorableCard.vue";
+import HonorableCard from "../ui/card/HonorableCard.vue";
 
 export default {
+  components: {
+    HonorableCard,
+    RouterLink,
+  },
   data() {
     return {
       description: {
@@ -75,9 +44,40 @@ export default {
       ],
     };
   },
-  components: {
-    HonorableCard,
-    RouterLink,
-  },
 };
 </script>
+
+<template>
+  <section class="mt-12" id="specialThanks">
+    <div class="flex">
+      <div
+        class="bg-light-bg-2 dark:bg-dark-bg-2 flex-1 rounded-[20px] px-[25px] py-[30px]"
+      >
+        <h1
+          class="text-light-100 dark:text-dark-100 mb-4 text-center text-[28px] font-bold md:text-[32px]"
+        >
+          Special Thanks
+        </h1>
+        <p
+          class="text-light-80 dark:text-dark-90 mb-6 text-center text-base font-medium"
+        >
+          {{ description.english }}
+        </p>
+        <div
+          id="honorableMention"
+          class="flex flex-col gap-5 sm:flex-row sm:flex-wrap sm:justify-between lg:flex-nowrap lg:justify-center"
+        >
+          <HonorableCard
+            v-for="(figure, index) in inspiringFigures"
+            :key="index"
+            :name="figure.name"
+            :channel="figure.channel"
+            :class="figure.classes"
+            :image="figure.image"
+            :youtube="figure.youtube"
+          />
+        </div>
+      </div>
+    </div>
+  </section>
+</template>

@@ -1,6 +1,6 @@
 <script>
-import HeroButtons from "@/components/ui/HeroButtons.vue";
-import SocialMediaIcons from "./SocialMediaIcons.vue";
+import HeroButtons from "@/components/HeroButtons.vue";
+import SocialMediaIcons from "../SocialMediaIcons.vue";
 import { Transition } from "vue";
 
 export default {
@@ -28,20 +28,26 @@ export default {
       return this.occupation;
     },
   },
+  methods: {
+    info() {
+      console.log(this.$refs.herobtn.$refs.hireMeButton);
+    },
+  },
+  inject: ["author"],
 };
 </script>
 
 <template>
-  <!-- TODO: Junior Web Developer pakai animasi: https://vuejs.org/guide/built-ins/transition#transition-between-elements-->
-  <section class="mt-[50px]">
+  <section class="mt-[50px]" id="hero" @click="info">
     <div class="grid grid-cols-1 lg:grid-cols-2 gap-5 items-center">
       <div class="z-0">
         <h1
           class="font-black text-4xl/tight md:text-[40px] order-last lg:order-first text-light-100 mb-0 dark:text-dark-100 animate-startrise"
         >
           Hello!, My name is
-          <span class="text-primary-600 dark:text-primary-300"
-            >Bagus Perdana Yusuf</span
+          <span class="text-primary-600 dark:text-primary-300">{{
+            author
+          }}</span
           >. I am&nbsp;
           <Transition
             name="slide-up"
@@ -68,7 +74,7 @@ export default {
           Additionally, I have a strong passion for machine learning and UI/UX
           design.
         </p>
-        <HeroButtons />
+        <HeroButtons ref="herobtn" @scroll-to-contact="handleScroll" />
         <SocialMediaIcons class="mt-9" />
       </div>
 
@@ -79,8 +85,8 @@ export default {
           >
         </div>
         <img
-          src="../assets/profile.png"
-          alt="Bagus Perdana Yusuf"
+          src="./../../assets/profile.png"
+          :alt="author"
           class="relative left-auto top-auto right-auto bottom-auto xl:left-16 z-10 w-64 mx-auto"
         />
       </div>

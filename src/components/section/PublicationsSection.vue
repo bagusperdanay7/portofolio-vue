@@ -1,3 +1,20 @@
+<script>
+import PublicationCard from "../ui/card/PublicationCard.vue";
+import publications from "@/data/publications.json";
+
+export default {
+  components: {
+    PublicationCard,
+  },
+  data() {
+    return {
+      publications: publications,
+    };
+  },
+  methods: {},
+};
+</script>
+
 <template>
   <section class="mt-12" id="publications">
     <h1
@@ -9,7 +26,7 @@
       class="grid sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-5"
       id="publicationsCards"
     >
-      <Publication
+      <PublicationCard
         v-for="publication in publications"
         :key="publication.id"
         :title="publication.title"
@@ -20,20 +37,3 @@
     </div>
   </section>
 </template>
-
-<script>
-import Publication from "./ui/Publication.vue";
-import publications from "@/data/publications.json";
-
-export default {
-  data() {
-    return {
-      publications: publications,
-    };
-  },
-  components: {
-    Publication,
-  },
-  methods: {},
-};
-</script>

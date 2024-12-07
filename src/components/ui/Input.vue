@@ -2,6 +2,9 @@
 import Label from "./Label.vue";
 
 export default {
+  components: {
+    Label,
+  },
   props: {
     label: {
       type: String,
@@ -27,9 +30,6 @@ export default {
       type: String,
       default: "",
     },
-  },
-  components: {
-    Label,
   },
 };
 </script>

@@ -1,3 +1,26 @@
+<script>
+export default {
+  props: {
+    status: {
+      type: [String, Number],
+      default: "",
+    },
+    institution: {
+      type: String,
+      default: "",
+    },
+    details: {
+      type: String,
+      default: "",
+    },
+    iconClass: {
+      type: String,
+      default: "",
+    },
+  },
+};
+</script>
+
 <template>
   <div class="col-span-4 text-end">
     <time
@@ -30,26 +53,3 @@
   </div>
   <div class="col-span-4"></div>
 </template>
-
-<script>
-export default {
-  props: {
-    status: {
-      type: [String, Number],
-      default: "",
-    },
-    institution: {
-      type: String,
-      default: "",
-    },
-    details: {
-      type: String,
-      default: "",
-    },
-    iconClass: {
-      type: String,
-      default: "",
-    },
-  },
-};
-</script>

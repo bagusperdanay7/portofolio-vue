@@ -1,3 +1,16 @@
+<script>
+import { RouterLink } from "vue-router";
+import ProjectCard from "../ui/card/ProjectCard.vue";
+import Badge from "../ui/Badge.vue";
+export default {
+  components: {
+    Badge,
+    ProjectCard,
+    RouterLink,
+  },
+};
+</script>
+
 <template>
   <section class="mt-12" id="projects">
     <h1
@@ -64,16 +77,3 @@
     </div>
   </section>
 </template>
-
-<script>
-import { RouterLink } from "vue-router";
-import Badge from "./ui/Badge.vue";
-import ProjectCard from "./ui/ProjectCard.vue";
-export default {
-  components: {
-    Badge,
-    ProjectCard,
-    RouterLink,
-  },
-};
-</script>

@@ -1,10 +1,16 @@
 <script>
-import Button from "./ui/Button.vue";
-import Contact from "./ui/Contact.vue";
-import Input from "./ui/Input.vue";
-import TextArea from "./ui/TextArea.vue";
+import ContactList from "../ui/list/ContactList.vue";
+import Input from "../ui/Input.vue";
+import TextArea from "../ui/TextArea.vue";
+import Button from "../ui/Button.vue";
 
 export default {
+  components: {
+    ContactList,
+    Input,
+    TextArea,
+    Button,
+  },
   data() {
     return {
       name: "",
@@ -50,12 +56,6 @@ export default {
       }, 1000);
     },
   },
-  components: {
-    Contact,
-    Input,
-    TextArea,
-    Button,
-  },
 };
 </script>
 
@@ -84,7 +84,7 @@ export default {
           You may also contact me via one of these platforms
         </p>
         <div class="flex flex-col gap-y-6 mt-6" id="contacts">
-          <Contact
+          <ContactList
             v-for="(contact, index) in informationContact"
             :key="index"
             :brand="contact.socialMedia"

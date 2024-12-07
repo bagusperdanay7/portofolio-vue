@@ -1,3 +1,31 @@
+<script>
+// TODO: Ubah pakai project(object) ketika data sudah ada
+export default {
+  props: {
+    name: {
+      type: String,
+      default: "",
+    },
+    description: {
+      type: String,
+      default: "",
+    },
+    snapshot: {
+      type: String,
+      default: "",
+    },
+    category: {
+      type: String,
+      default: "",
+    },
+    createdBy: {
+      type: Array,
+      default: [],
+    },
+  },
+};
+</script>
+
 <template>
   <div
     class="project-card p-[15px] bg-light-bg-2 rounded-[15px] transition-all duration-300 ease-in-out hover:drop-shadow-custom-primary dark:bg-dark-bg-2"
@@ -31,16 +59,3 @@
     </div>
   </div>
 </template>
-
-<script>
-// TODO: Ubah pakai project(object) ketika data sudah ada
-export default {
-  props: {
-    name: String,
-    description: String,
-    snapshot: String,
-    category: String,
-    createdBy: Array,
-  },
-};
-</script>

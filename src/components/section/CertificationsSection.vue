@@ -1,10 +1,10 @@
 <script>
 import { Transition } from "vue";
-import Certificate from "./ui/Certificate.vue";
+import CertificateCard from "../ui/card/CertificateCard.vue";
 import certifications from "@/data/certifications.json";
 
 export default {
-  components: { Certificate, Transition },
+  components: { CertificateCard, Transition },
   data() {
     return {
       isModalShow: false,
@@ -52,7 +52,7 @@ export default {
       class="grid min-[500px]:grid-cols-2 min-[900px]:grid-cols-3 xl:grid-cols-4 gap-5"
       id="certificationsCards"
     >
-      <Certificate
+      <CertificateCard
         v-for="certificate in certificates"
         :key="certificate.id"
         :name="certificate.name"

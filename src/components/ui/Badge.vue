@@ -1,11 +1,3 @@
-<template>
-  <span
-    class="font-bold text-xs px-2 py-1 rounded-full cursor-pointer"
-    :class="[badgeClass]"
-    >{{ text ?? "Default" }}</span
-  >
-</template>
-
 <script>
 export default {
   data() {
@@ -14,7 +6,10 @@ export default {
     };
   },
   props: {
-    text: String,
+    text: {
+      type: String,
+      default: "Default",
+    },
   },
   computed: {
     badgeClass() {
@@ -62,3 +57,11 @@ export default {
   },
 };
 </script>
+
+<template>
+  <span
+    class="font-bold text-xs px-2 py-1 rounded-full cursor-pointer"
+    :class="[badgeClass]"
+    >{{ text }}</span
+  >
+</template>

@@ -1,3 +1,9 @@
+<script>
+export default {
+  inject: ["author"],
+};
+</script>
+
 <template>
   <section class="mt-[50px]" id="summary">
     <h1
@@ -9,8 +15,8 @@
       class="summary-box p-[25px] bg-light-bg-2 rounded-[20px] transition duration-300 ease-in-out dark:bg-dark-bg-2"
     >
       <p class="font-normal text-light-100 dark:text-dark-100">
-        “Hello Everyone, My full name is Bagus Perdana Yusuf, and my nickname is
-        Bagus. Originally from Karawang, West Java, Indonesia, I am a
+        “Hello Everyone, My full name is {{ author }}, and my nickname is Bagus.
+        Originally from Karawang, West Java, Indonesia, I am a
         <strong
           >fresh graduate of informatics engineering from Universitas Komputer
           Indonesia</strong

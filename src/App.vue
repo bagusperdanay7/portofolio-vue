@@ -1,7 +1,7 @@
 <script>
 import { RouterLink, RouterView } from "vue-router";
-import IconMoon from "./components/ui/Icons/IconMoon.vue";
-import IconSun from "./components/ui/Icons/IconSun.vue";
+import IconMoon from "./components/Icons/IconMoon.vue";
+import IconSun from "./components/Icons/IconSun.vue";
 import { Transition } from "vue";
 
 export default {
@@ -104,6 +104,12 @@ export default {
   // TODO: Coba onMounted dll di console.log aja, ketika diclick begimana pakai v-show
   mounted() {
     console.log("mounted");
+  },
+  provide() {
+    return {
+      author: this.creator,
+      dark: this.isDark,
+    };
   },
 };
 </script>

@@ -1,3 +1,25 @@
+<script>
+export default {
+  data() {
+    return {};
+  },
+  props: {
+    name: {
+      type: String,
+      default: "",
+    },
+    provider: {
+      type: String,
+      default: "",
+    },
+    image: {
+      type: String,
+      default: "/src/assets/template.jpg",
+    },
+  },
+};
+</script>
+
 <template>
   <div class="certification">
     <div class="img-container relative group cursor-pointer">
@@ -20,25 +42,3 @@
     </p>
   </div>
 </template>
-
-<script>
-export default {
-  data() {
-    return {};
-  },
-  props: {
-    name: {
-      type: String,
-      default: "",
-    },
-    provider: {
-      type: String,
-      default: "",
-    },
-    image: {
-      type: String,
-      default: "/src/assets/template.jpg",
-    },
-  },
-};
-</script>

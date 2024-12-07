@@ -1,3 +1,25 @@
+<script>
+export default {
+  data() {
+    return {};
+  },
+  props: {
+    brand: {
+      type: String,
+      default: "",
+    },
+    value: {
+      type: String,
+      default: "",
+    },
+    iconClass: {
+      type: String,
+      default: "",
+    },
+  },
+};
+</script>
+
 <template>
   <div class="contact flex flex-row gap-x-4 items-center">
     <i
@@ -6,24 +28,11 @@
     ></i>
     <div class="contact-information">
       <h3 class="font-bold text-sm text-dark-90 mb-1 dark:text-light-80">
-        {{ brand ?? "" }}
+        {{ brand }}
       </h3>
       <p class="text-dark-100 font-normal text-sm dark:text-light-100">
-        {{ value ?? "" }}
+        {{ value }}
       </p>
     </div>
   </div>
 </template>
-
-<script>
-export default {
-  data() {
-    return {};
-  },
-  props: {
-    brand: String,
-    value: String,
-    iconClass: String,
-  },
-};
-</script>

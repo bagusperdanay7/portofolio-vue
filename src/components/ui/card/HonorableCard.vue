@@ -1,3 +1,26 @@
+<script>
+export default {
+  props: {
+    name: {
+      type: String,
+      default: "",
+    },
+    image: {
+      type: String,
+      default: "https://picsum.photos/id/64/367/267",
+    },
+    channel: {
+      type: String,
+      default: "",
+    },
+    youtube: {
+      type: String,
+      default: "",
+    },
+  },
+};
+</script>
+
 <template>
   <a
     :href="youtube"
@@ -21,25 +44,3 @@
     </div>
   </a>
 </template>
-<script>
-export default {
-  props: {
-    name: {
-      type: String,
-      default: "",
-    },
-    image: {
-      type: String,
-      default: "https://picsum.photos/id/64/367/267",
-    },
-    channel: {
-      type: String,
-      default: "",
-    },
-    youtube: {
-      type: String,
-      default: "",
-    },
-  },
-};
-</script>
