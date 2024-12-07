@@ -25,7 +25,13 @@ export default {
   },
   methods: {
     handleScroll() {
-      console.log("berhasil ditangkap");
+      const contact = this.$refs.contact;
+      const contactElement = contact.$el;
+      const input = contact.$refs.nameInput.$refs.input;
+      contactElement.scrollIntoView({ behavior: "smooth" });
+      setTimeout(() => {
+        input.focus();
+      }, 1100);
     },
   },
 };
@@ -34,7 +40,7 @@ export default {
 <template>
   <!-- TODO: Add Animation, Transition when it's done dengan <Transition /> built-in component vue -->
   <main>
-    <HeroSection />
+    <HeroSection @call-to-action="handleScroll" />
     <SummarySection />
     <EducationSection />
     <ExperienceSection />
@@ -42,7 +48,7 @@ export default {
     <ProjectsSection />
     <CertificationsSection />
     <PublicationsSection />
-    <ContactSection />
+    <ContactSection ref="contact" />
     <SpecialSection />
   </main>
 </template>

@@ -4,25 +4,19 @@ export default {
     return {};
   },
   methods: {
-    scrollToContact() {
-      // ganti refs
-      this.$emit("scrollToContact");
-      // const name = document.querySelector("#contacts");
-      // const inputName = name.querySelector("input[id=name]");
-      // name.scrollIntoView({ behavior: "smooth" });
-      // setTimeout(() => {
-      //   inputName.focus();
-      // }, 1100);
-      alert("dipancarkan");
+    createButtonEmit() {
+      this.$emit("callToAction");
     },
   },
+  emits: ["callToAction"],
 };
 </script>
 
 <template>
   <button
+    type="button"
     class="bg-primary-600 font-bold text-dark-100 px-[65px] py-4 w-full md:w-[calc(50%-10px)] lg:w-auto rounded-[10px] hover:bg-primary-700 transition duration-300 ease-in-out dark:bg-primary-500 dark:hover:bg-primary-400"
-    @click="scrollToContact"
+    @click="createButtonEmit"
   >
     Hire Me
   </button>

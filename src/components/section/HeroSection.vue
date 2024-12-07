@@ -1,7 +1,7 @@
 <script>
 import HeroButtons from "@/components/HeroButtons.vue";
 import SocialMediaIcons from "../SocialMediaIcons.vue";
-import { Transition } from "vue";
+import { handleError, Transition } from "vue";
 
 export default {
   components: {
@@ -29,8 +29,8 @@ export default {
     },
   },
   methods: {
-    info() {
-      console.log(this.$refs.herobtn.$refs.hireMeButton);
+    createPassEmit() {
+      this.$emit("callToAction");
     },
   },
   inject: ["author"],
@@ -38,7 +38,7 @@ export default {
 </script>
 
 <template>
-  <section class="mt-[50px]" id="hero" @click="info">
+  <section class="mt-12" id="hero">
     <div class="grid grid-cols-1 lg:grid-cols-2 gap-5 items-center">
       <div class="z-0">
         <h1
@@ -74,7 +74,7 @@ export default {
           Additionally, I have a strong passion for machine learning and UI/UX
           design.
         </p>
-        <HeroButtons ref="herobtn" @scroll-to-contact="handleScroll" />
+        <HeroButtons @call-to-action="createPassEmit" />
         <SocialMediaIcons class="mt-9" />
       </div>
 

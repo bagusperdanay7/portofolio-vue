@@ -44,5 +44,6 @@ export default {
     :name="name"
     :value="modelValue"
     @input="$emit('update:modelValue', $event.target.value)"
+    ref="input"
   />
 </template>

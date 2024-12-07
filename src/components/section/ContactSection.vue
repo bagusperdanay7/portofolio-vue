@@ -106,6 +106,7 @@ export default {
               id="name"
               placeholder="Enter your name"
               v-model="name"
+              ref="nameInput"
             />
           </div>
           <div class="mb-4">

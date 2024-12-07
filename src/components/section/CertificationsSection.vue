@@ -1,7 +1,7 @@
 <script>
 import { Transition } from "vue";
-import CertificateCard from "../ui/card/CertificateCard.vue";
 import certifications from "@/data/certifications.json";
+import CertificateCard from "../ui/card/CertificateCard.vue";
 
 export default {
   components: { CertificateCard, Transition },
