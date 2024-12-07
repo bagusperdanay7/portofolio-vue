@@ -16,35 +16,46 @@ export default {
       switch (this.text) {
         case "HTML":
           this.addOnClass =
-            "text-html bg-html-subtle-light dark:bg-html-subtle-dark";
+            "text-html bg-html-subtle dark:text-html-alt dark:bg-html-subtle-dark";
           break;
         case "CSS":
-          this.addOnClass = "bg-[#D6E7FF] text-[#227AFF]";
+          this.addOnClass =
+            "text-css bg-css-subtle dark:bg-css-subtle-dark dark:text-css-alt";
           break;
         case "JavaScript":
-          this.addOnClass = "bg-[#FFF7DB] text-[#D5B135]";
+          this.addOnClass =
+            "text-javascript-alt bg-javascript-subtle dark:text-javascript dark:bg-javascript-subtle-dark";
           break;
         case "PHP":
-          this.addOnClass = "bg-[#E5E8FF] text-[#2245FF]";
-          break;
-        case "Bootstrap":
-          this.addOnClass = "bg-[#DDE0FF] text-[#3C50FF]";
-          break;
-        case "Laravel":
-          this.addOnClass = "bg-[#FFE3E3] text-[#FF0B0B]";
+          this.addOnClass =
+            "text-php bg-php-subtle dark:text-php-alt dark:bg-php-subtle-dark";
           break;
         case "Python":
           this.addOnClass =
-            "text-python-2 bg-python-2-subtle-light dark:text-python-1 dark:bg-python-1-subtle-dark";
+            "text-python-2 bg-python-2-subtle dark:text-python-1 dark:bg-python-1-subtle-dark";
+          break;
+        case "Bootstrap":
+          this.addOnClass =
+            "text-bootstrap bg-bootstrap-subtle dark:text-bootstrap-alt dark:bg-bootstrap-subtle-dark";
+          break;
+        case "Laravel":
+          this.addOnClass =
+            "text-laravel bg-laravel-subtle dark:text-laravel-alt dark:bg-laravel-subtle-dark";
+          break;
+        case "Tailwind CSS":
+          this.addOnClass =
+            "text-tailwind bg-tailwind-subtle dark:bg-tailwind-subtle-dark";
           break;
         case "UI Design":
-          this.addOnClass = "bg-[#FFE8F6] text-[#FF14A1]";
+          this.addOnClass = "text-ui bg-ui-subtle dark:bg-ui-subtle-dark";
           break;
         case "UX Design":
-          this.addOnClass = "bg-[#DDE0FF] text-[#3C50FF]";
+          this.addOnClass =
+            "text-ux bg-ux-subtle dark:text-ux-alt dark:bg-ux-subtle-dark";
           break;
         case "Figma":
-          this.addOnClass = "bg-[#FFE6DF] text-[#FF3D00]";
+          this.addOnClass =
+            "text-figma bg-figma-subtle dark:bg-figma-subtle-dark";
           break;
         default:
           this.addOnClass =

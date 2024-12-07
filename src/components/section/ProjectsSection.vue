@@ -49,6 +49,7 @@ export default {
         <template #tags>
           <Badge text="UI Design" />
           <Badge text="UX Design" />
+          <Badge text="Tailwind CSS" />
           <Badge text="Figma" />
         </template>
       </ProjectCard>
