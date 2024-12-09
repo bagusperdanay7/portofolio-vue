@@ -26,62 +26,28 @@ export default {
       Projects
     </h1>
     <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-5" id="projectsCards">
-      <ProjectCard
-        name="Dashboard Sistem Informasi Wholesale"
-        description="Website ini dibangun dalam rangka memenuhi tugas kerja praktek di PT Telkom Indonesia, dibangun menggunakan bahasa Pemrograman PHP dan Laravel. Special Attribute to: PT Telkom yang telah dikembangkan oleh"
-        snapshot="src\assets\template.jpg"
-        category="Front-End & Back-End Developer"
-        :createdBy="[
-          'Bagus Perdana Yusuf',
-          'Robi Nurhidayat',
-          'Raden Fachrul Ramzy Muhammad',
-        ]"
+      <RouterLink
+        v-for="project in projects"
+        :key="project.id"
+        :to="{ name: 'project', params: { id: project.id } }"
       >
-        <template #tags>
-          <Badge text="HTML" />
-          <Badge text="CSS" />
-          <Badge text="Bootstrap CSS" />
-          <Badge text="JavaScript" />
-          <Badge text="PHP" />
-          <Badge text="Laravel" />
-          <Badge text="MySQL" />
-        </template>
-      </ProjectCard>
-      <ProjectCard
-        name="Portofolio UI & UX"
-        description="Website ini dibangun dalam rangka memenuhi tugas kerja praktek di PT Telkom Indonesia, dibangun menggunakan bahasa Pemrograman PHP dan Laravel. Special Attribute to: PT Telkom yang telah dikembangkan oleh Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga, quae."
-        snapshot="src\assets\template.jpg"
-        category="UI & UX Design"
-        :createdBy="['Bagus Perdana Yusuf']"
-      >
-        <template #tags>
-          <Badge text="User Experience" />
-          <Badge text="User Interface" />
-          <Badge text="Tailwind CSS" />
-          <Badge text="Figma" />
-          <Badge text="Vue.js" />
-        </template>
-      </ProjectCard>
-      <RouterLink to="/projects/1">
         <ProjectCard
-          name="Final Project - ABSA using Bi-LSTM"
-          description="Program ini dibuat khusus untuk S1 Undergraduate Thesis Final Project menggunakan bahasa pemrograman Python dan Library Keras dan Tensorflow."
-          snapshot="src\assets\template.jpg"
-          category="Machine Learning"
-          :createdBy="['Bagus Perdana Yusuf']"
+          :name="project.name"
+          :description="project.description.english"
+          :snapshot="
+            project.snapshot.length
+              ? project.snapshot[0]
+              : 'src\\assets\\template.jpg'
+          "
+          :category="project.category"
+          :createdBy="project.createdBy"
+          :isMiniProject="project.miniProject"
         >
           <template #tags>
-            <Badge text="Python" />
-            <Badge text="TensorFlow" />
-            <Badge text="Keras" />
+            <Badge v-for="tech in project.technology" :text="tech" />
           </template>
         </ProjectCard>
       </RouterLink>
-    </div>
-    <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-5" id="projectsCards1">
-      <div v-for="project in projects" :key="project.id">
-        {{ project }}
-      </div>
     </div>
     <div class="mt-4 text-center">
       <RouterLink

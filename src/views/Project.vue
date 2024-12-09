@@ -1,5 +1,12 @@
 <script>
-export default {};
+export default {
+  props: {
+    id: {
+      type: Number,
+      required: true,
+    },
+  },
+};
 </script>
 
 <template>

@@ -70,6 +70,28 @@ export default {
           this.addOnClass =
             "text-tensorflow bg-tensorflow/15 dark:bg-tensorflow/15";
           break;
+        case "SASS":
+          this.addOnClass = "text-sass bg-sass/15 dark:bg-sass/15";
+          break;
+        case "Git":
+          this.addOnClass = "text-git bg-git/15 dark:bg-git/15";
+          break;
+        case "jQuery":
+          this.addOnClass =
+            "text-jquery bg-jquery/15 dark:text-jquery-alt dark:bg-jquery-alt/15";
+          break;
+        case "SQLite":
+          this.addOnClass =
+            "text-sqlite bg-sqlite/15 dark:text-sqlite-alt dark:bg-sqlite-alt/15";
+          break;
+        case "PostgreSQL":
+          this.addOnClass =
+            "text-postgresql bg-postgresql/15 dark:text-postgresql-alt dark:bg-postgresql-alt/15";
+          break;
+        case "Vite":
+          this.addOnClass =
+            "text-vite bg-vite/15 dark:text-vite-alt dark:bg-vite-alt/15";
+          break;
         default:
           this.addOnClass =
             "text-light-100 bg-light-100/15 dark:text-dark-90 dark:bg-dark-90/15";

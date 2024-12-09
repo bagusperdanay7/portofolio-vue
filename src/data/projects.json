@@ -1,7 +1,8 @@
 [
   {
+    "id": 1,
     "name": "Dashboard Sistem Informasi Wholesale",
-    "category": "Full-Stack Development",
+    "category": "Full-stack Development",
     "description": {
       "indonesia": "Sistem Informasi Pengelolaan Pelanggan Data Teknis Pelanggan Wholesale Berbasis Web ini dibangun dalam rangka memenuhi tugas kerja praktek di PT Telkom Indonesia Graha Merah Putih Bandung, dibangun menggunakan bahasa Pemrograman PHP dengan framework Laravel.",
       "english": "A Web-Based Wholesale Customer Technical Data Management Information System built in order to fulfill internship assignments at PT Telkom Indonesia Graha Merah Putih Bandung, built using the PHP Programming language with the Laravel framework."
@@ -9,7 +10,7 @@
     "technology": [
       "HTML",
       "CSS",
-      "Bootstrap",
+      "Bootstrap CSS",
       "JavaScript",
       "PHP",
       "Laravel",
@@ -22,10 +23,11 @@
     ],
     "source": "https://github.com/bagusperdanay7/kerja-praktek",
     "url": "",
-    "snapshot": [""],
+    "snapshot": [],
     "miniProject": false
   },
   {
+    "id": 2,
     "name": "Portofolio UI & UX Design",
     "category": "UI & UX Design",
     "description": {
@@ -36,10 +38,11 @@
     "createdBy": ["Bagus Perdana Yusuf"],
     "source": "",
     "url": "https://dribble",
-    "snapshot": [""],
+    "snapshot": [],
     "miniProject": false
   },
   {
+    "id": 3,
     "name": "Portofolio With Vue",
     "category": "Front-end Development",
     "description": {
@@ -50,17 +53,16 @@
     "createdBy": ["Bagus Perdana Yusuf"],
     "source": "https://github.com/bagusperdanay7/portofolio-vue",
     "url": "",
-    "snapshot": [""],
+    "snapshot": [],
     "miniProject": false
   },
   {
+    "id": 4,
     "name": "Kpop Soulmate Website Application",
     "category": "Full-stack Development",
     "description": { "indonesia": "Website ini", "english": "" },
     "technology": [
       "Laravel",
-      "Blade",
-      "Alpine JS",
       "Bootstrap CSS",
       "SASS",
       "HTML",
@@ -72,24 +74,26 @@
     "createdBy": ["Bagus Perdana Yusuf"],
     "source": "https://github.com/bagusperdanay7/ks_web",
     "url": "",
-    "snapshot": [""],
+    "snapshot": [],
     "miniProject": false
   },
   {
+    "id": 5,
     "name": "Final Project Dicoding - Image Classification",
     "category": "Machine Learning",
     "description": {
       "indonesia": "Project akhir dari Kursus Dicoding, yaitu Machine Learning Pemula. Saya ditugaskan untuk membuat Klasifikasi Gambar dengan Python & Tensorflow.",
       "english": "The final project of the Dicoding course, Machine Learning Beginner, I was assigned to make Image Classification with Python & Tensorflow."
     },
-    "technology": ["Tensorflow", "Machine Learning", "Python"],
+    "technology": ["TensorFlow", "Machine Learning", "Python"],
     "createdBy": ["Bagus Perdana Yusuf"],
     "source": "https://github.com/bagusperdanay7/final-project-dicoding",
     "url": "",
-    "snapshot": [""],
+    "snapshot": [],
     "miniProject": false
   },
   {
+    "id": 6,
     "name": "Final Project Undergraduate Thesis - ABSA with BiLSTM",
     "category": "Machine Learning",
     "description": {
@@ -97,7 +101,7 @@
       "english": "My undergraduate thesis, Aspect-Based Sentiment Analysis Towards Market Place Application Reviews Using Bidirectional Long Short-Term Memory, uses the Python programming language and the Keras and Tensorflow libraries to create AI models using 3000 review datasets of one Indonesian marketplace that were collected from Google Play Store platform."
     },
     "technology": [
-      "Tensorflow",
+      "TensorFlow",
       "Machine Learning",
       "Deep Learning",
       "Artificial Intelligence",
@@ -108,10 +112,11 @@
     "createdBy": ["Bagus Perdana Yusuf"],
     "source": "https://github.com/bagusperdanay7/SKRIPSI-Program",
     "url": "",
-    "snapshot": [""],
+    "snapshot": [],
     "miniProject": false
   },
   {
+    "id": 7,
     "name": "IT Course UI & UX - Software Management Project Course (College)",
     "category": "UI & UX Design",
     "description": {
@@ -127,10 +132,11 @@
     ],
     "source": "https://www.figma.com/design/UHWZmtqrQPkLTo1km7YPZn/Design?node-id=221-2&node-type=canvas",
     "url": "",
-    "snapshot": [""],
+    "snapshot": [],
     "miniProject": false
   },
   {
+    "id": 8,
     "name": "IT Course Website - Software Management Project Course (College)",
     "category": "Full-stack Development",
     "description": {
@@ -154,10 +160,11 @@
     ],
     "source": "https://github.com/Robi-Nurhidayat/project-baru",
     "url": "",
-    "snapshot": [""],
+    "snapshot": [],
     "miniProject": false
   },
   {
+    "id": 9,
     "name": "Survey Form - Responsive Web Design Project (freecodecamp)",
     "category": "Front-end Development",
     "description": {
@@ -168,10 +175,11 @@
     "createdBy": ["Bagus Perdana Yusuf"],
     "source": "https://codepen.io/baguspy/pen/zYzoMyJ",
     "url": "https://codepen.io/baguspy/full/zYzoMyJ",
-    "snapshot": [""],
+    "snapshot": [],
     "miniProject": true
   },
   {
+    "id": 10,
     "name": "Tribute Page - Responsive Web Design Project (freecodecamp)",
     "category": "Front-end Development",
     "description": {
@@ -182,10 +190,11 @@
     "createdBy": ["Bagus Perdana Yusuf"],
     "source": "https://codepen.io/baguspy/pen/dyROKBj",
     "url": "https://codepen.io/baguspy/full/dyROKBj",
-    "snapshot": [""],
+    "snapshot": [],
     "miniProject": true
   },
   {
+    "id": 11,
     "name": "Technical Documentation Page - Responsive Web Design Project (freecodecamp)",
     "category": "Front-end Development",
     "description": {
@@ -196,10 +205,11 @@
     "createdBy": ["Bagus Perdana Yusuf"],
     "source": "https://codepen.io/baguspy/pen/rNXoVOj",
     "url": "https://codepen.io/baguspy/full/rNXoVOj",
-    "snapshot": [""],
+    "snapshot": [],
     "miniProject": true
   },
   {
+    "id": 12,
     "name": "Product Landing Page - Responsive Web Design Project (freecodecamp)",
     "category": "Front-end Development",
     "description": {
@@ -210,10 +220,11 @@
     "createdBy": ["Bagus Perdana Yusuf"],
     "source": "https://codepen.io/baguspy/pen/BaXZJJN",
     "url": "https://codepen.io/baguspy/full/BaXZJJN",
-    "snapshot": [""],
+    "snapshot": [],
     "miniProject": true
   },
   {
+    "id": 13,
     "name": "Personal Portofolio Webpage - Responsive Web Design Project (freecodecamp)",
     "category": "Front-end Development",
     "description": {
@@ -224,10 +235,11 @@
     "createdBy": ["Bagus Perdana Yusuf"],
     "source": "https://github.com/Robi-Nurhidayat/project-baru",
     "url": "",
-    "snapshot": [""],
+    "snapshot": [],
     "miniProject": true
   },
   {
+    "id": 14,
     "name": "Kpop Soulmate UI & UX Design",
     "category": "UI & UX Design",
     "description": { "indonesia": "Website ini", "english": "" },
@@ -235,10 +247,11 @@
     "createdBy": ["Bagus Perdana Yusuf"],
     "source": "",
     "url": "",
-    "snapshot": [""],
+    "snapshot": [],
     "miniProject": false
   },
   {
+    "id": 15,
     "name": "Mean Variance Standard Deviation Calculator - Data Analysis With Python (freeCodeCamp)",
     "category": "Data Analysis",
     "description": {
@@ -249,7 +262,7 @@
     "createdBy": ["Bagus Perdana Yusuf"],
     "source": "https://github.com/bagusperdanay7/fcc-DA-Mean-Variance-Standard-Deviation-Calculator",
     "url": "https://replit.com/@baguspyus/Mean-Variance-Standard-Deviation-Calculator",
-    "snapshot": [""],
+    "snapshot": [],
     "miniProject": true
   }
 ]

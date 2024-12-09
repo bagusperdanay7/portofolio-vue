@@ -25,6 +25,7 @@ const router = createRouter({
       path: "/projects/:id",
       name: "project",
       component: () => import("@/views/Project.vue"),
+      props: true,
       meta: {
         title: "Bisa gak?",
       },
