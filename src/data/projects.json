@@ -6,13 +6,21 @@
       "indonesia": "Sistem Informasi Pengelolaan Pelanggan Data Teknis Pelanggan Wholesale Berbasis Web ini dibangun dalam rangka memenuhi tugas kerja praktek di PT Telkom Indonesia Graha Merah Putih Bandung, dibangun menggunakan bahasa Pemrograman PHP dengan framework Laravel.",
       "english": "A Web-Based Wholesale Customer Technical Data Management Information System built in order to fulfill internship assignments at PT Telkom Indonesia Graha Merah Putih Bandung, built using the PHP Programming language with the Laravel framework."
     },
-    "technology": ["HTML", "CSS", "Bootstrap", "JavaScript", "PHP", "Laravel"],
+    "technology": [
+      "HTML",
+      "CSS",
+      "Bootstrap",
+      "JavaScript",
+      "PHP",
+      "Laravel",
+      "MySQL"
+    ],
     "createdBy": [
       "Bagus Perdana Yusuf",
       "Robi Nurhidayat",
       "Raden Fachrul Ramzy Muhammad"
     ],
-    "code": "https://github.com/bagusperdanay7/kerja-praktek",
+    "source": "https://github.com/bagusperdanay7/kerja-praktek",
     "url": "",
     "snapshot": [""],
     "miniProject": false
@@ -26,7 +34,7 @@
     },
     "technology": ["User Interface", "User Experience", "Figma"],
     "createdBy": ["Bagus Perdana Yusuf"],
-    "code": "",
+    "source": "",
     "url": "https://dribble",
     "snapshot": [""],
     "miniProject": false
@@ -40,7 +48,7 @@
     },
     "technology": ["Vue.js", "Tailwind CSS", "Vite"],
     "createdBy": ["Bagus Perdana Yusuf"],
-    "code": "https://github.com/bagusperdanay7/portofolio-vue",
+    "source": "https://github.com/bagusperdanay7/portofolio-vue",
     "url": "",
     "snapshot": [""],
     "miniProject": false
@@ -62,7 +70,7 @@
       "MySQL"
     ],
     "createdBy": ["Bagus Perdana Yusuf"],
-    "code": "https://github.com/bagusperdanay7/ks_web",
+    "source": "https://github.com/bagusperdanay7/ks_web",
     "url": "",
     "snapshot": [""],
     "miniProject": false
@@ -76,7 +84,7 @@
     },
     "technology": ["Tensorflow", "Machine Learning", "Python"],
     "createdBy": ["Bagus Perdana Yusuf"],
-    "code": "https://github.com/bagusperdanay7/final-project-dicoding",
+    "source": "https://github.com/bagusperdanay7/final-project-dicoding",
     "url": "",
     "snapshot": [""],
     "miniProject": false
@@ -98,7 +106,7 @@
       "Python"
     ],
     "createdBy": ["Bagus Perdana Yusuf"],
-    "code": "https://github.com/bagusperdanay7/SKRIPSI-Program",
+    "source": "https://github.com/bagusperdanay7/SKRIPSI-Program",
     "url": "",
     "snapshot": [""],
     "miniProject": false
@@ -117,7 +125,7 @@
       "Raden Fachrul Ramzy Muhammad",
       "Robi Nurhidayat"
     ],
-    "code": "https://www.figma.com/design/UHWZmtqrQPkLTo1km7YPZn/Design?node-id=221-2&node-type=canvas",
+    "source": "https://www.figma.com/design/UHWZmtqrQPkLTo1km7YPZn/Design?node-id=221-2&node-type=canvas",
     "url": "",
     "snapshot": [""],
     "miniProject": false
@@ -144,7 +152,7 @@
       "Raden Fachrul Ramzy Muhammad",
       "Robi Nurhidayat"
     ],
-    "code": "https://github.com/Robi-Nurhidayat/project-baru",
+    "source": "https://github.com/Robi-Nurhidayat/project-baru",
     "url": "",
     "snapshot": [""],
     "miniProject": false
@@ -158,7 +166,7 @@
     },
     "technology": ["HTML", "CSS", "Responsive Web"],
     "createdBy": ["Bagus Perdana Yusuf"],
-    "code": "https://codepen.io/baguspy/pen/zYzoMyJ",
+    "source": "https://codepen.io/baguspy/pen/zYzoMyJ",
     "url": "https://codepen.io/baguspy/full/zYzoMyJ",
     "snapshot": [""],
     "miniProject": true
@@ -172,7 +180,7 @@
     },
     "technology": ["HTML", "CSS", "Responsive Web"],
     "createdBy": ["Bagus Perdana Yusuf"],
-    "code": "https://codepen.io/baguspy/pen/dyROKBj",
+    "source": "https://codepen.io/baguspy/pen/dyROKBj",
     "url": "https://codepen.io/baguspy/full/dyROKBj",
     "snapshot": [""],
     "miniProject": true
@@ -186,7 +194,7 @@
     },
     "technology": ["HTML", "CSS", "Responsive Web"],
     "createdBy": ["Bagus Perdana Yusuf"],
-    "code": "https://codepen.io/baguspy/pen/rNXoVOj",
+    "source": "https://codepen.io/baguspy/pen/rNXoVOj",
     "url": "https://codepen.io/baguspy/full/rNXoVOj",
     "snapshot": [""],
     "miniProject": true
@@ -200,7 +208,7 @@
     },
     "technology": ["HTML", "CSS", "Responsive Web"],
     "createdBy": ["Bagus Perdana Yusuf"],
-    "code": "https://codepen.io/baguspy/pen/BaXZJJN",
+    "source": "https://codepen.io/baguspy/pen/BaXZJJN",
     "url": "https://codepen.io/baguspy/full/BaXZJJN",
     "snapshot": [""],
     "miniProject": true
@@ -214,7 +222,7 @@
     },
     "technology": ["HTML", "CSS", "Responsive Web"],
     "createdBy": ["Bagus Perdana Yusuf"],
-    "code": "https://github.com/Robi-Nurhidayat/project-baru",
+    "source": "https://github.com/Robi-Nurhidayat/project-baru",
     "url": "",
     "snapshot": [""],
     "miniProject": true
@@ -225,7 +233,7 @@
     "description": { "indonesia": "Website ini", "english": "" },
     "technology": ["User Interface", "User Experience", "Figma"],
     "createdBy": ["Bagus Perdana Yusuf"],
-    "code": "",
+    "source": "",
     "url": "",
     "snapshot": [""],
     "miniProject": false
@@ -239,7 +247,7 @@
     },
     "technology": ["Python", "Numpy"],
     "createdBy": ["Bagus Perdana Yusuf"],
-    "code": "https://github.com/bagusperdanay7/fcc-DA-Mean-Variance-Standard-Deviation-Calculator",
+    "source": "https://github.com/bagusperdanay7/fcc-DA-Mean-Variance-Standard-Deviation-Calculator",
     "url": "https://replit.com/@baguspyus/Mean-Variance-Standard-Deviation-Calculator",
     "snapshot": [""],
     "miniProject": true

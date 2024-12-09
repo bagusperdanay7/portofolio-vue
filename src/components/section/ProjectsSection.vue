@@ -2,11 +2,18 @@
 import { RouterLink } from "vue-router";
 import ProjectCard from "../ui/card/ProjectCard.vue";
 import Badge from "../ui/Badge.vue";
+import allProjects from "@/data/projects.json";
+
 export default {
   components: {
     Badge,
     ProjectCard,
     RouterLink,
+  },
+  data() {
+    return {
+      projects: allProjects,
+    };
   },
 };
 </script>
@@ -33,10 +40,11 @@ export default {
         <template #tags>
           <Badge text="HTML" />
           <Badge text="CSS" />
-          <Badge text="Bootstrap" />
+          <Badge text="Bootstrap CSS" />
           <Badge text="JavaScript" />
           <Badge text="PHP" />
           <Badge text="Laravel" />
+          <Badge text="MySQL" />
         </template>
       </ProjectCard>
       <ProjectCard
@@ -47,10 +55,11 @@ export default {
         :createdBy="['Bagus Perdana Yusuf']"
       >
         <template #tags>
-          <Badge text="UI Design" />
-          <Badge text="UX Design" />
+          <Badge text="User Experience" />
+          <Badge text="User Interface" />
           <Badge text="Tailwind CSS" />
           <Badge text="Figma" />
+          <Badge text="Vue.js" />
         </template>
       </ProjectCard>
       <RouterLink to="/projects/1">
@@ -68,6 +77,11 @@ export default {
           </template>
         </ProjectCard>
       </RouterLink>
+    </div>
+    <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-5" id="projectsCards1">
+      <div v-for="project in projects" :key="project.id">
+        {{ project }}
+      </div>
     </div>
     <div class="mt-4 text-center">
       <RouterLink
