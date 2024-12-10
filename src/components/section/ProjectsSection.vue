@@ -15,6 +15,11 @@ export default {
       projects: allProjects,
     };
   },
+  computed: {
+    someProjects() {
+      return this.projects.slice(0, 6);
+    },
+  },
 };
 </script>
 
@@ -27,18 +32,14 @@ export default {
     </h1>
     <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-5" id="projectsCards">
       <RouterLink
-        v-for="project in projects"
+        v-for="project in someProjects"
         :key="project.id"
         :to="{ name: 'project', params: { id: project.id } }"
       >
         <ProjectCard
           :name="project.name"
           :description="project.description.english"
-          :snapshot="
-            project.snapshot.length
-              ? project.snapshot[0]
-              : 'src\\assets\\template.jpg'
-          "
+          :snapshot="project.snapshot"
           :category="project.category"
           :createdBy="project.createdBy"
           :isMiniProject="project.miniProject"

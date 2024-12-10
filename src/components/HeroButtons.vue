@@ -21,7 +21,7 @@ export default {
     Hire Me
   </button>
   <a
-    href="/CV.pdf"
+    href="/document/CV.pdf"
     target="_blank"
     class="inline-block font-bold text-primary-700 px-[65px] py-4 w-full md:w-[calc(50%-10px)] lg:w-auto text-center mt-4 md:mt-0 md:ml-5 rounded-[10px] border border-primary-700 transition duration-300 ease-in-out hover:bg-primary-100 dark:text-primary-300 dark:border-primary-300 dark:hover:bg-primary-950"
     >View CV

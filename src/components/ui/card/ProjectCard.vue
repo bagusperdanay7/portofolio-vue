@@ -1,5 +1,4 @@
 <script>
-// TODO: Ubah pakai project(object) ketika data sudah ada
 export default {
   props: {
     name: {
@@ -11,7 +10,7 @@ export default {
       default: "",
     },
     snapshot: {
-      type: String,
+      type: Array,
       default: "",
     },
     category: {
@@ -35,10 +34,23 @@ export default {
     class="project-card p-[15px] bg-light-bg-2 rounded-[15px] transition-all duration-300 ease-in-out hover:drop-shadow-custom-primary dark:bg-dark-bg-2"
   >
     <div class="project-image relative">
-      <img :src="snapshot" :alt="name" class="w-full rounded-[10px]" />
+      <img
+        :src="
+          snapshot.length ? snapshot[0].preview : 'src\\assets\\template.jpg'
+        "
+        :alt="snapshot.length ? snapshot[0].caption : name"
+        class="w-full rounded-[10px] text-xs"
+        :title="
+          snapshot.length
+            ? snapshot[0].original
+              ? ''
+              : 'This is an illustrative image'
+            : ''
+        "
+      />
       <span
         v-if="isMiniProject"
-        class="absolute top-0 translate-x-2 translate-y-2 text-[10px] font-bold text-dark-100 px-1.5 py-1 bg-primary-950/90 rounded-md"
+        class="absolute top-0 translate-x-2 translate-y-2 text-[10px] font-bold text-dark-100 px-1.5 py-1 bg-primary-600/90 rounded-lg"
         >Mini Project</span
       >
     </div>

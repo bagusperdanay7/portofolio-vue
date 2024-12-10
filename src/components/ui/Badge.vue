@@ -92,6 +92,28 @@ export default {
           this.addOnClass =
             "text-vite bg-vite/15 dark:text-vite-alt dark:bg-vite-alt/15";
           break;
+        case "Numpy":
+          this.addOnClass =
+            "text-numpy bg-numpy/15 dark:text-numpy-alt dark:bg-numpy-alt/15";
+          break;
+        case "Pandas":
+          this.addOnClass =
+            "text-pandas bg-pandas/15 dark:text-pandas-alt dark:bg-pandas-alt/15";
+          break;
+        case "Responsive Web":
+          this.addOnClass = "text-responsive bg-responsive/15";
+          break;
+        case "Machine Learning":
+          this.addOnClass =
+            "text-machine-learning bg-machine-learning/15 dark:text-machine-learning-alt dark:bg-machine-learning-alt/15";
+          break;
+        case "Artificial Intelligence":
+          this.addOnClass = "text-ai bg-ai/15 dark:text-ai-alt bg-ai-alt/15";
+          break;
+        case "Deep Learning":
+          this.addOnClass =
+            "text-deep-learning bg-deep-learning/15 dark:text-deep-learning-alt dark:bg-deep-learning-alt/15";
+          break;
         default:
           this.addOnClass =
             "text-light-100 bg-light-100/15 dark:text-dark-90 dark:bg-dark-90/15";

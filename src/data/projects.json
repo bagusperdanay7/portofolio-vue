@@ -10,8 +10,8 @@
     "technology": [
       "HTML",
       "CSS",
-      "Bootstrap CSS",
       "JavaScript",
+      "Bootstrap CSS",
       "PHP",
       "Laravel",
       "MySQL"
@@ -23,22 +23,42 @@
     ],
     "source": "https://github.com/bagusperdanay7/kerja-praktek",
     "url": "",
-    "snapshot": [],
+    "snapshot": [
+      {
+        "preview": "https://github.com/bagusperdanay7/kerja-praktek/blob/main/docs/image/Rekap-deployment-page.png?raw=true",
+        "caption": "Rekap deployment Page",
+        "original": true
+      }
+    ],
     "miniProject": false
   },
   {
     "id": 2,
-    "name": "Portofolio UI & UX Design",
-    "category": "UI & UX Design",
+    "name": "Final Project Undergraduate Thesis - ABSA with BiLSTM",
+    "category": "Machine Learning",
     "description": {
-      "indonesia": "Merancang User Interface dan User Experience portofolio saya menggunakan aplikasi Figma",
-      "english": "Design my portfolio's User Interface and User Experience using Figma software"
+      "indonesia": "Kode program dari skripsi berjudul Analisis Sentimen Berbasis Aspek Terhadap Ulasan Aplikasi Market Place Menggunakan Bidirectional Long Short-Term Memory, mengimplementasikan hasil penelitian skripsi saya dengan bahasa pemrograman Python dan bantuan library Keras dan Tensorflow dalam pembuatan model AI dengan 3000 dataset ulasan salah satu market place Indonesia diambil dari platform Google Play Store.",
+      "english": "My undergraduate thesis, Aspect-Based Sentiment Analysis Towards Market Place Application Reviews Using Bidirectional Long Short-Term Memory, uses the Python programming language and the Keras and Tensorflow libraries to create AI models using 3000 review datasets of one Indonesian marketplace that were collected from Google Play Store platform."
     },
-    "technology": ["User Interface", "User Experience", "Figma"],
+    "technology": [
+      "Python",
+      "Pandas",
+      "Keras",
+      "TensorFlow",
+      "Deep Learning",
+      "Artificial Intelligence",
+      "Machine Learning"
+    ],
     "createdBy": ["Bagus Perdana Yusuf"],
-    "source": "",
-    "url": "https://dribble",
-    "snapshot": [],
+    "source": "https://github.com/bagusperdanay7/SKRIPSI-Program",
+    "url": "",
+    "snapshot": [
+      {
+        "preview": "/image/projects/absa-blstm/illustration-absa.jpg",
+        "caption": "Illustration of Aspect-Based Sentiment Analysis BiLSTM Project",
+        "original": false
+      }
+    ],
     "miniProject": false
   },
   {
@@ -58,17 +78,20 @@
   },
   {
     "id": 4,
-    "name": "Kpop Soulmate Website Application",
+    "name": "Content Management Web Application",
     "category": "Full-stack Development",
-    "description": { "indonesia": "Website ini", "english": "" },
+    "description": {
+      "indonesia": "Website ini",
+      "english": "Content Management Web Application is a full-stack web application for managing YouTube content developed using the Laravel framework with the PHP programming language, and MySQL database. The purpose of this application is to facilitate the creator to manage content, track content requests from subscribers, help subscribers find content created by creator based on content categories, and share AI models created by creators."
+    },
     "technology": [
-      "Laravel",
-      "Bootstrap CSS",
-      "SASS",
       "HTML",
       "CSS",
       "JavaScript",
+      "SASS",
+      "Bootstrap CSS",
       "PHP",
+      "Laravel",
       "MySQL"
     ],
     "createdBy": ["Bagus Perdana Yusuf"],
@@ -85,34 +108,43 @@
       "indonesia": "Project akhir dari Kursus Dicoding, yaitu Machine Learning Pemula. Saya ditugaskan untuk membuat Klasifikasi Gambar dengan Python & Tensorflow.",
       "english": "The final project of the Dicoding course, Machine Learning Beginner, I was assigned to make Image Classification with Python & Tensorflow."
     },
-    "technology": ["TensorFlow", "Machine Learning", "Python"],
+    "technology": ["Python", "TensorFlow", "Machine Learning"],
     "createdBy": ["Bagus Perdana Yusuf"],
     "source": "https://github.com/bagusperdanay7/final-project-dicoding",
     "url": "",
-    "snapshot": [],
+    "snapshot": [
+      {
+        "preview": "/image/projects/dicoding/rock-paper-scissors.jpg",
+        "caption": "Illustration of Rock Paper Scissors Image Classification Project",
+        "original": false
+      }
+    ],
     "miniProject": false
   },
   {
     "id": 6,
-    "name": "Final Project Undergraduate Thesis - ABSA with BiLSTM",
-    "category": "Machine Learning",
+    "name": "Portofolio UI & UX Design",
+    "category": "UI & UX Design",
     "description": {
-      "indonesia": "Kode program dari skripsi berjudul Analisis Sentimen Berbasis Aspek Terhadap Ulasan Aplikasi Market Place Menggunakan Bidirectional Long Short-Term Memory, mengimplementasikan hasil penelitian skripsi saya dengan bahasa pemrograman Python dan bantuan library Keras dan Tensorflow dalam pembuatan model AI dengan 3000 dataset ulasan salah satu market place Indonesia diambil dari platform Google Play Store.",
-      "english": "My undergraduate thesis, Aspect-Based Sentiment Analysis Towards Market Place Application Reviews Using Bidirectional Long Short-Term Memory, uses the Python programming language and the Keras and Tensorflow libraries to create AI models using 3000 review datasets of one Indonesian marketplace that were collected from Google Play Store platform."
+      "indonesia": "Merancang User Interface dan User Experience portofolio saya menggunakan aplikasi Figma",
+      "english": "Design my portfolio's User Interface and User Experience using Figma software"
     },
-    "technology": [
-      "TensorFlow",
-      "Machine Learning",
-      "Deep Learning",
-      "Artificial Intelligence",
-      "Keras",
-      "Pandas",
-      "Python"
-    ],
+    "technology": ["User Interface", "User Experience", "Figma"],
     "createdBy": ["Bagus Perdana Yusuf"],
-    "source": "https://github.com/bagusperdanay7/SKRIPSI-Program",
-    "url": "",
-    "snapshot": [],
+    "source": "",
+    "url": "https://dribble",
+    "snapshot": [
+      {
+        "preview": "/image/projects/ui-ux-portfolio/preview-personal-portfolio.jpg",
+        "caption": "Preview of UI & UX of Personal Portfolio - Home Page",
+        "original": true
+      },
+      {
+        "preview": "/image/projects/ui-ux-portfolio/portfolio-ui-home.jpg",
+        "caption": "UI & UX of Personal Portfolio",
+        "original": true
+      }
+    ],
     "miniProject": false
   },
   {
@@ -132,7 +164,13 @@
     ],
     "source": "https://www.figma.com/design/UHWZmtqrQPkLTo1km7YPZn/Design?node-id=221-2&node-type=canvas",
     "url": "",
-    "snapshot": [],
+    "snapshot": [
+      {
+        "preview": "/image/projects/ui-ux-course/landing-page-preview.jpg",
+        "caption": "Preview of Landing Page Course UI & UX Design",
+        "original": true
+      }
+    ],
     "miniProject": false
   },
   {
@@ -175,7 +213,13 @@
     "createdBy": ["Bagus Perdana Yusuf"],
     "source": "https://codepen.io/baguspy/pen/zYzoMyJ",
     "url": "https://codepen.io/baguspy/full/zYzoMyJ",
-    "snapshot": [],
+    "snapshot": [
+      {
+        "preview": "/image/projects/freecodecamp-responsive-web-design/survey-form-freecodecamp.png",
+        "caption": "Preview of Survey Form Freecodecamp",
+        "original": true
+      }
+    ],
     "miniProject": true
   },
   {
@@ -190,7 +234,13 @@
     "createdBy": ["Bagus Perdana Yusuf"],
     "source": "https://codepen.io/baguspy/pen/dyROKBj",
     "url": "https://codepen.io/baguspy/full/dyROKBj",
-    "snapshot": [],
+    "snapshot": [
+      {
+        "preview": "/image/projects/freecodecamp-responsive-web-design/tribute-page-freecodecamp.png",
+        "caption": "Preview of Tribute Page Freecodecamp",
+        "original": true
+      }
+    ],
     "miniProject": true
   },
   {
@@ -205,7 +255,13 @@
     "createdBy": ["Bagus Perdana Yusuf"],
     "source": "https://codepen.io/baguspy/pen/rNXoVOj",
     "url": "https://codepen.io/baguspy/full/rNXoVOj",
-    "snapshot": [],
+    "snapshot": [
+      {
+        "preview": "/image/projects/freecodecamp-responsive-web-design/technical-doc-freecodecamp.png",
+        "caption": "Preview of PHP Technical Documentation Page Freecodecamp",
+        "original": true
+      }
+    ],
     "miniProject": true
   },
   {
@@ -220,7 +276,13 @@
     "createdBy": ["Bagus Perdana Yusuf"],
     "source": "https://codepen.io/baguspy/pen/BaXZJJN",
     "url": "https://codepen.io/baguspy/full/BaXZJJN",
-    "snapshot": [],
+    "snapshot": [
+      {
+        "preview": "/image/projects/freecodecamp-responsive-web-design/product-landing-page-freecodecamp.png",
+        "caption": "Preview of Product Landing Page Freecodecamp",
+        "original": true
+      }
+    ],
     "miniProject": true
   },
   {
@@ -233,21 +295,33 @@
     },
     "technology": ["HTML", "CSS", "Responsive Web"],
     "createdBy": ["Bagus Perdana Yusuf"],
-    "source": "https://github.com/Robi-Nurhidayat/project-baru",
-    "url": "",
-    "snapshot": [],
+    "source": "https://codepen.io/baguspy/pen/ExqGmzR",
+    "url": "https://codepen.io/baguspy/full/ExqGmzR",
+    "snapshot": [
+      {
+        "preview": "/image/projects/freecodecamp-responsive-web-design/personal-portfolio-freecodecamp.png",
+        "caption": "Preview of Personal Portfolio Freecodecamp",
+        "original": true
+      }
+    ],
     "miniProject": true
   },
   {
     "id": 14,
-    "name": "Kpop Soulmate UI & UX Design",
+    "name": "Content Management UI & UX Design",
     "category": "UI & UX Design",
     "description": { "indonesia": "Website ini", "english": "" },
     "technology": ["User Interface", "User Experience", "Figma"],
     "createdBy": ["Bagus Perdana Yusuf"],
     "source": "",
     "url": "",
-    "snapshot": [],
+    "snapshot": [
+      {
+        "preview": "/image/projects/ui-ux-cmwa/homepage-ui.png",
+        "caption": "Homepage of UI & UX Design",
+        "original": true
+      }
+    ],
     "miniProject": false
   },
   {

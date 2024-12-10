@@ -3,126 +3,126 @@
     "id": 1,
     "name": "Memulai Pemrograman Dengan Python",
     "provider": "Dicoding Indonesia",
-    "image": "/certificates/Pemrograman-dengan-Python.jpg",
+    "image": "/image/certificates/Pemrograman-dengan-Python.jpg",
     "credential": "https://www.dicoding.com/certificates/NVP7KDKNOZR0"
   },
   {
     "id": 2,
     "name": "Belajar Dasar Visualisasi Data",
     "provider": "Dicoding Indonesia",
-    "image": "/certificates/Belajar- Visualisasi-Data.jpg",
+    "image": "/image/certificates/Belajar- Visualisasi-Data.jpg",
     "credential": "https://www.dicoding.com/certificates/4EXG61EV1ZRL"
   },
   {
     "id": 3,
     "name": "Introduction to HTML",
     "provider": "Sololearn",
-    "image": "/certificates/Introduction-to-HTML.png",
+    "image": "/image/certificates/Introduction-to-HTML.png",
     "credential": "https://www.sololearn.com/certificates/CC-02R2QKG3"
   },
   {
     "id": 4,
     "name": "Introduction to CSS",
     "provider": "Sololearn",
-    "image": "/certificates/Introduction-to-CSS.jpg",
+    "image": "/image/certificates/Introduction-to-CSS.jpg",
     "credential": "https://www.sololearn.com/certificates/CC-YQBE6YIR"
   },
   {
     "id": 5,
     "name": "Belajar Machine Learning untuk Pemula",
     "provider": "Dicoding Indonesia",
-    "image": "/certificates/Belajar-Machine-Learning.jpg",
+    "image": "/image/certificates/Belajar-Machine-Learning.jpg",
     "credential": "https://www.dicoding.com/certificates/98XWV95M4PM3"
   },
   {
     "id": 6,
     "name": "UI / UX for Beginners",
     "provider": "Great Learning",
-    "image": "/certificates/UI-UX-for-Beginners.jpg",
+    "image": "/image/certificates/UI-UX-for-Beginners.jpg",
     "credential": "https://www.mygreatlearning.com/certificate/NHPDSNDF"
   },
   {
     "id": 7,
     "name": "PHP",
     "provider": "Sololearn",
-    "image": "/certificates/PHP.jpg",
+    "image": "/image/certificates/PHP.jpg",
     "credential": "https://www.sololearn.com/certificates/CC-GCTDIRI6"
   },
   {
     "id": 8,
     "name": "Introduction to SQL",
     "provider": "Sololearn",
-    "image": "/certificates/Introduction-to-SQL.jpg",
+    "image": "/image/certificates/Introduction-to-SQL.jpg",
     "credential": "https://www.sololearn.com/certificates/CC-N4C8HWGN"
   },
   {
     "id": 9,
     "name": "Introduction to Python",
     "provider": "Sololearn",
-    "image": "/certificates/Introduction-to-Python.jpg",
+    "image": "/image/certificates/Introduction-to-Python.jpg",
     "credential": "https://www.sololearn.com/certificates/CC-MWWHECXG"
   },
   {
     "id": 10,
     "name": "Introduction to JavaScript",
     "provider": "Sololearn",
-    "image": "/certificates/Introduction-to-JavaScript.jpg",
+    "image": "/image/certificates/Introduction-to-JavaScript.jpg",
     "credential": "https://www.sololearn.com/certificates/CC-PZYX27MM"
   },
   {
     "id": 10,
     "name": "Introduction to JavaScript",
     "provider": "Sololearn",
-    "image": "/certificates/Introduction-to-JavaScript.jpg",
+    "image": "/image/certificates/Introduction-to-JavaScript.jpg",
     "credential": "https://www.sololearn.com/certificates/CC-PZYX27MM"
   },
   {
     "id": 11,
     "name": "JavaScript Intermediate",
     "provider": "Sololearn",
-    "image": "/certificates/JavaScript-Intermediate.jpg",
+    "image": "/image/certificates/JavaScript-Intermediate.jpg",
     "credential": "https://www.sololearn.com/certificates/CC-DIELHBSN"
   },
   {
     "id": 12,
     "name": "Python",
     "provider": "Kaggle",
-    "image": "/certificates/Python.png",
+    "image": "/image/certificates/Python.png",
     "credential": "https://www.kaggle.com/learn/certification/bagusperdanayusuf/python"
   },
   {
     "id": 13,
     "name": "Intro to AI Ethics",
     "provider": "Kaggle",
-    "image": "/certificates/Intro-to-AI-Ethics.png",
+    "image": "/image/certificates/Intro-to-AI-Ethics.png",
     "credential": "https://www.kaggle.com/learn/certification/bagusperdanayusuf/intro-to-ai-ethics"
   },
   {
     "id": 14,
     "name": "Responsive Web Design",
     "provider": "freeCodeCamp",
-    "image": "/certificates/responsive-web-design.png",
+    "image": "/image/certificates/responsive-web-design.png",
     "credential": "https://www.freecodecamp.org/certification/bagusperdana/responsive-web-design"
   },
   {
     "id": 15,
     "name": "Paper presenter at IEEE The International Conference on Informatics Engineering, Science & Technology (INCITEST) 2023",
     "provider": "IEEE, Universitas Komputer Indonesia",
-    "image": "/certificates/presenter-incitest.jpg",
+    "image": "/image/certificates/presenter-incitest.jpg",
     "credential": "https://doi.org/10.1109/INCITEST59455.2023.10396931"
   },
   {
     "id": 16,
     "name": "Certificate of Competence",
     "provider": "Badan Nasional Sertifikasi Profesi (BNSP)",
-    "image": "/certificates/competent-certificate.jpg",
+    "image": "/image/certificates/competent-certificate.jpg",
     "credential": ""
   },
   {
     "id": 17,
     "name": "English Proficiency Test at Universitas Komputer Indonesia",
     "provider": "Universitas Komputer Indonesia Language Center",
-    "image": "/certificates/toefl.jpg",
+    "image": "/image/certificates/toefl.jpg",
     "credential": ""
   }
 ]
