@@ -17,11 +17,13 @@ export default {
       creator: "Bagus Perdana Yusuf",
       logo: "Bagus.py",
       isMobileMenuOpened: false,
-      isDark: !!(
-        localStorage.theme === "dark" ||
-        (!("theme" in localStorage) &&
-          window.matchMedia("(prefers-color-scheme: dark)").matches)
-      ),
+      theme: {
+        isDark: !!(
+          localStorage.theme === "dark" ||
+          (!("theme" in localStorage) &&
+            window.matchMedia("(prefers-color-scheme: dark)").matches)
+        ),
+      },
       homeMenus: [
         {
           name: "Summary",
@@ -80,12 +82,12 @@ export default {
       }
     },
     switchTheme() {
-      if (this.isDark) {
-        this.isDark = false;
+      if (this.theme.isDark) {
+        this.theme.isDark = false;
         document.documentElement.classList.remove("dark");
         localStorage.theme = "light";
       } else {
-        this.isDark = true;
+        this.theme.isDark = true;
         document.documentElement.classList.add("dark");
         localStorage.theme = "dark";
       }
@@ -108,14 +110,13 @@ export default {
   provide() {
     return {
       author: this.creator,
-      dark: this.isDark,
+      theme: this.theme,
     };
   },
 };
 </script>
 
 <template>
-  <!-- TODO: Alter Data -->
   <Transition
     name="nav-mobile"
     enter-active-class="animate-nav-mobile-show"
@@ -140,7 +141,7 @@ export default {
               type="button"
               @click="switchTheme"
             >
-              <IconSun v-if="isDark" />
+              <IconSun v-if="theme.isDark" />
               <IconMoon v-else />
             </button>
             <button
@@ -203,7 +204,7 @@ export default {
             class="ml-6 text-base font-bold"
             @click="switchTheme"
           >
-            <IconSun v-if="isDark" />
+            <IconSun v-if="theme.isDark" />
             <IconMoon v-else />
           </button>
         </li>

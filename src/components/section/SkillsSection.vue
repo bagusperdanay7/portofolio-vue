@@ -9,10 +9,8 @@ export default {
       skills: skillJson,
     };
   },
-  watch: {},
-  inject: ["dark"],
+  inject: ["theme"],
 };
-// TODO: Di jsonnya, tambahkan dark image dan light
 </script>
 
 <template>
@@ -29,10 +27,9 @@ export default {
         v-for="skill in skills"
         :key="skill.id"
         :skill="skill.name"
-        :logo="skill.logo"
+        :logo="theme.isDark ? skill.logo.dark : skill.logo.light"
         :description="skill.description"
-      >
-      </SkillCard>
+      />
     </div>
   </section>
 </template>

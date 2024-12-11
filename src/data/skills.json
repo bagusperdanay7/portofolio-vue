@@ -3,103 +3,154 @@
     "id": 1,
     "name": "HTML",
     "description": "Hypertext Markup Language",
-    "logo": "/logo/html.svg"
+    "logo": {
+      "light": "/logo/html.svg",
+      "dark": "/logo/html.svg"
+    }
   },
   {
     "id": 2,
     "name": "CSS",
     "description": "Cascading Stylesheet",
-    "logo": "/logo/css.svg"
+    "logo": {
+      "light": "/logo/css.svg",
+      "dark": "/logo/css.svg"
+    }
   },
   {
     "id": 3,
     "name": "JavaScript",
     "description": "JavaScript Programming Language",
-    "logo": "/logo/javascript.svg"
+    "logo": {
+      "light": "/logo/javascript.svg",
+      "dark": "/logo/javascript.svg"
+    }
   },
   {
     "id": 4,
     "name": "SASS",
     "description": "Syntactically Awesome Style Sheets",
-    "logo": "/logo/sass.svg"
+    "logo": {
+      "light": "/logo/sass.svg",
+      "dark": "/logo/sass.svg"
+    }
   },
   {
     "id": 5,
     "name": "PHP",
     "description": "Hypertext Preprocessor Programming Language",
-    "logo": "/logo/php.svg"
+    "logo": {
+      "light": "/logo/php.svg",
+      "dark": "/logo/php.svg"
+    }
   },
   {
     "id": 6,
     "name": "Python",
     "description": "Python Programming Language",
-    "logo": "/logo/python.svg"
+    "logo": {
+      "light": "/logo/python.svg",
+      "dark": "/logo/python.svg"
+    }
   },
   {
     "id": 7,
     "name": "Boostrap",
     "description": "Bootstrap CSS Framework",
-    "logo": "/logo/bootstrap.svg"
+    "logo": {
+      "light": "/logo/bootstrap.svg",
+      "dark": "/logo/bootstrap.svg"
+    }
   },
   {
     "id": 8,
     "name": "Tailwind CSS",
     "description": "Tailwind CSS Framework",
-    "logo": "/logo/tailwindcss.svg"
+    "logo": {
+      "light": "/logo/tailwindcss.svg",
+      "dark": "/logo/tailwindcss.svg"
+    }
   },
   {
     "id": 9,
     "name": "MySQL",
     "description": "MySQL: Relational Database Management System",
-    "logo": "/logo/mysql.svg"
+    "logo": {
+      "light": "/logo/mysql.svg",
+      "dark": "/logo/mysql.svg"
+    }
   },
   {
     "id": 10,
     "name": "jQuery",
     "description": "jQuery: A JavaScript library",
-    "logo": "/logo/jquery.svg"
+    "logo": {
+      "light": "/logo/jquery.svg",
+      "dark": "/logo/jquery.svg"
+    }
   },
   {
     "id": 11,
     "name": "PostgreSQL",
     "description": "PostgreSQL: Relational Database Management System",
-    "logo": "/logo/postgresql.svg"
+    "logo": {
+      "light": "/logo/postgresql.svg",
+      "dark": "/logo/postgresql.svg"
+    }
   },
   {
     "id": 12,
     "name": "Vue.js",
     "description": "Vue.js: Progressive JavaScript Framework",
-    "logo": "/logo/vue.svg"
+    "logo": {
+      "light": "/logo/vue.svg",
+      "dark": "/logo/vue.svg"
+    }
   },
   {
     "id": 13,
     "name": "Laravel",
     "description": "Laravel: PHP Framework",
-    "logo": "/logo/laravel.svg"
+    "logo": {
+      "light": "/logo/laravel.svg",
+      "dark": "/logo/laravel.svg"
+    }
   },
   {
     "id": 14,
     "name": "Figma",
     "description": "Figma: Inteface Design Tool",
-    "logo": "/logo/figma.svg"
+    "logo": {
+      "light": "/logo/figma.svg",
+      "dark": "/logo/figma.svg"
+    }
   },
 
   {
     "id": 15,
     "name": "TensorFlow",
     "description": "TensorFlow: Machine Learning framework",
-    "logo": "/logo/tensorflow.svg"
+    "logo": {
+      "light": "/logo/tensorflow.svg",
+      "dark": "/logo/tensorflow.svg"
+    }
   },
   {
     "id": 16,
     "name": "Git",
     "description": "Git: Version Control System",
-    "logo": "/logo/git.svg"
+    "logo": {
+      "light": "/logo/git.svg",
+      "dark": "/logo/git.svg"
+    }
   },
   {
     "id": 17,
     "name": "GitHub",
     "description": "GitHub: Public Code repository",
-    "logo": "/logo/github.svg"
+    "logo": {
+      "light": "/logo/github.svg",
+      "dark": "/logo/github-dark.svg"
+    }
   }
 ]

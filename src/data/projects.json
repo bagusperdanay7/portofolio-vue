@@ -25,8 +25,8 @@
     "url": "",
     "snapshot": [
       {
-        "preview": "https://github.com/bagusperdanay7/kerja-praktek/blob/main/docs/image/Rekap-deployment-page.png?raw=true",
-        "caption": "Rekap deployment Page",
+        "preview": "/image/projects/telkom-intership/dashboard-home.png",
+        "caption": "Preview of Dashboard Rekap Deployment Home Page",
         "original": true
       }
     ],
@@ -54,7 +54,7 @@
     "url": "",
     "snapshot": [
       {
-        "preview": "/image/projects/absa-blstm/illustration-absa.jpg",
+        "preview": "/image/projects/absa-blstm/absa-illustration.jpg",
         "caption": "Illustration of Aspect-Based Sentiment Analysis BiLSTM Project",
         "original": false
       }
@@ -135,8 +135,8 @@
     "url": "https://dribble",
     "snapshot": [
       {
-        "preview": "/image/projects/ui-ux-portfolio/preview-personal-portfolio.jpg",
-        "caption": "Preview of UI & UX of Personal Portfolio - Home Page",
+        "preview": "/image/projects/ui-ux-portfolio/preview-home-portfolio.png",
+        "caption": "Preview of Portfolio Home page UI & UX design",
         "original": true
       },
       {

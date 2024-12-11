@@ -95,7 +95,6 @@ export default {
         "numpy-alt": "#7fc8e1",
         pandas: "#150458",
         "pandas-alt": "#8c7dff",
-        // TODO: Code https://colorkit.co/palette/ffadad-ffd6a5-fdffb6-caffbf-9bf6ff-a0c4ff-bdb2ff-ffc6ff/
       },
       screens: {
         xs: "425px",
