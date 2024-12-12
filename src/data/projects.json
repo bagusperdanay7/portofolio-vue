@@ -97,7 +97,13 @@
     "createdBy": ["Bagus Perdana Yusuf"],
     "source": "https://github.com/bagusperdanay7/ks_web",
     "url": "",
-    "snapshot": [],
+    "snapshot": [
+      {
+        "preview": "/image/projects/content-management-wa/preview-home-cms.png",
+        "caption": "Preview of Home page Content Management web apps",
+        "original": true
+      }
+    ],
     "miniProject": false
   },
   {
@@ -166,7 +172,7 @@
     "url": "",
     "snapshot": [
       {
-        "preview": "/image/projects/ui-ux-course/landing-page-preview.jpg",
+        "preview": "/image/projects/ui-ux-course/landing-page-preview.png",
         "caption": "Preview of Landing Page Course UI & UX Design",
         "original": true
       }
@@ -215,8 +221,8 @@
     "url": "https://codepen.io/baguspy/full/zYzoMyJ",
     "snapshot": [
       {
-        "preview": "/image/projects/freecodecamp-responsive-web-design/survey-form-freecodecamp.png",
-        "caption": "Preview of Survey Form Freecodecamp",
+        "preview": "/image/projects/freecodecamp-responsive-web-design/good4u-survey-form.png",
+        "caption": "Preview of Good4U Survey Form - Freecodecamp",
         "original": true
       }
     ],
@@ -236,8 +242,8 @@
     "url": "https://codepen.io/baguspy/full/dyROKBj",
     "snapshot": [
       {
-        "preview": "/image/projects/freecodecamp-responsive-web-design/tribute-page-freecodecamp.png",
-        "caption": "Preview of Tribute Page Freecodecamp",
+        "preview": "/image/projects/freecodecamp-responsive-web-design/gusdur-tribute-page.png",
+        "caption": "Preview of Gusdur Tribute Page - Freecodecamp",
         "original": true
       }
     ],
@@ -257,8 +263,8 @@
     "url": "https://codepen.io/baguspy/full/rNXoVOj",
     "snapshot": [
       {
-        "preview": "/image/projects/freecodecamp-responsive-web-design/technical-doc-freecodecamp.png",
-        "caption": "Preview of PHP Technical Documentation Page Freecodecamp",
+        "preview": "/image/projects/freecodecamp-responsive-web-design/php-technical-documentation-page.png",
+        "caption": "Preview of PHP Technical Documentation Page - Freecodecamp",
         "original": true
       }
     ],
@@ -278,8 +284,8 @@
     "url": "https://codepen.io/baguspy/full/BaXZJJN",
     "snapshot": [
       {
-        "preview": "/image/projects/freecodecamp-responsive-web-design/product-landing-page-freecodecamp.png",
-        "caption": "Preview of Product Landing Page Freecodecamp",
+        "preview": "/image/projects/freecodecamp-responsive-web-design/fantech-product-landing-page.png",
+        "caption": "Preview of Fantech Product Landing Page - Freecodecamp",
         "original": true
       }
     ],
@@ -299,8 +305,8 @@
     "url": "https://codepen.io/baguspy/full/ExqGmzR",
     "snapshot": [
       {
-        "preview": "/image/projects/freecodecamp-responsive-web-design/personal-portfolio-freecodecamp.png",
-        "caption": "Preview of Personal Portfolio Freecodecamp",
+        "preview": "/image/projects/freecodecamp-responsive-web-design/personal-portfolio-page.png",
+        "caption": "Preview of Personal Portfolio - Freecodecamp",
         "original": true
       }
     ],
@@ -310,14 +316,17 @@
     "id": 14,
     "name": "Content Management UI & UX Design",
     "category": "UI & UX Design",
-    "description": { "indonesia": "Website ini", "english": "" },
+    "description": {
+      "indonesia": "Merancang antarmuka pengguna (UI) dan pengalaman pengguna (UX) untuk seluruh halaman proyek Content Management Web Application menggunakan Figma",
+      "english": "Created comprehensive UI/UX designs for all pages of the Content Management Web Application project utilizing Figma"
+    },
     "technology": ["User Interface", "User Experience", "Figma"],
     "createdBy": ["Bagus Perdana Yusuf"],
     "source": "",
     "url": "",
     "snapshot": [
       {
-        "preview": "/image/projects/ui-ux-cmwa/homepage-ui.png",
+        "preview": "/image/projects/ui-ux-cmwa/preview-homepage-ui.png",
         "caption": "Homepage of UI & UX Design",
         "original": true
       }
@@ -336,7 +345,13 @@
     "createdBy": ["Bagus Perdana Yusuf"],
     "source": "https://github.com/bagusperdanay7/fcc-DA-Mean-Variance-Standard-Deviation-Calculator",
     "url": "https://replit.com/@baguspyus/Mean-Variance-Standard-Deviation-Calculator",
-    "snapshot": [],
+    "snapshot": [
+      {
+        "preview": "/image/projects/data-analysis-with-python/mean-std-variance-calculator.jpg",
+        "caption": "Illustration of Mean, Standard Deviation & Variance Calculator Project",
+        "original": false
+      }
+    ],
     "miniProject": true
   }
 ]
