@@ -204,7 +204,13 @@
     ],
     "source": "https://github.com/Robi-Nurhidayat/project-baru",
     "url": "",
-    "snapshot": [],
+    "snapshot": [
+      {
+        "preview": "/image/projects/it-course-website/it-course-homepage-preview.png",
+        "caption": "Homepage Preview of IT Course Website",
+        "original": true
+      }
+    ],
     "miniProject": false
   },
   {

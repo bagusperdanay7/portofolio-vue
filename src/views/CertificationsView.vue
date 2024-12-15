@@ -1,10 +1,15 @@
 <script>
-import { Transition } from "vue";
 import certifications from "@/data/certifications.json";
-import CertificateCard from "../ui/card/CertificateCard.vue";
+import CertificateCard from "@/components/ui/card/CertificateCard.vue";
+import { Transition } from "vue";
 
 export default {
   components: { CertificateCard, Transition },
+  mounted() {
+    setTimeout(() => {
+      this.certificates = certifications;
+    }, 300);
+  },
   data() {
     return {
       isModalShow: false,
@@ -13,7 +18,7 @@ export default {
       certificateName: null,
       certificateProvider: null,
       certificateCredential: null,
-      certificates: certifications,
+      certificates: [],
     };
   },
   methods: {
@@ -39,8 +44,14 @@ export default {
     },
   },
   computed: {
-    someCertificates() {
-      return this.certificates.slice(0, 8);
+    sortByNameCertificates() {
+      this.certificates.sort((firstItem, secondItem) => {
+        if (firstItem.provider === secondItem.provider) {
+          return firstItem.name.localeCompare(secondItem.name);
+        }
+        return firstItem.provider.localeCompare(secondItem.provider);
+      });
+      return this.certificates;
     },
   },
 };
@@ -51,27 +62,27 @@ export default {
     <h1
       class="font-bold text-center text-light-100 text-[28px] md:text-[32px] mb-4 dark:text-dark-100"
     >
-      Certifications
+      All Certifications
     </h1>
     <div
+      v-if="certificates.length < 1"
+      class="text-light-100 dark:text-dark-100 text-center"
+    >
+      <i class="bx bx-loader bx-spin text-3xl"></i>
+    </div>
+    <div
+      v-else
       class="grid min-[500px]:grid-cols-2 min-[900px]:grid-cols-3 xl:grid-cols-4 gap-5"
       id="certificationsCards"
     >
       <CertificateCard
-        v-for="certificate in someCertificates"
+        v-for="certificate in sortByNameCertificates"
         :key="certificate.id"
         :name="certificate.name"
         :image="certificate.image"
         :provider="certificate.provider"
         @click="toggleModalCertificate(certificate)"
       />
-    </div>
-    <div class="mt-6 text-center">
-      <RouterLink
-        :to="{ name: 'certifications' }"
-        class="text-sm rounded-[15px] font-bold border text-primary-500 border-primary-500 px-3 py-1.5 transition duration-300 ease-in-out hover:bg-primary-100 dark:text-primary-400 dark:border-primary-400 dark:hover:bg-primary-950"
-        >Show All</RouterLink
-      >
     </div>
   </section>
   <Transition name="fade">
@@ -149,14 +160,3 @@ export default {
     </div>
   </Transition>
 </template>
-
-<style>
-.fade-enter-active,
-.fade-leave-active {
-  transition: opacity 0.3s ease;
-}
-.fade-enter-from,
-.fade-leave-to {
-  opacity: 0;
-}
-</style>

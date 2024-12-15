@@ -62,13 +62,21 @@ export default {
         },
       ],
       otherPagesMenu: [
-        "Summary",
-        "Education",
-        "Experience",
-        "Skills",
-        "Projects",
-        "Certifications",
-        "Publication",
+        {
+          name: "Home",
+          link: "/",
+          description: "A Home page of my web portfolio",
+        },
+        {
+          name: "Projects",
+          link: "/projects",
+          description: "Projects I've conducted",
+        },
+        {
+          name: "Certifications",
+          link: "/certifications",
+          description: "Certifications that I've obtained",
+        },
       ],
     };
   },
@@ -102,10 +110,6 @@ export default {
         this.navigateToSection(section);
       }, 500);
     },
-  },
-  // TODO: Coba onMounted dll di console.log aja, ketika diclick begimana pakai v-show
-  mounted() {
-    console.log("mounted");
   },
   provide() {
     return {
@@ -156,7 +160,7 @@ export default {
           </div>
         </div>
         <hr class="h-0.5 bg-light-50 my-4" />
-        <ul class="flex flex-col gap-y-4 my-auto">
+        <ul v-if="$route.path === '/'" class="flex flex-col gap-y-4 my-auto">
           <li v-for="(menu, index) in homeMenus" :key="index">
             <a
               href="#"
@@ -179,6 +183,29 @@ export default {
             </a>
           </li>
         </ul>
+        <ul v-else class="flex flex-col gap-y-4 my-auto">
+          <li v-for="(menu, index) in otherPagesMenu" :key="index">
+            <RouterLink
+              :to="menu.link"
+              class="flex flex-row justify-between items-center gap-x-2 group"
+              @click="toggleClickMobileMenu"
+            >
+              <div class="menu-details">
+                <h2
+                  class="font-bold text-base text-light-100 dark:text-dark-100 group-hover:text-primary-600 dark:group-hover:text-primary-400"
+                >
+                  {{ menu.name }}
+                </h2>
+                <p class="font-medium text-xs text-light-80 dark:text-dark-90">
+                  {{ menu.description }}
+                </p>
+              </div>
+              <i
+                class="bx bx-chevron-right text-2xl text-light-100 dark:text-dark-100 transition duration-300 ease-in-out group-hover:text-primary-600 dark:group-hover:text-primary-400 group-hover:translate-x-1"
+              ></i>
+            </RouterLink>
+          </li>
+        </ul>
       </div>
     </div>
   </Transition>
@@ -189,14 +216,34 @@ export default {
       <RouterLink to="/">{{ logo }}</RouterLink>
     </div>
     <nav class="hidden lg:block">
-      <ul>
+      <ul v-if="$route.path === '/'">
         <li v-for="(menu, index) in homeMenus" :key="index" class="inline">
           <a
             href="#"
             @click="navigateToSection(menu.link)"
-            class="ml-6 text-base font-bold hover:text-primary-600 dark:text-dark-90 dark:hover:text-primary-400"
+            class="ml-6 text-base font-bold text-light-100 hover:text-primary-600 dark:text-dark-90 dark:hover:text-primary-400"
             >{{ menu.name }}
           </a>
+        </li>
+        <li class="inline align-middle">
+          <button
+            type="button"
+            class="ml-6 text-base font-bold"
+            @click="switchTheme"
+          >
+            <IconSun v-if="theme.isDark" />
+            <IconMoon v-else />
+          </button>
+        </li>
+      </ul>
+      <ul v-else>
+        <li v-for="(menu, index) in otherPagesMenu" :key="index" class="inline">
+          <RouterLink
+            :to="menu.link"
+            class="ml-6 text-base font-bold text-light-100 hover:text-primary-600 dark:text-dark-90 dark:hover:text-primary-400"
+            active-class="text-primary-600 dark:text-primary-400"
+            >{{ menu.name }}
+          </RouterLink>
         </li>
         <li class="inline align-middle">
           <button
@@ -234,7 +281,10 @@ export default {
           <h1 class="text-dark-100 text-[28px] md:text-[32px] font-bold mb-7">
             {{ creator }}
           </h1>
-          <ul class="flex flex-row flex-wrap gap-y-3 gap-x-6">
+          <ul
+            v-if="$route.path === '/'"
+            class="flex flex-row flex-wrap gap-y-3 gap-x-6"
+          >
             <li v-for="(menu, index) in homeMenus" :key="index" class="inline">
               <a
                 href="#"
@@ -242,6 +292,19 @@ export default {
                 class="text-base font-bold text-dark-100 hover:text-primary-300"
                 >{{ menu.name }}
               </a>
+            </li>
+          </ul>
+          <ul v-else class="flex flex-row flex-wrap gap-y-3 gap-x-6">
+            <li
+              v-for="(menu, index) in otherPagesMenu"
+              :key="index"
+              class="inline"
+            >
+              <RouterLink
+                :to="menu.link"
+                class="text-base font-bold text-dark-100 hover:text-primary-300"
+                >{{ menu.name }}
+              </RouterLink>
             </li>
           </ul>
         </div>

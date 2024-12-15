@@ -2,6 +2,7 @@ import { createRouter, createWebHistory } from "vue-router";
 import HomeView from "../views/HomeView.vue";
 import ProjectsView from "@/views/ProjectsView.vue";
 import ProjectView from "@/views/ProjectView.vue";
+import CertificationsView from "@/views/CertificationsView.vue";
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -12,9 +13,20 @@ const router = createRouter({
       component: HomeView,
     },
     {
+      path: "/certifications",
+      name: "certifications",
+      component: CertificationsView,
+      meta: {
+        title: "All Certifications - Portfolio | Bagus Perdana Yusuf",
+      },
+    },
+    {
       path: "/projects",
       name: "projects",
       component: ProjectsView,
+      meta: {
+        title: "All Projects - Portfolio | Bagus Perdana Yusuf",
+      },
     },
     {
       path: "/projects/:id",

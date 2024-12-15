@@ -28,7 +28,7 @@ export default {
           break;
         case "PHP":
           this.addOnClass =
-            "text-php bg-php/15 dark:text-php-alt dark:bg-php/15";
+            "text-php bg-php/15 dark:text-php-alt dark:bg-php-alt/15";
           break;
         case "Python":
           this.addOnClass =
@@ -43,17 +43,17 @@ export default {
             "text-laravel bg-laravel/15 dark:text-laravel-alt dark:bg-laravel-alt/15";
           break;
         case "Tailwind CSS":
-          this.addOnClass = "text-tailwind bg-tailwind/15 dark:bg-tailwind/15";
+          this.addOnClass = "text-tailwind bg-tailwind/15";
           break;
         case "User Interface":
-          this.addOnClass = "text-ui bg-ui/15 dark:bg-ui/15";
+          this.addOnClass = "text-ui bg-ui/15";
           break;
         case "User Experience":
           this.addOnClass =
             "text-ux bg-ux/15 dark:text-ux-alt dark:bg-ux-alt/15";
           break;
         case "Figma":
-          this.addOnClass = "text-figma bg-figma/15 dark:bg-figma/15";
+          this.addOnClass = "text-figma bg-figma/15";
           break;
         case "MySQL":
           this.addOnClass =
