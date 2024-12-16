@@ -24,14 +24,14 @@ export default {
 <template>
   <div class="col-auto justify-items-center">
     <div
-      class="p-1.5 size-9 bg-primary-200 rounded-full text-center align-middle transition duration-300 ease-in-out group-hover:bg-primary-600 dark:bg-primary-900"
+      class="p-1.5 size-8 min-[475px]:size-9 mx-auto bg-primary-200 rounded-full text-center align-middle transition duration-300 ease-in-out group-hover:bg-primary-600 dark:bg-primary-900"
     >
       <i
-        class="text-2xl text-primary-600 transition duration-300 ease-in-out group-hover:text-primary-100 dark:text-primary-100"
+        class="text-lg min-[475px]:text-2xl sm:text-2xl text-primary-600 transition duration-300 ease-in-out group-hover:text-primary-100 dark:text-primary-100"
         :class="iconClass"
       ></i>
     </div>
-    <hr class="w-0.5 h-full bg-primary-950 dark:bg-primary-100" />
+    <hr class="w-0.5 h-full mx-auto bg-primary-950 dark:bg-primary-100" />
   </div>
   <div class="col-span-8">
     <time
