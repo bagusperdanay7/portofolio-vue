@@ -41,11 +41,15 @@ export default {
           :description="project.description.english"
           :snapshot="project.snapshot"
           :category="project.category"
-          :createdBy="project.createdBy"
+          :contributors="project.contributors"
           :isMiniProject="project.miniProject"
         >
           <template #tags>
-            <Badge v-for="tech in project.technology" :text="tech" />
+            <Badge
+              v-for="(tech, index) in project.technology"
+              :text="tech"
+              :key="index"
+            />
           </template>
         </ProjectCard>
       </RouterLink>

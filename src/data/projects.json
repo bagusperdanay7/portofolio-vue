@@ -16,7 +16,7 @@
       "Laravel",
       "MySQL"
     ],
-    "createdBy": [
+    "contributors": [
       "Bagus Perdana Yusuf",
       "Robi Nurhidayat",
       "Raden Fachrul Ramzy Muhammad"
@@ -49,7 +49,7 @@
       "Artificial Intelligence",
       "Machine Learning"
     ],
-    "createdBy": ["Bagus Perdana Yusuf"],
+    "contributors": ["Bagus Perdana Yusuf"],
     "source": "https://github.com/bagusperdanay7/SKRIPSI-Program",
     "url": "",
     "snapshot": [
@@ -70,7 +70,7 @@
       "english": "Use the Vue.js framework to implement the figma design into code (slicing) for my own website portfolio."
     },
     "technology": ["Vue.js", "Tailwind CSS", "Vite"],
-    "createdBy": ["Bagus Perdana Yusuf"],
+    "contributors": ["Bagus Perdana Yusuf"],
     "source": "https://github.com/bagusperdanay7/portofolio-vue",
     "url": "",
     "snapshot": [],
@@ -94,7 +94,7 @@
       "Laravel",
       "MySQL"
     ],
-    "createdBy": ["Bagus Perdana Yusuf"],
+    "contributors": ["Bagus Perdana Yusuf"],
     "source": "https://github.com/bagusperdanay7/ks_web",
     "url": "",
     "snapshot": [
@@ -115,7 +115,7 @@
       "english": "The final project of the Dicoding course, Machine Learning Beginner, I was assigned to make Image Classification with Python & Tensorflow."
     },
     "technology": ["Python", "TensorFlow", "Machine Learning"],
-    "createdBy": ["Bagus Perdana Yusuf"],
+    "contributors": ["Bagus Perdana Yusuf"],
     "source": "https://github.com/bagusperdanay7/final-project-dicoding",
     "url": "",
     "snapshot": [
@@ -136,7 +136,7 @@
       "english": "Design my portfolio's User Interface and User Experience using Figma software"
     },
     "technology": ["User Interface", "User Experience", "Figma"],
-    "createdBy": ["Bagus Perdana Yusuf"],
+    "contributors": ["Bagus Perdana Yusuf"],
     "source": "",
     "url": "https://dribble",
     "snapshot": [
@@ -162,7 +162,7 @@
       "english": "The User Interface & User Experience Design of the final big project of the Software Project Management course with the lecturer Mr. Irfan Maliki, S.T, M.T., CIPTM."
     },
     "technology": ["Figma", "User Interface", "User Experience"],
-    "createdBy": [
+    "contributors": [
       "Akbar Saleh Alfian",
       "Bagus Perdana Yusuf",
       "Raden Fachrul Ramzy Muhammad",
@@ -177,7 +177,8 @@
         "original": true
       }
     ],
-    "miniProject": false
+    "miniProject": false,
+    "embeded_content": "<iframe style='border: 1px solid rgba(0, 0, 0, 0.1);' width='800' height='450' src='https://embed.figma.com/design/UHWZmtqrQPkLTo1km7YPZn/Design?node-id=221-2&embed-host=share' allowfullscreen></iframe>"
   },
   {
     "id": 8,
@@ -196,7 +197,7 @@
       "Bootstrap CSS",
       "MySQL"
     ],
-    "createdBy": [
+    "contributors": [
       "Akbar Saleh Alfian",
       "Bagus Perdana Yusuf",
       "Raden Fachrul Ramzy Muhammad",
@@ -211,7 +212,8 @@
         "original": true
       }
     ],
-    "miniProject": false
+    "miniProject": false,
+    "embeded_content": ""
   },
   {
     "id": 9,
@@ -222,7 +224,7 @@
       "english": "Making a responsive survey form with just HTML and CSS is one of the five projects for the freeCodeCamp course on responsive web design. "
     },
     "technology": ["HTML", "CSS", "Responsive Web"],
-    "createdBy": ["Bagus Perdana Yusuf"],
+    "contributors": ["Bagus Perdana Yusuf"],
     "source": "https://codepen.io/baguspy/pen/zYzoMyJ",
     "url": "https://codepen.io/baguspy/full/zYzoMyJ",
     "snapshot": [
@@ -243,7 +245,7 @@
       "english": "Create a Tribute page about one of Indonesia's important figures, the Father of Indonesian Pluralism, Abdurrahman Wahid. This project is one of the five projects of the Responsive Web Design course held by freeCodeCamp, creating a responsive Tribute Page with HTML and CSS only."
     },
     "technology": ["HTML", "CSS", "Responsive Web"],
-    "createdBy": ["Bagus Perdana Yusuf"],
+    "contributors": ["Bagus Perdana Yusuf"],
     "source": "https://codepen.io/baguspy/pen/dyROKBj",
     "url": "https://codepen.io/baguspy/full/dyROKBj",
     "snapshot": [
@@ -264,7 +266,7 @@
       "english": "This project is one of the five projects of the Responsive Web Design course by freeCodeCamp, building a PHP Basic Technical Documentation Page with HTML and CSS."
     },
     "technology": ["HTML", "CSS", "Responsive Web"],
-    "createdBy": ["Bagus Perdana Yusuf"],
+    "contributors": ["Bagus Perdana Yusuf"],
     "source": "https://codepen.io/baguspy/pen/rNXoVOj",
     "url": "https://codepen.io/baguspy/full/rNXoVOj",
     "snapshot": [
@@ -285,7 +287,7 @@
       "english": "This project is one of the five projects of the Responsive Web Design course by freeCodeCamp, building the Fantech ALTO 7.1 HG26 Headset Product Landing Page with HTML and CSS."
     },
     "technology": ["HTML", "CSS", "Responsive Web"],
-    "createdBy": ["Bagus Perdana Yusuf"],
+    "contributors": ["Bagus Perdana Yusuf"],
     "source": "https://codepen.io/baguspy/pen/BaXZJJN",
     "url": "https://codepen.io/baguspy/full/BaXZJJN",
     "snapshot": [
@@ -306,7 +308,7 @@
       "english": "The last project of the five projects of the Responsive Web Design course held by freeCodeCamp to pass and get a certificate, build a Personal Portfolio Page with HTML and CSS."
     },
     "technology": ["HTML", "CSS", "Responsive Web"],
-    "createdBy": ["Bagus Perdana Yusuf"],
+    "contributors": ["Bagus Perdana Yusuf"],
     "source": "https://codepen.io/baguspy/pen/ExqGmzR",
     "url": "https://codepen.io/baguspy/full/ExqGmzR",
     "snapshot": [
@@ -327,7 +329,7 @@
       "english": "Created comprehensive UI/UX designs for all pages of the Content Management Web Application project utilizing Figma"
     },
     "technology": ["User Interface", "User Experience", "Figma"],
-    "createdBy": ["Bagus Perdana Yusuf"],
+    "contributors": ["Bagus Perdana Yusuf"],
     "source": "",
     "url": "",
     "snapshot": [
@@ -348,7 +350,7 @@
       "english": "In order to complete the Data Analysis With Python course by freecodecamp.org, I had to create a Mean Variance Standard Deviation Calculator project as a way to demonstrate how I can utilize the fundamental knowledge that I have obtained in this course"
     },
     "technology": ["Python", "Numpy"],
-    "createdBy": ["Bagus Perdana Yusuf"],
+    "contributors": ["Bagus Perdana Yusuf"],
     "source": "https://github.com/bagusperdanay7/fcc-DA-Mean-Variance-Standard-Deviation-Calculator",
     "url": "https://replit.com/@baguspyus/Mean-Variance-Standard-Deviation-Calculator",
     "snapshot": [

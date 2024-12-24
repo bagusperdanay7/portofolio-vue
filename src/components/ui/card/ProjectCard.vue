@@ -17,7 +17,7 @@ export default {
       type: String,
       default: "",
     },
-    createdBy: {
+    contributors: {
       type: Array,
       default: [],
     },
@@ -69,12 +69,12 @@ export default {
       </p>
       <p class="text-xs text-light-100 dark:text-dark-100">
         Created by
-        <strong v-for="team in createdBy" :key="team">
+        <strong v-for="contributor in contributors" :key="contributor">
           <a
             href=""
             class="transition duration-300 ease-in-out hover:underline hover:text-primary-500 dark:hover:text-primary-300"
-            >{{ team }}</a
-          >{{ team == createdBy.at(-1) ? "" : ", " }}
+            >{{ contributor }}</a
+          >{{ contributor == contributors.at(-1) ? "" : ", " }}
         </strong>
       </p>
     </div>
