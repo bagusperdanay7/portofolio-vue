@@ -34,7 +34,7 @@ const router = createRouter({
       component: ProjectView,
       props: true,
       meta: {
-        title: "Bisa gak?",
+        title: "",
       },
     },
   ],

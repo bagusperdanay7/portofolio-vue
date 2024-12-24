@@ -5,6 +5,7 @@ import Badge from "@/components/ui/Badge.vue";
 
 export default {
   mounted() {
+    window.scrollTo(0, 0);
     try {
       const projectId = this.$route.params.id;
       const projects = allProjects.filter((project) => project.id == projectId);
