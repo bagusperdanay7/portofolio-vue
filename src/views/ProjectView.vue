@@ -2,6 +2,7 @@
 import allProjects from "@/data/projects.json";
 import ButtonLink from "@/components/ui/ButtonLink.vue";
 import Badge from "@/components/ui/Badge.vue";
+import { format, formatDistanceToNow } from "date-fns";
 
 export default {
   mounted() {
@@ -16,7 +17,7 @@ export default {
         throw new Error("We couldn't find the project you're looking for.");
       }
     } catch (error) {
-      this.isErrror = true;
+      this.isError = true;
       this.errorMessage = error;
       console.log(error);
     }
@@ -25,7 +26,7 @@ export default {
   data() {
     return {
       projects: {},
-      isErrror: false,
+      isError: false,
       errorMessage: "",
     };
   },
@@ -37,13 +38,24 @@ export default {
   },
   computed: {
     project() {
-      if (this.projects !== null) {
-        return { ...this.projects[0] };
+      if (Array.isArray(this.projects) && this.projects.length > 0) {
+        const result = { ...this.projects[0] };
+        return result;
       } else {
-        this.Error = true;
+        this.isError = true;
         this.errorMessage = "We couldn't find the project you're looking for.";
         return null;
       }
+    },
+  },
+  methods: {
+    formattedDate(date) {
+      const newDate = new Date(date);
+      return format(newDate, "PPP");
+    },
+    readableDate(date) {
+      const newDate = new Date(date);
+      return formatDistanceToNow(newDate);
     },
   },
 };
@@ -63,14 +75,10 @@ export default {
       >
         <div class="flex flex-col gap-y-4" id="contentInformation">
           <img
-            v-if="project.snapshot"
+            v-if="project.thumbnail"
             class="w-full object-cover rounded-[10px] shadow-md dark:shadow-none"
-            :src="
-              project.snapshot.length
-                ? project.snapshot[0].preview
-                : '/src/assets/template.jpg'
-            "
-            :alt="project.snapshot.length ? project.snapshot[0].caption : ''"
+            :src="project.thumbnail.src ?? ''"
+            :alt="project.thumbnail.caption ?? ''"
           />
           <img
             v-else
@@ -80,6 +88,11 @@ export default {
           />
 
           <div id="information">
+            <span
+              v-if="project.miniProject"
+              class="block text-primary-600 text-sm font-bold dark:text-primary-400"
+              >Mini Project</span
+            >
             <h1 class="text-light-100 font-bold text-2xl dark:text-dark-100">
               {{ project.name }}
             </h1>
@@ -91,18 +104,36 @@ export default {
             </p>
           </div>
 
-          <div class="space-x-4" id="buttons">
-            <ButtonLink size="regular">Live Demo</ButtonLink>
+          <div class="space-x-4 mt-3" id="buttons">
+            <ButtonLink
+              size="regular"
+              :link="project.url === '' ? null : project.url"
+              target="_blank"
+              :disabled="!project.url"
+              >Live Demo</ButtonLink
+            >
             <ButtonLink
               variant="secondary"
               size="regular"
               :link="project.source"
               target="_blank"
-              >Source Code</ButtonLink
+              ><i class="bx bx-code align-middle text-lg me-1.5"></i>Source
+              Code</ButtonLink
             >
           </div>
 
           <div id="about"></div>
+          <div id="preview">
+            <iframe
+              v-if="project.category == 'UI & UX Design'"
+              style="border: 1px solid rgba(0, 0, 0, 0.1)"
+              width="800"
+              height="450"
+              src="https://embed.figma.com/design/UHWZmtqrQPkLTo1km7YPZn/Design?node-id=221-2&embed-host=share"
+              :title="project.name"
+              allowfullscreen
+            ></iframe>
+          </div>
 
           <!-- 
           <figure>
@@ -136,26 +167,30 @@ export default {
             </h2>
             <div class="mt-2.5 flex flex-col gap-y-2.5" id="allContributors">
               <a
-                href=""
                 v-for="contributor in project.contributors"
                 :key="contributor"
+                :href="contributor.profile"
+                target="_blank"
                 class="flex flex-row items-center gap-x-3 group"
               >
                 <img
                   class="w-10 h-10 rounded-full"
-                  src="https://www.w3schools.com/howto/img_avatar.png"
-                  alt="Avatar"
+                  :src="
+                    contributor.avatar ??
+                    'https://www.w3schools.com/howto/img_avatar.png'
+                  "
+                  :alt="contributor.name"
                 />
                 <div class="">
                   <h3
                     class="text-light-100 font-bold text-sm transition duration-300 ease-in-out group-hover:text-primary-500 dark:text-dark-100 dark:group-hover:text-primary-300"
                   >
-                    {{ contributor }}
+                    {{ contributor.name }}
                   </h3>
                   <p
                     class="text-xs font-normal text-light-80 mt-0.5 dark:text-dark-90"
                   >
-                    <span>Junior Web Developer</span>
+                    <span>{{ contributor.role }}</span>
                   </p>
                 </div>
               </a>
@@ -187,7 +222,10 @@ export default {
               <p
                 class="text-sm font-normal text-light-80 mt-1 dark:text-dark-70"
               >
-                December 10th, 2024 (1 week ago)
+                <time :datetime="project.lastUpdated">{{
+                  formattedDate(project.lastUpdated)
+                }}</time>
+                ({{ readableDate(project.lastUpdated) + " ago" }})
               </p>
             </div>
             <div class="" id="license">
@@ -197,7 +235,11 @@ export default {
               <p
                 class="text-sm font-normal text-light-80 mt-1 dark:text-dark-70"
               >
-                License under MIT license
+                {{
+                  project.license
+                    ? `License under ${project.license} license.`
+                    : "License not found"
+                }}
               </p>
             </div>
           </div>

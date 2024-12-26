@@ -17,20 +17,52 @@
       "MySQL"
     ],
     "contributors": [
-      "Bagus Perdana Yusuf",
-      "Robi Nurhidayat",
-      "Raden Fachrul Ramzy Muhammad"
+      {
+        "name": "Bagus Perdana Yusuf",
+        "role": "Front-end Developer, Back-end Developer",
+        "profile": "https://www.linkedin.com/in/bagus-perdana-yusuf-0310971a5/",
+        "avatar": "/image/avatar/baguspy.png"
+      },
+      {
+        "name": "Raden Fachrul Ramzy Muhammad",
+        "role": "Front-end Developer, Back-end Developer",
+        "profile": "https://www.linkedin.com/in/raden-fachrul-605a12341/",
+        "avatar": "/image/avatar/raden-fachrul.jpeg"
+      },
+      {
+        "name": "Robi Nurhidayat",
+        "role": "Lead Back-end Developer",
+        "profile": "https://www.linkedin.com/in/robi-nurhidayat-2a857224a/",
+        "avatar": "/image/avatar/robi-nurhidayat.jpeg"
+      }
     ],
     "source": "https://github.com/bagusperdanay7/kerja-praktek",
     "url": "",
-    "snapshot": [
+    "thumbnail": {
+      "src": "/image/projects/telkom-intership/dashboard-home.png",
+      "caption": "Preview of Dashboard Rekap Deployment Home Page",
+      "original": true
+    },
+    "previews": [
       {
         "preview": "/image/projects/telkom-intership/dashboard-home.png",
-        "caption": "Preview of Dashboard Rekap Deployment Home Page",
-        "original": true
+        "caption": "Preview of Dashboard Rekap Deployment Home Page"
       }
     ],
-    "miniProject": false
+    "details": {
+      "about": {
+        "indonesia": "",
+        "english": ""
+      },
+      "responsibilities": [
+        { "name": "Bagus Perdana Yusuf", "detail": "" },
+        { "name": "Bagus Perdana Yusuf", "detail": "" },
+        { "name": "Bagus Perdana Yusuf", "detail": "" }
+      ]
+    },
+    "miniProject": false,
+    "lastUpdated": "2021-12-18",
+    "license": ""
   },
   {
     "id": 2,
@@ -49,17 +81,37 @@
       "Artificial Intelligence",
       "Machine Learning"
     ],
-    "contributors": ["Bagus Perdana Yusuf"],
-    "source": "https://github.com/bagusperdanay7/SKRIPSI-Program",
-    "url": "",
-    "snapshot": [
+    "contributors": [
       {
-        "preview": "/image/projects/absa-blstm/absa-illustration.jpg",
-        "caption": "Illustration of Aspect-Based Sentiment Analysis BiLSTM Project",
-        "original": false
+        "name": "Bagus Perdana Yusuf",
+        "role": "",
+        "profile": "https://www.linkedin.com/in/bagus-perdana-yusuf-0310971a5/",
+        "avatar": "/image/avatar/baguspy.png"
       }
     ],
-    "miniProject": false
+    "source": "https://github.com/bagusperdanay7/SKRIPSI-Program",
+    "url": "",
+    "thumbnail": {
+      "src": "/image/projects/absa-blstm/absa-illustration.jpg",
+      "caption": "Illustration of Aspect-Based Sentiment Analysis BiLSTM Project",
+      "original": false
+    },
+    "previews": [
+      {
+        "preview": "/image/projects/absa-blstm/absa-illustration.jpg",
+        "caption": "Illustration of Aspect-Based Sentiment Analysis BiLSTM Project"
+      }
+    ],
+    "details": {
+      "about": {
+        "indonesia": "",
+        "english": ""
+      },
+      "responsibilities": [{ "name": "Bagus Perdana Yusuf", "detail": "" }]
+    },
+    "miniProject": false,
+    "lastUpdated": "2023-09-22",
+    "license": ""
   },
   {
     "id": 3,
@@ -70,11 +122,28 @@
       "english": "Use the Vue.js framework to implement the figma design into code (slicing) for my own website portfolio."
     },
     "technology": ["Vue.js", "Tailwind CSS", "Vite"],
-    "contributors": ["Bagus Perdana Yusuf"],
+    "contributors": [
+      {
+        "name": "Bagus Perdana Yusuf",
+        "role": "",
+        "profile": "https://www.linkedin.com/in/bagus-perdana-yusuf-0310971a5/",
+        "avatar": "/image/avatar/baguspy.png"
+      }
+    ],
     "source": "https://github.com/bagusperdanay7/portofolio-vue",
     "url": "",
-    "snapshot": [],
-    "miniProject": false
+    "thumbnail": {},
+    "previews": [],
+    "details": {
+      "about": {
+        "indonesia": "",
+        "english": ""
+      },
+      "responsibilities": [{ "name": "Bagus Perdana Yusuf", "detail": "" }]
+    },
+    "miniProject": false,
+    "lastUpdated": "2021-12-18",
+    "license": ""
   },
   {
     "id": 4,
@@ -94,17 +163,41 @@
       "Laravel",
       "MySQL"
     ],
-    "contributors": ["Bagus Perdana Yusuf"],
-    "source": "https://github.com/bagusperdanay7/ks_web",
-    "url": "",
-    "snapshot": [
+    "contributors": [
       {
-        "preview": "/image/projects/content-management-wa/preview-home-cms.png",
-        "caption": "Preview of Home page Content Management web apps",
-        "original": true
+        "name": "Bagus Perdana Yusuf",
+        "role": "",
+        "profile": "https://www.linkedin.com/in/bagus-perdana-yusuf-0310971a5/",
+        "avatar": "/image/avatar/baguspy.png"
       }
     ],
-    "miniProject": false
+    "source": "https://github.com/bagusperdanay7/ks_web",
+    "url": "",
+    "thumbnail": {
+      "src": "/image/projects/content-management-wa/preview-home-cms.png",
+      "caption": "Preview of Home page Content Management web apps",
+      "original": true
+    },
+    "previews": [
+      {
+        "preview": "/image/projects/content-management-wa/preview-home-cms.png",
+        "caption": "Preview of Home page Content Management web apps"
+      }
+    ],
+    "details": {
+      "about": {
+        "indonesia": "",
+        "english": ""
+      },
+      "responsibilities": [
+        { "name": "Bagus Perdana Yusuf", "detail": "" },
+        { "name": "Bagus Perdana Yusuf", "detail": "" },
+        { "name": "Bagus Perdana Yusuf", "detail": "" }
+      ]
+    },
+    "miniProject": false,
+    "lastUpdated": "2021-12-18",
+    "license": ""
   },
   {
     "id": 5,
@@ -115,17 +208,37 @@
       "english": "The final project of the Dicoding course, Machine Learning Beginner, I was assigned to make Image Classification with Python & Tensorflow."
     },
     "technology": ["Python", "TensorFlow", "Machine Learning"],
-    "contributors": ["Bagus Perdana Yusuf"],
-    "source": "https://github.com/bagusperdanay7/final-project-dicoding",
-    "url": "",
-    "snapshot": [
+    "contributors": [
       {
-        "preview": "/image/projects/dicoding/rock-paper-scissors.jpg",
-        "caption": "Illustration of Rock Paper Scissors Image Classification Project",
-        "original": false
+        "name": "Bagus Perdana Yusuf",
+        "role": "",
+        "profile": "https://www.linkedin.com/in/bagus-perdana-yusuf-0310971a5/",
+        "avatar": "/image/avatar/baguspy.png"
       }
     ],
-    "miniProject": false
+    "source": "https://github.com/bagusperdanay7/final-project-dicoding",
+    "url": "",
+    "thumbnail": {
+      "src": "/image/projects/dicoding/rock-paper-scissors.jpg",
+      "caption": "Illustration of Rock Paper Scissors Image Classification Project",
+      "original": false
+    },
+    "previews": [
+      {
+        "preview": "/image/projects/dicoding/rock-paper-scissors.jpg",
+        "caption": "Illustration of Rock Paper Scissors Image Classification Project"
+      }
+    ],
+    "details": {
+      "about": {
+        "indonesia": "",
+        "english": ""
+      },
+      "responsibilities": [{ "name": "Bagus Perdana Yusuf", "detail": "" }]
+    },
+    "miniProject": false,
+    "lastUpdated": "2021-12-18",
+    "license": ""
   },
   {
     "id": 6,
@@ -136,22 +249,41 @@
       "english": "Design my portfolio's User Interface and User Experience using Figma software"
     },
     "technology": ["User Interface", "User Experience", "Figma"],
-    "contributors": ["Bagus Perdana Yusuf"],
-    "source": "",
-    "url": "https://dribble",
-    "snapshot": [
+    "contributors": [
       {
-        "preview": "/image/projects/ui-ux-portfolio/preview-home-portfolio.png",
-        "caption": "Preview of Portfolio Home page UI & UX design",
-        "original": true
-      },
-      {
-        "preview": "/image/projects/ui-ux-portfolio/portfolio-ui-home.jpg",
-        "caption": "UI & UX of Personal Portfolio",
-        "original": true
+        "name": "Bagus Perdana Yusuf",
+        "role": "",
+        "profile": "https://www.linkedin.com/in/bagus-perdana-yusuf-0310971a5/",
+        "avatar": "/image/avatar/baguspy.png"
       }
     ],
-    "miniProject": false
+    "source": "",
+    "url": "https://dribble",
+    "thumbnail": {
+      "src": "/image/projects/ui-ux-portfolio/preview-home-portfolio.png",
+      "caption": "Preview of Portfolio Home page UI & UX design",
+      "original": true
+    },
+    "previews": [
+      {
+        "preview": "/image/projects/ui-ux-portfolio/preview-home-portfolio.png",
+        "caption": "Preview of Portfolio Home page UI & UX design"
+      },
+      {
+        "src": "/image/projects/ui-ux-portfolio/portfolio-ui-home.jpg",
+        "caption": "UI & UX of Personal Portfolio"
+      }
+    ],
+    "details": {
+      "about": {
+        "indonesia": "",
+        "english": ""
+      },
+      "responsibilities": [{ "name": "Bagus Perdana Yusuf", "detail": "" }]
+    },
+    "miniProject": false,
+    "lastUpdated": "2021-12-18",
+    "license": ""
   },
   {
     "id": 7,
@@ -163,22 +295,59 @@
     },
     "technology": ["Figma", "User Interface", "User Experience"],
     "contributors": [
-      "Akbar Saleh Alfian",
-      "Bagus Perdana Yusuf",
-      "Raden Fachrul Ramzy Muhammad",
-      "Robi Nurhidayat"
+      {
+        "name": "Akbar Saleh Alfian",
+        "role": "",
+        "profile": ""
+      },
+      {
+        "name": "Bagus Perdana Yusuf",
+        "role": "",
+        "profile": "https://www.linkedin.com/in/bagus-perdana-yusuf-0310971a5/",
+        "avatar": "/image/avatar/baguspy.png"
+      },
+      {
+        "name": "Raden Fachrul Ramzy Muhammad",
+        "role": "",
+        "profile": "https://www.linkedin.com/in/raden-fachrul-605a12341/",
+        "avatar": "/image/avatar/raden-fachrul.jpeg"
+      },
+      {
+        "name": "Robi Nurhidayat",
+        "role": "",
+        "profile": "https://www.linkedin.com/in/robi-nurhidayat-2a857224a/",
+        "avatar": "/image/avatar/robi-nurhidayat.jpeg"
+      }
     ],
     "source": "https://www.figma.com/design/UHWZmtqrQPkLTo1km7YPZn/Design?node-id=221-2&node-type=canvas",
     "url": "",
-    "snapshot": [
+    "thumbnail": {
+      "src": "/image/projects/ui-ux-course/landing-page-preview.png",
+      "caption": "Preview of Landing Page Course UI & UX Design",
+      "original": true
+    },
+    "previews": [
       {
-        "preview": "/image/projects/ui-ux-course/landing-page-preview.png",
+        "preview": "https://embed.figma.com/design/UHWZmtqrQPkLTo1km7YPZn/Design?node-id=221-2&embed-host=share",
         "caption": "Preview of Landing Page Course UI & UX Design",
         "original": true
       }
     ],
+    "details": {
+      "about": {
+        "indonesia": "",
+        "english": ""
+      },
+      "responsibilities": [
+        { "name": "Akbar Saleh Alfian", "detail": "" },
+        { "name": "Bagus Perdana Yusuf", "detail": "" },
+        { "name": "Raden Fachrul Ramzy Muhammad", "detail": "" },
+        { "name": "Robi Nurhidayat", "detail": "" }
+      ]
+    },
     "miniProject": false,
-    "embeded_content": "<iframe style='border: 1px solid rgba(0, 0, 0, 0.1);' width='800' height='450' src='https://embed.figma.com/design/UHWZmtqrQPkLTo1km7YPZn/Design?node-id=221-2&embed-host=share' allowfullscreen></iframe>"
+    "lastUpdated": "2021-12-18",
+    "license": ""
   },
   {
     "id": 8,
@@ -198,22 +367,58 @@
       "MySQL"
     ],
     "contributors": [
-      "Akbar Saleh Alfian",
-      "Bagus Perdana Yusuf",
-      "Raden Fachrul Ramzy Muhammad",
-      "Robi Nurhidayat"
+      {
+        "name": "Akbar Saleh Alfian",
+        "role": "",
+        "profile": ""
+      },
+      {
+        "name": "Bagus Perdana Yusuf",
+        "role": "",
+        "profile": "https://www.linkedin.com/in/bagus-perdana-yusuf-0310971a5/",
+        "avatar": "/image/avatar/baguspy.png"
+      },
+      {
+        "name": "Raden Fachrul Ramzy Muhammad",
+        "role": "",
+        "profile": "https://www.linkedin.com/in/raden-fachrul-605a12341/",
+        "avatar": "/image/avatar/raden-fachrul.jpeg"
+      },
+      {
+        "name": "Robi Nurhidayat",
+        "role": "",
+        "profile": "https://www.linkedin.com/in/robi-nurhidayat-2a857224a/",
+        "avatar": "/image/avatar/robi-nurhidayat.jpeg"
+      }
     ],
     "source": "https://github.com/Robi-Nurhidayat/project-baru",
     "url": "",
-    "snapshot": [
+    "thumbnail": {
+      "src": "/image/projects/it-course-website/it-course-homepage-preview.png",
+      "caption": "Homepage Preview of IT Course Website",
+      "original": true
+    },
+    "previews": [
       {
         "preview": "/image/projects/it-course-website/it-course-homepage-preview.png",
-        "caption": "Homepage Preview of IT Course Website",
-        "original": true
+        "caption": "Homepage Preview of IT Course Website"
       }
     ],
+    "details": {
+      "about": {
+        "indonesia": "",
+        "english": ""
+      },
+      "responsibilities": [
+        { "name": "Akbar Saleh Alfian", "detail": "" },
+        { "name": "Bagus Perdana Yusuf", "detail": "" },
+        { "name": "Raden Fachrul Ramzy Muhammad", "detail": "" },
+        { "name": "Robi Nurhidayat", "detail": "" }
+      ]
+    },
     "miniProject": false,
-    "embeded_content": ""
+    "lastUpdated": "2021-12-18",
+    "license": ""
   },
   {
     "id": 9,
@@ -224,17 +429,38 @@
       "english": "Making a responsive survey form with just HTML and CSS is one of the five projects for the freeCodeCamp course on responsive web design. "
     },
     "technology": ["HTML", "CSS", "Responsive Web"],
-    "contributors": ["Bagus Perdana Yusuf"],
+    "contributors": [
+      {
+        "name": "Bagus Perdana Yusuf",
+        "role": "",
+        "profile": "https://www.linkedin.com/in/bagus-perdana-yusuf-0310971a5/",
+        "avatar": "/image/avatar/baguspy.png"
+      }
+    ],
     "source": "https://codepen.io/baguspy/pen/zYzoMyJ",
     "url": "https://codepen.io/baguspy/full/zYzoMyJ",
-    "snapshot": [
+    "thumbnail": {
+      "src": "/image/projects/freecodecamp-responsive-web-design/good4u-survey-form.png",
+      "caption": "Preview of Good4U Survey Form - Freecodecamp",
+      "original": true
+    },
+    "previews": [
       {
         "preview": "/image/projects/freecodecamp-responsive-web-design/good4u-survey-form.png",
         "caption": "Preview of Good4U Survey Form - Freecodecamp",
         "original": true
       }
     ],
-    "miniProject": true
+    "details": {
+      "about": {
+        "indonesia": "",
+        "english": ""
+      },
+      "responsibilities": [{ "name": "Bagus Perdana Yusuf", "detail": "" }]
+    },
+    "miniProject": true,
+    "lastUpdated": "2021-12-18",
+    "license": ""
   },
   {
     "id": 10,
@@ -245,17 +471,37 @@
       "english": "Create a Tribute page about one of Indonesia's important figures, the Father of Indonesian Pluralism, Abdurrahman Wahid. This project is one of the five projects of the Responsive Web Design course held by freeCodeCamp, creating a responsive Tribute Page with HTML and CSS only."
     },
     "technology": ["HTML", "CSS", "Responsive Web"],
-    "contributors": ["Bagus Perdana Yusuf"],
-    "source": "https://codepen.io/baguspy/pen/dyROKBj",
-    "url": "https://codepen.io/baguspy/full/dyROKBj",
-    "snapshot": [
+    "contributors": [
       {
-        "preview": "/image/projects/freecodecamp-responsive-web-design/gusdur-tribute-page.png",
-        "caption": "Preview of Gusdur Tribute Page - Freecodecamp",
-        "original": true
+        "name": "Bagus Perdana Yusuf",
+        "role": "",
+        "profile": "https://www.linkedin.com/in/bagus-perdana-yusuf-0310971a5/",
+        "avatar": "/image/avatar/baguspy.png"
       }
     ],
-    "miniProject": true
+    "source": "https://codepen.io/baguspy/pen/dyROKBj",
+    "url": "https://codepen.io/baguspy/full/dyROKBj",
+    "thumbnail": {
+      "src": "/image/projects/freecodecamp-responsive-web-design/gusdur-tribute-page.png",
+      "caption": "Preview of Gusdur Tribute Page - Freecodecamp",
+      "original": true
+    },
+    "previews": [
+      {
+        "preview": "/image/projects/freecodecamp-responsive-web-design/gusdur-tribute-page.png",
+        "caption": "Preview of Gusdur Tribute Page - Freecodecamp"
+      }
+    ],
+    "details": {
+      "about": {
+        "indonesia": "",
+        "english": ""
+      },
+      "responsibilities": [{ "name": "Bagus Perdana Yusuf", "detail": "" }]
+    },
+    "miniProject": true,
+    "lastUpdated": "2021-12-18",
+    "license": ""
   },
   {
     "id": 11,
@@ -266,17 +512,37 @@
       "english": "This project is one of the five projects of the Responsive Web Design course by freeCodeCamp, building a PHP Basic Technical Documentation Page with HTML and CSS."
     },
     "technology": ["HTML", "CSS", "Responsive Web"],
-    "contributors": ["Bagus Perdana Yusuf"],
-    "source": "https://codepen.io/baguspy/pen/rNXoVOj",
-    "url": "https://codepen.io/baguspy/full/rNXoVOj",
-    "snapshot": [
+    "contributors": [
       {
-        "preview": "/image/projects/freecodecamp-responsive-web-design/php-technical-documentation-page.png",
-        "caption": "Preview of PHP Technical Documentation Page - Freecodecamp",
-        "original": true
+        "name": "Bagus Perdana Yusuf",
+        "role": "",
+        "profile": "https://www.linkedin.com/in/bagus-perdana-yusuf-0310971a5/",
+        "avatar": "/image/avatar/baguspy.png"
       }
     ],
-    "miniProject": true
+    "source": "https://codepen.io/baguspy/pen/rNXoVOj",
+    "url": "https://codepen.io/baguspy/full/rNXoVOj",
+    "thumbnail": {
+      "src": "/image/projects/freecodecamp-responsive-web-design/php-technical-documentation-page.png",
+      "caption": "Preview of PHP Technical Documentation Page - Freecodecamp",
+      "original": true
+    },
+    "previews": [
+      {
+        "preview": "/image/projects/freecodecamp-responsive-web-design/php-technical-documentation-page.png",
+        "caption": "Preview of PHP Technical Documentation Page - Freecodecamp"
+      }
+    ],
+    "details": {
+      "about": {
+        "indonesia": "",
+        "english": ""
+      },
+      "responsibilities": [{ "name": "Bagus Perdana Yusuf", "detail": "" }]
+    },
+    "miniProject": true,
+    "lastUpdated": "2021-12-18",
+    "license": ""
   },
   {
     "id": 12,
@@ -287,17 +553,37 @@
       "english": "This project is one of the five projects of the Responsive Web Design course by freeCodeCamp, building the Fantech ALTO 7.1 HG26 Headset Product Landing Page with HTML and CSS."
     },
     "technology": ["HTML", "CSS", "Responsive Web"],
-    "contributors": ["Bagus Perdana Yusuf"],
-    "source": "https://codepen.io/baguspy/pen/BaXZJJN",
-    "url": "https://codepen.io/baguspy/full/BaXZJJN",
-    "snapshot": [
+    "contributors": [
       {
-        "preview": "/image/projects/freecodecamp-responsive-web-design/fantech-product-landing-page.png",
-        "caption": "Preview of Fantech Product Landing Page - Freecodecamp",
-        "original": true
+        "name": "Bagus Perdana Yusuf",
+        "role": "",
+        "profile": "https://www.linkedin.com/in/bagus-perdana-yusuf-0310971a5/",
+        "avatar": "/image/avatar/baguspy.png"
       }
     ],
-    "miniProject": true
+    "source": "https://codepen.io/baguspy/pen/BaXZJJN",
+    "url": "https://codepen.io/baguspy/full/BaXZJJN",
+    "thumbnail": {
+      "src": "/image/projects/freecodecamp-responsive-web-design/fantech-product-landing-page.png",
+      "caption": "Preview of Fantech Product Landing Page - Freecodecamp",
+      "original": true
+    },
+    "previews": [
+      {
+        "preview": "/image/projects/freecodecamp-responsive-web-design/fantech-product-landing-page.png",
+        "caption": "Preview of Fantech Product Landing Page - Freecodecamp"
+      }
+    ],
+    "details": {
+      "about": {
+        "indonesia": "",
+        "english": ""
+      },
+      "responsibilities": [{ "name": "Bagus Perdana Yusuf", "detail": "" }]
+    },
+    "miniProject": true,
+    "lastUpdated": "2021-12-18",
+    "license": ""
   },
   {
     "id": 13,
@@ -308,17 +594,37 @@
       "english": "The last project of the five projects of the Responsive Web Design course held by freeCodeCamp to pass and get a certificate, build a Personal Portfolio Page with HTML and CSS."
     },
     "technology": ["HTML", "CSS", "Responsive Web"],
-    "contributors": ["Bagus Perdana Yusuf"],
-    "source": "https://codepen.io/baguspy/pen/ExqGmzR",
-    "url": "https://codepen.io/baguspy/full/ExqGmzR",
-    "snapshot": [
+    "contributors": [
       {
-        "preview": "/image/projects/freecodecamp-responsive-web-design/personal-portfolio-page.png",
-        "caption": "Preview of Personal Portfolio - Freecodecamp",
-        "original": true
+        "name": "Bagus Perdana Yusuf",
+        "role": "",
+        "profile": "https://www.linkedin.com/in/bagus-perdana-yusuf-0310971a5/",
+        "avatar": "/image/avatar/baguspy.png"
       }
     ],
-    "miniProject": true
+    "source": "https://codepen.io/baguspy/pen/ExqGmzR",
+    "url": "https://codepen.io/baguspy/full/ExqGmzR",
+    "thumbnail": {
+      "src": "/image/projects/freecodecamp-responsive-web-design/personal-portfolio-page.png",
+      "caption": "Preview of Personal Portfolio - Freecodecamp",
+      "original": true
+    },
+    "previews": [
+      {
+        "preview": "/image/projects/freecodecamp-responsive-web-design/personal-portfolio-page.png",
+        "caption": "Preview of Personal Portfolio - Freecodecamp"
+      }
+    ],
+    "details": {
+      "about": {
+        "indonesia": "",
+        "english": ""
+      },
+      "responsibilities": [{ "name": "Bagus Perdana Yusuf", "detail": "" }]
+    },
+    "miniProject": true,
+    "lastUpdated": "2021-12-18",
+    "license": ""
   },
   {
     "id": 14,
@@ -329,17 +635,37 @@
       "english": "Created comprehensive UI/UX designs for all pages of the Content Management Web Application project utilizing Figma"
     },
     "technology": ["User Interface", "User Experience", "Figma"],
-    "contributors": ["Bagus Perdana Yusuf"],
-    "source": "",
-    "url": "",
-    "snapshot": [
+    "contributors": [
       {
-        "preview": "/image/projects/ui-ux-cmwa/preview-homepage-ui.png",
-        "caption": "Homepage of UI & UX Design",
-        "original": true
+        "name": "Bagus Perdana Yusuf",
+        "role": "",
+        "profile": "https://www.linkedin.com/in/bagus-perdana-yusuf-0310971a5/",
+        "avatar": "/image/avatar/baguspy.png"
       }
     ],
-    "miniProject": false
+    "source": "",
+    "url": "",
+    "thumbnail": {
+      "src": "/image/projects/ui-ux-cmwa/preview-homepage-ui.png",
+      "caption": "Homepage of UI & UX Design",
+      "original": true
+    },
+    "previews": [
+      {
+        "preview": "/image/projects/ui-ux-cmwa/preview-homepage-ui.png",
+        "caption": "Homepage of UI & UX Design"
+      }
+    ],
+    "details": {
+      "about": {
+        "indonesia": "",
+        "english": ""
+      },
+      "responsibilities": [{ "name": "Bagus Perdana Yusuf", "detail": "" }]
+    },
+    "miniProject": false,
+    "lastUpdated": "2021-12-18",
+    "license": ""
   },
   {
     "id": 15,
@@ -350,16 +676,36 @@
       "english": "In order to complete the Data Analysis With Python course by freecodecamp.org, I had to create a Mean Variance Standard Deviation Calculator project as a way to demonstrate how I can utilize the fundamental knowledge that I have obtained in this course"
     },
     "technology": ["Python", "Numpy"],
-    "contributors": ["Bagus Perdana Yusuf"],
-    "source": "https://github.com/bagusperdanay7/fcc-DA-Mean-Variance-Standard-Deviation-Calculator",
-    "url": "https://replit.com/@baguspyus/Mean-Variance-Standard-Deviation-Calculator",
-    "snapshot": [
+    "contributors": [
       {
-        "preview": "/image/projects/data-analysis-with-python/mean-std-variance-calculator.jpg",
-        "caption": "Illustration of Mean, Standard Deviation & Variance Calculator Project",
-        "original": false
+        "name": "Bagus Perdana Yusuf",
+        "role": "Programmer",
+        "profile": "https://www.linkedin.com/in/bagus-perdana-yusuf-0310971a5/",
+        "avatar": "/image/avatar/baguspy.png"
       }
     ],
-    "miniProject": true
+    "source": "https://github.com/bagusperdanay7/fcc-DA-Mean-Variance-Standard-Deviation-Calculator",
+    "url": "https://replit.com/@baguspyus/Mean-Variance-Standard-Deviation-Calculator",
+    "thumbnail": {
+      "src": "/image/projects/data-analysis-with-python/mean-std-variance-calculator.jpg",
+      "caption": "Illustration of Mean, Standard Deviation & Variance Calculator Project",
+      "original": false
+    },
+    "previews": [
+      {
+        "preview": "/image/projects/data-analysis-with-python/mean-std-variance-calculator.jpg",
+        "caption": "Illustration of Mean, Standard Deviation & Variance Calculator Project"
+      }
+    ],
+    "details": {
+      "about": {
+        "indonesia": "",
+        "english": ""
+      },
+      "responsibilities": [{ "name": "Bagus Perdana Yusuf", "detail": "" }]
+    },
+    "miniProject": true,
+    "lastUpdated": "2024-10-19",
+    "license": ""
   }
 ]

@@ -39,7 +39,7 @@ export default {
         <ProjectCard
           :name="project.name"
           :description="project.description.english"
-          :snapshot="project.snapshot"
+          :thumbnail="project.thumbnail"
           :category="project.category"
           :contributors="project.contributors"
           :isMiniProject="project.miniProject"

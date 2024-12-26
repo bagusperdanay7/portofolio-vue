@@ -9,9 +9,9 @@ export default {
       type: String,
       default: "",
     },
-    snapshot: {
-      type: Array,
-      default: "",
+    thumbnail: {
+      type: Object,
+      default: {},
     },
     category: {
       type: String,
@@ -35,18 +35,10 @@ export default {
   >
     <div class="project-image relative">
       <img
-        :src="
-          snapshot.length ? snapshot[0].preview : 'src\\assets\\template.jpg'
-        "
-        :alt="snapshot.length ? snapshot[0].caption : name"
+        :src="thumbnail.src ?? 'src\\assets\\template.jpg'"
+        :alt="thumbnail.caption ?? ''"
         class="w-full rounded-[10px] text-xs"
-        :title="
-          snapshot.length
-            ? snapshot[0].original
-              ? ''
-              : 'This is an illustrative image'
-            : ''
-        "
+        :title="thumbnail.original ? '' : 'This is an illustrative image'"
       />
       <span
         v-if="isMiniProject"
@@ -70,10 +62,7 @@ export default {
       <p class="text-xs text-light-100 dark:text-dark-100">
         Created by
         <strong v-for="contributor in contributors" :key="contributor">
-          <a
-            href=""
-            class="transition duration-300 ease-in-out hover:underline hover:text-primary-500 dark:hover:text-primary-300"
-            >{{ contributor }}</a
+          <span>{{ contributor.name }}</span
           >{{ contributor == contributors.at(-1) ? "" : ", " }}
         </strong>
       </p>

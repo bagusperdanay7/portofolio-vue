@@ -128,7 +128,7 @@ export default {
 
 <template>
   <span
-    class="font-bold text-xs px-2 py-1 rounded-full cursor-pointer"
+    class="font-bold text-xs px-2 py-1 rounded-full cursor-default"
     :class="[badgeClass]"
     >{{ text }}</span
   >

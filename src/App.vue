@@ -314,12 +314,19 @@ export default {
             Deepen the connection with me, by getting in touch with me
           </p>
           <a
+            v-if="$route.path === '/'"
             href="#contacts"
             class="py-2.5 px-5 bg-primary-50 rounded-[10px] font-bold text-base text-primary-950 transition-all duration-300 ease-in-out hover:bg-primary-200"
             @click.prevent="navigateToSection('#contacts')"
           >
             Contact Me
           </a>
+          <RouterLink
+            v-else
+            to="/#contacts"
+            class="py-2.5 px-5 bg-primary-50 rounded-[10px] font-bold text-base text-primary-950 transition-all duration-300 ease-in-out hover:bg-primary-200"
+            >Contact Me</RouterLink
+          >
         </div>
       </div>
       <hr class="mt-12 mb-6" />

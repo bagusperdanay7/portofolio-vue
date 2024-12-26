@@ -43,7 +43,7 @@ export default {
 <template>
   <a
     v-if="disabled"
-    title="No Source available"
+    title="Not available"
     class="font-bold transition duration-300 ease-in-out"
     :class="{
       'text-base px-14 py-2.5': size === 'base',
@@ -58,6 +58,7 @@ export default {
       'cursor-not-allowed opacity-70': disabled,
     }"
   >
+    <slot name="icon"></slot>
     <slot>Submit</slot>
   </a>
   <a
