@@ -100,14 +100,11 @@ export default {
         localStorage.theme = "dark";
       }
     },
-    navigateToSection(section) {
-      const sectionId = document.querySelector(section);
-      sectionId.scrollIntoView({ behavior: "smooth" });
-    },
     navigateToSectionMobile(section) {
       this.toggleClickMobileMenu();
       setTimeout(() => {
-        this.navigateToSection(section);
+        const sectionId = document.querySelector(section);
+        sectionId.scrollIntoView({ behavior: "smooth" });
       }, 500);
     },
   },
@@ -218,12 +215,11 @@ export default {
     <nav class="hidden lg:block">
       <ul v-if="$route.path === '/'">
         <li v-for="(menu, index) in homeMenus" :key="index" class="inline">
-          <a
-            href="#"
-            @click="navigateToSection(menu.link)"
+          <RouterLink
+            :to="menu.link"
             class="ml-6 text-base font-bold text-light-100 hover:text-primary-600 dark:text-dark-90 dark:hover:text-primary-400"
             >{{ menu.name }}
-          </a>
+          </RouterLink>
         </li>
         <li class="inline align-middle">
           <button
@@ -286,12 +282,11 @@ export default {
             class="flex flex-row flex-wrap gap-y-3 gap-x-6"
           >
             <li v-for="(menu, index) in homeMenus" :key="index" class="inline">
-              <a
-                href="#"
-                @click.prevent="navigateToSection(menu.link)"
+              <RouterLink
+                :to="menu.link"
                 class="text-base font-bold text-dark-100 hover:text-primary-300"
                 >{{ menu.name }}
-              </a>
+              </RouterLink>
             </li>
           </ul>
           <ul v-else class="flex flex-row flex-wrap gap-y-3 gap-x-6">
@@ -313,20 +308,12 @@ export default {
           <p class="font-normal text-dark-100 text-sm mb-6">
             Deepen the connection with me, by getting in touch with me
           </p>
-          <a
-            v-if="$route.path === '/'"
-            href="#contacts"
-            class="py-2.5 px-5 bg-primary-50 rounded-[10px] font-bold text-base text-primary-950 transition-all duration-300 ease-in-out hover:bg-primary-200"
-            @click.prevent="navigateToSection('#contacts')"
-          >
-            Contact Me
-          </a>
           <RouterLink
-            v-else
             to="/#contacts"
             class="py-2.5 px-5 bg-primary-50 rounded-[10px] font-bold text-base text-primary-950 transition-all duration-300 ease-in-out hover:bg-primary-200"
-            >Contact Me</RouterLink
           >
+            Contact Me
+          </RouterLink>
         </div>
       </div>
       <hr class="mt-12 mb-6" />

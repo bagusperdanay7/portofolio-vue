@@ -68,7 +68,6 @@ export default {
       id="projectDetails"
       :class="{ 'h-[50svh]': isErrror }"
     >
-      <!-- TODO: Tambahkan status mini project -->
       <div
         v-if="project"
         class="flex flex-col gap-y-12 lg:flex-row lg:justify-between lg:gap-x-12 lg:gap-y-0"

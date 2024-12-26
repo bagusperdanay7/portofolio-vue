@@ -39,9 +39,11 @@ const router = createRouter({
     },
   ],
   scrollBehavior(to, from, savedPosition) {
+    // TODO: Tambahkan delay
     if (to.hash) {
       return {
         el: to.hash,
+        top: 16,
         behavior: "smooth",
       };
     }
