@@ -28,6 +28,14 @@ export default {
       projects: {},
       isError: false,
       errorMessage: "",
+      text: {
+        tools: {
+          indonesia:
+            "Perkakas yang dibutuhkan untuk mengembangkan aplikasi ini antara lain:",
+          english:
+            "To develop this application, the following tools are needed:",
+        },
+      },
     };
   },
   props: {
@@ -70,7 +78,7 @@ export default {
     >
       <div
         v-if="project"
-        class="flex flex-col gap-y-12 lg:flex-row lg:justify-between lg:gap-x-12 lg:gap-y-0"
+        class="flex flex-col gap-y-6 lg:flex-row lg:justify-between lg:gap-x-12 lg:gap-y-0"
       >
         <div class="flex flex-col gap-y-4" id="contentInformation">
           <img
@@ -97,13 +105,13 @@ export default {
             </h1>
             <p
               v-if="project.description"
-              class="mt-2 text-light-80 font-normal text-sm dark:text-dark-90"
+              class="mt-2 text-light-80 font-normal text-sm lg:text-base dark:text-dark-90"
             >
               {{ project.description.english }}
             </p>
           </div>
 
-          <div class="space-x-4 mt-3" id="buttons">
+          <div class="space-x-4 my-2.5" id="buttons">
             <ButtonLink
               size="regular"
               :link="project.url === '' ? null : project.url"
@@ -121,8 +129,106 @@ export default {
             >
           </div>
 
-          <div id="about"></div>
+          <div id="about">
+            <h2
+              class="text-light-100 mb-1 text-lg font-bold dark:text-dark-100"
+            >
+              About
+            </h2>
+            <div class="flex flex-col gap-y-2" id="paragraphs">
+              <p
+                v-for="paragraph in project.details.about.english"
+                class="text-light-80 text-sm lg:text-base leading-6 font-normal dark:text-dark-90"
+              >
+                {{ paragraph }}
+              </p>
+            </div>
+            <p
+              class="mt-2 text-light-80 text-sm lg:text-base leading-6 font-normal dark:text-dark-90"
+            >
+              {{ text.tools.english }}
+            </p>
+
+            <div class="my-6 overflow-x-auto" id="techStacksTable">
+              <table
+                class="w-full text-sm text-left text-light-100 dark:text-dark-100"
+              >
+                <caption
+                  class="caption-top text-light-50 font-semibold mb-1 dark:text-dark-70"
+                >
+                  List of Technology Stack & Tools.
+                </caption>
+                <thead
+                  class="bg-transparent text-sm text-light-100 uppercase border-b border-light-50 dark:text-dark-100"
+                >
+                  <tr>
+                    <th scope="col" class="px-6 py-3">Tech & Tools</th>
+                    <th scope="col" class="px-6 py-3">Version</th>
+                    <th scope="col" class="px-6 py-3">Usage</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr
+                    v-for="tool in project.details.tools.english"
+                    class="bg-transparent transition duration-300 ease-in-out hover:bg-light-10/80 dark:hover:bg-dark-bg-2"
+                  >
+                    <th
+                      scope="row"
+                      class="px-6 py-4 font-medium text-light-100 whitespace-nowrap dark:text-dark-100"
+                    >
+                      {{ tool.name }}
+                    </th>
+                    <td class="px-6 py-4 text-light-100 dark:text-dark-100">
+                      {{ tool.version }}
+                    </td>
+                    <td class="px-6 py-4 text-light-100 dark:text-dark-100">
+                      {{ tool.usage }}
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <h2
+              class="text-light-100 mb-1 text-lg font-bold dark:text-dark-100"
+            >
+              Responsibilites
+            </h2>
+            <p
+              class="text-light-80 text-sm lg:text-base leading-6 font-normal dark:text-dark-90"
+            >
+              These are the roles and Responsibilites per contributor:
+            </p>
+            <div class="mt-2 flex flex-col gap-y-4" id="resposibilities">
+              <div
+                v-for="responsibility in project.details.responsibilities"
+                :key="responsibility.name"
+                :id="
+                  responsibility.name.slice(0, 2).toLowerCase() +
+                  'Responsibilities'
+                "
+              >
+                <h3
+                  class="text-light-80 font-bold text-sm lg:text-base dark:text-dark-90"
+                >
+                  {{ responsibility.name }}
+                </h3>
+                <ul class="list-disc pl-5">
+                  <li
+                    v-for="tasks in responsibility.detail.indonesia"
+                    class="text-light-80 pl-1 font-normal text-sm lg:text-base leading-6 dark:text-dark-90"
+                  >
+                    {{ tasks }}
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
           <div id="preview">
+            <h2
+              class="text-light-100 mb-2 text-lg font-bold dark:text-dark-100"
+            >
+              Preview
+            </h2>
             <iframe
               v-if="project.category == 'UI & UX Design'"
               style="border: 1px solid rgba(0, 0, 0, 0.1)"
@@ -132,20 +238,24 @@ export default {
               :title="project.name"
               allowfullscreen
             ></iframe>
+            <div id="imagesPreview">
+              <figure v-for="image in project.previews" :key="image.caption">
+                <img
+                  class="w-full object-cover"
+                  :src="image.preview ?? '/src/assets/template.jpg'"
+                  :alt="image.caption ?? 'template'"
+                />
+                <figcaption
+                  class="text-center text-light-80 text-sm font-normal dark:text-dark-90"
+                >
+                  {{ image.caption }}
+                </figcaption>
+              </figure>
+            </div>
           </div>
-
-          <!-- 
-          <figure>
-            <img
-              class="w-full object-cover"
-              src="https://www.w3schools.com/tags/pic_trulli.jpg"
-              alt="Trulli"
-            />
-            <figcaption>Fig.1 - Trulli, Puglia, Italy.</figcaption>
-          </figure> -->
         </div>
         <div
-          class="min-w-[300px] max-w-80 py-4 flex flex-col gap-y-4"
+          class="lg:min-w-[300px] lg:max-w-80 py-4 flex flex-col gap-y-4"
           id="sideInformation"
         >
           <div class="category" id="category">
@@ -244,6 +354,7 @@ export default {
           </div>
         </div>
       </div>
+      <!-- DeBUGGING -->
       <p class="dark:text-dark-100">{{ project }}</p>
     </section>
   </main>

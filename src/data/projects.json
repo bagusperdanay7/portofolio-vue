@@ -31,7 +31,7 @@
       },
       {
         "name": "Robi Nurhidayat",
-        "role": "Lead Back-end Developer",
+        "role": "Back-end Developer, Front-end Developer",
         "profile": "https://www.linkedin.com/in/robi-nurhidayat-2a857224a/",
         "avatar": "/image/avatar/robi-nurhidayat.jpeg"
       }
@@ -51,13 +51,209 @@
     ],
     "details": {
       "about": {
-        "indonesia": "",
-        "english": ""
+        "indonesia": [
+          "Sistem Informasi Pengelolaan Pelanggan Data Teknis Pelanggan Wholesale Berbasis Web adalah aplikasi hasil Kerja Praktek atau magang di Perusahaan PT Telkom Indonesia Graha Merah Putih, Kota Bandung, Jawa Barat, Indonesia. Kami membuat aplikasi di dalam divisi Managed Service Operation (MSO). Divisi ini melayani pemesanan penyediaan infrastruktur untuk pelanggan Wholesale, yaitu Telkomsel & Other Licensed Operator (OLO). Aplikasi ini memiliki 3 jenis pengguna, yaitu admin, editor, dan user view. Pengerjaan program dimulai dari tanggal 1 September 2021 dan selesai pada 18 Desember 2021 yang berarti pengerjaannya berdurasi 3 bulan 18 hari. Sistem kerja yang dilakukan adalah Hibrida, yaitu setiap Senin kami bekerja dari kantor (Work From Office), dan Selasa - Jum'at kami bekerja dari rumah (Work from Home).",
+          "Fitur-fitur aplikasi web yang tersedia antara lain, autentikasi login berbasis peran (administrator, editor, & user view), operasi Create, Read, Update, & Delete (CRUD), impor berkas dari Excel ke dalam bentuk basis data ekspor berkas dari basis data menjadi berkas Excel, penyaringan data berdasarkan kriteria tertentu, dan pengelolaan data pengguna (khusus administrator)"
+        ],
+        "english": [
+          "Web-based Wholesale Customer Technical Data Management Information System is an application based on an internship at PT Telkom Indonesia Graha Merah Putih, Bandung City, West Java, Indonesia. We built the application in the Managed Service Operation (MSO) division. This division serves ordering infrastructure provision for wholesale customers, namely Telkomsel & Other Licensed Operator (OLO). This application caters to three distinct user types: admin, editor, and user view. The program work started on September 1, 2021, and ended on December 18, 2021, meaning that the work took 3 months and 18 days. The work system conducted was hybrid, i.e., every Monday we worked from office, and Tuesday through Friday we worked from home.",
+          "The web application's features include role-based login authentication (administrator, editor, and user view), CRUD (create, read, update, and delete) operations, Excel file import and export, data filtering according to specific criteria, and administrator-only user data management."
+        ]
+      },
+      "tools": {
+        "indonesia": [
+          {
+            "name": "Bootstrap CSS",
+            "url": "https://getbootstrap.com",
+            "version": "4.0+",
+            "usage": "Kerangka kerja CSS untuk mempercepat implementasi Antarmuka pengguna"
+          },
+          {
+            "name": "Composer",
+            "url": "https://getcomposer.org",
+            "version": "2.20+",
+            "usage": "Pengelola dependensi"
+          },
+          {
+            "name": "DataTables",
+            "url": "https://datatables.net",
+            "version": "1.11+",
+            "usage": "Membuat table menjadi interaktif"
+          },
+          {
+            "name": "PHP",
+            "url": "https://www.php.net",
+            "version": "7.4.20+",
+            "usage": "Bahasa pemrograman utama"
+          },
+          {
+            "name": "Laravel",
+            "url": "https://laravel.com/",
+            "version": "8.54+",
+            "usage": "Kerangka PHP untuk mempercepat pengembangan aplikasi"
+          },
+          {
+            "name": "Line Awesome",
+            "url": "https://icons8.com/line-awesome",
+            "version": "1.0.2+",
+            "usage": "Icon pack untuk situs web"
+          },
+          {
+            "name": "Sweet Alert",
+            "url": "https://sweetalert2.github.io",
+            "version": "2.0+",
+            "usage": "Membuat pesan alert lebih cantik"
+          },
+          {
+            "name": "Visual Studio Code",
+            "url": "https://code.visualstudio.com/",
+            "version": "Latest",
+            "usage": "Penyunting kode"
+          },
+          {
+            "name": "MySQL",
+            "url": "https://www.mysql.com/",
+            "version": "8.0+",
+            "usage": "Database Management System (DBMS)"
+          },
+          {
+            "name": "XAMPP (Apache, MySQL, PHP)",
+            "url": "https://www.apachefriends.org/download.html",
+            "version": "7.4+",
+            "usage": "Peladen web lokal"
+          },
+          {
+            "name": "Balsamiq Cloud",
+            "url": "https://balsamiq.com/",
+            "version": "-",
+            "usage": "Perancangan kerangka dasar antarmuka pengguna"
+          },
+          {
+            "name": "Draw.io",
+            "url": "https://app.diagrams.net/",
+            "version": "-",
+            "usage": "Pembuatan Entity Relational Diagram (ERD)"
+          }
+        ],
+        "english": [
+          {
+            "name": "Bootstrap CSS",
+            "url": "https://getbootstrap.com",
+            "version": "4.0+",
+            "usage": "CSS framework to accelerate implementation User interface"
+          },
+          {
+            "name": "Composer",
+            "url": "https://getcomposer.org",
+            "version": "2.20+",
+            "usage": "Dependency manager"
+          },
+          {
+            "name": "DataTables",
+            "url": "https://datatables.net",
+            "version": "1.11+",
+            "usage": "Make the table interactive"
+          },
+          {
+            "name": "PHP",
+            "url": "https://www.php.net",
+            "version": "7.4.20+",
+            "usage": "Main programming language"
+          },
+          {
+            "name": "Laravel",
+            "url": "https://laravel.com/",
+            "version": "8.54+",
+            "usage": "PHP framework to accelerate application development"
+          },
+          {
+            "name": "Line Awesome",
+            "url": "https://icons8.com/line-awesome",
+            "version": "1.0.2+",
+            "usage": "The icon pack for website"
+          },
+          {
+            "name": "Sweet Alert",
+            "url": "https://sweetalert2.github.io",
+            "version": "2.0+",
+            "usage": "Make alert messages more beautiful"
+          },
+          {
+            "name": "Visual Studio Code",
+            "url": "https://code.visualstudio.com/",
+            "version": "Latest",
+            "usage": "Code editor"
+          },
+          {
+            "name": "MySQL",
+            "url": "https://www.mysql.com/",
+            "version": "8.0+",
+            "usage": "Database Management System (DBMS)"
+          },
+          {
+            "name": "XAMPP (Apache, MySQL, PHP)",
+            "url": "https://www.apachefriends.org/download.html",
+            "version": "7.4+",
+            "usage": "Local web server"
+          },
+          {
+            "name": "Balsamiq Cloud",
+            "url": "https://balsamiq.com/",
+            "version": "-",
+            "usage": "Design the wireframe for user interface"
+          },
+          {
+            "name": "Draw.io",
+            "url": "https://app.diagrams.net/",
+            "version": "-",
+            "usage": "Entity Relational Diagram (ERD) Creation"
+          }
+        ]
       },
       "responsibilities": [
-        { "name": "Bagus Perdana Yusuf", "detail": "" },
-        { "name": "Bagus Perdana Yusuf", "detail": "" },
-        { "name": "Bagus Perdana Yusuf", "detail": "" }
+        {
+          "name": "Bagus Perdana Yusuf",
+          "detail": {
+            "indonesia": [
+              "Bekerja sama dengan sebuah tim beranggotakan 3 orang dalam membangun website Sistem Informasi Manajemen Data yang membantu memudahkan pegawai dalam proses pengelolaan data teknis pelanggan menggunakan HTML, CSS, JavaScript dan PHP Laravel dalam tim.",
+              "Merancang perangkat lunak yang sesuai dengan kebutuhan perusahaan dan melaporkan hasil pengerjaan perangkat lunak yang sedang dibangun setiap minggu.",
+              "Melakukan operasi Create, Read, Update, dan Delete (CRUD) pada halaman progress lapangan dan membantu membuat autentikasi pengguna.",
+              "Membuat fitur penyaringan data (filter) berdasarkan kriteria yang ditentukan pada halaman deployment, progress lapangan, disconnect",
+              "Menerjemahkan rancangan kerangka dasar (wireframe) menjadi kode program untuk menghasilkan tampilan antarmuka pengguna aplikasi situs web dan membuat fitur mini penunjuk jam real-time dengan JavaScript.",
+              "Membuat konsep desain awal aplikasi web melalui wireframe menggunakan Balsamiq Cloud"
+            ],
+            "english": []
+          }
+        },
+        {
+          "name": "Raden Fachrul Ramzy Muhammad",
+          "detail": {
+            "indonesia": [
+              "Membangun sistem informasi berbasis website untuk mempermudah pengelolaan data teknis pelanggan dengan bekerjasama bersama rekan tim untuk merancang dan mengembangkan aplikasi bersama.",
+              "Merancang perangkat lunak yang sesuai dengan kebutuhan perusahaan dan melaporkan hasil pengerjaan perangkat lunak yang sedang dibangun setiap minggu.",
+              "Membuat fitur autentikasi login berbasis peran yang terdiri dari tiga peran (administrator, editor, user view) serta mendesain tampilan antarmuka pengguna untuk halaman login.",
+              "Membuat fitur pengelolaan pengguna untuk administrator seperti menambahkan data pengguna, mengubah data pengguna, serta menghapus data pengguna.",
+              "Menerjemahkan rancangan kerangka dasar (wireframe) menjadi kode program untuk menghasilkan tampilan antarmuka pengguna aplikasi situs web.",
+              "Membuat konsep desain awal aplikasi web melalui wireframe menggunakan Balsamiq Cloud"
+            ],
+            "english": []
+          }
+        },
+        {
+          "name": "Robi Nurhidayat",
+          "detail": {
+            "indonesia": [
+              "Membangun sistem informasi berbasis website untuk mempermudah pengelolaan data teknis pelanggan dengan bekerjasama bersama rekan tim untuk merancang dan mengembangkan aplikasi bersama.",
+              "Merancang perangkat lunak yang sesuai dengan kebutuhan perusahaan dan melaporkan hasil pengerjaan perangkat lunak yang sedang dibangun setiap minggu.",
+              "Membuat fitur untuk mengekspor data ke dalam file Excel, serta mengimpor data dari file Excel ke dalam basis data.",
+              "Melakukan operasi Create, Read, Update, dan Delete (CRUD) pada halaman deployment, rekap, disconnect, dan exe summ.",
+              "Mengkonversi data yang ada di Excel ke dalam bentuk skema dan model database yang terstruktur untuk meminimalisir redundansi dan meningkatkan efisiensi.",
+              "Menerjemahkan rancangan kerangka dasar (wireframe) menjadi kode program untuk menghasilkan tampilan antarmuka pengguna aplikasi situs web.",
+              "Membuat konsep desain awal aplikasi web melalui wireframe menggunakan Balsamiq Cloud"
+            ],
+            "english": []
+          }
+        }
       ]
     },
     "miniProject": false,
@@ -79,12 +275,14 @@
       "TensorFlow",
       "Deep Learning",
       "Artificial Intelligence",
-      "Machine Learning"
+      "Machine Learning",
+      "Natural Language Processing",
+      "Sentiment Analysis"
     ],
     "contributors": [
       {
         "name": "Bagus Perdana Yusuf",
-        "role": "",
+        "role": "Data Scientist",
         "profile": "https://www.linkedin.com/in/bagus-perdana-yusuf-0310971a5/",
         "avatar": "/image/avatar/baguspy.png"
       }
@@ -121,11 +319,11 @@
       "indonesia": "Mengimplementasikan design figma ke dalam bentuk kode (slicing) portofolio website pribadi menggunakan framework Vue.js",
       "english": "Use the Vue.js framework to implement the figma design into code (slicing) for my own website portfolio."
     },
-    "technology": ["Vue.js", "Tailwind CSS", "Vite"],
+    "technology": ["Vue.js", "Tailwind CSS", "Vite", "Responsive Web"],
     "contributors": [
       {
         "name": "Bagus Perdana Yusuf",
-        "role": "",
+        "role": "Front-end Developer",
         "profile": "https://www.linkedin.com/in/bagus-perdana-yusuf-0310971a5/",
         "avatar": "/image/avatar/baguspy.png"
       }
@@ -207,7 +405,13 @@
       "indonesia": "Project akhir dari Kursus Dicoding, yaitu Machine Learning Pemula. Saya ditugaskan untuk membuat Klasifikasi Gambar dengan Python & Tensorflow.",
       "english": "The final project of the Dicoding course, Machine Learning Beginner, I was assigned to make Image Classification with Python & Tensorflow."
     },
-    "technology": ["Python", "TensorFlow", "Machine Learning"],
+    "technology": [
+      "Python",
+      "TensorFlow",
+      "Machine Learning",
+      "Computer Vision",
+      "Image Classification"
+    ],
     "contributors": [
       {
         "name": "Bagus Perdana Yusuf",

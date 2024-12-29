@@ -4,12 +4,13 @@ import CertificateCard from "@/components/ui/card/CertificateCard.vue";
 import { Transition } from "vue";
 
 export default {
-  components: { CertificateCard, Transition },
   mounted() {
+    window.scrollTo(0, 0);
     setTimeout(() => {
       this.certificates = certifications;
     }, 300);
   },
+  components: { CertificateCard, Transition },
   data() {
     return {
       isModalShow: false,

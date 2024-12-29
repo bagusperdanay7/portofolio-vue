@@ -5,6 +5,12 @@ import { RouterLink } from "vue-router";
 import allProjects from "@/data/projects.json";
 
 export default {
+  mounted() {
+    window.scrollTo(0, 0);
+    setTimeout(() => {
+      this.projects = allProjects;
+    }, 300);
+  },
   components: {
     Badge,
     ProjectCard,
@@ -14,11 +20,6 @@ export default {
     return {
       projects: [],
     };
-  },
-  mounted() {
-    setTimeout(() => {
-      this.projects = allProjects;
-    }, 300);
   },
 };
 </script>
