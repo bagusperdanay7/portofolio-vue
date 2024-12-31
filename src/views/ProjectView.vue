@@ -100,12 +100,14 @@ export default {
               class="block text-primary-600 text-sm font-bold dark:text-primary-400"
               >Mini Project</span
             >
-            <h1 class="text-light-100 font-bold text-2xl dark:text-dark-100">
+            <h1
+              class="text-light-100 font-bold text-xl md:text-2xl dark:text-dark-100"
+            >
               {{ project.name }}
             </h1>
             <p
               v-if="project.description"
-              class="mt-2 text-light-80 font-normal text-sm lg:text-base dark:text-dark-90"
+              class="mt-2 text-light-80 font-normal text-sm md:text-base dark:text-dark-90"
             >
               {{ project.description.english }}
             </p>
@@ -138,20 +140,20 @@ export default {
             <div class="flex flex-col gap-y-2" id="paragraphs">
               <p
                 v-for="paragraph in project.details.about.english"
-                class="text-light-80 text-sm lg:text-base leading-6 font-normal dark:text-dark-90"
+                class="text-light-80 text-sm md:text-base leading-6 font-normal dark:text-dark-90"
               >
                 {{ paragraph }}
               </p>
             </div>
             <p
-              class="mt-2 text-light-80 text-sm lg:text-base leading-6 font-normal dark:text-dark-90"
+              class="mt-2 text-light-80 text-sm md:text-base leading-6 font-normal dark:text-dark-90"
             >
               {{ text.tools.english }}
             </p>
 
             <div class="my-6 overflow-x-auto" id="techStacksTable">
               <table
-                class="w-full text-sm text-left text-light-100 dark:text-dark-100"
+                class="w-full text-xs md:text-sm text-left text-light-100 dark:text-dark-100"
               >
                 <caption
                   class="caption-top text-light-50 font-semibold mb-1 dark:text-dark-70"
@@ -159,7 +161,7 @@ export default {
                   List of Technology Stack & Tools.
                 </caption>
                 <thead
-                  class="bg-transparent text-sm text-light-100 uppercase border-b border-light-50 dark:text-dark-100"
+                  class="bg-transparent text-xs md:text-sm text-light-100 uppercase border-b border-light-50 dark:text-dark-100"
                 >
                   <tr>
                     <th scope="col" class="px-6 py-3">Tech & Tools</th>
@@ -170,11 +172,11 @@ export default {
                 <tbody>
                   <tr
                     v-for="tool in project.details.tools.english"
-                    class="bg-transparent transition duration-300 ease-in-out hover:bg-light-10/80 dark:hover:bg-dark-bg-2"
+                    class="bg-transparent transition duration-200 ease-in-out hover:bg-light-10/80 dark:hover:bg-dark-bg-2"
                   >
                     <th
                       scope="row"
-                      class="px-6 py-4 font-medium text-light-100 whitespace-nowrap dark:text-dark-100"
+                      class="px-6 py-4 font-medium text-light-100 dark:text-dark-100"
                     >
                       {{ tool.name }}
                     </th>
@@ -194,7 +196,7 @@ export default {
               Responsibilites
             </h2>
             <p
-              class="text-light-80 text-sm lg:text-base leading-6 font-normal dark:text-dark-90"
+              class="text-light-80 text-sm md:text-base leading-6 font-normal dark:text-dark-90"
             >
               These are the roles and Responsibilites per contributor:
             </p>
@@ -208,14 +210,14 @@ export default {
                 "
               >
                 <h3
-                  class="text-light-80 font-bold text-sm lg:text-base dark:text-dark-90"
+                  class="text-light-80 font-bold text-sm md:text-base dark:text-dark-90"
                 >
                   {{ responsibility.name }}
                 </h3>
                 <ul class="list-disc pl-5">
                   <li
-                    v-for="tasks in responsibility.detail.indonesia"
-                    class="text-light-80 pl-1 font-normal text-sm lg:text-base leading-6 dark:text-dark-90"
+                    v-for="tasks in responsibility.detail.english"
+                    class="text-light-80 pl-1 font-normal text-sm md:text-base leading-6 dark:text-dark-90"
                   >
                     {{ tasks }}
                   </li>
@@ -223,7 +225,7 @@ export default {
               </div>
             </div>
           </div>
-          <div id="preview">
+          <div v-if="project.previews !== null" id="preview">
             <h2
               class="text-light-100 mb-2 text-lg font-bold dark:text-dark-100"
             >
@@ -241,12 +243,12 @@ export default {
             <div id="imagesPreview">
               <figure v-for="image in project.previews" :key="image.caption">
                 <img
-                  class="w-full object-cover"
+                  class="w-full object-cover shadow-md dark:shadow-none"
                   :src="image.preview ?? '/src/assets/template.jpg'"
                   :alt="image.caption ?? 'template'"
                 />
                 <figcaption
-                  class="text-center text-light-80 text-sm font-normal dark:text-dark-90"
+                  class="text-center mt-1 text-light-80 text-xs md:text-sm font-normal dark:text-dark-90"
                 >
                   {{ image.caption }}
                 </figcaption>
@@ -259,11 +261,13 @@ export default {
           id="sideInformation"
         >
           <div class="category" id="category">
-            <h2 class="text-light-100 text-base font-bold dark:text-dark-100">
+            <h2
+              class="text-light-100 text-base md:text-lg font-bold dark:text-dark-100"
+            >
               Category
             </h2>
             <span
-              class="mt-2 block text-primary-900 text-sm font-bold dark:text-primary-200"
+              class="mt-2 block text-primary-900 text-sm md:text-base font-bold dark:text-primary-200"
               >{{ project.category }}</span
             >
           </div>
@@ -271,7 +275,9 @@ export default {
             <hr class="w-full h-0.5 bg-light-30" />
           </div>
           <div class="contributors">
-            <h2 class="text-light-100 text-base font-bold dark:text-dark-100">
+            <h2
+              class="text-light-100 text-base md:text-lg font-bold dark:text-dark-100"
+            >
               Contributor
             </h2>
             <div class="mt-2.5 flex flex-col gap-y-2.5" id="allContributors">
@@ -309,7 +315,9 @@ export default {
             <hr class="w-full h-0.5 bg-light-30" />
           </div>
           <div class="tech-stack-info">
-            <h2 class="text-light-100 text-base font-bold dark:text-dark-100">
+            <h2
+              class="text-light-100 text-base md:text-lg font-bold dark:text-dark-100"
+            >
               Technology Stack
             </h2>
             <div class="tech-stacks mt-2.5 flex flex-row gap-2 flex-wrap">
@@ -325,7 +333,9 @@ export default {
           </div>
           <div class="flex flex-col gap-y-4" id="moreInformations">
             <div class="" id="lastUpdated">
-              <h2 class="text-light-100 text-base font-bold dark:text-dark-100">
+              <h2
+                class="text-light-100 text-base md:text-lg font-bold dark:text-dark-100"
+              >
                 Last Updated
               </h2>
               <p
@@ -338,7 +348,9 @@ export default {
               </p>
             </div>
             <div class="" id="license">
-              <h2 class="text-light-100 text-base font-bold dark:text-dark-100">
+              <h2
+                class="text-light-100 text-base md:text-lg font-bold dark:text-dark-100"
+              >
                 License
               </h2>
               <p
@@ -355,7 +367,7 @@ export default {
         </div>
       </div>
       <!-- DeBUGGING -->
-      <p class="dark:text-dark-100">{{ project }}</p>
+      <!-- <p class="dark:text-dark-100">{{ project }}</p> -->
     </section>
   </main>
 </template>

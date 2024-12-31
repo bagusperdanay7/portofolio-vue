@@ -17,7 +17,7 @@ export default {
       message: "",
       email: "",
       buttonText: "Submit",
-      buttonDisabled: false,
+      buttonDisabled: true,
       informationContact: [
         {
           socialMedia: "WhatsApp",
@@ -54,6 +54,33 @@ export default {
         this.buttonText = "Submit";
         this.buttonDisabled = false;
       }, 1000);
+    },
+  },
+  watch: {
+    name(value) {
+      if (
+        value.length > 0 &&
+        this.email.length > 0 &&
+        this.message.length > 0
+      ) {
+        this.buttonDisabled = false;
+      } else {
+        this.buttonDisabled = true;
+      }
+    },
+    email(value) {
+      if (value.length > 0 && this.name.length > 0 && this.message.length > 0) {
+        this.buttonDisabled = false;
+      } else {
+        this.buttonDisabled = true;
+      }
+    },
+    message(value) {
+      if (value.length > 0 && this.name.length > 0 && this.email.length > 0) {
+        this.buttonDisabled = false;
+      } else {
+        this.buttonDisabled = true;
+      }
     },
   },
 };

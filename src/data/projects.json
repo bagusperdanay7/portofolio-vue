@@ -222,7 +222,14 @@
               "Menerjemahkan rancangan kerangka dasar (wireframe) menjadi kode program untuk menghasilkan tampilan antarmuka pengguna aplikasi situs web dan membuat fitur mini penunjuk jam real-time dengan JavaScript.",
               "Membuat konsep desain awal aplikasi web melalui wireframe menggunakan Balsamiq Cloud"
             ],
-            "english": []
+            "english": [
+              "Worked collaboratively with a team of 3 people in building a Data Management Information System website that helps facilitate employees in the process of managing customer technical data by utilizing HTML, CSS, JavaScript and PHP Laravel in the team.",
+              "Designed software in accordance with the needs of the company and reported the progress of the software being built weekly.",
+              "Conducted Create, Read, Update, and Delete (CRUD) operations on the progres lapangan (field progress) page and help create user authentication.",
+              "Created a data filtering feature based on the criteria specified on the deployment, progres lapangan (field progress), and disconnect pages.",
+              "Translated the wireframe design into program code to create the website application's user interface and created a mini real-time clock function using JavaScript.",
+              "Conceptualized the initial web application design through wireframes using Balsamiq Cloud."
+            ]
           }
         },
         {
@@ -236,7 +243,14 @@
               "Menerjemahkan rancangan kerangka dasar (wireframe) menjadi kode program untuk menghasilkan tampilan antarmuka pengguna aplikasi situs web.",
               "Membuat konsep desain awal aplikasi web melalui wireframe menggunakan Balsamiq Cloud"
             ],
-            "english": []
+            "english": [
+              "Built a website-based information system to facilitate the management of customer technical data by working with teammates to design and develop applications together.",
+              "Designed software in accordance with the needs of the company and reported the progress of the software being built weekly.",
+              "Created a role-based login authentication feature consisting of three roles (administrator, editor, user view) and designed the user interface for the login page.",
+              "Created user management features for administrators, including the ability to create user data, update user data, and delete user data.",
+              "Translated the wireframe design into program code to create the website application's user interface.",
+              "Conceptualized the initial web application design through wireframes using Balsamiq Cloud."
+            ]
           }
         },
         {
@@ -251,7 +265,15 @@
               "Menerjemahkan rancangan kerangka dasar (wireframe) menjadi kode program untuk menghasilkan tampilan antarmuka pengguna aplikasi situs web.",
               "Membuat konsep desain awal aplikasi web melalui wireframe menggunakan Balsamiq Cloud"
             ],
-            "english": []
+            "english": [
+              "Built a website-based information system to facilitate the management of customer technical data by working with teammates to design and develop applications together.",
+              "Designed software in accordance with the needs of the company and reported the progress of the software being built weekly.",
+              "Created features to export data into an Excel file, as well as import data from an Excel file into a database.",
+              "Performed Create, Read, Update, and Delete (CRUD) operations on deployment, recap, disconnect, and exe summ pages.",
+              "Transformed existing data from Excel into a structured database schema and model to minimize redundancy and boost efficiency.",
+              "Translated the wireframe design into program code to create the website application's user interface.",
+              "Conceptualized the initial web application design through wireframes using Balsamiq Cloud."
+            ]
           }
         }
       ]
@@ -294,18 +316,209 @@
       "caption": "Illustration of Aspect-Based Sentiment Analysis BiLSTM Project",
       "original": false
     },
-    "previews": [
-      {
-        "preview": "/image/projects/absa-blstm/absa-illustration.jpg",
-        "caption": "Illustration of Aspect-Based Sentiment Analysis BiLSTM Project"
-      }
-    ],
+    "previews": null,
     "details": {
       "about": {
-        "indonesia": "",
-        "english": ""
+        "indonesia": [""],
+        "english": [""]
       },
-      "responsibilities": [{ "name": "Bagus Perdana Yusuf", "detail": "" }]
+      "tools": {
+        "indonesia": [
+          {
+            "name": "Python",
+            "url": "https://www.python.org/",
+            "version": "3.8+",
+            "usage": "Bahasa pemrograman utama"
+          },
+          {
+            "name": "Gensim",
+            "url": "https://radimrehurek.com/gensim/",
+            "version": "4.2+",
+            "usage": "Pustaka Python untuk mengimplementasikan Word2Vec penyematan kata"
+          },
+          {
+            "name": "Keras",
+            "url": "https://keras.io/",
+            "version": "4.2+",
+            "usage": "Antarmuka pemrograman aplikasi Python untuk mengimplementasikan Algoritma deep learning, Bi-LSTM"
+          },
+          {
+            "name": "Matplotlib",
+            "url": "https://matplotlib.org/",
+            "version": "3.6.0+",
+            "usage": "Pustaka Python untuk memvisualisasikan data secara interaktif"
+          },
+          {
+            "name": "NLTK: Natural Language Toolkit",
+            "url": "https://www.nltk.org/",
+            "version": "3.8.0+",
+            "usage": "Pustaka Python untuk prapemrosesan data"
+          },
+          {
+            "name": "Numpy",
+            "url": "https://numpy.org/",
+            "version": "1.19+",
+            "usage": "Pustaka Python untuk membantu melakukan komputasi ilmiah"
+          },
+          {
+            "name": "Pandas",
+            "url": "https://pandas.pydata.org/",
+            "version": "1.4+",
+            "usage": "Pustaka Python untuk membantu menganalisis dan memanipulasi data"
+          },
+          {
+            "name": "Scikit-learn",
+            "url": "https://scikit-learn.org/stable/",
+            "version": "1.1+",
+            "usage": "Antarmuka pemrograman aplikasi Python untuk mengimplementasikan algoritma pembelajaran mesin"
+          },
+          {
+            "name": "Seaborn",
+            "url": "https://seaborn.pydata.org/",
+            "version": "0.12.0+",
+            "usage": "Pustaka Python untuk memvisualisasikan data secara informatif"
+          },
+          {
+            "name": "TensorFlow",
+            "url": "https://www.tensorflow.org/",
+            "version": "2.0+",
+            "usage": "Platform untuk membuat pembelajaran mesin lebih kuat dan cepat"
+          },
+          {
+            "name": "Imbalance Learn",
+            "url": "https://imbalanced-learn.org/stable/",
+            "version": "0.10+",
+            "usage": "Pustaka untuk menangani data yang tidak seimbang dengan membuat replikasi data"
+          },
+          {
+            "name": "Google-Play-Scraper",
+            "url": "https://github.com/JoMingyu/google-play-scraper",
+            "version": "0.10+",
+            "usage": "Pustaka Python untuk mengambil data (scraping) di Google Playstore dengan cepat"
+          },
+          {
+            "name": "Microsoft Excel",
+            "url": "https://www.microsoft.com/id-id/microsoft-365/excel",
+            "version": "2019",
+            "usage": "Perangkat lunak untuk mengolah angka seperti perhitungan manual algoritma yang digunakan dan melihat dataset dalam bentuk tabular"
+          },
+          {
+            "name": "Visual Studio Code",
+            "url": "https://code.visualstudio.com/",
+            "version": "Latest",
+            "usage": "Penyunting kode"
+          }
+        ],
+        "english": [
+          {
+            "name": "Python",
+            "url": "https://www.python.org/",
+            "version": "3.8+",
+            "usage": "Main programming language"
+          },
+          {
+            "name": "Gensim",
+            "url": "https://radimrehurek.com/gensim/",
+            "version": "4.2+",
+            "usage": "Python library for implementing Word2Vec word embedding"
+          },
+          {
+            "name": "Keras",
+            "url": "https://keras.io/",
+            "version": "4.2+",
+            "usage": "Python Application Programming Interface (API) to implement deep learning algorithm, Bi-LSTM"
+          },
+          {
+            "name": "Matplotlib",
+            "url": "https://matplotlib.org/",
+            "version": "3.6.0+",
+            "usage": "Python library for visualizing data interactively"
+          },
+          {
+            "name": "NLTK: Natural Language Toolkit",
+            "url": "https://www.nltk.org/",
+            "version": "3.8.0+",
+            "usage": "Python library for data preprocessing"
+          },
+          {
+            "name": "Numpy",
+            "url": "https://numpy.org/",
+            "version": "1.19+",
+            "usage": "Python library to help perform scientific computing"
+          },
+          {
+            "name": "Pandas",
+            "url": "https://pandas.pydata.org/",
+            "version": "1.4+",
+            "usage": "Python library to assist in analyzing and manipulating data"
+          },
+          {
+            "name": "Scikit-learn",
+            "url": "https://scikit-learn.org/stable/",
+            "version": "1.1+",
+            "usage": "Python application programming interface to implement machine learning algorithms"
+          },
+          {
+            "name": "Seaborn",
+            "url": "https://seaborn.pydata.org/",
+            "version": "0.12.0+",
+            "usage": "Python library to visualize data informatively"
+          },
+          {
+            "name": "TensorFlow",
+            "url": "https://www.tensorflow.org/",
+            "version": "2.0+",
+            "usage": "Platform to make machine learning more powerful and fast"
+          },
+          {
+            "name": "Imbalance Learn",
+            "url": "https://imbalanced-learn.org/stable/",
+            "version": "0.10+",
+            "usage": "Library to handle imbalanced data by creating data replication"
+          },
+          {
+            "name": "Google-Play-Scraper",
+            "url": "https://github.com/JoMingyu/google-play-scraper",
+            "version": "0.10+",
+            "usage": "Python library for quick Google Play Store data scraping"
+          },
+          {
+            "name": "Microsoft Excel",
+            "url": "https://www.microsoft.com/id-id/microsoft-365/excel",
+            "version": "2019",
+            "usage": "Software for numerical processing, including tabular data visualization and manual algorithm computation"
+          },
+          {
+            "name": "Visual Studio Code",
+            "url": "https://code.visualstudio.com/",
+            "version": "Latest",
+            "usage": "Code editor"
+          }
+        ]
+      },
+      "responsibilities": [
+        {
+          "name": "Bagus Perdana Yusuf",
+          "detail": {
+            "indonesia": [
+              "Bekerja sama dengan sebuah tim beranggotakan 3 orang dalam membangun website Sistem Informasi Manajemen Data yang membantu memudahkan pegawai dalam proses pengelolaan data teknis pelanggan menggunakan HTML, CSS, JavaScript dan PHP Laravel dalam tim.",
+              "Merancang perangkat lunak yang sesuai dengan kebutuhan perusahaan dan melaporkan hasil pengerjaan perangkat lunak yang sedang dibangun setiap minggu.",
+              "Melakukan operasi Create, Read, Update, dan Delete (CRUD) pada halaman progress lapangan dan membantu membuat autentikasi pengguna.",
+              "Membuat fitur penyaringan data (filter) berdasarkan kriteria yang ditentukan pada halaman deployment, progress lapangan, disconnect",
+              "Menerjemahkan rancangan kerangka dasar (wireframe) menjadi kode program untuk menghasilkan tampilan antarmuka pengguna aplikasi situs web dan membuat fitur mini penunjuk jam real-time dengan JavaScript.",
+              "Membuat konsep desain awal aplikasi web melalui wireframe menggunakan Balsamiq Cloud"
+            ],
+            "english": [
+              "Worked collaboratively with a team of 3 people in building a Data Management Information System website that helps facilitate employees in the process of managing customer technical data by utilizing HTML, CSS, JavaScript and PHP Laravel in the team.",
+              "Designed software in accordance with the needs of the company and reported the progress of the software being built weekly.",
+              "Conducted Create, Read, Update, and Delete (CRUD) operations on the progres lapangan (field progress) page and help create user authentication.",
+              "Created a data filtering feature based on the criteria specified on the deployment, progres lapangan (field progress), and disconnect pages.",
+              "Translated the wireframe design into program code to create the website application's user interface and created a mini real-time clock function using JavaScript.",
+              "Conceptualized the initial web application design through wireframes using Balsamiq Cloud."
+            ]
+          }
+        }
+      ]
     },
     "miniProject": false,
     "lastUpdated": "2023-09-22",
@@ -336,6 +549,17 @@
       "about": {
         "indonesia": "",
         "english": ""
+      },
+      "tools": {
+        "indonesia": [
+          {
+            "name": "Google Font (Lato)",
+            "url": "",
+            "version": "",
+            "usage": "Tipografi untuk website"
+          }
+        ],
+        "english": []
       },
       "responsibilities": [{ "name": "Bagus Perdana Yusuf", "detail": "" }]
     },
