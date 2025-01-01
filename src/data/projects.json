@@ -292,13 +292,14 @@
     },
     "technology": [
       "Python",
+      "Numpy",
       "Pandas",
       "Keras",
       "TensorFlow",
+      "AI",
+      "Scikit-learn",
       "Deep Learning",
-      "Artificial Intelligence",
-      "Machine Learning",
-      "Natural Language Processing",
+      "NLP",
       "Sentiment Analysis"
     ],
     "contributors": [
@@ -319,8 +320,18 @@
     "previews": null,
     "details": {
       "about": {
-        "indonesia": [""],
-        "english": [""]
+        "indonesia": [
+          "Tujuan dari pengembangan dan penelitian adalah untuk memenuhi persyaratan mata kuliah Skripsi untuk memperoleh gelar Sarjana. Judul Skripsi saya adalah Analisis Sentimen Berbasis Aspek Terhadap Ulasan Aplikasi Market Place Menggunakan Bidirectional Long Short-Term Memory. Saya ucapkan terima kasih yang tidak terbatas untuk Ibu Nelly Indriani Widiastuti, S.Si., M.T. selaku pembimbing Skripsi saya, Ibu Kania Evita Dewi, S.Pd., M.Si. selaku penguji yang memberikan saran dan revisi untuk memperbaiki skripsi saya, dan Pak Angga Setiyadi, S.Kom., M.Kom., CIPTM selaku penguji kedua yang memberikan saran untuk skripsi saya. Algoritma penyematan kata menggunakan Word2Vector Continuous Bag of Words (CBOW). Aspek yang digunakan berjumlah lima, yakni aspek Layanan, Fitur, Kebermanfaatan, Bisnis, dan Non Aspek. Dan kelas labelnya terdiri dari positif, negatif, dan non sentimen.",
+          "Tahapannya dimulai dari Identifikasi masalah, dilanjutkan studi literatur dan mengumpulkan kumpulan data ulasan aplikasi market place. Setelah dataset didapatkan, langkah berikutnya yaitu menganalisis data termasuk pelabelan manual. Tahapan prapemrosesan data antara lain: menyeragamkan seluruh huruf menjadi hurut kapital atau huruf kecil (case folding), penyaringan kata seperti menghapus simbol, tanda baca, angka dan emoji yang tidak terpakai (filtering), normalisasi kata yakni mengubah kata informal menjadi formal, konversi negasi, memangkas kalimat menjadi token atau kata (tokenization), dan mebuang kata umum yang jarang digunakan (stopword removal). Setelah melakukan prapemrosesan data, dilanjutkan dengan penyematan kata yaitu mengubah kata menjadi vektor. Setelah data sudah diubah menjadi vektor, lalu data siap untuk dilakukan analisis sentimen dengan metode pembelajaran mesin Bidirectional Long Short-Term Memory.",
+          "Karena ini merupakan teknik pembelajaran terbimbing (supervised learning), kumpulan data perlu diberi label untuk melatih algoritma dan memprediksi hasilnya. Untuk itu, data perlu dibagi menjadi data latih dan data uji. Proses pelatihan dan pengujian algoritma dilakukan berulang kali, termasuk mengubah parameter untuk mendapatkan model yang optimal. Evaluasi model dilakukan menggunakan confusion matrix, yang mencakup akurasi, presisi, recall, dan f1-score.",
+          "Dataset diperoleh dari Google Play Store ulasan mengenai salah satu aplikasi market place yang ada di Indonesia (https://www.kaggle.com/datasets/bagusperdanayusuf/marketplace-application-in-indonesia-reviews), data diambil oleh Muhamad Febrian Fauzi Al Fandi dan Bagus Perdana Yusuf menggunakan bantuan pustaka Python yaitu google-play-scraper. Terima kasih juga kepada Haryo AW telah menyusun kamus informal menjadi formal (https://github.com/haryoa/indo-collex/blob/main/dict/inforformal-formalIndonesian-dictionary.tsv) dan Muhammad Okky Ibrohim telah menyusun kamus kata gaul menjadi bahasa indonesia yang baik (https://github.com/okkyibrohim/id-multi-label-hate-speech-and-abusive-language-detection/blob/master/new_kamusalay.csv)."
+        ],
+        "english": [
+          "The objective of the development and research is to meet the requirements of the Undergraduate Thesis subject for a Bachelor's degree. My undergraduate thesis is titled \"Aspect-Based Sentiment Analysis Towards Market Place Application Reviews Using Bidirectional Long Short-Term Memory.\" I would like to thank Mrs. Nelly Indriani Widiastuti, M.T., my undergraduate thesis supervisor; Mrs. Kania Evita Dewi, S.Pd., M.Si., the examiner who provided suggestions and revisions to improve my undergraduate thesis; and Mr. Angga Setiyadi, S.Kom., M.Kom., CIPTM, the second examiner who made suggestions for my bachelor thesis. The word embedding algorithm used Word2Vector Continuous Bag of Words (CBOW). The aspects used are five: service, features, usability, business, and non-aspect. And the label class is composed of positive, negative, and non-sentiment.",
+          "The phase begins with identifying the problem, continued with a literature study and collecting a dataset of marketplace application reviews. Once the dataset is collected, the next step involves analyzing the data, which includes manual labeling. Data preprocessing phases include homogenizing all letters into uppercase or lowercase letters (case folding), filtering out irrelevant symbols, punctuation marks, numbers, and emojis (filtering), word normalization, i.e., converting informal words to formal, converting negation, trimming sentences into tokens or words (tokenization), and removing common words that are infrequently used (stopword removal). Once preprocessing is complete, the next step is word embedding, which entails converting words into vectors. After the data has been converted into vectors, then the data is ready for sentiment analysis with the Bidirectional Long Short-Term Memory machine learning method.",
+          "Because this is a supervised learning technique, the dataset must be labeled before training the algorithm and predicting the results. As a result, the data must be separated into two parts: training and testing. The method is trained and tested iteratively, with the parameters changed to achieve an optimal model. A confusion matrix is used to evaluate models, which incorporates accuracy, precision, recall, and the f1-score.",
+          "The dataset was collected from Google Play Store reviews of one of the marketplace applications in Indonesia (https://www.kaggle.com/datasets/bagusperdanayusuf/marketplace-application-in-indonesia-reviews); the data was collected by Muhamad Febrian Fauzi Al Fandi and Bagus Perdana Yusuf using the assistance of the Python library, google-play-scraper. Thanks also to Haryo AW for composing an informal dictionary into formal (https://github.com/haryoa/indo-collex/blob/main/dict/inforformal-formalIndonesian-dictionary.tsv) and Muhammad Okky Ibrohim for composing a dictionary of slang words into proper Indonesian (https://github.com/okkyibrohim/id-multi-label-hate-speech-and-abusive-language-detection/blob/master/new_kamusalay.csv)."
+        ]
       },
       "tools": {
         "indonesia": [
@@ -331,6 +342,12 @@
             "usage": "Bahasa pemrograman utama"
           },
           {
+            "name": "Google Colab",
+            "url": "https://colab.research.google.com/",
+            "version": "Latest",
+            "usage": "Layanan Jupyter Notebook daring yang disediakan oleh Google untuk mempercepat komputasi pembelajaran mesin dengan dukungan GPU"
+          },
+          {
             "name": "Gensim",
             "url": "https://radimrehurek.com/gensim/",
             "version": "4.2+",
@@ -339,7 +356,7 @@
           {
             "name": "Keras",
             "url": "https://keras.io/",
-            "version": "4.2+",
+            "version": "2.10+",
             "usage": "Antarmuka pemrograman aplikasi Python untuk mengimplementasikan Algoritma deep learning, Bi-LSTM"
           },
           {
@@ -393,8 +410,8 @@
           {
             "name": "Google-Play-Scraper",
             "url": "https://github.com/JoMingyu/google-play-scraper",
-            "version": "0.10+",
-            "usage": "Pustaka Python untuk mengambil data (scraping) di Google Playstore dengan cepat"
+            "version": "1.2.0+",
+            "usage": "Pustaka Python untuk mengambil data (scraping) di Google Play Store dengan cepat"
           },
           {
             "name": "Microsoft Excel",
@@ -417,6 +434,12 @@
             "usage": "Main programming language"
           },
           {
+            "name": "Google Colab",
+            "url": "https://colab.research.google.com/",
+            "version": "Latest",
+            "usage": "An online Jupyter Notebook service provided by Google to accelerate machine learning computing with GPU support"
+          },
+          {
             "name": "Gensim",
             "url": "https://radimrehurek.com/gensim/",
             "version": "4.2+",
@@ -425,7 +448,7 @@
           {
             "name": "Keras",
             "url": "https://keras.io/",
-            "version": "4.2+",
+            "version": "2.10+",
             "usage": "Python Application Programming Interface (API) to implement deep learning algorithm, Bi-LSTM"
           },
           {
@@ -479,7 +502,7 @@
           {
             "name": "Google-Play-Scraper",
             "url": "https://github.com/JoMingyu/google-play-scraper",
-            "version": "0.10+",
+            "version": "1.2.0+",
             "usage": "Python library for quick Google Play Store data scraping"
           },
           {
@@ -501,20 +524,12 @@
           "name": "Bagus Perdana Yusuf",
           "detail": {
             "indonesia": [
-              "Bekerja sama dengan sebuah tim beranggotakan 3 orang dalam membangun website Sistem Informasi Manajemen Data yang membantu memudahkan pegawai dalam proses pengelolaan data teknis pelanggan menggunakan HTML, CSS, JavaScript dan PHP Laravel dalam tim.",
-              "Merancang perangkat lunak yang sesuai dengan kebutuhan perusahaan dan melaporkan hasil pengerjaan perangkat lunak yang sedang dibangun setiap minggu.",
-              "Melakukan operasi Create, Read, Update, dan Delete (CRUD) pada halaman progress lapangan dan membantu membuat autentikasi pengguna.",
-              "Membuat fitur penyaringan data (filter) berdasarkan kriteria yang ditentukan pada halaman deployment, progress lapangan, disconnect",
-              "Menerjemahkan rancangan kerangka dasar (wireframe) menjadi kode program untuk menghasilkan tampilan antarmuka pengguna aplikasi situs web dan membuat fitur mini penunjuk jam real-time dengan JavaScript.",
-              "Membuat konsep desain awal aplikasi web melalui wireframe menggunakan Balsamiq Cloud"
+              "Mengolah data melalui analisis dan praproses secara mendalam, diikuti dengan merancang model pembelajaran mesin untuk analisis sentimen berbasis aspek pada ulasan aplikasi marketplace menggunakan metode Bidirectional Long Short-Term Memory (BiLSTM), serta melakukan evaluasi kinerja model secara komprehensif",
+              "Mengevaluasi performa berbagai algoritma pembelajaran mesin tradisional dibandingkan dengan algoritma deep learning Bidirectional Long Short-Term Memory (BiLSTM), serta menggunakan teknik penyeimbangan data SMOTE untuk analisis sentimen berbasis aspek"
             ],
             "english": [
-              "Worked collaboratively with a team of 3 people in building a Data Management Information System website that helps facilitate employees in the process of managing customer technical data by utilizing HTML, CSS, JavaScript and PHP Laravel in the team.",
-              "Designed software in accordance with the needs of the company and reported the progress of the software being built weekly.",
-              "Conducted Create, Read, Update, and Delete (CRUD) operations on the progres lapangan (field progress) page and help create user authentication.",
-              "Created a data filtering feature based on the criteria specified on the deployment, progres lapangan (field progress), and disconnect pages.",
-              "Translated the wireframe design into program code to create the website application's user interface and created a mini real-time clock function using JavaScript.",
-              "Conceptualized the initial web application design through wireframes using Balsamiq Cloud."
+              "Processed data through in-depth analysis and preprocessing, designed a machine learning model for aspect-based sentiment analysis on marketplace application reviews using the Bidirectional Long Short-Term Memory (BiLSTM) method, and comprehensively evaluated the model's performance.",
+              "Assessed the performance of various traditional machine learning algorithms in comparison to the Bidirectional Long Short-Term Memory (BiLSTM) deep learning algorithm, while utilizing the SMOTE data balancing technique for aspect-based sentiment analysis"
             ]
           }
         }
@@ -529,10 +544,16 @@
     "name": "Portofolio With Vue",
     "category": "Front-end Development",
     "description": {
-      "indonesia": "Mengimplementasikan design figma ke dalam bentuk kode (slicing) portofolio website pribadi menggunakan framework Vue.js",
-      "english": "Use the Vue.js framework to implement the figma design into code (slicing) for my own website portfolio."
+      "indonesia": "Aplikasi Halaman Tunggal Situs Web Portofolio Pribadi yang menggunakan kerangka kerja Vue.js dan Tailwind CSS.",
+      "english": "A Single Page Application Personal Portfolio Website utilizing the Vue.js framework and Tailwind CSS."
     },
-    "technology": ["Vue.js", "Tailwind CSS", "Vite", "Responsive Web"],
+    "technology": [
+      "JavaScript",
+      "Vue.js",
+      "Tailwind CSS",
+      "Vite",
+      "Responsive Web"
+    ],
     "contributors": [
       {
         "name": "Bagus Perdana Yusuf",
@@ -543,28 +564,145 @@
     ],
     "source": "https://github.com/bagusperdanay7/portofolio-vue",
     "url": "",
-    "thumbnail": {},
-    "previews": [],
+    "thumbnail": {
+      "src": "/image/projects/portfolio/portfolio-preview.png",
+      "caption": "Preview of Portfolio Home page UI & UX design",
+      "original": true
+    },
+    "previews": null,
     "details": {
       "about": {
-        "indonesia": "",
-        "english": ""
+        "indonesia": [
+          "Proyek ini adalah situs web portofolio pribadi saya yang dikembangkan menggunakan kerangka kerja Vue.js + Vite dan kerangka kerja Tailwind CSS dengan menerapkan aplikasi halaman tunggal menggunakan vue router. Tipografi yang digunakan adalah Lato dari Google Fonts & Ikon yang dipakai di dalam situs web ini adalah Boxicons. Tujuan pembuatan situs web ini adalah untuk memperkenalkan citra pribadi saya, mempromosikan kemampuan, pengalaman, proyek dan pencapaian saya di bidang Ilmu Komputer, serta untuk  membentangkan karir saya dan/atau memikat klien potensial.",
+          "Halaman yang tersedia saat ini meliputi Home, Projects untuk menampilkan semua proyek yang telah diselesaikan hingga saat ini, Certifications untuk menampilkan semua sertifikat yang telah diperoleh, dan Detail Proyek untuk melihat rincian spesifik setiap proyek."
+        ],
+        "english": [
+          "This project is my personal portfolio website developed using Vue.js + Vite framework and Tailwind CSS framework by applying single page application using vue router. The typography used is Lato from Google Fonts & the icons used in this website is Boxicons. The aim of developing this website is to introduce my personal brand, promote my skills, experience, projects and achievements in the field of Computer Science, and to expand my career and/or entice potential clients.",
+          "The currently available pages include Home, Projects, which showcases all completed projects to date, Certifications, which displays all earned certificates, and Project Details, which allows users to view specific information about each project."
+        ]
       },
       "tools": {
         "indonesia": [
           {
-            "name": "Google Font (Lato)",
-            "url": "",
-            "version": "",
-            "usage": "Tipografi untuk website"
+            "name": "Node.js",
+            "url": "https://nodejs.org/en",
+            "version": "20.12.2+",
+            "usage": "Menjalankan JavaScipt di luar peramban"
+          },
+          {
+            "name": "JavaScript",
+            "url": "https://262.ecma-international.org/",
+            "version": "ES6 (2015)",
+            "usage": "Bahasa pemrograman utama"
+          },
+          {
+            "name": "Vue.js",
+            "url": "https://vuejs.org/",
+            "version": "3.4.21+",
+            "usage": "Kerangka JavaScript untuk mempercepat pengembangan aplikasi front-end"
+          },
+          {
+            "name": "Tailwind CSS",
+            "url": "https://tailwindcss.com/",
+            "version": "3.4.3+",
+            "usage": "Kerangka kerja CSS untuk mempercepat pembuatan tampilan antarmuka pengguna situs web yang modern dan indah"
+          },
+          {
+            "name": "Boxicons",
+            "url": "https://boxicons.com/",
+            "version": "2.1.4+",
+            "usage": "Ikon untuk menghiasi situs web"
+          },
+          {
+            "name": "Vite",
+            "url": "https://vite.dev/",
+            "version": "5.2.8+",
+            "usage": "Alat pembangunan untuk mempercepat dan merampingkan pengembangan web modern"
+          },
+          {
+            "name": "Vue Router",
+            "url": "https://router.vuejs.org/",
+            "version": "4.3.0+",
+            "usage": "Pustaka perute resmi dari Vue untuk membuat aplikasi halaman tunggal"
+          },
+
+          {
+            "name": "date-fns",
+            "url": "https://date-fns.org/",
+            "version": "4.1.0+",
+            "usage": "Pustaka JavaScript untuk manipulasi tanggal"
           }
         ],
-        "english": []
+        "english": [
+          {
+            "name": "Node.js",
+            "url": "https://nodejs.org/en",
+            "version": "20.12.2+",
+            "usage": "Execute JavaScipt outside the browser"
+          },
+          {
+            "name": "JavaScript",
+            "url": "https://262.ecma-international.org/",
+            "version": "ES6 (2015)",
+            "usage": "Main programming language"
+          },
+          {
+            "name": "Vue.js",
+            "url": "https://vuejs.org/",
+            "version": "3.4.21+",
+            "usage": "JavaScript framework to accelerate front-end application development"
+          },
+          {
+            "name": "Tailwind CSS",
+            "url": "https://tailwindcss.com/",
+            "version": "3.4.3+",
+            "usage": "CSS framework to accelerate the creation of modern and beautiful website user interfaces"
+          },
+          {
+            "name": "Boxicons",
+            "url": "https://boxicons.com/",
+            "version": "2.1.4+",
+            "usage": "Icons to decorate the website"
+          },
+          {
+            "name": "Vite",
+            "url": "https://vite.dev/",
+            "version": "5.2.8+",
+            "usage": "Build tool to accelerate and streamline modern web development"
+          },
+          {
+            "name": "Vue Router",
+            "url": "https://router.vuejs.org/",
+            "version": "4.3.0+",
+            "usage": "The official Vue router library for building single-page application"
+          },
+
+          {
+            "name": "date-fns",
+            "url": "https://date-fns.org/",
+            "version": "4.1.0+",
+            "usage": "JavaScript library to manipulate dates"
+          }
+        ]
       },
-      "responsibilities": [{ "name": "Bagus Perdana Yusuf", "detail": "" }]
+      "responsibilities": [
+        {
+          "name": "Bagus Perdana Yusuf",
+          "detail": {
+            "indonesia": [
+              "Mengembangkan dan memelihara aplikasi web responsif serta merancang antarmuka pengguna menggunakan Vue.js, sambil memastikan kompatibilitas lintas-peramban dan kinerja yang optimal",
+              "Menggunakan Vue Router untuk membuat aplikasi halaman tunggal sehingga menghasilkan navigasi halaman yang mulus"
+            ],
+            "english": [
+              "Designed and managed responsive web applications and designed user interface using Vue.js, ensuring multi-browser compatibility and optimal performance",
+              "Utilized Vue Router to create a single page application for seamless page navigation"
+            ]
+          }
+        }
+      ]
     },
     "miniProject": false,
-    "lastUpdated": "2021-12-18",
+    "lastUpdated": "2024-12-31",
     "license": ""
   },
   {
@@ -611,11 +749,7 @@
         "indonesia": "",
         "english": ""
       },
-      "responsibilities": [
-        { "name": "Bagus Perdana Yusuf", "detail": "" },
-        { "name": "Bagus Perdana Yusuf", "detail": "" },
-        { "name": "Bagus Perdana Yusuf", "detail": "" }
-      ]
+      "responsibilities": [{ "name": "Bagus Perdana Yusuf", "detail": "" }]
     },
     "miniProject": false,
     "lastUpdated": "2021-12-18",
@@ -632,7 +766,7 @@
     "technology": [
       "Python",
       "TensorFlow",
-      "Machine Learning",
+      "AI",
       "Computer Vision",
       "Image Classification"
     ],
@@ -688,17 +822,17 @@
     "source": "",
     "url": "https://dribble",
     "thumbnail": {
-      "src": "/image/projects/ui-ux-portfolio/preview-home-portfolio.png",
+      "src": "/image/projects/portfolio/preview-home-portfolio.png",
       "caption": "Preview of Portfolio Home page UI & UX design",
       "original": true
     },
     "previews": [
       {
-        "preview": "/image/projects/ui-ux-portfolio/preview-home-portfolio.png",
+        "preview": "/image/projects/portfolio/preview-home-portfolio.png",
         "caption": "Preview of Portfolio Home page UI & UX design"
       },
       {
-        "src": "/image/projects/ui-ux-portfolio/portfolio-ui-home.jpg",
+        "src": "/image/projects/portfolio/portfolio-ui-home.jpg",
         "caption": "UI & UX of Personal Portfolio"
       }
     ],

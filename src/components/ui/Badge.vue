@@ -103,16 +103,31 @@ export default {
         case "Responsive Web":
           this.addOnClass = "text-responsive bg-responsive/15";
           break;
-        case "Machine Learning":
+        case "Computer Vision":
           this.addOnClass =
-            "text-machine-learning bg-machine-learning/15 dark:text-machine-learning-alt dark:bg-machine-learning-alt/15";
+            "text-cv bg-cv/15 dark:text-cv-alt dark:bg-cv-alt/15";
           break;
-        case "Artificial Intelligence":
+        case "AI":
           this.addOnClass = "text-ai bg-ai/15 dark:text-ai-alt bg-ai-alt/15";
           break;
         case "Deep Learning":
           this.addOnClass =
             "text-deep-learning bg-deep-learning/15 dark:text-deep-learning-alt dark:bg-deep-learning-alt/15";
+          break;
+        case "NLP":
+          this.addOnClass =
+            "text-nlp bg-nlp/15 dark:text-nlp-alt dark:bg-nlp-alt/15";
+          break;
+        case "Sentiment Analysis":
+          this.addOnClass =
+            "text-sentiment-analysis bg-sentiment-analysis/15 dark:text-sentiment-analysis-alt dark:bg-sentiment-analysis-alt/15";
+          break;
+        case "Image Classification":
+          this.addOnClass =
+            "text-image-classification bg-image-classification/15 dark:text-image-classification-alt dark:bg-image-classification-alt/15";
+          break;
+        case "Scikit-learn":
+          this.addOnClass = "text-sklearn bg-sklearn/15";
           break;
         default:
           this.addOnClass =
