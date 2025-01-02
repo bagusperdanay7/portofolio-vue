@@ -746,10 +746,33 @@
     ],
     "details": {
       "about": {
-        "indonesia": "",
-        "english": ""
+        "indonesia": [""],
+        "english": [""]
       },
-      "responsibilities": [{ "name": "Bagus Perdana Yusuf", "detail": "" }]
+      "tools": {
+        "indonesia": [
+          {
+            "name": "",
+            "url": "",
+            "version": "",
+            "usage": ""
+          }
+        ],
+        "english": [
+          {
+            "name": "",
+            "url": "",
+            "version": "",
+            "usage": ""
+          }
+        ]
+      },
+      "responsibilities": [
+        {
+          "name": "Bagus Perdana Yusuf",
+          "detail": { "indonesia": [], "english": [] }
+        }
+      ]
     },
     "miniProject": false,
     "lastUpdated": "2021-12-18",
@@ -793,10 +816,33 @@
     ],
     "details": {
       "about": {
-        "indonesia": "",
-        "english": ""
+        "indonesia": [""],
+        "english": [""]
       },
-      "responsibilities": [{ "name": "Bagus Perdana Yusuf", "detail": "" }]
+      "tools": {
+        "indonesia": [
+          {
+            "name": "",
+            "url": "",
+            "version": "",
+            "usage": ""
+          }
+        ],
+        "english": [
+          {
+            "name": "",
+            "url": "",
+            "version": "",
+            "usage": ""
+          }
+        ]
+      },
+      "responsibilities": [
+        {
+          "name": "Bagus Perdana Yusuf",
+          "detail": { "indonesia": [], "english": [] }
+        }
+      ]
     },
     "miniProject": false,
     "lastUpdated": "2021-12-18",
@@ -838,10 +884,33 @@
     ],
     "details": {
       "about": {
-        "indonesia": "",
-        "english": ""
+        "indonesia": [""],
+        "english": [""]
       },
-      "responsibilities": [{ "name": "Bagus Perdana Yusuf", "detail": "" }]
+      "tools": {
+        "indonesia": [
+          {
+            "name": "",
+            "url": "",
+            "version": "",
+            "usage": ""
+          }
+        ],
+        "english": [
+          {
+            "name": "",
+            "url": "",
+            "version": "",
+            "usage": ""
+          }
+        ]
+      },
+      "responsibilities": [
+        {
+          "name": "Bagus Perdana Yusuf",
+          "detail": { "indonesia": [], "english": [] }
+        }
+      ]
     },
     "miniProject": false,
     "lastUpdated": "2021-12-18",
@@ -897,14 +966,44 @@
     ],
     "details": {
       "about": {
-        "indonesia": "",
-        "english": ""
+        "indonesia": [""],
+        "english": [""]
+      },
+      "tools": {
+        "indonesia": [
+          {
+            "name": "",
+            "url": "",
+            "version": "",
+            "usage": ""
+          }
+        ],
+        "english": [
+          {
+            "name": "",
+            "url": "",
+            "version": "",
+            "usage": ""
+          }
+        ]
       },
       "responsibilities": [
-        { "name": "Akbar Saleh Alfian", "detail": "" },
-        { "name": "Bagus Perdana Yusuf", "detail": "" },
-        { "name": "Raden Fachrul Ramzy Muhammad", "detail": "" },
-        { "name": "Robi Nurhidayat", "detail": "" }
+        {
+          "name": "Akbar Saleh Alfian",
+          "detail": { "indonesia": [], "english": [] }
+        },
+        {
+          "name": "Bagus Perdana Yusuf",
+          "detail": { "indonesia": [], "english": [] }
+        },
+        {
+          "name": "Raden Fachrul Ramzy Muhammad",
+          "detail": { "indonesia": [], "english": [] }
+        },
+        {
+          "name": "Robi Nurhidayat",
+          "detail": { "indonesia": [], "english": [] }
+        }
       ]
     },
     "miniProject": false,
@@ -968,14 +1067,44 @@
     ],
     "details": {
       "about": {
-        "indonesia": "",
-        "english": ""
+        "indonesia": [""],
+        "english": [""]
+      },
+      "tools": {
+        "indonesia": [
+          {
+            "name": "",
+            "url": "",
+            "version": "",
+            "usage": ""
+          }
+        ],
+        "english": [
+          {
+            "name": "",
+            "url": "",
+            "version": "",
+            "usage": ""
+          }
+        ]
       },
       "responsibilities": [
-        { "name": "Akbar Saleh Alfian", "detail": "" },
-        { "name": "Bagus Perdana Yusuf", "detail": "" },
-        { "name": "Raden Fachrul Ramzy Muhammad", "detail": "" },
-        { "name": "Robi Nurhidayat", "detail": "" }
+        {
+          "name": "Akbar Saleh Alfian",
+          "detail": { "indonesia": [], "english": [] }
+        },
+        {
+          "name": "Bagus Perdana Yusuf",
+          "detail": { "indonesia": [], "english": [] }
+        },
+        {
+          "name": "Raden Fachrul Ramzy Muhammad",
+          "detail": { "indonesia": [], "english": [] }
+        },
+        {
+          "name": "Robi Nurhidayat",
+          "detail": { "indonesia": [], "english": [] }
+        }
       ]
     },
     "miniProject": false,
@@ -987,14 +1116,14 @@
     "name": "Survey Form - Responsive Web Design Project (freecodecamp)",
     "category": "Front-end Development",
     "description": {
-      "indonesia": "Proyek ini merupakan salah satu dari lima proyek kursus Responsive Web Design yang diadakan oleh freeCodeCamp, yaitu membuat Survey Form secara responsif hanya dengan HTML dan CSS. ",
-      "english": "Making a responsive survey form with just HTML and CSS is one of the five projects for the freeCodeCamp course on responsive web design. "
+      "indonesia": "Sebuah halaman formulir survei sederhana dibuat untuk menyelesaikan kursus Responsive Web Design yang disediakan oleh freecodecamp.org menggunakan HTML & CSS.",
+      "english": "A simple survey form page created to complete the Responsive Web Design course provided by freecodecamp.org using HTML & CSS."
     },
     "technology": ["HTML", "CSS", "Responsive Web"],
     "contributors": [
       {
         "name": "Bagus Perdana Yusuf",
-        "role": "",
+        "role": "Front-end Developer",
         "profile": "https://www.linkedin.com/in/bagus-perdana-yusuf-0310971a5/",
         "avatar": "/image/avatar/baguspy.png"
       }
@@ -1015,28 +1144,98 @@
     ],
     "details": {
       "about": {
-        "indonesia": "",
-        "english": ""
+        "indonesia": [
+          "Proyek ini merupakan proyek mini yang dibuat untuk menyelesaikan kursus Responsive Web Design yang disediakan oleh freecodecamp.org. Membuat sebuah formulir survei yang responsif dengan HTML dan CSS. Ini merupakan proyek pertama dari lima proyek yang harus diselesaikan pada kursus Responsive Web Design yang diadakan oleh freeCodeCamp. Tipografi yang digunakan pada situs web ini adalah Urbanist from Google Fonts. Ilustrasi didesain oleh freepik dengan penulisnya adalah story set kunjungi: https://www.freepik.com/free-vector/startup-life-concept-illustration_7117748.htm#fromView=search&page=1&position=1&uuid=9612fcdc-57e4-4ce4-ac8a-8e04ca427be1&new_detail=true untuk menggunakan ilustrasi yang sama."
+        ],
+        "english": [
+          "This mini-project was developed to complete the Responsive Web Design course provided by freeCodeCamp.org. It involved creating a responsive survey form using HTML and CSS. This is the first of five projects to be completed in the Responsive Web Design course provided by freeCodeCamp. The typography for this website is Urbanist from Google Fonts. The illustration is designed by Freepik, and the author's name is storyset. To use the same illustration, visit: https://www.freepik.com/free-vector/startup-life-concept-illustration_7117748.htm#fromView=search&page=1&position=1&uuid=9612fcdc-57e4-4ce4-ac8a-8e04ca427be1"
+        ]
       },
-      "responsibilities": [{ "name": "Bagus Perdana Yusuf", "detail": "" }]
+      "tools": {
+        "indonesia": [
+          {
+            "name": "HyperText Markup Language (HTML)",
+            "url": "https://html.spec.whatwg.org/multipage/",
+            "version": "-",
+            "usage": "Bahasa markup standar untuk menyusun halaman web"
+          },
+          {
+            "name": "Cascading Style Sheet (CSS)",
+            "url": "https://www.w3.org/Style/CSS/Overview.en.html",
+            "version": "-",
+            "usage": "Bahasa lembar gaya untuk mendesain halaman web"
+          },
+          {
+            "name": "Monaco Editor (probably)",
+            "url": "https://microsoft.github.io/monaco-editor/",
+            "version": "-",
+            "usage": "Penyunting kode di dalam kursus freecodecamp.org"
+          },
+          {
+            "name": "Codepen",
+            "url": "https://microsoft.github.io/monaco-editor/",
+            "version": "-",
+            "usage": "Platform untuk menyunting kode secara langsung dan memamerkan hasilnya"
+          }
+        ],
+        "english": [
+          {
+            "name": "HyperText Markup Language (HTML)",
+            "url": "https://html.spec.whatwg.org/multipage/",
+            "version": "-",
+            "usage": "Standard markup language for structuring web page"
+          },
+          {
+            "name": "Cascading Style Sheet (CSS)",
+            "url": "https://www.w3.org/Style/CSS/Overview.en.html",
+            "version": "-",
+            "usage": "Stylesheet language for designing web pages"
+          },
+          {
+            "name": "Monaco Editor (probably)",
+            "url": "https://microsoft.github.io/monaco-editor/",
+            "version": "-",
+            "usage": "Code editor within the freecodecamp.org course"
+          },
+          {
+            "name": "Codepen",
+            "url": "https://microsoft.github.io/monaco-editor/",
+            "version": "-",
+            "usage": "Platform to edit code directly and showcase the result"
+          }
+        ]
+      },
+      "responsibilities": [
+        {
+          "name": "Bagus Perdana Yusuf",
+          "detail": {
+            "indonesia": [
+              "Merancang sebuah formulir survei untuk situs web dan menjamin tampilan halaman yang responsif di berbagai perangkat."
+            ],
+            "english": [
+              "Designed a survey form for the website and ensured the responsiveness of the page across various devices."
+            ]
+          }
+        }
+      ]
     },
     "miniProject": true,
-    "lastUpdated": "2021-12-18",
-    "license": ""
+    "lastUpdated": "2024-11-10",
+    "license": "MIT"
   },
   {
     "id": 10,
     "name": "Tribute Page - Responsive Web Design Project (freecodecamp)",
     "category": "Front-end Development",
     "description": {
-      "indonesia": "Membuat Tribute page tentang salah satu tokoh penting Indonesia, yaitu Bapak Pluralisme Indonesia, Abdurrahman Wahid. Proyek ini merupakan salah satu dari lima proyek kursus Responsive Web Design yang diadakan oleh freeCodeCamp, membuat Tribute Page secara responsif hanya dengan HTML dan CSS.",
-      "english": "Create a Tribute page about one of Indonesia's important figures, the Father of Indonesian Pluralism, Abdurrahman Wahid. This project is one of the five projects of the Responsive Web Design course held by freeCodeCamp, creating a responsive Tribute Page with HTML and CSS only."
+      "indonesia": "Sebuah halaman penghormatan tentang Bapak Pluralisme Indonesia, Abdurrahman Wahid. Dibuat untuk menyelesaikan kursus Responsive Web Design yang disediakan oleh freecodecamp.org menggunakan HTML & CSS.",
+      "english": "A tribute page about the Father of Indonesian Pluralism, Abdurrahman Wahid. Created to complete the Responsive Web Design course provided by freecodecamp.org using HTML & CSS."
     },
     "technology": ["HTML", "CSS", "Responsive Web"],
     "contributors": [
       {
         "name": "Bagus Perdana Yusuf",
-        "role": "",
+        "role": "Front-end Developer",
         "profile": "https://www.linkedin.com/in/bagus-perdana-yusuf-0310971a5/",
         "avatar": "/image/avatar/baguspy.png"
       }
@@ -1056,28 +1255,98 @@
     ],
     "details": {
       "about": {
-        "indonesia": "",
-        "english": ""
+        "indonesia": [
+          "Proyek ini merupakan proyek mini yang dibuat untuk menyelesaikan kursus Responsive Web Design yang disediakan oleh freecodecamp.org. Membuat sebuah halaman penghormatan tentang salah satu tokoh penting Indonesia, yaitu Bapak Pluralisme Indonesia, Abdurrahman Wahid yang responsif dengan HTML dan CSS. Ini merupakan proyek kedua dari lima proyek yang harus diselesaikan pada kursus Responsive Web Design yang diadakan oleh freeCodeCamp."
+        ],
+        "english": [
+          "This project is a mini project created to complete the Responsive Web Design course provided by freecodecamp.org. Creating a tribute page dedicated to one of Indonesia's important figures, the Father of Indonesian Pluralism, Abdurrahman Wahid, that is responsive with HTML and CSS. This is the second of five projects to be completed in the Responsive Web Design course provided by freeCodeCamp."
+        ]
       },
-      "responsibilities": [{ "name": "Bagus Perdana Yusuf", "detail": "" }]
+      "tools": {
+        "indonesia": [
+          {
+            "name": "HyperText Markup Language (HTML)",
+            "url": "https://html.spec.whatwg.org/multipage/",
+            "version": "-",
+            "usage": "Bahasa markup standar untuk menyusun halaman web"
+          },
+          {
+            "name": "Cascading Style Sheet (CSS)",
+            "url": "https://www.w3.org/Style/CSS/Overview.en.html",
+            "version": "-",
+            "usage": "Bahasa lembar gaya untuk mendesain halaman web"
+          },
+          {
+            "name": "Monaco Editor (probably)",
+            "url": "https://microsoft.github.io/monaco-editor/",
+            "version": "-",
+            "usage": "Penyunting kode di dalam kursus freecodecamp.org"
+          },
+          {
+            "name": "Codepen",
+            "url": "https://microsoft.github.io/monaco-editor/",
+            "version": "-",
+            "usage": "Platform untuk menyunting kode secara langsung dan memamerkan hasilnya"
+          }
+        ],
+        "english": [
+          {
+            "name": "HyperText Markup Language (HTML)",
+            "url": "https://html.spec.whatwg.org/multipage/",
+            "version": "-",
+            "usage": "Standard markup language for structuring web page"
+          },
+          {
+            "name": "Cascading Style Sheet (CSS)",
+            "url": "https://www.w3.org/Style/CSS/Overview.en.html",
+            "version": "-",
+            "usage": "Stylesheet language for designing web pages"
+          },
+          {
+            "name": "Monaco Editor (probably)",
+            "url": "https://microsoft.github.io/monaco-editor/",
+            "version": "-",
+            "usage": "Code editor within the freecodecamp.org course"
+          },
+          {
+            "name": "Codepen",
+            "url": "https://microsoft.github.io/monaco-editor/",
+            "version": "-",
+            "usage": "Platform to edit code directly and showcase the result"
+          }
+        ]
+      },
+      "responsibilities": [
+        {
+          "name": "Bagus Perdana Yusuf",
+          "detail": {
+            "indonesia": [
+              "Merancang sebuah halaman penghormatan untuk situs web dan menjamin tampilan halaman yang responsif di berbagai perangkat."
+            ],
+            "english": [
+              "Designed a tribute page for the website and ensured responsiveness on various devices."
+            ]
+          }
+        }
+      ]
     },
     "miniProject": true,
-    "lastUpdated": "2021-12-18",
-    "license": ""
+    "lastUpdated": "2024-11-10",
+    "license": "MIT"
   },
   {
     "id": 11,
     "name": "Technical Documentation Page - Responsive Web Design Project (freecodecamp)",
     "category": "Front-end Development",
     "description": {
-      "indonesia": "Proyek ini merupakan salah satu dari lima proyek kursus Responsive Web Design yang diadakan oleh freeCodeCamp, membangun Halaman Dokumentasi Teknis bahasa pemrograman PHP Dasar dengan HTML dan CSS.",
-      "english": "This project is one of the five projects of the Responsive Web Design course by freeCodeCamp, building a PHP Basic Technical Documentation Page with HTML and CSS."
+      "indonesia": "Sebuah halaman dokumentasi teknis yang menjelaskan materi dasar-dasar bahasa pemrograman PHP dasar. Dibuat untuk menyelesaikan kursus Responsive Web Design yang disediakan oleh freecodecamp.org menggunakan HTML & CSS.",
+      "english": "A technical documentation page explaining basic PHP programming language fundamentals. Created to complete the Responsive Web Design course provided by freecodecamp.org using HTML & CSS."
     },
     "technology": ["HTML", "CSS", "Responsive Web"],
     "contributors": [
       {
         "name": "Bagus Perdana Yusuf",
-        "role": "",
+        "role": "Front-end Developer",
         "profile": "https://www.linkedin.com/in/bagus-perdana-yusuf-0310971a5/",
         "avatar": "/image/avatar/baguspy.png"
       }
@@ -1097,28 +1366,98 @@
     ],
     "details": {
       "about": {
-        "indonesia": "",
-        "english": ""
+        "indonesia": [
+          "Proyek ini merupakan proyek mini yang dibuat untuk menyelesaikan kursus Responsive Web Design yang disediakan oleh freecodecamp.org. Membuat sebuah halaman dokumentasi teknis mengenai dasar-dasar bahasa pemrograman PHP dengan HTML dan CSS yang responsif. Ini merupakan proyek ketiga dari lima proyek yang harus diselesaikan pada kursus Responsive Web Design yang diadakan oleh freeCodeCamp. Tipografi yang digunakan pada situs web ini adalah Fira Sans & Fira Mono dari Google Fonts."
+        ],
+        "english": [
+          "This project is a mini project created to complete the Responsive Web Design course provided by freecodecamp.org. Creating a responsive technical documentation page regarding the fundamentals of the PHP programming language with HTML and CSS. This is the third of five projects to be completed in the Responsive Web Design course provided by freeCodeCamp. The typography used on this website is Fira Sans & Fira Mono from Google Fonts."
+        ]
       },
-      "responsibilities": [{ "name": "Bagus Perdana Yusuf", "detail": "" }]
+      "tools": {
+        "indonesia": [
+          {
+            "name": "HyperText Markup Language (HTML)",
+            "url": "https://html.spec.whatwg.org/multipage/",
+            "version": "-",
+            "usage": "Bahasa markup standar untuk menyusun halaman web"
+          },
+          {
+            "name": "Cascading Style Sheet (CSS)",
+            "url": "https://www.w3.org/Style/CSS/Overview.en.html",
+            "version": "-",
+            "usage": "Bahasa lembar gaya untuk mendesain halaman web"
+          },
+          {
+            "name": "Monaco Editor (probably)",
+            "url": "https://microsoft.github.io/monaco-editor/",
+            "version": "-",
+            "usage": "Penyunting kode di dalam kursus freecodecamp.org"
+          },
+          {
+            "name": "Codepen",
+            "url": "https://microsoft.github.io/monaco-editor/",
+            "version": "-",
+            "usage": "Platform untuk menyunting kode secara langsung dan memamerkan hasilnya"
+          }
+        ],
+        "english": [
+          {
+            "name": "HyperText Markup Language (HTML)",
+            "url": "https://html.spec.whatwg.org/multipage/",
+            "version": "-",
+            "usage": "Standard markup language for structuring web page"
+          },
+          {
+            "name": "Cascading Style Sheet (CSS)",
+            "url": "https://www.w3.org/Style/CSS/Overview.en.html",
+            "version": "-",
+            "usage": "Stylesheet language for designing web pages"
+          },
+          {
+            "name": "Monaco Editor (probably)",
+            "url": "https://microsoft.github.io/monaco-editor/",
+            "version": "-",
+            "usage": "Code editor within the freecodecamp.org course"
+          },
+          {
+            "name": "Codepen",
+            "url": "https://microsoft.github.io/monaco-editor/",
+            "version": "-",
+            "usage": "Platform to edit code directly and showcase the result"
+          }
+        ]
+      },
+      "responsibilities": [
+        {
+          "name": "Bagus Perdana Yusuf",
+          "detail": {
+            "indonesia": [
+              "Merancang sebuah situs web halaman dokumentasi teknis dan menjamin tampilan halaman yang responsif di berbagai perangkat."
+            ],
+            "english": [
+              "Designed a technical documentation page website and ensured responsiveness on various devices."
+            ]
+          }
+        }
+      ]
     },
     "miniProject": true,
-    "lastUpdated": "2021-12-18",
-    "license": ""
+    "lastUpdated": "2024-11-10",
+    "license": "MIT"
   },
   {
     "id": 12,
     "name": "Product Landing Page - Responsive Web Design Project (freecodecamp)",
     "category": "Front-end Development",
     "description": {
-      "indonesia": "Proyek ini merupakan salah satu dari lima proyek kursus Responsive Web Design yang diadakan oleh freeCodeCamp, membangun Halaman Utama Produk Headset Fantech ALTO 7.1 HG26 dengan HTML dan CSS.",
-      "english": "This project is one of the five projects of the Responsive Web Design course by freeCodeCamp, building the Fantech ALTO 7.1 HG26 Headset Product Landing Page with HTML and CSS."
+      "indonesia": "Sebuah halaman landas atau halaman utama produk headphone Fantech ALTO 7.1 HG26. Dibuat untuk menyelesaikan kursus Responsive Web Design yang disediakan oleh freecodecamp.org menggunakan HTML & CSS.",
+      "english": "A product landing page of Fantech ALTO 7.1 HG26 headphone. Created to complete the Responsive Web Design course provided by freecodecamp.org using HTML & CSS."
     },
     "technology": ["HTML", "CSS", "Responsive Web"],
     "contributors": [
       {
         "name": "Bagus Perdana Yusuf",
-        "role": "",
+        "role": "Front-end Developer",
         "profile": "https://www.linkedin.com/in/bagus-perdana-yusuf-0310971a5/",
         "avatar": "/image/avatar/baguspy.png"
       }
@@ -1138,28 +1477,98 @@
     ],
     "details": {
       "about": {
-        "indonesia": "",
-        "english": ""
+        "indonesia": [
+          "Proyek ini merupakan proyek mini yang dibuat untuk menyelesaikan kursus Responsive Web Design yang disediakan oleh freecodecamp.org. Membuat sebuah halaman landas produk headphone ALTO 7.1 HG26 dari merek Fantech dengan HTML dan CSS yang responsif. Ini merupakan proyek keempat dari lima proyek yang harus diselesaikan pada kursus Responsive Web Design yang diadakan oleh freeCodeCamp. Tipografi yang digunakan adalah DM Sans, sedangkan ikon diambil dari Material Symbols & Icons Google Fonts. Proyek ini semata-mata untuk tujuan edukasi dan bukan merupakan bentuk promosi untuk Fantech. Seluruh logo dan merek dagang yang digunakan adalah milik Fantech, sementara kode dan desain halaman ini adalah hak cipta Bagus Perdana Yusuf."
+        ],
+        "english": [
+          "This project is a mini project created to complete the Responsive Web Design course provided by freecodecamp.org. Creating a responsive product landing page of ALTO 7.1 HG26 headphones from Fantech brand with HTML and CSS. This is the fourth of five projects to be completed in the Responsive Web Design course provided by freeCodeCamp. The typography used is DM Sans, and the icons are sourced from Material Symbols & Icons by Google Fonts. This project is for educational purposes only and is not intended as a promotion for Fantech. All logos and trademarks belong to Fantech, while the code and design of this page are copyrighted by Bagus Perdana Yusuf."
+        ]
       },
-      "responsibilities": [{ "name": "Bagus Perdana Yusuf", "detail": "" }]
+      "tools": {
+        "indonesia": [
+          {
+            "name": "HyperText Markup Language (HTML)",
+            "url": "https://html.spec.whatwg.org/multipage/",
+            "version": "-",
+            "usage": "Bahasa markup standar untuk menyusun halaman web"
+          },
+          {
+            "name": "Cascading Style Sheet (CSS)",
+            "url": "https://www.w3.org/Style/CSS/Overview.en.html",
+            "version": "-",
+            "usage": "Bahasa lembar gaya untuk mendesain halaman web"
+          },
+          {
+            "name": "Monaco Editor (probably)",
+            "url": "https://microsoft.github.io/monaco-editor/",
+            "version": "-",
+            "usage": "Penyunting kode di dalam kursus freecodecamp.org"
+          },
+          {
+            "name": "Codepen",
+            "url": "https://microsoft.github.io/monaco-editor/",
+            "version": "-",
+            "usage": "Platform untuk menyunting kode secara langsung dan memamerkan hasilnya"
+          }
+        ],
+        "english": [
+          {
+            "name": "HyperText Markup Language (HTML)",
+            "url": "https://html.spec.whatwg.org/multipage/",
+            "version": "-",
+            "usage": "Standard markup language for structuring web page"
+          },
+          {
+            "name": "Cascading Style Sheet (CSS)",
+            "url": "https://www.w3.org/Style/CSS/Overview.en.html",
+            "version": "-",
+            "usage": "Stylesheet language for designing web pages"
+          },
+          {
+            "name": "Monaco Editor (probably)",
+            "url": "https://microsoft.github.io/monaco-editor/",
+            "version": "-",
+            "usage": "Code editor within the freecodecamp.org course"
+          },
+          {
+            "name": "Codepen",
+            "url": "https://microsoft.github.io/monaco-editor/",
+            "version": "-",
+            "usage": "Platform to edit code directly and showcase the result"
+          }
+        ]
+      },
+      "responsibilities": [
+        {
+          "name": "Bagus Perdana Yusuf",
+          "detail": {
+            "indonesia": [
+              "Merancang sebuah halaman landas suatu produk dan menjamin tampilan halaman yang responsif di berbagai perangkat."
+            ],
+            "english": [
+              "Designed a product landing page and ensured responsiveness across devices."
+            ]
+          }
+        }
+      ]
     },
     "miniProject": true,
-    "lastUpdated": "2021-12-18",
-    "license": ""
+    "lastUpdated": "2024-11-10",
+    "license": "MIT"
   },
   {
     "id": 13,
     "name": "Personal Portofolio Webpage - Responsive Web Design Project (freecodecamp)",
     "category": "Front-end Development",
     "description": {
-      "indonesia": "Proyek terakhir dari lima proyek kursus Responsive Web Design yang diadakan oleh freeCodeCamp untuk lulus dan mendapatkan sertifikat, membangun Halaman Portofolio Pribadi dengan HTML dan CSS.",
-      "english": "The last project of the five projects of the Responsive Web Design course held by freeCodeCamp to pass and get a certificate, build a Personal Portfolio Page with HTML and CSS."
+      "indonesia": "Sebuah halaman web portofolio pribadi yang dibuat untuk menyelesaikan kursus Responsive Web Design yang disediakan oleh freecodecamp.org menggunakan HTML & CSS.",
+      "english": "A personal portfolio webpage created to complete the Responsive Web Design course provided by freecodecamp.org using HTML & CSS."
     },
     "technology": ["HTML", "CSS", "Responsive Web"],
     "contributors": [
       {
         "name": "Bagus Perdana Yusuf",
-        "role": "",
+        "role": "Front-end Developer",
         "profile": "https://www.linkedin.com/in/bagus-perdana-yusuf-0310971a5/",
         "avatar": "/image/avatar/baguspy.png"
       }
@@ -1179,14 +1588,84 @@
     ],
     "details": {
       "about": {
-        "indonesia": "",
-        "english": ""
+        "indonesia": [
+          "Proyek ini merupakan proyek mini yang dibuat untuk menyelesaikan kursus Responsive Web Design yang disediakan oleh freecodecamp.org. Membuat sebuah halaman web responsif tentang portofolio pribadi saya dengan HTML dan CSS. Ini merupakan proyek kelima dari lima proyek yang harus diselesaikan pada kursus Responsive Web Design yang diadakan oleh freeCodeCamp. Tipografi yang digunakan adalah DM Sans dari Google Fonts. Berisi ringkasan saya, pengalaman bekerja, riwayat pendidikan, dan proyek yang telah dikerjakan. Namun tidak selengkap halaman ini."
+        ],
+        "english": [
+          "This project is a mini project created to complete the Responsive Web Design course provided by freecodecamp.org. Creating a responsive web page of my personal portfolio with HTML and CSS. This is the fifth of five projects to be completed in the Responsive Web Design course provided by freeCodeCamp. The typography used is DM Sans from Google Fonts. This page contains my summary, work experience, education history, and completed projects. although not as detailed as this page."
+        ]
       },
-      "responsibilities": [{ "name": "Bagus Perdana Yusuf", "detail": "" }]
+      "tools": {
+        "indonesia": [
+          {
+            "name": "HyperText Markup Language (HTML)",
+            "url": "https://html.spec.whatwg.org/multipage/",
+            "version": "-",
+            "usage": "Bahasa markup standar untuk menyusun halaman web"
+          },
+          {
+            "name": "Cascading Style Sheet (CSS)",
+            "url": "https://www.w3.org/Style/CSS/Overview.en.html",
+            "version": "-",
+            "usage": "Bahasa lembar gaya untuk mendesain halaman web"
+          },
+          {
+            "name": "Monaco Editor (probably)",
+            "url": "https://microsoft.github.io/monaco-editor/",
+            "version": "-",
+            "usage": "Penyunting kode di dalam kursus freecodecamp.org"
+          },
+          {
+            "name": "Codepen",
+            "url": "https://microsoft.github.io/monaco-editor/",
+            "version": "-",
+            "usage": "Platform untuk menyunting kode secara langsung dan memamerkan hasilnya"
+          }
+        ],
+        "english": [
+          {
+            "name": "HyperText Markup Language (HTML)",
+            "url": "https://html.spec.whatwg.org/multipage/",
+            "version": "-",
+            "usage": "Standard markup language for structuring web page"
+          },
+          {
+            "name": "Cascading Style Sheet (CSS)",
+            "url": "https://www.w3.org/Style/CSS/Overview.en.html",
+            "version": "-",
+            "usage": "Stylesheet language for designing web pages"
+          },
+          {
+            "name": "Monaco Editor (probably)",
+            "url": "https://microsoft.github.io/monaco-editor/",
+            "version": "-",
+            "usage": "Code editor within the freecodecamp.org course"
+          },
+          {
+            "name": "Codepen",
+            "url": "https://microsoft.github.io/monaco-editor/",
+            "version": "-",
+            "usage": "Platform to edit code directly and showcase the result"
+          }
+        ]
+      },
+      "responsibilities": [
+        {
+          "name": "Bagus Perdana Yusuf",
+          "detail": {
+            "indonesia": [
+              "Merancang sebuah halaman web portofolio pribadi dan menjamin tampilan halaman yang responsif di berbagai perangkat."
+            ],
+            "english": [
+              "Designed a personal portfolio webpage and ensure responsive page display across multiple devices."
+            ]
+          }
+        }
+      ]
     },
     "miniProject": true,
-    "lastUpdated": "2021-12-18",
-    "license": ""
+    "lastUpdated": "2024-12-10",
+    "license": "MIT"
   },
   {
     "id": 14,
@@ -1220,10 +1699,33 @@
     ],
     "details": {
       "about": {
-        "indonesia": "",
-        "english": ""
+        "indonesia": [""],
+        "english": [""]
       },
-      "responsibilities": [{ "name": "Bagus Perdana Yusuf", "detail": "" }]
+      "tools": {
+        "indonesia": [
+          {
+            "name": "",
+            "url": "",
+            "version": "",
+            "usage": ""
+          }
+        ],
+        "english": [
+          {
+            "name": "",
+            "url": "",
+            "version": "",
+            "usage": ""
+          }
+        ]
+      },
+      "responsibilities": [
+        {
+          "name": "Akbar Saleh Alfian",
+          "detail": { "indonesia": [], "english": [] }
+        }
+      ]
     },
     "miniProject": false,
     "lastUpdated": "2021-12-18",
@@ -1261,10 +1763,33 @@
     ],
     "details": {
       "about": {
-        "indonesia": "",
-        "english": ""
+        "indonesia": [""],
+        "english": [""]
       },
-      "responsibilities": [{ "name": "Bagus Perdana Yusuf", "detail": "" }]
+      "tools": {
+        "indonesia": [
+          {
+            "name": "",
+            "url": "",
+            "version": "",
+            "usage": ""
+          }
+        ],
+        "english": [
+          {
+            "name": "",
+            "url": "",
+            "version": "",
+            "usage": ""
+          }
+        ]
+      },
+      "responsibilities": [
+        {
+          "name": "Akbar Saleh Alfian",
+          "detail": { "indonesia": [], "english": [] }
+        }
+      ]
     },
     "miniProject": true,
     "lastUpdated": "2024-10-19",
