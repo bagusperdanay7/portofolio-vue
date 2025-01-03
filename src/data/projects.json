@@ -524,12 +524,14 @@
           "name": "Bagus Perdana Yusuf",
           "detail": {
             "indonesia": [
-              "Mengolah data melalui analisis dan praproses secara mendalam, diikuti dengan merancang model pembelajaran mesin untuk analisis sentimen berbasis aspek pada ulasan aplikasi marketplace menggunakan metode Bidirectional Long Short-Term Memory (BiLSTM), serta melakukan evaluasi kinerja model secara komprehensif",
+              "Melakukan analisis komprehensif dan prapemrosesan data teks dari ulasan Google Play untuk sebuah aplikasi marketplace di Indonesia.",
+              "Merancang model pembelajaran mesin untuk analisis sentimen berbasis aspek pada ulasan aplikasi marketplace menggunakan metode Bidirectional Long Short-Term Memory (BiLSTM), serta melakukan evaluasi kinerja model secara komprehensif menggunakan Confustion Matrix",
               "Mengevaluasi performa berbagai algoritma pembelajaran mesin tradisional dibandingkan dengan algoritma deep learning Bidirectional Long Short-Term Memory (BiLSTM), serta menggunakan teknik penyeimbangan data SMOTE untuk analisis sentimen berbasis aspek"
             ],
             "english": [
-              "Processed data through in-depth analysis and preprocessing, designed a machine learning model for aspect-based sentiment analysis on marketplace application reviews using the Bidirectional Long Short-Term Memory (BiLSTM) method, and comprehensively evaluated the model's performance.",
-              "Assessed the performance of various traditional machine learning algorithms in comparison to the Bidirectional Long Short-Term Memory (BiLSTM) deep learning algorithm, while utilizing the SMOTE data balancing technique for aspect-based sentiment analysis"
+              "Conducted comprehensive analysis and preprocessing of text data from Google Play reviews of an Indonesian marketplace app.",
+              "Designed a machine learning model for aspect-based sentiment analysis on marketplace application reviews using the Bidirectional Long Short-Term Memory (BiLSTM) method and comprehensively evaluated the model's performance using a confusion matrix.",
+              "Assessed the performance of various traditional machine learning algorithms in comparison to the Bidirectional Long Short-Term Memory (BiLSTM) deep learning algorithm, while utilizing the SMOTE data balancing technique for aspect-based sentiment analysis."
             ]
           }
         }
@@ -726,7 +728,7 @@
     "contributors": [
       {
         "name": "Bagus Perdana Yusuf",
-        "role": "",
+        "role": "Full-stack Developer",
         "profile": "https://www.linkedin.com/in/bagus-perdana-yusuf-0310971a5/",
         "avatar": "/image/avatar/baguspy.png"
       }
@@ -783,20 +785,23 @@
     "name": "Final Project Dicoding - Image Classification",
     "category": "Machine Learning",
     "description": {
-      "indonesia": "Project akhir dari Kursus Dicoding, yaitu Machine Learning Pemula. Saya ditugaskan untuk membuat Klasifikasi Gambar dengan Python & Tensorflow.",
-      "english": "The final project of the Dicoding course, Machine Learning Beginner, I was assigned to make Image Classification with Python & Tensorflow."
+      "indonesia": "Sebuah program pembelajaran mesin dikembangkan menggunakan Python dan TensorFlow, yang mengimplementasikan algoritma Convolutional Neural Network untuk mengklasifikasikan gambar batu-gunting-kertas. Program ini dirancang untuk mendukung penyelesaian kursus Belajar Machine Learning untuk Pemula dari Dicoding Indonesia.",
+      "english": "A machine learning application built with Python and TensorFlow, implementing the Convolutional Neural Network algorithm to classify images of rock, scissors, and paper. This project is designed to aid in completing Dicoding Indonesia's Machine Learning for Beginners course."
     },
     "technology": [
       "Python",
+      "Numpy",
+      "Matplotlib",
       "TensorFlow",
       "AI",
+      "Deep Learning",
       "Computer Vision",
       "Image Classification"
     ],
     "contributors": [
       {
         "name": "Bagus Perdana Yusuf",
-        "role": "",
+        "role": "Data Scientist",
         "profile": "https://www.linkedin.com/in/bagus-perdana-yusuf-0310971a5/",
         "avatar": "/image/avatar/baguspy.png"
       }
@@ -808,44 +813,112 @@
       "caption": "Illustration of Rock Paper Scissors Image Classification Project",
       "original": false
     },
-    "previews": [
-      {
-        "preview": "/image/projects/dicoding/rock-paper-scissors.jpg",
-        "caption": "Illustration of Rock Paper Scissors Image Classification Project"
-      }
-    ],
+    "previews": null,
     "details": {
       "about": {
-        "indonesia": [""],
-        "english": [""]
+        "indonesia": [
+          "Proyek ini merupakan tugas akhir dari kursus Dicoding untuk menyelesaikan kursus Belajar Machine Learning untuk Pemula yang diselenggarakan oleh Dicoding Indonesia. Tugas ini melibatkan pembuatan klasifikasi gambar untuk permainan batu-gunting-kertas menggunakan bahasa pemrograman Python dan kerangka kerja pembelajaran mesin TensorFlow. Dalam proyek ini, algoritma deep learning yang digunakan adalah Convolutional Neural Network (CNN), yang berhasil mencapai akurasi pelatihan sebesar 97,5% dan akurasi validasi sebesar 98,75%. Selain itu, dilakukan augmentasi data citra yang mencakup pengubahan ukuran, rotasi, pembalikan horizontal, pergeseran, pembesaran, serta penyesuaian panjang dan lebar gambar selama tahap pelatihan model."
+        ],
+        "english": [
+          "This project serves as the final assignment for the Dicoding course aimed at completing the Learn Machine Learning for Beginners program organized by Dicoding Indonesia. The task involves developing an image classification system for the rock-paper-scissors game using Python and the TensorFlow machine learning framework. The deep learning algorithm employed in this project is the Convolutional Neural Network (CNN), which achieved a training accuracy of 97.5% and a validation accuracy of 98.75%. Additionally, image data augmentation techniques were applied, including resizing, rotation, horizontal flipping, shifting, zooming, and adjusting the length and width of images during the model training phase."
+        ]
       },
       "tools": {
         "indonesia": [
           {
-            "name": "",
-            "url": "",
-            "version": "",
-            "usage": ""
+            "name": "Python",
+            "url": "https://www.python.org/",
+            "version": "3.10.0+",
+            "usage": "Bahasa pemrograman utama"
+          },
+          {
+            "name": "Numpy",
+            "url": "https://numpy.org/",
+            "version": "1.26.0+",
+            "usage": "Pustaka Python untuk membantu melakukan komputasi ilmiah"
+          },
+          {
+            "name": "Matplotlib",
+            "url": "https://matplotlib.org/",
+            "version": "3.6.0+",
+            "usage": "Pustaka Python untuk memvisualisasikan data secara interaktif"
+          },
+          {
+            "name": "TensorFlow",
+            "url": "https://www.tensorflow.org/",
+            "version": "2.0+",
+            "usage": "Platform to make machine learning more powerful and fast"
+          },
+          {
+            "name": "split-folders",
+            "url": "https://github.com/jfilter/split-folders",
+            "version": "0.5.1+",
+            "usage": "Pustaka Python untuk memisahkan folder"
+          },
+          {
+            "name": "Google Colab",
+            "url": "https://colab.research.google.com/",
+            "version": "Latest",
+            "usage": "Layanan Jupyter Notebook daring yang disediakan oleh Google untuk mempercepat komputasi pembelajaran mesin dengan dukungan GPU"
           }
         ],
         "english": [
           {
-            "name": "",
-            "url": "",
-            "version": "",
-            "usage": ""
+            "name": "Python",
+            "url": "https://www.python.org/",
+            "version": "3.10.0+",
+            "usage": "Main programming language"
+          },
+          {
+            "name": "Numpy",
+            "url": "https://numpy.org/",
+            "version": "1.26.0+",
+            "usage": "Python library to help perform scientific computing"
+          },
+          {
+            "name": "Matplotlib",
+            "url": "https://matplotlib.org/",
+            "version": "3.6.0+",
+            "usage": "Python library for visualizing data interactively"
+          },
+          {
+            "name": "TensorFlow",
+            "url": "https://www.tensorflow.org/",
+            "version": "2.0+",
+            "usage": "Platform to make machine learning more powerful and fast"
+          },
+          {
+            "name": "split-folders",
+            "url": "https://github.com/jfilter/split-folders",
+            "version": "0.5.1+",
+            "usage": "Python library to split folder"
+          },
+          {
+            "name": "Google Colab",
+            "url": "https://colab.research.google.com/",
+            "version": "Latest",
+            "usage": "An online Jupyter Notebook service provided by Google to accelerate machine learning computing with GPU support"
           }
         ]
       },
       "responsibilities": [
         {
           "name": "Bagus Perdana Yusuf",
-          "detail": { "indonesia": [], "english": [] }
+          "detail": {
+            "indonesia": [
+              "Merancang model algoritma pembelajaran mendalam jenis Convolutional Neural Network untuk mengklasifikasikan gambar permainan gunting-batu-kertas.",
+              "Penerapan augmentasi gambar yang meliputi pengubahan ukuran, rotasi, pembalikan horizontal, pergeseran, pembesaran, dan pergeseran panjang dan lebar pada tahapan pelatihan model, serta pemanfaatan image data generator pada data gambar."
+            ],
+            "english": [
+              "Designed a Convolutional Neural Network type deep learning algorithm model to classify images of a rock-paper-scissors game.",
+              "Applied various image augmentation methods including resizing, rotating, horizontal flipping, shifting, zooming, and adjusting length and width during the model training stage, utilizing an image data generator for the image data."
+            ]
+          }
         }
       ]
     },
     "miniProject": false,
-    "lastUpdated": "2021-12-18",
+    "lastUpdated": "2023-11-13",
     "license": ""
   },
   {
@@ -1736,8 +1809,8 @@
     "name": "Mean Variance Standard Deviation Calculator - Data Analysis With Python (freeCodeCamp)",
     "category": "Data Analysis",
     "description": {
-      "indonesia": "Agar dapat menyelesaikan kursus Data Analysis With Python oleh freecodecamp.org, saya harus membuat projek Mean Variance Standard Deviation Calculator sebagai bentuk implementasi data analysis di Python dan menunjukkan cara saya memanfaatkan pengetahuan-pengetahuan dasar yang telah saya dapatkan di kursus ini.",
-      "english": "In order to complete the Data Analysis With Python course by freecodecamp.org, I had to create a Mean Variance Standard Deviation Calculator project as a way to demonstrate how I can utilize the fundamental knowledge that I have obtained in this course"
+      "indonesia": "Sebuah program kalkulator sederhana dikembangkan menggunakan bahasa pemrograman Python dan pustaka Numpy untuk menghitung rata-rata, varians, dan simpangan baku guna menyelesaikan kursus Data Analysis with Python yang disediakan oleh freecodecamp.org.",
+      "english": "A simple calculator program was developed using the Python programming language and the Numpy library to calculate the mean, variance, and standard deviation to complete the Data Analysis with Python course provided by freecodecamp.org."
     },
     "technology": ["Python", "Numpy"],
     "contributors": [
@@ -1755,44 +1828,86 @@
       "caption": "Illustration of Mean, Standard Deviation & Variance Calculator Project",
       "original": false
     },
-    "previews": [
-      {
-        "preview": "/image/projects/data-analysis-with-python/mean-std-variance-calculator.jpg",
-        "caption": "Illustration of Mean, Standard Deviation & Variance Calculator Project"
-      }
-    ],
+    "previews": null,
     "details": {
       "about": {
-        "indonesia": [""],
-        "english": [""]
+        "indonesia": [
+          "Proyek ini merupakan program sederhana analisis data menggunakan Python dan Numpy, yang mengimplementasikan pembuatan kalkulator untuk menghitung rata-rata, varians, dan simpangan baku. Proyek ini merupakan proyek pertama dari lima proyek yang harus diselesaikan dalam kursus Analisis Data dengan Python yang diselenggarakan oleh freecodecamp.org."
+        ],
+        "english": [
+          "This project is a simple data analysis program using Python and Numpy, implementing the creation of a calculator to calculate mean, variance, and standard deviation. This project is the first of five projects to be completed in the Data Analysis with Python course organized by freecodecamp.org."
+        ]
       },
       "tools": {
         "indonesia": [
           {
-            "name": "",
-            "url": "",
-            "version": "",
-            "usage": ""
+            "name": "Python",
+            "url": "https://www.python.org/",
+            "version": "3.10.1+",
+            "usage": "Bahasa pemrograman utama"
+          },
+          {
+            "name": "Numpy",
+            "url": "https://numpy.org/",
+            "version": "2.1.2+",
+            "usage": "Pustaka Python untuk membantu melakukan komputasi ilmiah"
+          },
+          {
+            "name": "Poetry",
+            "url": "https://python-poetry.org/",
+            "version": "1.5.5+",
+            "usage": "Pengelola dependensi untuk Python"
+          },
+          {
+            "name": "Replit",
+            "url": "https://replit.com/",
+            "version": "Latest",
+            "usage": "Platform berbasis web untuk membuat program"
           }
         ],
         "english": [
           {
-            "name": "",
-            "url": "",
-            "version": "",
-            "usage": ""
+            "name": "Python",
+            "url": "https://www.python.org/",
+            "version": "3.10.1+",
+            "usage": "Main programming language"
+          },
+          {
+            "name": "Numpy",
+            "url": "https://numpy.org/",
+            "version": "2.1.2+",
+            "usage": "Python library to help perform scientific computing"
+          },
+          {
+            "name": "Poetry",
+            "url": "https://python-poetry.org/",
+            "version": "1.5.5+",
+            "usage": "Dependency manager for Python"
+          },
+          {
+            "name": "Replit",
+            "url": "https://replit.com/",
+            "version": "Latest",
+            "usage": "Web-based platform to create program"
           }
         ]
       },
       "responsibilities": [
         {
-          "name": "Akbar Saleh Alfian",
-          "detail": { "indonesia": [], "english": [] }
+          "name": "Bagus Perdana Yusuf",
+          "detail": {
+            "indonesia": [
+              "Membuat kalkulator sederhana menggunakan Python dan pustaka Numpy guna menghitung rata-rata, varians, dan simpangan baku, serta memperbaiki bug yang ditemui selama pembuatan program"
+            ],
+            "english": [
+              "Created a basic calculator with Python and Numpy to calculate the mean, variance, and standard deviation, and fix any bugs that appear during the development phase."
+            ]
+          }
         }
       ]
     },
     "miniProject": true,
     "lastUpdated": "2024-10-19",
-    "license": ""
+    "license": "MIT"
   }
 ]

@@ -129,6 +129,10 @@ export default {
         case "Scikit-learn":
           this.addOnClass = "text-sklearn bg-sklearn/15";
           break;
+        case "Matplotlib":
+          this.addOnClass =
+            "text-matplotlib bg-matplotlib/15 dark:text-matplotlib-alt dark:bg-matplotlib-alt/15";
+          break;
         default:
           this.addOnClass =
             "text-light-100 bg-light-100/15 dark:text-dark-90 dark:bg-dark-90/15";

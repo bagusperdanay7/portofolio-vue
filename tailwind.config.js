@@ -96,6 +96,8 @@ export default {
         "sentiment-analysis": "#0a71eb",
         "sentiment-analysis-alt": "#50c5ff",
         sklearn: "#F89939",
+        matplotlib: "#11557C",
+        "matplotlib-alt": "#65BAEA",
       },
       screens: {
         xs: "425px",
