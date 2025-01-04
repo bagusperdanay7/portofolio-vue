@@ -1034,41 +1034,39 @@
     "contributors": [
       {
         "name": "Akbar Saleh Alfian",
-        "role": "",
-        "profile": ""
+        "role": "UI & UX Designer",
+        "profile": "https://www.instagram.com/akbarsaleh_alfian"
       },
       {
         "name": "Bagus Perdana Yusuf",
-        "role": "",
+        "role": "UI & UX Designer",
         "profile": "https://www.linkedin.com/in/bagus-perdana-yusuf-0310971a5/",
         "avatar": "/image/avatar/baguspy.png"
       },
       {
         "name": "Raden Fachrul Ramzy Muhammad",
-        "role": "",
+        "role": "UI & UX Designer",
         "profile": "https://www.linkedin.com/in/raden-fachrul-605a12341/",
         "avatar": "/image/avatar/raden-fachrul.jpeg"
       },
       {
         "name": "Robi Nurhidayat",
-        "role": "",
+        "role": "UI & UX Designer",
         "profile": "https://www.linkedin.com/in/robi-nurhidayat-2a857224a/",
         "avatar": "/image/avatar/robi-nurhidayat.jpeg"
       }
     ],
-    "source": "https://www.figma.com/design/UHWZmtqrQPkLTo1km7YPZn/Design?node-id=221-2&node-type=canvas",
-    "url": "",
+    "source": "",
+    "url": "https://www.figma.com/design/UHWZmtqrQPkLTo1km7YPZn/Design?node-id=221-2&t=xbWhRukquGqFVqyI-1",
     "thumbnail": {
       "src": "/image/projects/ui-ux-course/landing-page-preview.png",
       "caption": "Preview of Landing Page Course UI & UX Design",
       "original": true
     },
-    "previews": [
-      {
-        "preview": "https://embed.figma.com/design/UHWZmtqrQPkLTo1km7YPZn/Design?node-id=221-2&embed-host=share",
-        "caption": "Preview of Landing Page Course UI & UX Design"
-      }
-    ],
+    "previews": {
+      "preview": "https://embed.figma.com/design/UHWZmtqrQPkLTo1km7YPZn/Design?node-id=221-2&embed-host=share",
+      "caption": "Preview of Landing Page Course UI & UX Design"
+    },
     "details": {
       "about": {
         "indonesia": [""],
