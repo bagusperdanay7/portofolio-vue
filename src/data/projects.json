@@ -926,68 +926,101 @@
     "name": "Portofolio UI & UX Design",
     "category": "UI & UX Design",
     "description": {
-      "indonesia": "Merancang User Interface dan User Experience portofolio saya menggunakan aplikasi Figma",
-      "english": "Design my portfolio's User Interface and User Experience using Figma software"
+      "indonesia": "Desain antarmuka dan pengalaman pengguna (UI & UX) untuk situs web portofolio pribadi saya menggunakan Figma.",
+      "english": "Design of user interface and user experience (UI & UX) for my personal portfolio website using Figma."
     },
     "technology": ["User Interface", "User Experience", "Figma"],
     "contributors": [
       {
         "name": "Bagus Perdana Yusuf",
-        "role": "",
+        "role": "UI & UX Designer",
         "profile": "https://www.linkedin.com/in/bagus-perdana-yusuf-0310971a5/",
         "avatar": "/image/avatar/baguspy.png"
       }
     ],
-    "source": "",
-    "url": "https://dribble",
+    "source": "https://dribble.com",
+    "url": "https://www.figma.com/design/35sKqytEGhNRZWrbwHT9sL/Website-Portfolio?node-id=141-2&t=4OiZcMccM3phYRwJ-1",
     "thumbnail": {
       "src": "/image/projects/portfolio/preview-home-portfolio.png",
       "caption": "Preview of Portfolio Home page UI & UX design",
       "original": true
     },
-    "previews": [
-      {
-        "preview": "/image/projects/portfolio/preview-home-portfolio.png",
-        "caption": "Preview of Portfolio Home page UI & UX design"
-      },
-      {
-        "src": "/image/projects/portfolio/portfolio-ui-home.jpg",
-        "caption": "UI & UX of Personal Portfolio"
-      }
-    ],
+    "previews": {
+      "preview": "https://embed.figma.com/design/35sKqytEGhNRZWrbwHT9sL/Website-Portfolio?node-id=141-2&embed-host=share",
+      "caption": "Figma embed content"
+    },
     "details": {
       "about": {
-        "indonesia": [""],
-        "english": [""]
+        "indonesia": [
+          "Ini merupakan hasil desain antarmuka pengguna dan pengalaman pengguna perangkat situs web untuk portofolio saya menggunakan aplikasi Figma. Proses desainnya mencakut pembuata sistem desain meliputi palet warna, tipografi dengan ukuran yang berbeda, gaya grid, dan pembuatan beberapa komponen seperti tombol, avatar, ikon, lencana, dan kartu. Selanjutnya, membuat kerangka desain (wireframe) dan membuat purwarupa (mock-up) untuk berbagai halaman, meliputi navigasi, halaman utama, halaman detail proyek, footer, dan mode tema terang dan gelap."
+        ],
+        "english": [
+          "This is the outcome of designing the user interface and user experience for my personal portfolio website, developed using Figma. The process included building a design system comprising a color palette, typography with various sizes, grid styles, and components like buttons, avatars, icons, badges, and cards. Subsequently, I created wireframes and mock-ups for different pages, including navigation, the home page, project detail page, footer, and both light and dark theme modes."
+        ]
       },
       "tools": {
         "indonesia": [
           {
-            "name": "",
-            "url": "",
-            "version": "",
-            "usage": ""
+            "name": "Figma",
+            "url": "https://www.figma.com/",
+            "version": "Latest",
+            "usage": "Perangkat lunak desain berbasis web untuk membuat antarmuka pengguna (UI) dan pengalaman pengguna (UX)"
+          },
+          {
+            "name": "Tailwind CSS Color Generator",
+            "url": "https://uicolors.app/create",
+            "version": "-",
+            "usage": "Alat Pembangkit warna untuk Tailwind CSS"
+          },
+          {
+            "name": "Boxicons",
+            "url": "https://boxicons.com/",
+            "version": "-",
+            "usage": "Ikon sebagai elemen hiasan dalam desain laman web"
           }
         ],
         "english": [
           {
-            "name": "",
-            "url": "",
-            "version": "",
-            "usage": ""
+            "name": "Figma",
+            "url": "https://www.figma.com/",
+            "version": "Latest",
+            "usage": "Web-based design software for creation of user interface (UI) and user experience (UX)"
+          },
+          {
+            "name": "Tailwind CSS Color Generator",
+            "url": "https://uicolors.app/create",
+            "version": "-",
+            "usage": "Tailwind CSS color generator tool"
+          },
+          {
+            "name": "Boxicons",
+            "url": "https://boxicons.com/",
+            "version": "-",
+            "usage": "Icons as ornamental elements in webpage design"
           }
         ]
       },
       "responsibilities": [
         {
           "name": "Bagus Perdana Yusuf",
-          "detail": { "indonesia": [], "english": [] }
+          "detail": {
+            "indonesia": [
+              "Merancang antarmuka dan pengalaman pengguna untuk aplikasi web menggunakan alat standar industri yaitu Figma, memastikan pengalaman pengguna yang mulus dan menarik secara visual.",
+              "Membuat kerangka desain dan purwarupa untuk mengomunikasikan konsep desain secara efektif, memanfaatkan fitur figma dengan baik seperti tata letak otomatis, komponen dan variasinya.",
+              "Membangun sistem desain skala kecil, termasuk palet warna, tipografi, pustaka komponen untuk menjaga konsistensi pada seluruh elemen desain produk ini."
+            ],
+            "english": [
+              "Designed the user interface and user experience for the web application using the industry-standard tool Figma, ensuring a seamless and visually appealing user experience.",
+              "Created wireframes and mock-ups to effectively communicate design concepts, properly utilizing figma features such as auto-layouts, components and variants.",
+              "Established a small-scale design system encompassing a color palette, typography, and a component library to ensure consistent design elements throughout the product."
+            ]
+          }
         }
       ]
     },
     "miniProject": false,
-    "lastUpdated": "2021-12-18",
-    "license": ""
+    "lastUpdated": "2024-12-24",
+    "license": "CC By 4.0"
   },
   {
     "id": 7,
@@ -1033,8 +1066,7 @@
     "previews": [
       {
         "preview": "https://embed.figma.com/design/UHWZmtqrQPkLTo1km7YPZn/Design?node-id=221-2&embed-host=share",
-        "caption": "Preview of Landing Page Course UI & UX Design",
-        "original": true
+        "caption": "Preview of Landing Page Course UI & UX Design"
       }
     ],
     "details": {

@@ -231,17 +231,22 @@ export default {
             >
               Preview
             </h2>
-            <iframe
-              v-if="project.category == 'UI & UX Design'"
-              style="border: 1px solid rgba(0, 0, 0, 0.1)"
-              width="800"
-              height="450"
-              src="https://embed.figma.com/design/UHWZmtqrQPkLTo1km7YPZn/Design?node-id=221-2&embed-host=share"
-              :title="project.name"
-              allowfullscreen
-            ></iframe>
+            <div id="figmaPreview">
+              <iframe
+                v-if="project.category == 'UI & UX Design'"
+                class="w-full aspect-video"
+                style="border: 1px solid rgba(0, 0, 0, 0.1)"
+                :src="project.previews.preview"
+                :title="project.name"
+                allowfullscreen
+              ></iframe>
+            </div>
             <div id="imagesPreview">
-              <figure v-for="image in project.previews" :key="image.caption">
+              <figure
+                v-if="project.category != 'UI & UX Design'"
+                v-for="image in project.previews"
+                :key="image.caption"
+              >
                 <img
                   class="w-full object-cover shadow-md dark:shadow-none"
                   :src="image.preview ?? '/src/assets/template.jpg'"
