@@ -14,7 +14,8 @@
       "Bootstrap CSS",
       "PHP",
       "Laravel",
-      "MySQL"
+      "MySQL",
+      "Git"
     ],
     "contributors": [
       {
@@ -1027,15 +1028,16 @@
     "name": "IT Course UI & UX - Software Management Project Course (College)",
     "category": "UI & UX Design",
     "description": {
-      "indonesia": "Design User Interface & User Experience dari tugas besar akhir mata kuliah Manajemen Proyek Perangkat Lunak dengan dosen pengampu Bapak Irfan Maliki, S.T, M.T., CIPTM.",
-      "english": "The User Interface & User Experience Design of the final big project of the Software Project Management course with the lecturer Mr. Irfan Maliki, S.T, M.T., CIPTM."
+      "indonesia": "Design antarmuka pengguna (UI) & pengalaman pengguna (UX) dari IT Course yang merupakan tugas besar akhir mata kuliah Manajemen Proyek Perangkat Lunak dengan dosen pengampu Bapak Irfan Maliki, S.T, M.T., CIPTM.",
+      "english": "The user interface (UI) and user experience (UX) design for the IT Course, which serves as the final major project for the Software Project Management course taught by Mr. Irfan Maliki, S.T., M.T., CIPTM, has been developed."
     },
     "technology": ["Figma", "User Interface", "User Experience"],
     "contributors": [
       {
         "name": "Akbar Saleh Alfian",
-        "role": "UI & UX Designer",
-        "profile": "https://www.instagram.com/akbarsaleh_alfian"
+        "role": "Quality assurance",
+        "profile": "https://www.instagram.com/akbarsaleh_alfian",
+        "avatar": "/image/avatar/akbarsa.jpg"
       },
       {
         "name": "Bagus Perdana Yusuf",
@@ -1051,7 +1053,7 @@
       },
       {
         "name": "Robi Nurhidayat",
-        "role": "UI & UX Designer",
+        "role": "Project Manager",
         "profile": "https://www.linkedin.com/in/robi-nurhidayat-2a857224a/",
         "avatar": "/image/avatar/robi-nurhidayat.jpeg"
       }
@@ -1065,61 +1067,163 @@
     },
     "previews": {
       "preview": "https://embed.figma.com/design/UHWZmtqrQPkLTo1km7YPZn/Design?node-id=221-2&embed-host=share",
-      "caption": "Preview of Landing Page Course UI & UX Design"
+      "caption": "Preview of Landing Page Course UI & UX Design Figma Embeded"
     },
     "details": {
       "about": {
-        "indonesia": [""],
-        "english": [""]
+        "indonesia": [
+          "Ini adalah hasil desain antarmuka pengguna (UI) dan pengalaman pengguna (UX) untuk sistem IT Course menggunakan Figma. Proses pengerjaan mencakup pembuatan palet warna, penentuan gaya tipografi dengan berbagai ukuran, serta perancangan kerangka desain (wireframe) untuk setiap halaman. Selanjutnya, dilakukan pembuatan mock-up setiap halaman dan purwarupa untuk memvisualisasikan alur aplikasi kepada pengguna. Tipografi yang digunakan adalah Poppins dan Roboto dari Google Fonts, dengan ikon dari Material Symbols and Icons dari Google Fonts, serta kombinasi Boxicons dan css.gg. Ilustrasi diperoleh dari freepik.com, untuk gambar gratis diambil dari Unsplash, sementara logo didesain oleh Bagus Perdana Yusuf.",
+          "Halaman-halaman yang dibuat dalam tahap wireframing dan mock-up meliputi halaman landasan, tentang kami, kontak kami, daftar kursus, mentor, testimonial, registrasi akun, login, dasbor pengguna, dasbor kelas, halaman pembayaran, serta pengaturan akun termasuk ubah kata sandi dan ubah profil."
+        ],
+        "english": [
+          "This is the end result of using Figma to create the user interface (UI) and user experience (UX) for the IT Course system. The design process involved creating a color palette, selecting various typography styles and sizes, and designing wireframes for each page. Subsequently, mock-ups and prototypes of each page were developed to visualize the application's flow to users. The font utilized was Google Fonts' Poppins and Roboto, with icons from Material Symbols and Icons, as well as a combination of Boxicons and css.gg. The illustrations were sourced from freepik.com, free images taken from Unsplash, and the logo was designed by Bagus Perdana Yusuf.",
+          "The pages created in the wireframing and mock-up stages include the landing page, about us, contact us, course list, mentors, testimonials, account sign-up, login, user dashboard, class dashboard, payment page, as well as account settings including change password and change profile."
+        ]
       },
       "tools": {
         "indonesia": [
           {
-            "name": "",
-            "url": "",
-            "version": "",
-            "usage": ""
+            "name": "Figma",
+            "url": "https://www.figma.com/",
+            "version": "Latest",
+            "usage": "Perangkat lunak desain berbasis web untuk membuat antarmuka pengguna (UI) dan pengalaman pengguna (UX)"
+          },
+          {
+            "name": "Freepik",
+            "url": "https://www.freepik.com/",
+            "version": "-",
+            "usage": "Tempat mencari Stok gambar dan ilustrasi gratis"
+          },
+          {
+            "name": "Boxicons",
+            "url": "https://boxicons.com/",
+            "version": "2.0.8+",
+            "usage": "Ikon sebagai elemen hiasan dalam desain laman web"
+          },
+          {
+            "name": "css.gg",
+            "url": "https://css.gg/",
+            "version": "-",
+            "usage": "Pustaka ikon gratis dengan CSS"
+          },
+          {
+            "name": "Unsplash",
+            "url": "https://unsplash.com/",
+            "version": "-",
+            "usage": "Tempat mencari gambar gratis"
+          },
+          {
+            "name": "Google Font",
+            "url": "https://fonts.google.com/",
+            "version": "-",
+            "usage": "Sumber terbuka untuk tipografi dan Ikon dari Google"
           }
         ],
         "english": [
           {
-            "name": "",
-            "url": "",
-            "version": "",
-            "usage": ""
+            "name": "Figma",
+            "url": "https://www.figma.com/",
+            "version": "Latest",
+            "usage": "Web-based design software for creation of user interface (UI) and user experience (UX)"
+          },
+          {
+            "name": "Freepik",
+            "url": "https://www.freepik.com/",
+            "version": "-",
+            "usage": "A place for searching images and illustrations stock freely"
+          },
+          {
+            "name": "Boxicons",
+            "url": "https://boxicons.com/",
+            "version": "2.0.8+",
+            "usage": "Icons as ornamental elements in webpage design"
+          },
+          {
+            "name": "css.gg",
+            "url": "https://css.gg/",
+            "version": "-",
+            "usage": "Free icons library with CSS"
+          },
+          {
+            "name": "Unsplash",
+            "url": "https://unsplash.com/",
+            "version": "-",
+            "usage": "A place to discover free images"
+          },
+          {
+            "name": "Google Font",
+            "url": "https://fonts.google.com/",
+            "version": "-",
+            "usage": "Open source for typography and Icons from Google"
           }
         ]
       },
       "responsibilities": [
         {
           "name": "Akbar Saleh Alfian",
-          "detail": { "indonesia": [], "english": [] }
+          "detail": {
+            "indonesia": [
+              "Mengerjakan pengujian kegunaan untuk memastikan antarmuka yang intuitif dan mudah dinavigasi oleh pengguna.",
+              "Melakukan pengujian purwarupa untuk mengidentifikasi masalah desain sebelum produk akhir dibuat, serta memastikan semua interaksi elemen berfungsi dengan benar."
+            ],
+            "english": [
+              "Conducted usability testing to ensure an intuitive and easy-to-navigate interface for users.",
+              "Tested prototypes to find design flaws before the finished product was constructed and made sure all element interactions were working properly."
+            ]
+          }
         },
         {
           "name": "Bagus Perdana Yusuf",
-          "detail": { "indonesia": [], "english": [] }
+          "detail": {
+            "indonesia": [
+              "Merancang antarmuka dan pengalaman pengguna untuk aplikasi web menggunakan alat standar industri yaitu Figma, memastikan pengalaman pengguna yang mulus dan menarik secara visual.",
+              "Membuat palet warna & gaya tipografi yang bervariasi, kerangka desain, malet dan purwarupa untuk mengomunikasikan konsep desain secara efektif."
+            ],
+            "english": [
+              "Designed the user interface and user experience for the web application using the industry-standard tool Figma, ensuring a seamless and visually appealing user experience.",
+              "Created a variety of color palettes & typography style, wireframes, mock-ups, and prototypes to efficiently convey design concepts."
+            ]
+          }
         },
         {
           "name": "Raden Fachrul Ramzy Muhammad",
-          "detail": { "indonesia": [], "english": [] }
+          "detail": {
+            "indonesia": [
+              "Merancang antarmuka dan pengalaman pengguna untuk aplikasi web menggunakan alat standar industri yaitu Figma, memastikan pengalaman pengguna yang mulus dan menarik secara visual.",
+              "Membuat kerangka desain, dan malet untuk mengomunikasikan konsep desain secara efektif."
+            ],
+            "english": [
+              "Designed the user interface and user experience for the web application using the industry-standard tool Figma, ensuring a seamless and visually appealing user experience.",
+              "Created wireframes, and mock-ups to efficiently convey design concepts."
+            ]
+          }
         },
         {
           "name": "Robi Nurhidayat",
-          "detail": { "indonesia": [], "english": [] }
+          "detail": {
+            "indonesia": [
+              "Memimpin tim yang terdiri dari empat anggota, merancang dan melaksanakan rencana proyek yang komprehensif sesuai dengan anggaran, sumber daya, dan tujuan yang telah ditetapkan. Menjamin komunikasi yang efisien antar anggota tim, memantau perkembangan desain secara berkala. ",
+              "Melakukan evaluasi desain secara rutin guna menjamin kesesuaian, serta menyusun laporan evaluatif untuk mengkaji kinerja desain akhir."
+            ],
+            "english": [
+              "Led a team of four members, designing and executing a comprehensive project plan in accordance with established budgets, resources, and objectives. Maintained efficient communication among team members and regularly monitored design progress.",
+              "Conducted frequent design evaluations to ensure adherence to standards and compiled reports to assess final design performance."
+            ]
+          }
         }
       ]
     },
     "miniProject": false,
-    "lastUpdated": "2021-12-18",
-    "license": ""
+    "lastUpdated": "2021-08-04",
+    "license": "CC By 4.0"
   },
   {
     "id": 8,
     "name": "IT Course Website - Software Management Project Course (College)",
     "category": "Full-stack Development",
     "description": {
-      "indonesia": "Projek ini ditujukan untuk Tugas Besar Mata Kuliah Manajemen Proyek Perangkat Lunak dengan dosen pengampu Bapak Irfan Maliki, S.T, M.T., CIPTM.",
-      "english": "This project is aimed for the Big Final Project Assignment of the Software Project Management course with the lecturer Mr. Irfan Maliki, S.T, M.T., CIPTM."
+      "indonesia": "Sebuah kursus khusus materi Teknologi dan Informasi berbasis web dibangun dengan bahasa pemrograman PHP dan kerangka kerja Laravel. Projek ini ditujukan untuk Tugas Besar Mata Kuliah Manajemen Proyek Perangkat Lunak dengan dosen pengampu Bapak Irfan Maliki, S.T, M.T., CIPTM.",
+      "english": "A web-based Information and Technology course built with PHP programming language and Laravel framework. This project is aimed for the Big Final Project Assignment of the Software Project Management course with the lecturer Mr. Irfan Maliki, S.T, M.T., CIPTM."
     },
     "technology": [
       "HTML",
@@ -1128,29 +1232,31 @@
       "PHP",
       "Laravel",
       "Bootstrap CSS",
-      "MySQL"
+      "MySQL",
+      "Git"
     ],
     "contributors": [
       {
         "name": "Akbar Saleh Alfian",
-        "role": "",
-        "profile": ""
+        "role": "Quality assurance",
+        "profile": "https://www.instagram.com/akbarsaleh_alfian",
+        "avatar": "/image/avatar/akbarsa.jpg"
       },
       {
         "name": "Bagus Perdana Yusuf",
-        "role": "",
+        "role": "Front-end Developer",
         "profile": "https://www.linkedin.com/in/bagus-perdana-yusuf-0310971a5/",
         "avatar": "/image/avatar/baguspy.png"
       },
       {
         "name": "Raden Fachrul Ramzy Muhammad",
-        "role": "",
+        "role": "Programmer",
         "profile": "https://www.linkedin.com/in/raden-fachrul-605a12341/",
         "avatar": "/image/avatar/raden-fachrul.jpeg"
       },
       {
         "name": "Robi Nurhidayat",
-        "role": "",
+        "role": "Project Manager, Back-end Developer",
         "profile": "https://www.linkedin.com/in/robi-nurhidayat-2a857224a/",
         "avatar": "/image/avatar/robi-nurhidayat.jpeg"
       }
@@ -1170,24 +1276,164 @@
     ],
     "details": {
       "about": {
-        "indonesia": [""],
-        "english": [""]
+        "indonesia": [
+          "Perhatian: Sistem ini belum berfungsi optimal dan sesuai harapan karena keterbatasan waktu. Pengembangan ini bertujuan utama untuk menyelesaiankan tugas besar mata kuliah Manajemen Proyek Perangkat Lunak sekaligus mengimplementasikan konsepnya dalam konteks dunia nyata. Kami menyadari bahwa aplikasi ini masih memiliki banyak kekurangan. Oleh karena itu, kami mohon pengertian Anda. Maka dari itu harap memakluminya.",
+          "Segala bentuk materi seperti video kelas sepenuhnya milik hak yang bersangkutan. Kami tidak bermaksud memperjualkan video-video tutorial gratis tersebut kepada pembeli kursus, karena ini hanya bentuk pengembangan untuk tujuan akademis dan pembelajaran. Mohon bijaksana dalam mengambil keputusan. Terima kasih atas pengertiannya.",
+          "ITCourse adalah sebuah situs web belajar daring dengan berbasis aplikasi dan teknologi. Disini para pelajar atau masyarakat dapat belajar tentang Pemrograman. Dalam sistem ini terdapat tiga pengguna yang berhubungan dengan sistem ini, yaitu pelajar, pengajar, dan admin. Pelajar merupakan user yang akan menggunakan aplikasi ini, dalam melakukan pembelajaran. Pengajar merupakan pemangku kepentingan yang akan memberikan pelajaran kepada pelajar. Kemudian Admin disini bertugas mengawasi sistem yang berjalan."
+        ],
+        "english": [
+          "Notice: This system has not yet reached optimal functionality due to time constraints. The primary goal of this development is to fulfill a major assignment for the Software Project Management course while applying its concepts in a real-world context. We acknowledge that this application has several shortcomings. Therefore, we kindly ask for your understanding.",
+          "All materials, including class videos, are the intellectual property of their respective owners. We have no intention of selling these free video tutorials to course participants, as this project is solely developed for academic and educational purposes. We kindly ask you to exercise wisdom and discretion in making decisions. Thank you for your understanding.",
+          "ITCourse is an online learning platform that leverages applications and technology to teach Programming. The system includes three types of users: students, teachers, and admins. Students are the primary users who engage with the platform for learning purposes. Teachers act as stakeholders who deliver lessons to students. Admins are responsible for overseeing and managing the system's operations"
+        ]
       },
       "tools": {
         "indonesia": [
           {
-            "name": "",
-            "url": "",
-            "version": "",
-            "usage": ""
+            "name": "Bootstrap CSS",
+            "url": "https://getbootstrap.com",
+            "version": "4.0+",
+            "usage": "Kerangka kerja CSS untuk mempercepat implementasi Antarmuka pengguna"
+          },
+          {
+            "name": "Composer",
+            "url": "https://getcomposer.org",
+            "version": "2.2.0+",
+            "usage": "Pengelola dependensi"
+          },
+          {
+            "name": "PHP",
+            "url": "https://www.php.net",
+            "version": "7.4+",
+            "usage": "Bahasa pemrograman utama"
+          },
+          {
+            "name": "Laravel",
+            "url": "https://laravel.com/",
+            "version": "8.0+",
+            "usage": "Kerangka PHP untuk mempercepat pengembangan aplikasi"
+          },
+          {
+            "name": "Line Awesome",
+            "url": "https://icons8.com/line-awesome",
+            "version": "1.0.2+",
+            "usage": "Icon pack untuk situs web"
+          },
+          {
+            "name": "Sweet Alert",
+            "url": "https://sweetalert2.github.io",
+            "version": "2.0+",
+            "usage": "Membuat pesan alert lebih cantik"
+          },
+          {
+            "name": "Visual Studio Code",
+            "url": "https://code.visualstudio.com/",
+            "version": "Latest",
+            "usage": "Penyunting kode"
+          },
+          {
+            "name": "MySQL",
+            "url": "https://www.mysql.com/",
+            "version": "8.0+",
+            "usage": "Database Management System (DBMS)"
+          },
+          {
+            "name": "XAMPP (Apache, MySQL, PHP)",
+            "url": "https://www.apachefriends.org/download.html",
+            "version": "7.4+",
+            "usage": "Peladen web lokal"
+          },
+          {
+            "name": "Git",
+            "url": "https://git-scm.com/",
+            "version": "2.20.1+",
+            "usage": "Sistem kontrol versi"
+          },
+          {
+            "name": "Boxicons",
+            "url": "https://boxicons.com/",
+            "version": "2.0.8+",
+            "usage": "Ikon sebagai elemen hiasan dalam desain laman web"
+          },
+          {
+            "name": "Draw.io",
+            "url": "https://app.diagrams.net/",
+            "version": "-",
+            "usage": "Pembuatan Entity Relational Diagram (ERD)"
           }
         ],
         "english": [
           {
-            "name": "",
-            "url": "",
-            "version": "",
-            "usage": ""
+            "name": "Bootstrap CSS",
+            "url": "https://getbootstrap.com",
+            "version": "4.0+",
+            "usage": "CSS framework to accelerate implementation User interface"
+          },
+          {
+            "name": "Composer",
+            "url": "https://getcomposer.org",
+            "version": "2.2.0+",
+            "usage": "Dependency manager"
+          },
+          {
+            "name": "PHP",
+            "url": "https://www.php.net",
+            "version": "7.4+",
+            "usage": "Main programming language"
+          },
+          {
+            "name": "Laravel",
+            "url": "https://laravel.com/",
+            "version": "8.0+",
+            "usage": "PHP framework to accelerate application development"
+          },
+          {
+            "name": "Line Awesome",
+            "url": "https://icons8.com/line-awesome",
+            "version": "1.0.2+",
+            "usage": "The icon pack for website"
+          },
+          {
+            "name": "Sweet Alert",
+            "url": "https://sweetalert2.github.io",
+            "version": "2.0+",
+            "usage": "Make alert messages more beautiful"
+          },
+          {
+            "name": "Visual Studio Code",
+            "url": "https://code.visualstudio.com/",
+            "version": "Latest",
+            "usage": "Code editor"
+          },
+          {
+            "name": "MySQL",
+            "url": "https://www.mysql.com/",
+            "version": "8.0+",
+            "usage": "Database Management System (DBMS)"
+          },
+          {
+            "name": "XAMPP (Apache, MySQL, PHP)",
+            "url": "https://www.apachefriends.org/download.html",
+            "version": "7.4+",
+            "usage": "Local web server"
+          },
+          {
+            "name": "Git",
+            "url": "https://git-scm.com/",
+            "version": "2.20.1+",
+            "usage": "Version control system"
+          },
+          {
+            "name": "Boxicons",
+            "url": "https://boxicons.com/",
+            "version": "2.0.8+",
+            "usage": "Icons as ornamental elements in webpage design"
+          },
+          {
+            "name": "Draw.io",
+            "url": "https://app.diagrams.net/",
+            "version": "-",
+            "usage": "Entity Relational Diagram (ERD) Creation"
           }
         ]
       },
@@ -1211,7 +1457,7 @@
       ]
     },
     "miniProject": false,
-    "lastUpdated": "2021-12-18",
+    "lastUpdated": "2021-08-04",
     "license": ""
   },
   {
