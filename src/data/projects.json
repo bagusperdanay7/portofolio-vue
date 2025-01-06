@@ -1250,13 +1250,13 @@
       },
       {
         "name": "Raden Fachrul Ramzy Muhammad",
-        "role": "Programmer",
+        "role": "Front-end Developer",
         "profile": "https://www.linkedin.com/in/raden-fachrul-605a12341/",
         "avatar": "/image/avatar/raden-fachrul.jpeg"
       },
       {
         "name": "Robi Nurhidayat",
-        "role": "Project Manager, Back-end Developer",
+        "role": "Project Manager, Full-stack Developer",
         "profile": "https://www.linkedin.com/in/robi-nurhidayat-2a857224a/",
         "avatar": "/image/avatar/robi-nurhidayat.jpeg"
       }
@@ -1279,20 +1279,30 @@
         "indonesia": [
           "Perhatian: Sistem ini belum berfungsi optimal dan sesuai harapan karena keterbatasan waktu. Pengembangan ini bertujuan utama untuk menyelesaiankan tugas besar mata kuliah Manajemen Proyek Perangkat Lunak sekaligus mengimplementasikan konsepnya dalam konteks dunia nyata. Kami menyadari bahwa aplikasi ini masih memiliki banyak kekurangan. Oleh karena itu, kami mohon pengertian Anda. Maka dari itu harap memakluminya.",
           "Segala bentuk materi seperti video kelas sepenuhnya milik hak yang bersangkutan. Kami tidak bermaksud memperjualkan video-video tutorial gratis tersebut kepada pembeli kursus, karena ini hanya bentuk pengembangan untuk tujuan akademis dan pembelajaran. Mohon bijaksana dalam mengambil keputusan. Terima kasih atas pengertiannya.",
-          "ITCourse adalah sebuah situs web belajar daring dengan berbasis aplikasi dan teknologi. Disini para pelajar atau masyarakat dapat belajar tentang Pemrograman. Dalam sistem ini terdapat tiga pengguna yang berhubungan dengan sistem ini, yaitu pelajar, pengajar, dan admin. Pelajar merupakan user yang akan menggunakan aplikasi ini, dalam melakukan pembelajaran. Pengajar merupakan pemangku kepentingan yang akan memberikan pelajaran kepada pelajar. Kemudian Admin disini bertugas mengawasi sistem yang berjalan."
+          "ITCourse adalah sebuah situs web belajar daring dengan berbasis aplikasi dan teknologi. Disini para pelajar atau masyarakat dapat belajar tentang Pemrograman. Dalam sistem ini terdapat tiga pengguna yang berhubungan dengan sistem ini, yaitu pelajar, pengajar, dan admin. Pelajar merupakan user yang akan menggunakan aplikasi ini, dalam melakukan pembelajaran. Pengajar merupakan pemangku kepentingan yang akan memberikan pelajaran kepada pelajar. Kemudian Admin disini bertugas mengawasi sistem yang berjalan. Tipografi yang diterapkan dalam sistem ini mencakup Poppins, Roboto, Nunito, dan Material Icons dari Google Fonts. Untuk ikon, sistem ini memanfaatkan koleksi dari Boxicon.",
+          "Fitur aplikasi meliputi mekanisme otentikasi masuk, pendaftaran pelajar dan admin, serta kapabilitas CRUD (Create, Read, Update, Delete). Admin memiliki wewenang mengelola data pengajar, termasuk penambahan, penyesuaian, penghapusan, serta penghapusan data pelajar. Pelajar dapat mengelola informasi akun mereka. Sementara itu, pengunjung dapat mengirimkan pesan melalui formulir kontak, yang kemudian akan dikelola oleh admin.",
+          "Halaman-halaman yang terdapat dalam sistem ITCourse mencakup: halaman landasan, tentang kami, kontak kami, login pelajar, sign-up pelajar, login admin, sign-up admin, paket belajar (pricing plan), pembayaran, transaksi tersimpan (terdaftar), beranda pelajar, daftar kursus, detail kursus, pengaturan akun pengguna, dasbor admin, daftar pelajar di dasbor admin, daftar pengajar di dasbor admin, pesan dari user (contact), penghapusan pesan user, dan daftar transaksi di dasbor admin."
         ],
         "english": [
           "Notice: This system has not yet reached optimal functionality due to time constraints. The primary goal of this development is to fulfill a major assignment for the Software Project Management course while applying its concepts in a real-world context. We acknowledge that this application has several shortcomings. Therefore, we kindly ask for your understanding.",
           "All materials, including class videos, are the intellectual property of their respective owners. We have no intention of selling these free video tutorials to course participants, as this project is solely developed for academic and educational purposes. We kindly ask you to exercise wisdom and discretion in making decisions. Thank you for your understanding.",
-          "ITCourse is an online learning platform that leverages applications and technology to teach Programming. The system includes three types of users: students, teachers, and admins. Students are the primary users who engage with the platform for learning purposes. Teachers act as stakeholders who deliver lessons to students. Admins are responsible for overseeing and managing the system's operations"
+          "ITCourse is an online learning platform that leverages applications and technology to teach Programming. The system includes three types of users: students, teachers, and admins. Students are the primary users who engage with the platform for learning purposes. Teachers act as stakeholders who deliver lessons to students. Admins are responsible for overseeing and managing the system's operations. The typography applied in this system includes Poppins, Roboto, Nunito, and Material Icons from Google Fonts. For icons, the system utilizes a collection from Boxicons.",
+          "The application features include a login authentication mechanism, student and admin registration, and CRUD (Create, Read, Update, Delete) capabilities. Admins are authorized to manage teacher data, including creating, updating, and deleting it, as well as deleting student data. Students can manage their account information. Visitors can send messages through the contact form, which will be managed by the admin.",
+          "The pages available in the ITCourse system include: landing page, about us, contact us, student login, student sign-up, admin login, admin sign-up, pricing plan, payment, saved (registered) transactions, student homepage, course list, course details, user account settings, admin dashboard, student list in admin dashboard, teacher list in admin dashboard, user message (contact), user message deletion, and transaction list in admin dashboard."
         ]
       },
       "tools": {
         "indonesia": [
           {
+            "name": "Animate On Scroll (AOS)",
+            "url": "https://michalsnik.github.io/aos/",
+            "version": "Latest",
+            "usage": "Pustaka CSS dan JavaScript untuk menganimasikan konten"
+          },
+          {
             "name": "Bootstrap CSS",
             "url": "https://getbootstrap.com",
-            "version": "4.0+",
+            "version": "4.6.0+",
             "usage": "Kerangka kerja CSS untuk mempercepat implementasi Antarmuka pengguna"
           },
           {
@@ -1314,16 +1324,16 @@
             "usage": "Kerangka PHP untuk mempercepat pengembangan aplikasi"
           },
           {
-            "name": "Line Awesome",
-            "url": "https://icons8.com/line-awesome",
-            "version": "1.0.2+",
-            "usage": "Icon pack untuk situs web"
+            "name": "jQuery",
+            "url": "https://jquery.com/",
+            "version": "3.5.1+",
+            "usage": "Pustaka JavaScript untuk menulis skrip interaksi HTML dan JavaScript dengan cepat"
           },
           {
-            "name": "Sweet Alert",
-            "url": "https://sweetalert2.github.io",
-            "version": "2.0+",
-            "usage": "Membuat pesan alert lebih cantik"
+            "name": "GreenSock Animation Platform (GSAP)",
+            "url": "https://gsap.com/",
+            "version": "3.7.1+",
+            "usage": "Pustaka JavaScript untuk animasikan konten apapun secara halus"
           },
           {
             "name": "Visual Studio Code",
@@ -1364,9 +1374,15 @@
         ],
         "english": [
           {
+            "name": "Animate On Scroll (AOS)",
+            "url": "https://michalsnik.github.io/aos/",
+            "version": "Latest",
+            "usage": "CSS & JavaScript library to animate contents"
+          },
+          {
             "name": "Bootstrap CSS",
             "url": "https://getbootstrap.com",
-            "version": "4.0+",
+            "version": "4.6.0+",
             "usage": "CSS framework to accelerate implementation User interface"
           },
           {
@@ -1388,16 +1404,16 @@
             "usage": "PHP framework to accelerate application development"
           },
           {
-            "name": "Line Awesome",
-            "url": "https://icons8.com/line-awesome",
-            "version": "1.0.2+",
-            "usage": "The icon pack for website"
+            "name": "jQuery",
+            "url": "https://jquery.com/",
+            "version": "3.5.1+",
+            "usage": "JavaScript library for quickly scripting HTML and JavaScript interactions"
           },
           {
-            "name": "Sweet Alert",
-            "url": "https://sweetalert2.github.io",
-            "version": "2.0+",
-            "usage": "Make alert messages more beautiful"
+            "name": "GreenSock Animation Platform (GSAP)",
+            "url": "https://gsap.com/",
+            "version": "3.7.1+",
+            "usage": "JavaScript library to smoothly animate any content"
           },
           {
             "name": "Visual Studio Code",
@@ -1440,19 +1456,75 @@
       "responsibilities": [
         {
           "name": "Akbar Saleh Alfian",
-          "detail": { "indonesia": [], "english": [] }
+          "detail": {
+            "indonesia": [
+              "Menentukan spesifikasi dan kebutuhan perangkat lunak yang akan dikembangkan untuk klien dan pengguna.",
+              "Mencatat dan menganalisis bug maupun kesalahan kode program guna meningkatkan fungsionalitas dan kinerja sistem yang optimal.",
+              "Melakukan pengujian program sistem yang telah dibuat serta melacak kesalahan yang terdapat pada kode program.",
+              "Menyaring dan menganalisis umpan balik dari pengguna untuk memahami kebutuhan dan masalah mereka secara mendalam, guna meningkatkan kualitas layanan dan produk yang ditawarkan.",
+              "Memasukkan, menyimpan, dan melakukan perubahan pada data dokumen. Memastikan seluruh dokumen telah disimpan dengan baik dan menjaga keamanannya, serta membuang dokumen yang tidak dibutuhkan atau sudah kadaluarsa."
+            ],
+            "english": [
+              "Determined the specifications and software requirements for development, tailored to meet the needs of clients and users.",
+              "Logged and analyzed bugs and code errors to enhance functionality and ensure optimal system performance",
+              "Tested the created system program and tracked errors in the program code",
+              "Filtered and examined user feedback to gain a deep understanding of their needs and concerns, with the goal of enhancing the quality of the services and products provided.",
+              "Inputted, stored, and updated document data. Ensured all documents were properly stored and secured, and disposed of unnecessary or outdated documents."
+            ]
+          }
         },
         {
           "name": "Bagus Perdana Yusuf",
-          "detail": { "indonesia": [], "english": [] }
+          "detail": {
+            "indonesia": [
+              "Menentukan spesifikasi dan kebutuhan perangkat lunak yang akan dikembangkan untuk klien dan pengguna.",
+              "Melakukan analisis dan akuisisi data guna mengembangkan struktur data optimal yang mampu mengelola dan memecahkan permasalahan data secara efektif.",
+              "Mengembangkan perangkat lunak dan menerapkan aspek visual antarmuka pengguna dan pengalaman pengguna di sisi front-end untuk semua halaman dalam sistem ini, berdasarkan desain antarmuka yang dibuat pada tahap perancangan antarmuka dan pengalaman pengguna perangkat lunak",
+              "Melakukan debugging dan pengujian terhadap program aplikasi untuk memastikan kinerja yang optimal."
+            ],
+            "english": [
+              "Determined the specifications and software requirements for development, tailored to meet the needs of clients and users.",
+              "Performed data analysis and acquisition to design an optimized data structure, effectively managing and resolving data-related issues.",
+              "Developed software and implemented the front-end visual elements of the user interface and user experience for all pages in this system, based on designs created during the software's UI/UX design phase.",
+              "Performed debugging and testing of application programs to ensure optimal performance."
+            ]
+          }
         },
         {
           "name": "Raden Fachrul Ramzy Muhammad",
-          "detail": { "indonesia": [], "english": [] }
+          "detail": {
+            "indonesia": [
+              "Menentukan spesifikasi dan kebutuhan perangkat lunak yang akan dikembangkan untuk klien dan pengguna.",
+              "Melakukan analisis dan akuisisi data guna mengembangkan struktur data optimal yang mampu mengelola dan memecahkan permasalahan data secara efektif.",
+              "Mengembangkan perangkat lunak dan menerapkan aspek visual antarmuka pengguna dan pengalaman pengguna di sisi front-end untuk beberapa halaman dalam sistem ini, berdasarkan desain antarmuka yang dibuat pada tahap perancangan antarmuka dan pengalaman pengguna perangkat lunak.",
+              "Melakukan debugging dan pengujian terhadap program aplikasi untuk memastikan kinerja yang optimal."
+            ],
+            "english": [
+              "Determined the specifications and software requirements for development, tailored to meet the needs of clients and users.",
+              "Performed data analysis and acquisition to design an optimized data structure, effectively managing and resolving data-related issues",
+              "Designed and developed the software, implementing the front-end visual elements of the user interface and user experience for several pages within this system, based on the UI/UX designs created during the software's design phase.",
+              "Performed debugging and testing of application programs to ensure optimal performance."
+            ]
+          }
         },
         {
           "name": "Robi Nurhidayat",
-          "detail": { "indonesia": [], "english": [] }
+          "detail": {
+            "indonesia": [
+              "Memimpin proses perencanaan dan pelaksanaan proyek, termasuk pengelolaan anggaran serta alokasi sumber daya yang tepat.",
+              "Memberikan arahan strategis dan dukungan kepada tim, sekaligus memastikan komunikasi yang efektif antar anggota tim untuk mencapai keberhasilan proyek.",
+              "Memantau dan mengevaluasi kemajuan proyek secara berkala untuk memastikan kesesuaian dengan tujuan dan jadwal yang telah ditentukan.",
+              "Menentukan spesifikasi dan kebutuhan perangkat lunak yang akan dikembangkan sekaligus melakukan pengembangan perangkat lunak dengan menulis kode dan menangani fungsionalitas back-end, serta berkontribusi dalam aspek visual front-end untuk panel administrasi.",
+              "Melakukan debugging dan pengujian terhadap program aplikasi untuk memastikan kinerja yang optimal."
+            ],
+            "english": [
+              "Led the project planning and execution process, including budget management and proper resource allocation.",
+              "Offered strategic guidance and support to the team, fostering clear and effective communication among members to ensure the project's success",
+              "Monitored and evaluated the progress of the project periodically to ensure compliance with predetermined objectives and timelines.",
+              "Determined the specifications and requirements for the software under development, performed software development tasks including writing code and handling back-end functionality, and contributed to the visual design of the administration panel's front-end",
+              "Performed debugging and testing of application programs to ensure optimal performance."
+            ]
+          }
         }
       ]
     },
@@ -2028,7 +2100,7 @@
     "contributors": [
       {
         "name": "Bagus Perdana Yusuf",
-        "role": "",
+        "role": "UI & UX Designer",
         "profile": "https://www.linkedin.com/in/bagus-perdana-yusuf-0310971a5/",
         "avatar": "/image/avatar/baguspy.png"
       }
@@ -2054,25 +2126,102 @@
       "tools": {
         "indonesia": [
           {
-            "name": "",
-            "url": "",
-            "version": "",
-            "usage": ""
+            "name": "Figma",
+            "url": "https://www.figma.com/",
+            "version": "Latest",
+            "usage": "Perangkat lunak desain berbasis web untuk membuat antarmuka pengguna (UI) dan pengalaman pengguna (UX)"
+          },
+          {
+            "name": "Whimsical",
+            "url": "https://whimsical.com/",
+            "version": "Latest",
+            "usage": "Alat desain untuk membuat peta pikiran"
+          },
+          {
+            "name": "Boxicons",
+            "url": "https://boxicons.com/",
+            "version": "2.0.8+",
+            "usage": "Ikon sebagai elemen hiasan dalam desain laman web"
+          },
+          {
+            "name": "Line Awesome",
+            "url": "https://icons8.com/line-awesome",
+            "version": "1.0.2+",
+            "usage": "Icon pack untuk situs web"
+          },
+          {
+            "name": "Unsplash",
+            "url": "https://unsplash.com/",
+            "version": "-",
+            "usage": "Tempat mencari gambar gratis"
+          },
+          {
+            "name": "Google Font",
+            "url": "https://fonts.google.com/",
+            "version": "-",
+            "usage": "Sumber terbuka untuk tipografi dan Ikon dari Google"
           }
         ],
         "english": [
           {
-            "name": "",
-            "url": "",
-            "version": "",
-            "usage": ""
+            "name": "Figma",
+            "url": "https://www.figma.com/",
+            "version": "Latest",
+            "usage": "Web-based design software for creation of user interface (UI) and user experience (UX)"
+          },
+          {
+            "name": "Freepik",
+            "url": "https://www.freepik.com/",
+            "version": "-",
+            "usage": "A place for searching images and illustrations stock freely"
+          },
+          {
+            "name": "Boxicons",
+            "url": "https://boxicons.com/",
+            "version": "2.0.8+",
+            "usage": "Icons as ornamental elements in webpage design"
+          },
+          {
+            "name": "Line Awesome",
+            "url": "https://icons8.com/line-awesome",
+            "version": "1.0.2+",
+            "usage": "The icon pack for website"
+          },
+          {
+            "name": "Unsplash",
+            "url": "https://unsplash.com/",
+            "version": "-",
+            "usage": "A place to discover free images"
+          },
+          {
+            "name": "Google Font",
+            "url": "https://fonts.google.com/",
+            "version": "-",
+            "usage": "Open source for typography and Icons from Google"
           }
         ]
       },
       "responsibilities": [
         {
-          "name": "Akbar Saleh Alfian",
-          "detail": { "indonesia": [], "english": [] }
+          "name": "Bagus Perdana Yusuf",
+          "detail": {
+            "indonesia": [
+              "Membuat mind map menggunakan Whimsical untuk mengorganisasikan gagasan secara terstruktur dengan perencanaan dan spesifikasi secara terperinci.",
+              "Menyusun peta perjalanan pengguna menggunakan Figma Jam untuk memetakan langkah-langkah interaksi pengguna dengan produk, guna mengidentifikasi pain points dan meningkatkan pengalaman pengguna yang lebih baik, intuitif, dan efisien sehingga mencapai tujuan yang diinginkan.",
+              "Membuat alur pengguna dengan Figma Jam untuk memahami jalur interaksi yang dilalui pengguna, mengidentifikasi titik masalah, serta mengoptimalkan efisiensi desain guna menciptakan pengalaman pengguna yang logis, intuitif, dan mudah dipahami.",
+              "Membuat peta situs dengan Figma Jam untuk merancang struktur situs web yang intuitif dan mudah dinavigasi, sehingga meningkatkan pengalaman pengguna dan mengurangi potensi frustrasi akibat navigasi yang rumit.",
+              "Mendesain antarmuka pengguna (UI) dan pengalaman pengguna (UX) untuk aplikasi web dan mobile dengan memanfaatkan Figma guna menciptakan desain yang responsif, intuitif, dan menarik.",
+              "Merancang sistem desain modular yang mencakup elemen penting seperti skema warna, tipografi dengan ukuran yang bervariasi, dan komponen yang diperlukan guna menciptakan konsistensi desain di seluruh produk. Mendesain kerangka kerja desain, malet, dan purwarupa untuk mengomunikasikan konsep desain secara jelas dan efektif."
+            ],
+            "english": [
+              "Created mind maps using Whimsical to systematically organize ideas, incorporating detailed planning and specifications.",
+              "Crafted a user journey map using Figma Jam to outline the steps of user interaction with the product, aiming to identify pain points and enhance the user experience to be more intuitive, efficient, and aligned with the desired goals.",
+              "Created user flow diagrams using Figma Jam to comprehend user interaction pathways, identify pain points, and enhance design efficiency, resulting in a logical, intuitive, and user-friendly experience.",
+              "Created a sitemap using Figma Jam to design an intuitive and easy-to-navigate website structure, thereby enhancing user experience and minimizing potential frustration caused by complex navigation.",
+              "Designed user interfaces (UI) and user experiences (UX) for web and mobile applications using Figma, resulting in responsive, intuitive, and engaging designs.",
+              "Devised a modular design system encompassing essential elements like color schemes, typography of various sizes, and crucial components to ensure design consistency across products. Designed wireframes, mockups, and prototypes to effectively communicate design concepts."
+            ]
+          }
         }
       ]
     },
