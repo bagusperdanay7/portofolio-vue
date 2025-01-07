@@ -713,8 +713,8 @@
     "name": "Content Management Web Application",
     "category": "Full-stack Development",
     "description": {
-      "indonesia": "Website ini",
-      "english": "Content Management Web Application is a full-stack web application for managing YouTube content developed using the Laravel framework with the PHP programming language, and MySQL database. The purpose of this application is to facilitate the creator to manage content, track content requests from subscribers, help subscribers find content created by creator based on content categories, and share AI models created by creators."
+      "indonesia": "Sebuah aplikasi web pengelolan konten youtube untuk kreator, dikembangkan menggunakan bahasa pemrograman PHP dan kerangka kerja Laravel, dan basis data MySQL.",
+      "english": "A YouTube content management web application for creator, developed using PHP programming language and Laravel framework, and MySQL database."
     },
     "technology": [
       "HTML",
@@ -749,36 +749,228 @@
     ],
     "details": {
       "about": {
-        "indonesia": [""],
-        "english": [""]
+        "indonesia": [
+          "Aplikasi web pengelolaan konten adalah sebuah aplikasi web untuk pengelolaan konten YouTube dikembangkan menggunakan kerangka kerja Laravel dengan bahasa pemrograman PHP, dan MySQL sebagai basis data relasional. Tujuan aplikasi ini adalah untuk memfasilitasi sang kreator untuk mengelola konten, melacak permintaan konten dari pelanggan-pelanggan, membantu pelanggan temukan konten yang dibuat oleh kreator berdasarkan kategori konten, dan membagikan model AI (Artificial Intelligence) yang dibuat kreator. Tipografi yang digunakan adalah Poppins & Inter dari Google Fonts, dan ikon yang digunakan adalah Line Awesome & Boxicons.",
+          "Aplikasi ini dikategorisasikan menjadi tiga jenis pengguna: Administrator (eksklusif untuk pemilik), Editor, dan Pengguna (diberikan kepada pelanggan dan pengunjung web). Fungsionalitas aplikasi mencakup autentikasi pengguna dan Administrator/Editor, pendaftaran & masuk, dasbor Administrator, autentikasi masuk dengan Google, pengaturan ulang kata sandi, pengelolaan profil akun (meliputi unggah dan penggantian gambar profil), formulir permintaan, operasi CRUD (Create, Read, Update, Delete) pada model, pemungutan suara konten, pencarian & penyortiran konten dan permintaan, penjadwalan unggahan konten, dan daftar permintaan lengkap dari pelanggan.",
+          ""
+        ],
+        "english": [
+          "Content Management Web Application is a web application for managing YouTube content developed using the Laravel framework with the PHP programming language, and MySQL as a relational database. The purpose of this application is to facilitate the creator in managing content, tracking content requests from subscribers, helping subscribers find content created by the creator based on content categories, and sharing AI (Artificial Intelligence) models produced by creators. The typographies used are Poppins and Inter from Google Fonts, and the icons used are Line Awesome & Boxicons.",
+          "The application is divided into three user categories: Administrator (exclusive to the owner), Editor, and User (intended for customers and web visitors). Its functionalities include authentication for users and Administrators/Editors, registration and login, an Administrator dashboard, Google login integration, password reset, account profile management (with profile picture upload and change), request form, CRUD operations (Create, Read, Update, Delete) for models, content voting, content and request search, filtering, and sorting, content upload schedule, and a detailed list of subscriber requests."
+        ]
       },
       "tools": {
         "indonesia": [
           {
-            "name": "",
-            "url": "",
-            "version": "",
-            "usage": ""
+            "name": "PHP",
+            "url": "https://www.php.net",
+            "version": "8.2.0+",
+            "usage": "Bahasa pemrograman utama"
+          },
+          {
+            "name": "Node.js",
+            "url": "https://nodejs.org/en",
+            "version": "18.1.1+",
+            "usage": "Menjalankan JavaScipt di luar peramban"
+          },
+          {
+            "name": "Laravel Socialite",
+            "url": "https://laravel.com/docs/11.x/socialite",
+            "version": "5.13+",
+            "usage": "Antarmuka untuk autentikasi OAuth dengan berbagai jejaring sosial"
+          },
+          {
+            "name": "Laravel",
+            "url": "https://laravel.com/",
+            "version": "10.1.0+",
+            "usage": "Kerangka PHP untuk mempercepat pengembangan aplikasi"
+          },
+          {
+            "name": "Laragon (PHP, MySQL, Apache, dll)",
+            "url": "https://laragon.org/",
+            "version": "6.0+",
+            "usage": "Peladen web lokal untuk mengembangkan web"
+          },
+          {
+            "name": "MySQL",
+            "url": "https://www.mysql.com/",
+            "version": "8.0+",
+            "usage": "Database Management System (DBMS)"
+          },
+          {
+            "name": "Composer",
+            "url": "https://getcomposer.org",
+            "version": "2.20+",
+            "usage": "Pengelola dependensi"
+          },
+          {
+            "name": "Bootstrap CSS",
+            "url": "https://getbootstrap.com",
+            "version": "5.3.0+",
+            "usage": "Kerangka kerja CSS untuk mempercepat implementasi Antarmuka pengguna"
+          },
+          {
+            "name": "Boxicons",
+            "url": "https://boxicons.com/",
+            "version": "2.1.4+",
+            "usage": "Ikon sebagai elemen hiasan dalam desain laman web"
+          },
+          {
+            "name": "Line Awesome",
+            "url": "https://icons8.com/line-awesome",
+            "version": "1.3.0+",
+            "usage": "Icon pack untuk situs web"
+          },
+          {
+            "name": "Alpine Js",
+            "url": "https://alpinejs.dev/",
+            "version": "3.0+",
+            "usage": "Pustaka JavaScript untuk mengatur perilaku secara langsung di HTML"
+          },
+          {
+            "name": "Chart.js",
+            "url": "https://www.chartjs.org/",
+            "version": "4.4.1+",
+            "usage": "Pustaka JavaScript untuk diagram yang modern"
+          },
+          {
+            "name": "SASS",
+            "url": "https://sass-lang.com/",
+            "version": "2.0+",
+            "usage": "Praprosesor CSS"
+          },
+          {
+            "name": "Vite",
+            "url": "https://vite.dev/",
+            "version": "5.0.1+",
+            "usage": "Alat pembangunan untuk mempercepat dan merampingkan pengembangan web modern"
+          },
+          {
+            "name": "Visual Studio Code",
+            "url": "https://code.visualstudio.com/",
+            "version": "Latest",
+            "usage": "Penyunting kode"
           }
         ],
         "english": [
           {
-            "name": "",
-            "url": "",
-            "version": "",
-            "usage": ""
+            "name": "PHP",
+            "url": "https://www.php.net",
+            "version": "8.2.0+",
+            "usage": "Main programming language"
+          },
+          {
+            "name": "Node.js",
+            "url": "https://nodejs.org/en",
+            "version": "18.1.1+",
+            "usage": "Execute JavaScipt outside the browser"
+          },
+          {
+            "name": "Laravel",
+            "url": "https://laravel.com/",
+            "version": "10.1.0+",
+            "usage": "PHP framework to accelerate application development"
+          },
+          {
+            "name": "Laravel Socialite",
+            "url": "https://laravel.com/docs/11.x/socialite",
+            "version": "5.13+",
+            "usage": "Interface to OAuth authentication with various social networks"
+          },
+          {
+            "name": "Laragon (PHP, MySQL, Apache, dll)",
+            "url": "https://laragon.org/",
+            "version": "6.0+",
+            "usage": "Local web server for web development"
+          },
+          {
+            "name": "MySQL",
+            "url": "https://www.mysql.com/",
+            "version": "8.0+",
+            "usage": "Database Management System (DBMS)"
+          },
+          {
+            "name": "Composer",
+            "url": "https://getcomposer.org",
+            "version": "2.20+",
+            "usage": "Dependency manager"
+          },
+          {
+            "name": "Bootstrap CSS",
+            "url": "https://getbootstrap.com",
+            "version": "5.3.0+",
+            "usage": "CSS framework to accelerate implementation User interface"
+          },
+          {
+            "name": "Boxicons",
+            "url": "https://boxicons.com/",
+            "version": "2.1.4+",
+            "usage": "Icons as ornamental elements in webpage design"
+          },
+          {
+            "name": "Line Awesome",
+            "url": "https://icons8.com/line-awesome",
+            "version": "1.3.0+",
+            "usage": "The icon pack for website"
+          },
+          {
+            "name": "Alpine Js",
+            "url": "https://alpinejs.dev/",
+            "version": "3.0+",
+            "usage": "JavaScript library to set behavior directly in HTML"
+          },
+          {
+            "name": "Chart.js",
+            "url": "https://www.chartjs.org/",
+            "version": "4.4.1+",
+            "usage": "JavaScript library for modern diagrams"
+          },
+          {
+            "name": "SASS",
+            "url": "https://sass-lang.com/",
+            "version": "2.0+",
+            "usage": "CSS Preprocessor"
+          },
+          {
+            "name": "Vite",
+            "url": "https://vite.dev/",
+            "version": "5.0.1+",
+            "usage": "Build tool to accelerate and streamline modern web development"
+          },
+          {
+            "name": "Visual Studio Code",
+            "url": "https://code.visualstudio.com/",
+            "version": "Latest",
+            "usage": "Code editor"
           }
         ]
       },
       "responsibilities": [
         {
           "name": "Bagus Perdana Yusuf",
-          "detail": { "indonesia": [], "english": [] }
+          "detail": {
+            "indonesia": [
+              "Merancang, mengembangkan dan memelihara  aplikasi web menggunakan bahasa pemrograman PHP, kerangka kerja Laravel, SASS, kerangka kerja Bootstrap, dan basis data MySQL.",
+              "Mendesain struktur basis data yang efisien dan mengoptimalkan query untuk memastikan aplikasi berjalan dengan cepat dan responsif",
+              "Mengimplementasikan sistem autentikasi yang aman menggunakan framework Laravel, termasuk mekanisme login baik login dengan email maupun login yang terhubung dengan aplikasi pihak ketiga (Google), pendaftaran akun, pengelolaan sesi pengguna,  pengaturan dan pengelolaan akun, serta fitur reset password.",
+              "Mengolah fitur CRUD (Create, Read, Update, Delete) dan filter yang baik dan efisien untuk berbagai jenis data, juga dilengkapi dengan kontrol akses berbasis peran (Role Based Access Control).",
+              "Menangani debugging dan pemecahan masalah untuk memastikan aplikasi berfungsi dengan baik dan bebas dari kerentanan keamanan.",
+              "Menyebarkan (deploy) aplikasi secara publik pada web hosting dengan memanfaatkan Git sebagai Version Control System dan GitHub sebagai wadah penyimpanan kode secara publik."
+            ],
+            "english": [
+              "Designed, developed, and maintained a web app using the PHP programming language, the Laravel framework, SASS, the Bootstrap framework, and MySQL Database.",
+              "Designed efficient database structures and optimized queries to ensure applications run quickly and responsively.",
+              "Implemented a secure authentication system using the Laravel framework, including login mechanisms (either login with email or login connected to third-party applications like Google), account registration, user session management, account settings and management, and password reset features.",
+              "Managed good and efficient CRUD (Create, Read, Update, Delete) and filter features for various types of data; it also comes with role-based access control.",
+              "Conducted debugging and troubleshooting to guarantee the proper functioning of applications and their safety from security vulnerabilities.",
+              "Deployed the application publicly on web hosting by utilizing Git as a version control system and GitHub as a public code storage platform."
+            ]
+          }
         }
       ]
     },
     "miniProject": false,
-    "lastUpdated": "2021-12-18",
+    "lastUpdated": "2024-01-31",
     "license": ""
   },
   {
@@ -2093,8 +2285,8 @@
     "name": "Content Management UI & UX Design",
     "category": "UI & UX Design",
     "description": {
-      "indonesia": "Merancang antarmuka pengguna (UI) dan pengalaman pengguna (UX) untuk seluruh halaman proyek Content Management Web Application menggunakan Figma",
-      "english": "Created comprehensive UI/UX designs for all pages of the Content Management Web Application project utilizing Figma"
+      "indonesia": "Desain antarmuka pengguna (UI) dan pengalaman pengguna (UX) untuk Aplikasi Web Manajemen Konten menggunakan Figma.",
+      "english": "The UI and UX design for Content Management Web App were created using Figma."
     },
     "technology": ["User Interface", "User Experience", "Figma"],
     "contributors": [
@@ -2112,16 +2304,19 @@
       "caption": "Homepage of UI & UX Design",
       "original": true
     },
-    "previews": [
-      {
-        "preview": "/image/projects/ui-ux-cmwa/preview-homepage-ui.png",
-        "caption": "Homepage of UI & UX Design"
-      }
-    ],
+    "previews": null,
     "details": {
       "about": {
-        "indonesia": [""],
-        "english": [""]
+        "indonesia": [
+          "Desain antarmuka pengguna dan pengalaman pengguna ini dirancang untuk aplikasi manajemen konten berbasis web menggunakan perangkat lunak Figma. Desain tersebut mencakup versi web dan seluler. Proses perancangan meliputi diskusi dengan klien untuk mengembangkan peta pikiran, peta perjalanan pengguna, alur pengguna, dan peta situs. Setelah memperoleh umpan balik dan melakukan revisi yang diperlukan, proses dilanjutkan dengan pembuatan sistem desain, termasuk skema warna, tipografi, gaya kisi, dan komponen antarmuka. Tahap berikutnya adalah membuat kerangka desain, maket, dan purwarupa sesuai dengan spesifikasi klien.",
+          "Pada perancangan desain ini, pemilihan tipografi melingkupi Poppins dan Inter yang tersedia pada Google Fonts, sedangkan ikon-ikon yang digunakan berasal dari Line Awesome dan Boxicons. Adapun halaman-halaman yang dirancang meliputi: halaman beranda, halaman proyek dan jadwal, halaman type proyek, detil proyek, daftar permintaan, gallery dan penjelajahan konten, kategory, artis, detil artis, detil video, halaman registrasi, halaman masuk, formulir permintaan konten, dan daftar model ai.",
+          "Dengan hormat, fitur pratinjau Figma tidak dapat diakses dikarenakan dokumen tersebut memuat informasi rahasia milik klien."
+        ],
+        "english": [
+          "This user interface (UI) and user experience (UX) design was designed for a web-based content management application using Figma software. The design includes both web and mobile versions. The design process included discussions with the client to create mind maps, user journey maps, user flows and sitemaps. After obtaining feedback and making necessary revisions, the process continued with the creation of the design system, including the color scheme, typography, grid style, and interface components. The following stage is to produce wireframes, mockups, and prototypes based on the client's requirements.",
+          "In this design, the selected fonts are Poppins and Inter from Google Fonts, and the icons used are from Line Awesome and Boxicons. The designed pages include: homepage, project and schedule page, project type page, project details, request list, gallery and content exploring, category, artist, artist details, video details, registration page, login page, content request form, and AI model list.",
+          "With respect, Figma's preview feature is not accessible as the document contains confidential client information."
+        ]
       },
       "tools": {
         "indonesia": [
@@ -2160,6 +2355,12 @@
             "url": "https://fonts.google.com/",
             "version": "-",
             "usage": "Sumber terbuka untuk tipografi dan Ikon dari Google"
+          },
+          {
+            "name": "Color Hexa",
+            "url": "https://www.colorhexa.com/",
+            "version": "Latest",
+            "usage": "Alat untuk membangkitkan palet warna"
           }
         ],
         "english": [
@@ -2170,10 +2371,10 @@
             "usage": "Web-based design software for creation of user interface (UI) and user experience (UX)"
           },
           {
-            "name": "Freepik",
-            "url": "https://www.freepik.com/",
-            "version": "-",
-            "usage": "A place for searching images and illustrations stock freely"
+            "name": "Whimsical",
+            "url": "https://whimsical.com/",
+            "version": "Latest",
+            "usage": "Design tool to make mindmap"
           },
           {
             "name": "Boxicons",
@@ -2198,6 +2399,12 @@
             "url": "https://fonts.google.com/",
             "version": "-",
             "usage": "Open source for typography and Icons from Google"
+          },
+          {
+            "name": "Color Hexa",
+            "url": "https://www.colorhexa.com/",
+            "version": "Latest",
+            "usage": "Tools to generate a color palette"
           }
         ]
       },
@@ -2226,7 +2433,7 @@
       ]
     },
     "miniProject": false,
-    "lastUpdated": "2021-12-18",
+    "lastUpdated": "2024-01-31",
     "license": ""
   },
   {

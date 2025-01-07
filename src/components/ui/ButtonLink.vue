@@ -43,7 +43,7 @@ export default {
 <template>
   <a
     v-if="disabled"
-    title="Not available"
+    title="Preview unavailable"
     class="font-bold transition duration-300 ease-in-out"
     :class="{
       'text-base px-14 py-2.5': size === 'base',
