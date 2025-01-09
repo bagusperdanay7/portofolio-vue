@@ -38,7 +38,6 @@ export default {
 </script>
 
 <template>
-  <!-- TODO: Add Animation, Transition when it's done dengan <Transition /> built-in component vue -->
   <main>
     <HeroSection @call-to-action="handleScroll" />
     <SummarySection />

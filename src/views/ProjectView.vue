@@ -3,6 +3,8 @@ import allProjects from "@/data/projects.json";
 import ButtonLink from "@/components/ui/ButtonLink.vue";
 import Badge from "@/components/ui/Badge.vue";
 import { format, formatDistanceToNow } from "date-fns";
+import Button from "@/components/ui/Button.vue";
+import { RouterLink } from "vue-router";
 
 export default {
   mounted() {
@@ -18,16 +20,16 @@ export default {
       }
     } catch (error) {
       this.isError = true;
-      this.errorMessage = error;
-      console.log(error);
+      this.errorMessage.title = "Project Not Found";
+      this.errorMessage.description = error;
     }
   },
-  components: { ButtonLink, Badge },
+  components: { ButtonLink, Badge, Button, RouterLink },
   data() {
     return {
       projects: {},
       isError: false,
-      errorMessage: "",
+      errorMessage: { title: "", description: "" },
       text: {
         tools: {
           indonesia:
@@ -51,7 +53,9 @@ export default {
         return result;
       } else {
         this.isError = true;
-        this.errorMessage = "We couldn't find the project you're looking for.";
+        this.errorMessage.title = "Project Not Found";
+        this.errorMessage.description =
+          "We couldn't find the project you're looking for.";
         return null;
       }
     },
@@ -71,11 +75,22 @@ export default {
 
 <template>
   <main>
-    <section
-      class="mt-12"
-      id="projectDetails"
-      :class="{ 'h-[50svh]': isErrror }"
-    >
+    <section v-if="isError && !project" class="h-[60svh]" id="errorState">
+      <div class="text-center flex flex-col justify-center h-full">
+        <h1
+          class="text-xl md:text-2xl font-bold text-light-100 mb-2 dark:text-dark-100"
+        >
+          {{ errorMessage.title }}
+        </h1>
+        <p class="text-sm md:text-base text-light-80 dark:text-dark-90">
+          {{ errorMessage.description }}
+        </p>
+        <RouterLink to="/" class="mt-4">
+          <Button variant="secondary" size="regular">Back to Home</Button>
+        </RouterLink>
+      </div>
+    </section>
+    <section v-else class="mt-12" id="projectDetails">
       <div
         v-if="project"
         class="flex flex-col gap-y-6 lg:flex-row lg:justify-between lg:gap-x-12 lg:gap-y-0"
@@ -371,8 +386,6 @@ export default {
           </div>
         </div>
       </div>
-      <!-- DeBUGGING -->
-      <!-- <p class="dark:text-dark-100">{{ project }}</p> -->
     </section>
   </main>
 </template>

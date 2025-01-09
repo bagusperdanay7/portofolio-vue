@@ -3,6 +3,7 @@ import HomeView from "../views/HomeView.vue";
 import ProjectsView from "@/views/ProjectsView.vue";
 import ProjectView from "@/views/ProjectView.vue";
 import CertificationsView from "@/views/CertificationsView.vue";
+import NotFoundView from "@/views/NotFoundView.vue";
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -37,9 +38,16 @@ const router = createRouter({
         title: "",
       },
     },
+    {
+      path: "/:pathMatch(.*)*",
+      name: "NotFound",
+      component: NotFoundView,
+      meta: {
+        title: "Page not Found - Portfolio | Bagus Perdana Yusuf",
+      },
+    },
   ],
   scrollBehavior(to, from, savedPosition) {
-    // TODO: Tambahkan delay
     if (to.hash) {
       return {
         el: to.hash,
