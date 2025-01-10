@@ -256,7 +256,7 @@ export default {
                 allowfullscreen
               ></iframe>
             </div>
-            <div id="imagesPreview">
+            <div class="flex flex-col gap-y-6" id="imagesPreview">
               <figure
                 v-if="project.category != 'UI & UX Design'"
                 v-for="image in project.previews"

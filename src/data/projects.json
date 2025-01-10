@@ -48,6 +48,50 @@
       {
         "preview": "/image/projects/telkom-intership/dashboard-home.png",
         "caption": "Preview of Dashboard Rekap Deployment Home Page"
+      },
+      {
+        "preview": "https://github.com/bagusperdanay7/kerja-praktek/raw/main/docs/image/Login-page.png",
+        "caption": "Login Page"
+      },
+      {
+        "preview": "https://github.com/bagusperdanay7/kerja-praktek/raw/main/docs/image/Rekap-progress-page.png",
+        "caption": "Rekap Progress Page"
+      },
+      {
+        "preview": "https://github.com/bagusperdanay7/kerja-praktek/raw/main/docs/image/Wfm-deployment-page.png",
+        "caption": "WFM Deployment Page"
+      },
+      {
+        "preview": "https://github.com/bagusperdanay7/kerja-praktek/raw/main/docs/image/Wfm-create-page.png",
+        "caption": "Create WFM Deployment Form Page"
+      },
+      {
+        "preview": "https://github.com/bagusperdanay7/kerja-praktek/raw/main/docs/image/Import-feature.png",
+        "caption": "import feature of WFM Deployment Page"
+      },
+      {
+        "preview": "https://github.com/bagusperdanay7/kerja-praktek/raw/main/docs/image/Progres-lapangan-page.png",
+        "caption": "Progress Lapangan Page"
+      },
+      {
+        "preview": "https://github.com/bagusperdanay7/kerja-praktek/raw/main/docs/image/Progress-lapangan-create-page.png",
+        "caption": "Create Progress Lapangan Form Page"
+      },
+      {
+        "preview": "https://github.com/bagusperdanay7/kerja-praktek/raw/main/docs/image/Progress-lapangan-edit-page.png",
+        "caption": "Edit Progress Lapangan Form Page"
+      },
+      {
+        "preview": "https://github.com/bagusperdanay7/kerja-praktek/raw/main/docs/image/Disconnect-page.png",
+        "caption": "Disconnect Page"
+      },
+      {
+        "preview": "https://github.com/bagusperdanay7/kerja-praktek/raw/main/docs/image/Exe-summ-page.png",
+        "caption": "Exe Summ Page"
+      },
+      {
+        "preview": "https://github.com/bagusperdanay7/kerja-praktek/raw/main/docs/image/User-management-page.png",
+        "caption": "User Management Page"
       }
     ],
     "details": {
@@ -311,8 +355,8 @@
         "avatar": "/image/avatar/baguspy.png"
       }
     ],
-    "source": "https://github.com/bagusperdanay7/SKRIPSI-Program",
-    "url": "",
+    "source": "https://github.com/bagusperdanay7/ABSA-With-BILSTM-Undergraduate-Thesis.git",
+    "url": "https://drive.google.com/file/d/1GeUtVlBtl7DR-tvR-9n-R-jCnVUxJpMG/view?usp=sharing",
     "thumbnail": {
       "src": "/image/projects/absa-blstm/absa-illustration.jpg",
       "caption": "Illustration of Aspect-Based Sentiment Analysis BiLSTM Project",
@@ -339,7 +383,7 @@
           {
             "name": "Python",
             "url": "https://www.python.org/",
-            "version": "3.8+",
+            "version": "3.9+",
             "usage": "Bahasa pemrograman utama"
           },
           {
@@ -431,7 +475,7 @@
           {
             "name": "Python",
             "url": "https://www.python.org/",
-            "version": "3.8+",
+            "version": "3.9+",
             "usage": "Main programming language"
           },
           {
@@ -540,7 +584,7 @@
     },
     "miniProject": false,
     "lastUpdated": "2023-09-22",
-    "license": ""
+    "license": "Mozilla Public License Version 2.0"
   },
   {
     "id": 3,
