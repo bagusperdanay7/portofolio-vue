@@ -18,7 +18,7 @@ const router = createRouter({
       name: "certifications",
       component: CertificationsView,
       meta: {
-        title: "All Certifications - Portfolio | Bagus Perdana Yusuf",
+        title: "All Certifications | Bagus Perdana Yusuf Portfolio",
       },
     },
     {
@@ -26,7 +26,7 @@ const router = createRouter({
       name: "projects",
       component: ProjectsView,
       meta: {
-        title: "All Projects - Portfolio | Bagus Perdana Yusuf",
+        title: "All Projects | Bagus Perdana Yusuf Portfolio",
       },
     },
     {
@@ -43,7 +43,7 @@ const router = createRouter({
       name: "NotFound",
       component: NotFoundView,
       meta: {
-        title: "Page not Found - Portfolio | Bagus Perdana Yusuf",
+        title: "Page not Found | Bagus Perdana Yusuf Portfolio",
       },
     },
   ],
@@ -60,7 +60,7 @@ const router = createRouter({
 
 router.beforeEach((to, from, next) => {
   // Perbarui title berdasarkan meta title
-  document.title = to.meta.title || "Portofolio | Bagus Perdana Yusuf";
+  document.title = to.meta.title || "Bagus Perdana Yusuf Portfolio";
   next();
 });
 

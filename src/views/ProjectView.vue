@@ -15,6 +15,8 @@ export default {
 
       if (projects.length > 0) {
         this.projects = projects;
+        document.title =
+          this.projects[0].name + " | Bagus Perdana Yusuf Portfolio";
       } else {
         throw new Error("We couldn't find the project you're looking for.");
       }
