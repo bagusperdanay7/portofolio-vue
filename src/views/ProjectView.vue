@@ -139,6 +139,16 @@ export default {
               >Live Demo</ButtonLink
             >
             <ButtonLink
+              v-if="project.category == 'UI & UX Design'"
+              variant="secondary"
+              size="regular"
+              :link="project.source"
+              target="_blank"
+              ><i class="bx bxl-dribbble align-middle text-lg me-1.5"></i
+              >View</ButtonLink
+            >
+            <ButtonLink
+              v-else
               variant="secondary"
               size="regular"
               :link="project.source"

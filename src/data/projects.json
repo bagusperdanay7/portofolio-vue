@@ -263,7 +263,7 @@
               "Bekerja sama dengan sebuah tim beranggotakan 3 orang dalam membangun website Sistem Informasi Manajemen Data yang membantu memudahkan pegawai dalam proses pengelolaan data teknis pelanggan menggunakan HTML, CSS, JavaScript dan PHP Laravel dalam tim.",
               "Merancang perangkat lunak yang sesuai dengan kebutuhan perusahaan dan melaporkan hasil pengerjaan perangkat lunak yang sedang dibangun setiap minggu.",
               "Melakukan operasi Create, Read, Update, dan Delete (CRUD) pada halaman progress lapangan dan membantu membuat autentikasi pengguna.",
-              "Membuat fitur penyaringan data (filter) berdasarkan kriteria yang ditentukan pada halaman deployment, progress lapangan, disconnect",
+              "Membuat fitur penyaringan data (filter) berdasarkan kriteria yang ditentukan pada halaman deployment, progress lapangan, disconnect.",
               "Menerjemahkan rancangan kerangka dasar (wireframe) menjadi kode program untuk menghasilkan tampilan antarmuka pengguna aplikasi situs web dan membuat fitur mini penunjuk jam real-time dengan JavaScript.",
               "Membuat konsep desain awal aplikasi web melalui wireframe menggunakan Balsamiq Cloud"
             ],
@@ -591,8 +591,8 @@
     "name": "Portofolio With Vue",
     "category": "Front-end Development",
     "description": {
-      "indonesia": "Aplikasi Halaman Tunggal Situs Web Portofolio Pribadi yang menggunakan kerangka kerja Vue.js dan Tailwind CSS.",
-      "english": "A Single Page Application Personal Portfolio Website utilizing the Vue.js framework and Tailwind CSS."
+      "indonesia": "Aplikasi Halaman Tunggal Situs Web Portofolio Pribadi yang menggunakan kerangka kerja Vue.js + Vite dan Tailwind CSS.",
+      "english": "A Single Page Application Personal Portfolio Website utilizing the Vue.js framework + Vite and Tailwind CSS."
     },
     "technology": [
       "JavaScript",
@@ -750,7 +750,7 @@
     },
     "miniProject": false,
     "lastUpdated": "2024-12-31",
-    "license": ""
+    "license": "MIT"
   },
   {
     "id": 4,
@@ -768,7 +768,8 @@
       "Bootstrap CSS",
       "PHP",
       "Laravel",
-      "MySQL"
+      "MySQL",
+      "Responsive Web"
     ],
     "contributors": [
       {
@@ -795,8 +796,7 @@
       "about": {
         "indonesia": [
           "Aplikasi web pengelolaan konten adalah sebuah aplikasi web untuk pengelolaan konten YouTube dikembangkan menggunakan kerangka kerja Laravel dengan bahasa pemrograman PHP, dan MySQL sebagai basis data relasional. Tujuan aplikasi ini adalah untuk memfasilitasi sang kreator untuk mengelola konten, melacak permintaan konten dari pelanggan-pelanggan, membantu pelanggan temukan konten yang dibuat oleh kreator berdasarkan kategori konten, dan membagikan model AI (Artificial Intelligence) yang dibuat kreator. Tipografi yang digunakan adalah Poppins & Inter dari Google Fonts, dan ikon yang digunakan adalah Line Awesome & Boxicons.",
-          "Aplikasi ini dikategorisasikan menjadi tiga jenis pengguna: Administrator (eksklusif untuk pemilik), Editor, dan Pengguna (diberikan kepada pelanggan dan pengunjung web). Fungsionalitas aplikasi mencakup autentikasi pengguna dan Administrator/Editor, pendaftaran & masuk, dasbor Administrator, autentikasi masuk dengan Google, pengaturan ulang kata sandi, pengelolaan profil akun (meliputi unggah dan penggantian gambar profil), formulir permintaan, operasi CRUD (Create, Read, Update, Delete) pada model, pemungutan suara konten, pencarian & penyortiran konten dan permintaan, penjadwalan unggahan konten, dan daftar permintaan lengkap dari pelanggan.",
-          ""
+          "Aplikasi ini dikategorisasikan menjadi tiga jenis pengguna: Administrator (eksklusif untuk pemilik), Editor, dan Pengguna (diberikan kepada pelanggan dan pengunjung web). Fungsionalitas aplikasi mencakup autentikasi pengguna dan Administrator/Editor, pendaftaran & masuk, dasbor Administrator, autentikasi masuk dengan Google, pengaturan ulang kata sandi, pengelolaan profil akun (meliputi unggah dan penggantian gambar profil), formulir permintaan, operasi CRUD (Create, Read, Update, Delete) pada model, pemungutan suara konten, pencarian & penyortiran konten dan permintaan, penjadwalan unggahan konten, dan daftar permintaan lengkap dari pelanggan."
         ],
         "english": [
           "Content Management Web Application is a web application for managing YouTube content developed using the Laravel framework with the PHP programming language, and MySQL as a relational database. The purpose of this application is to facilitate the creator in managing content, tracking content requests from subscribers, helping subscribers find content created by the creator based on content categories, and sharing AI (Artificial Intelligence) models produced by creators. The typographies used are Poppins and Inter from Google Fonts, and the icons used are Line Awesome & Boxicons.",
@@ -994,9 +994,9 @@
           "name": "Bagus Perdana Yusuf",
           "detail": {
             "indonesia": [
-              "Merancang, mengembangkan dan memelihara  aplikasi web menggunakan bahasa pemrograman PHP, kerangka kerja Laravel, SASS, kerangka kerja Bootstrap, dan basis data MySQL.",
-              "Mendesain struktur basis data yang efisien dan mengoptimalkan query untuk memastikan aplikasi berjalan dengan cepat dan responsif",
-              "Mengimplementasikan sistem autentikasi yang aman menggunakan framework Laravel, termasuk mekanisme login baik login dengan email maupun login yang terhubung dengan aplikasi pihak ketiga (Google), pendaftaran akun, pengelolaan sesi pengguna,  pengaturan dan pengelolaan akun, serta fitur reset password.",
+              "Merancang, mengembangkan dan memelihara aplikasi web menggunakan bahasa pemrograman PHP, kerangka kerja Laravel, SASS, kerangka kerja Bootstrap, dan basis data MySQL.",
+              "Mendesain struktur basis data yang efisien dan mengoptimalkan query untuk memastikan aplikasi berjalan dengan cepat dan responsif.",
+              "Mengimplementasikan sistem autentikasi yang aman menggunakan framework Laravel, termasuk mekanisme login baik login dengan email maupun login yang terhubung dengan aplikasi pihak ketiga (Google), pendaftaran akun, pengelolaan sesi pengguna,  pengaturan dan pengelolaan akun, serta fitur setel ulang kata sandi.",
               "Mengolah fitur CRUD (Create, Read, Update, Delete) dan filter yang baik dan efisien untuk berbagai jenis data, juga dilengkapi dengan kontrol akses berbasis peran (Role Based Access Control).",
               "Menangani debugging dan pemecahan masalah untuk memastikan aplikasi berfungsi dengan baik dan bebas dari kerentanan keamanan.",
               "Menyebarkan (deploy) aplikasi secara publik pada web hosting dengan memanfaatkan Git sebagai Version Control System dan GitHub sebagai wadah penyimpanan kode secara publik."
@@ -1156,7 +1156,7 @@
     },
     "miniProject": false,
     "lastUpdated": "2023-11-13",
-    "license": ""
+    "license": "MIT"
   },
   {
     "id": 6,
@@ -1175,7 +1175,7 @@
         "avatar": "/image/avatar/baguspy.png"
       }
     ],
-    "source": "https://dribble.com",
+    "source": "https://dribbble.com/shots/25464080-Personal-Portfolio-Web?utm_source=Clipboard_Shot&utm_campaign=baguspyus&utm_content=Personal%20Portfolio%20Web&utm_medium=Social_Share&utm_source=Clipboard_Shot&utm_campaign=baguspyus&utm_content=Personal%20Portfolio%20Web&utm_medium=Social_Share",
     "url": "https://www.figma.com/design/35sKqytEGhNRZWrbwHT9sL/Website-Portfolio?node-id=141-2&t=4OiZcMccM3phYRwJ-1",
     "thumbnail": {
       "src": "/image/projects/portfolio/preview-home-portfolio.png",
