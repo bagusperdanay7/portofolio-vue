@@ -1294,7 +1294,7 @@
         "avatar": "/image/avatar/robi-nurhidayat.jpeg"
       }
     ],
-    "source": "",
+    "source": "https://dribbble.com/shots/25467729-IT-Course-Online-Learning-Platform?utm_source=Clipboard_Shot&utm_campaign=baguspyus&utm_content=IT%20Course%20-%20Online%20Learning%20Platform&utm_medium=Social_Share&utm_source=Clipboard_Shot&utm_campaign=baguspyus&utm_content=IT%20Course%20-%20Online%20Learning%20Platform&utm_medium=Social_Share",
     "url": "https://www.figma.com/design/UHWZmtqrQPkLTo1km7YPZn/Design?node-id=221-2&t=xbWhRukquGqFVqyI-1",
     "thumbnail": {
       "src": "/image/projects/ui-ux-course/landing-page-preview.png",
@@ -1438,7 +1438,7 @@
           "name": "Robi Nurhidayat",
           "detail": {
             "indonesia": [
-              "Memimpin tim yang terdiri dari empat anggota, merancang dan melaksanakan rencana proyek yang komprehensif sesuai dengan anggaran, sumber daya, dan tujuan yang telah ditetapkan. Menjamin komunikasi yang efisien antar anggota tim, memantau perkembangan desain secara berkala. ",
+              "Memimpin tim yang terdiri dari empat anggota, merancang dan melaksanakan rencana proyek yang komprehensif sesuai dengan anggaran, sumber daya, dan tujuan yang telah ditetapkan. Menjamin komunikasi yang efisien antar anggota tim, memantau perkembangan desain secara berkala.",
               "Melakukan evaluasi desain secara rutin guna menjamin kesesuaian, serta menyusun laporan evaluatif untuk mengkaji kinerja desain akhir."
             ],
             "english": [
@@ -1506,8 +1506,76 @@
     },
     "previews": [
       {
-        "preview": "/image/projects/it-course-website/it-course-homepage-preview.png",
-        "caption": "Homepage Preview of IT Course Website"
+        "preview": "https://github.com/Robi-Nurhidayat/project-baru/raw/main/docs/image/landing-page.png",
+        "caption": "Landing page"
+      },
+      {
+        "preview": "https://github.com/Robi-Nurhidayat/project-baru/raw/main/docs/image/about-us.png",
+        "caption": "About Us page"
+      },
+      {
+        "preview": "https://github.com/Robi-Nurhidayat/project-baru/raw/main/docs/image/contact-us.png",
+        "caption": "Contact Us page"
+      },
+      {
+        "preview": "https://github.com/Robi-Nurhidayat/project-baru/raw/main/docs/image/login.png",
+        "caption": "Login page"
+      },
+      {
+        "preview": "https://github.com/Robi-Nurhidayat/project-baru/raw/main/docs/image/sign-up.png",
+        "caption": "Sign Up page"
+      },
+      {
+        "preview": "https://github.com/Robi-Nurhidayat/project-baru/raw/main/docs/image/admin-login.png",
+        "caption": "Login Admin page"
+      },
+      {
+        "preview": "https://github.com/Robi-Nurhidayat/project-baru/raw/main/docs/image/admin-transaction.png",
+        "caption": "Sign Up Admin page"
+      },
+      {
+        "preview": "https://github.com/Robi-Nurhidayat/project-baru/raw/main/docs/image/pricing-plan.png",
+        "caption": "Pricing Plan page"
+      },
+      {
+        "preview": "https://github.com/Robi-Nurhidayat/project-baru/raw/main/docs/image/payment.png",
+        "caption": "Payment page"
+      },
+      {
+        "preview": "https://github.com/Robi-Nurhidayat/project-baru/raw/main/docs/image/success-transaction-register.png",
+        "caption": "Successfull Transaction page"
+      },
+      {
+        "preview": "https://github.com/Robi-Nurhidayat/project-baru/raw/main/docs/image/dashboard-user.png",
+        "caption": "User Dashboard page"
+      },
+      {
+        "preview": "https://github.com/Robi-Nurhidayat/project-baru/raw/main/docs/image/user-settings.png",
+        "caption": "User Settings page"
+      },
+      {
+        "preview": "https://github.com/Robi-Nurhidayat/project-baru/raw/main/docs/image/admin-student-list.png",
+        "caption": "Admin Dashboard - Student List page"
+      },
+      {
+        "preview": "https://github.com/Robi-Nurhidayat/project-baru/raw/main/docs/image/admin-mentor.png",
+        "caption": "Admin Dashboard - Mentor List page"
+      },
+      {
+        "preview": "https://github.com/Robi-Nurhidayat/project-baru/raw/main/docs/image/admin-add-mentor.png",
+        "caption": "Admin Dashboard - Add Mentor form modal page"
+      },
+      {
+        "preview": "https://github.com/Robi-Nurhidayat/project-baru/raw/main/docs/image/admin-mentor-edit.png",
+        "caption": "Admin Dashboard - Edit Mentor form page"
+      },
+      {
+        "preview": "https://github.com/Robi-Nurhidayat/project-baru/raw/main/docs/image/admin-transaction.png",
+        "caption": "Admin Dashboard - Transaction List page"
+      },
+      {
+        "preview": "https://github.com/Robi-Nurhidayat/project-baru/raw/main/docs/image/admin-message-list.png",
+        "caption": "Admin Dashboard - Message List page"
       }
     ],
     "details": {
@@ -1604,7 +1672,7 @@
           {
             "name": "Draw.io",
             "url": "https://app.diagrams.net/",
-            "version": "-",
+            "version": "Latest",
             "usage": "Pembuatan Entity Relational Diagram (ERD)"
           }
         ],
@@ -1684,7 +1752,7 @@
           {
             "name": "Draw.io",
             "url": "https://app.diagrams.net/",
-            "version": "-",
+            "version": "Latest",
             "usage": "Entity Relational Diagram (ERD) Creation"
           }
         ]
@@ -1703,7 +1771,7 @@
             "english": [
               "Determined the specifications and software requirements for development, tailored to meet the needs of clients and users.",
               "Logged and analyzed bugs and code errors to enhance functionality and ensure optimal system performance",
-              "Tested the created system program and tracked errors in the program code",
+              "Tested the created system program and tracked errors in the program code.",
               "Filtered and examined user feedback to gain a deep understanding of their needs and concerns, with the goal of enhancing the quality of the services and products provided.",
               "Inputted, stored, and updated document data. Ensured all documents were properly stored and secured, and disposed of unnecessary or outdated documents."
             ]
@@ -1715,7 +1783,7 @@
             "indonesia": [
               "Menentukan spesifikasi dan kebutuhan perangkat lunak yang akan dikembangkan untuk klien dan pengguna.",
               "Melakukan analisis dan akuisisi data guna mengembangkan struktur data optimal yang mampu mengelola dan memecahkan permasalahan data secara efektif.",
-              "Mengembangkan perangkat lunak dan menerapkan aspek visual antarmuka pengguna dan pengalaman pengguna di sisi front-end untuk semua halaman dalam sistem ini, berdasarkan desain antarmuka yang dibuat pada tahap perancangan antarmuka dan pengalaman pengguna perangkat lunak",
+              "Mengembangkan perangkat lunak dan menerapkan aspek visual antarmuka pengguna dan pengalaman pengguna di sisi front-end untuk semua halaman dalam sistem ini, berdasarkan desain antarmuka yang dibuat pada tahap perancangan antarmuka dan pengalaman pengguna perangkat lunak.",
               "Melakukan debugging dan pengujian terhadap program aplikasi untuk memastikan kinerja yang optimal."
             ],
             "english": [
@@ -1737,7 +1805,7 @@
             ],
             "english": [
               "Determined the specifications and software requirements for development, tailored to meet the needs of clients and users.",
-              "Performed data analysis and acquisition to design an optimized data structure, effectively managing and resolving data-related issues",
+              "Performed data analysis and acquisition to design an optimized data structure, effectively managing and resolving data-related issues.",
               "Designed and developed the software, implementing the front-end visual elements of the user interface and user experience for several pages within this system, based on the UI/UX designs created during the software's design phase.",
               "Performed debugging and testing of application programs to ensure optimal performance."
             ]
@@ -1755,9 +1823,9 @@
             ],
             "english": [
               "Led the project planning and execution process, including budget management and proper resource allocation.",
-              "Offered strategic guidance and support to the team, fostering clear and effective communication among members to ensure the project's success",
+              "Offered strategic guidance and support to the team, fostering clear and effective communication among members to ensure the project's success.",
               "Monitored and evaluated the progress of the project periodically to ensure compliance with predetermined objectives and timelines.",
-              "Determined the specifications and requirements for the software under development, performed software development tasks including writing code and handling back-end functionality, and contributed to the visual design of the administration panel's front-end",
+              "Determined the specifications and requirements for the software under development, performed software development tasks including writing code and handling back-end functionality, and contributed to the visual design of the administration panel's front-end.",
               "Performed debugging and testing of application programs to ensure optimal performance."
             ]
           }
@@ -1766,7 +1834,7 @@
     },
     "miniProject": false,
     "lastUpdated": "2021-08-04",
-    "license": ""
+    "license": "MIT"
   },
   {
     "id": 9,

@@ -14,6 +14,7 @@ export default {
     <div
       class="summary-box p-[25px] bg-light-bg-2 rounded-[20px] transition duration-300 ease-in-out dark:bg-dark-bg-2"
     >
+      <!-- TODO: Revisi summary -->
       <p class="font-normal text-light-100 dark:text-dark-100">
         “Hello Everyone, My full name is {{ author }}, and my nickname is Bagus.
         Originally from Karawang, West Java, Indonesia, I am a
