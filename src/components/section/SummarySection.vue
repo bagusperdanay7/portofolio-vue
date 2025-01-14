@@ -14,24 +14,49 @@ export default {
     <div
       class="summary-box p-[25px] bg-light-bg-2 rounded-[20px] transition duration-300 ease-in-out dark:bg-dark-bg-2"
     >
-      <!-- TODO: Revisi summary -->
       <p class="font-normal text-light-100 dark:text-dark-100">
         “Hello Everyone, My full name is {{ author }}, and my nickname is Bagus.
         Originally from Karawang, West Java, Indonesia, I am a
         <strong
-          >fresh graduate of informatics engineering from Universitas Komputer
-          Indonesia</strong
-        >. I have a great enthusiasm for
-        <strong>web development, machine learning, and UI and UX design</strong
-        >. I have experienced an internship in the field of web development for
-        3 month, attended several online courses, and made several projects with
-        my friends in groups as well as individually. I am always challenged to
-        learn new things and highly motivated to become a web developer,
-        front-end developer, and back-end developer in the future. I am also a
-        person who is dexterous and meticulous when working, and I am also
-        capable of working in a team. At the moment, I'm seeking work and
-        working as a freelancer for someone who wants assistance with website
-        development.”
+          >a bachelor's degree graduate in Informatics Engineering from
+          Universitas Komputer Indonesia in 2023.</strong
+        >
+        Currently, I am working as a
+        <strong>freelancer Web Developer</strong> and actively seeking new job
+        opportunities. During my three-month internship at PT Telkom Indonesia,
+        Graha Merah Putih Bandung, I developed an information system using
+        <span class="text-primary-600 dark:text-primary-300 font-semibold"
+          >PHP</span
+        >,
+        <span class="text-primary-600 dark:text-primary-300 font-semibold"
+          >Laravel</span
+        >, and
+        <span class="text-primary-600 dark:text-primary-300 font-semibold"
+          >MySQL</span
+        >. Recently, I completed a freelance project as a
+        <strong>Backend Programmer</strong>, leveraging
+        <span class="text-primary-600 dark:text-primary-300 font-semibold"
+          >PHP</span
+        >
+        and
+        <span class="text-primary-600 dark:text-primary-300 font-semibold"
+          >Laravel</span
+        >
+        technologies. Besides backend expertise, I possess skills in
+        <span class="text-primary-600 dark:text-primary-300 font-semibold"
+          >Vue.js</span
+        >
+        and
+        <span class="text-primary-600 dark:text-primary-300 font-semibold"
+          >Tailwind CSS</span
+        >
+        for <strong>front-end development</strong>. My vision is to become a
+        <strong>web developer or full-stack developer</strong> who can make a
+        positive impact on the company, community, and Indonesia. I am eager to
+        continue learning, collaborating in a team, and dedicating my time,
+        creativity, and skills to provide innovative and impactful solutions for
+        the advancement of technology. In addition, I have a great enthusiasm
+        for <strong>machine learning, and UI & UX design</strong>.”
       </p>
     </div>
   </section>
