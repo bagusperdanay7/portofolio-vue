@@ -59,20 +59,17 @@ export default {
       this.buttonDisabled = true;
 
       try {
-        const response = await fetch(
-          "https://formspree.io/f/GANTI_PAS_MAU_DIBUILD",
-          {
-            method: "POST",
-            headers: {
-              "Content-Type": "application/json",
-            },
-            body: JSON.stringify({
-              name: this.name,
-              email: this.email,
-              message: this.message,
-            }),
-          }
-        );
+        const response = await fetch("https://formspree.io/f/", {
+          method: "POST",
+          headers: {
+            "Content-Type": "application/json",
+          },
+          body: JSON.stringify({
+            name: this.name,
+            email: this.email,
+            message: this.message,
+          }),
+        });
 
         const data = await response.json();
 

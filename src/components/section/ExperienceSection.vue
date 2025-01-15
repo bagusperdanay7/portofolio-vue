@@ -17,14 +17,14 @@ export default {
           institution: "PT Telkom Indonesia - Bandung, Indonesia (Internship)",
           span: "Sep 2021 - Dec 2021",
           details:
-            "Collaborated with a team of 3 people in building a Data Management Information System website that helps employees manage customer technical data using HTML, CSS, JavaScript and PHP Laravel in a team. Design the user interface, implement the user interface, implement CRUD operations, filter features and user authentication.",
+            "Worked collaboratively with a team of 3 people in building a Data Management Information System website that helps facilitate employees in the process of managing customer technical data by utilizing HTML, CSS, JavaScript and PHP Laravel in the team. Designed the user interface, implemented the user interface, implemented CRUD operations, filtering features, and user authentication.",
         },
         {
           position: "Backend Programmer (Laravel)",
           institution: "Freelance - Bandung, Indonesia (Remote)",
-          span: "Oct 2024 - Current",
+          span: "Oct 2024 - Present",
           details:
-            "Collaborate with the team to design and develop web applications with the Laravel framework. Implement role-based authentication and authorization to manage user access to applications. Handle the implementation of OAuth and Socialite for authentication integration with third-party applications, specifically Google. Utilized Git as a version control system and GitHub as a collaborative platform to facilitate efficient code sharing, review, and modifications, fostering seamless and rapid teamwork. Provided CRUD (Create, Read, Update, Delete) functionalities across multiple modules to enable efficient data management and manipulation.",
+            "Collaborated with the team to design and develop web applications using the Laravel framework. Implemented role-based authentication and authorization to manage user access to applications. Handled the implementation of OAuth and Socialite for authentication integration with third-party applications, specifically Google. Utilized Git as a version control system and GitHub as a collaborative platform to facilitate efficient code sharing, review, and modifications, fostering seamless and rapid teamwork. Provided CRUD (Create, Read, Update, Delete) functionalities across multiple modules to enable efficient data management and manipulation.",
         },
       ],
     };
