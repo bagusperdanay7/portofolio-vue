@@ -59,7 +59,7 @@ export default {
       this.buttonDisabled = true;
 
       try {
-        const response = await fetch("https://formspree.io/f/", {
+        const response = await fetch("https://formspree.io/f/FORMSPREE-KEY", {
           method: "POST",
           headers: {
             "Content-Type": "application/json",

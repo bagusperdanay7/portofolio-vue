@@ -737,12 +737,12 @@
           "name": "Bagus Perdana Yusuf",
           "detail": {
             "indonesia": [
-              "Mengembangkan dan memelihara aplikasi web responsif serta merancang antarmuka pengguna menggunakan Vue.js, sambil memastikan kompatibilitas lintas-peramban dan kinerja yang optimal",
-              "Menggunakan Vue Router untuk membuat aplikasi halaman tunggal sehingga menghasilkan navigasi halaman yang mulus"
+              "Mengembangkan dan memelihara aplikasi web responsif serta merancang antarmuka pengguna menggunakan Vue.js, sambil memastikan kompatibilitas lintas-peramban dan kinerja yang optimal.",
+              "Menggunakan Vue Router untuk membuat aplikasi halaman tunggal sehingga menghasilkan navigasi halaman yang mulus."
             ],
             "english": [
-              "Designed and managed responsive web applications and designed user interface using Vue.js, ensuring multi-browser compatibility and optimal performance",
-              "Utilized Vue Router to create a single page application for seamless page navigation"
+              "Designed and managed responsive web applications and designed user interface using Vue.js, ensuring multi-browser compatibility and optimal performance.",
+              "Utilized Vue Router to create a single page application for seamless page navigation."
             ]
           }
         }
